@@ -1,0 +1,2 @@
+# Définition
+Soient $(\Omega, \mathcal{F}, \mathbb{P})$ un espace probabilisé, $X$ une variable aléatoire réelle discrète définie sur $\Omega$ et $n \in \mathbb{N}$. Lorsque $$\sum_{k \in X(\Omega)} \left|k\right|^n\mathbb{P}(X = k) < +\infty$$ on dit que $X$ **admet un moment d'ordre** $n$. Le moment d'ordre n est alors le réel $$\mathbb{E}(X^n) = \sum_{k \in X(\Omega)} k^n\mathbb{P}(X = k) < +\infty$$

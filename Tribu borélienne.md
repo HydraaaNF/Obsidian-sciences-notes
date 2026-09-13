@@ -1,0 +1,3 @@
+# Définition
+On appelle tribu borélienne de $\mathbb{R}^d$ la tribu engendrée par les ouverts de $\mathbb{R}^d$. On la note $\mathcal{B}(\mathbb{R}^d)$. Tout élément de cette tribu est appelé borélien de $\mathbb{R}^d$.
+Si $A$ est un borélien de $\mathbb{R}^d$, on appelle tribu borélienne de $A$ l'ensemble des intersections de $A$ avec un borélien de $\mathbb{R}^d$. Elle est notée $\mathcal{B}(A)$. 

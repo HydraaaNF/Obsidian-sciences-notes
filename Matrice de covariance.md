@@ -1,0 +1,2 @@
+# Définition
+Soit $X = (X_1, ..., X_n)$ un vecteur aléatoire de $\mathbb{R}^n$ tel que chaque variable aléatoire réelle $X_j$ soit de carré intégrable. On appelle matrice de covariance de $X$ la matrice de carrée d'ordre $n$ dont le coefficient d'indices $i, j$ est $cov(X_i, X_j)$. On la note $C(X)$.

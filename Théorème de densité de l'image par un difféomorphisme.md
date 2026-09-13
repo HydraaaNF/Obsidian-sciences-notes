@@ -1,0 +1,2 @@
+# Énoncé
+Soit $(X_1, ..., X_n)$ un vecteur aléatoire continu à valeurs dans l'ouvert $D$ de $\mathbb{R}^n$, et soit $g : D \to D' = g(D)$ un difféomorphisme. Alors le vecteur aléatoire $Y = (Y_1, ..., Y_n) = g(X_1, ..., X_n)$ à valeurs dans $D'$ est continu, et sa densité est donnée par $$\forall y \in D', f_Y(y) = f_X(g^{-1}(y))\left|J_{g^{-1}}(y)\right|$$où $\left|J_{g^{-1}}(y)\right|$ désigne la valeur absolue du déterminant de la matrice jacobienne de $g^{-1}$.

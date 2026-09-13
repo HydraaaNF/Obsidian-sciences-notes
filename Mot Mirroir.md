@@ -1,0 +1,2 @@
+## Définition
+Le **miroir**, ou **transposé**, $u^R$ d'un [[Mot|mot]] $u= a_1...a_n$, où $a \in \Sigma$, est défini par $u^R = a_n...a_1$. Un mot est un **palindrome** s'il est égal à son miroir, i.e. $u = u^R$.

@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "79f9e4fde03adfa8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c5dc83ad635e89e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5c8403ad2f908cb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5aef51d711bfc2fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1c9eb76adcba30b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02c45df479e496e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "e9d9f1adf8ce58d4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "cea793cab0e8d308",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Signets"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "366d0cd4ad9d3944",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2e9dbaca989bfcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4478b538eabd8392",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sans titre.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour Sans titre"
+            }
+          },
+          {
+            "id": "0f07067082217a16",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sans titre.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de Sans titre"
+            }
+          },
+          {
+            "id": "82377e5d45be1af7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "509d61c8a22104bb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Toutes les propriétés"
+            }
+          },
+          {
+            "id": "674a322116f6fad9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sans titre.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Sans titre"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false
+    }
+  },
+  "active": "f5c8403ad2f908cb",
+  "lastOpenFiles": [
+    "Théorie des probabilités de Komolgorov.md",
+    "Vecteur gaussien.md",
+    "Loi de probabilité d'une variable aléatoire.md",
+    "Espérance d'une variable aléatoire.md",
+    "Fonction caractéristique.md",
+    "Fonction caractéristique d'un vecteur aléatoire.md",
+    "Moment centré d'ordre k.md",
+    "Covariance.md",
+    "Matrice de covariance.md",
+    "Inégalité de Cauchy-Schwarz pour les variables aléatoires.md",
+    "Vecteur moyen.md",
+    "Théorème de transfert.md",
+    "Théorème de densité de l'image par un difféomorphisme.md",
+    "Loi de probabilité d'un vecteur aléatoire.md",
+    "Théorème d'indépendance des coordonnées.md",
+    "Lois marginales.md",
+    "Vecteur aléatoire.md",
+    "Variable aléatoire de cauchy.md",
+    "Variable aléatoire gamma.md",
+    "Variable aléatoire uniforme.md",
+    "Variable aléatoire gaussienne.md",
+    "Caractérisation de la loi par la fonction caractéristique.md",
+    "Fonction de répartition.md",
+    "Variable aléatoire.md",
+    "Variable aléatoire hypergéométrique.md",
+    "Théorème d'approximation de la loi binomiale par la loi de Poisson.md",
+    "Sans titre.base",
+    "Sans titre.canvas"
+  ]
+}
