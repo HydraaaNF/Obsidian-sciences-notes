@@ -3,4 +3,4 @@
 - [[Théorie des langages]]
 
 ### Mathématiques
-- [[Théorie des probabilités de Komolgorov]]
+- [[Théorie des probabilités de Kolmogorov]]

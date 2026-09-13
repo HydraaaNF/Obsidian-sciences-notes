@@ -12,7 +12,7 @@
 - [[Langage Rationnel]]
 - [[Automate fini déterministe]]
 - [[Fonction de transition étendue]]
-- [[Calcul dans un Automate Fini Déterministe]]
+- [[Calcul dans un automate fini déterministe]]
 - [[Langage Reconnaissable]]
 - [[Algorithme de reconnaissance d'un mot]]
 - [[Lemme d'Arden]]

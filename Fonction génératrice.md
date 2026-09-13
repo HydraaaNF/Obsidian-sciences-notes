@@ -1,2 +1,0 @@
-# Définition
-Soient $(\Omega, \mathcal{F}, \mathbb{P})$ un espace probabilisé et $X$ une variable aléatoire réelle définie sur $\Omega$ telle que $X(\Omega) \subset \mathbb{N}$. On appelle fonction génératrice de $X$ la fonction $G_X$ définie par $$G_X(z) = \mathbb{E}(x^X) = \sum_{n \in \mathbb{N}} \mathbb{P}(X = n)z^n$$ 

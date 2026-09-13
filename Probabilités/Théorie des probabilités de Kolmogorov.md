@@ -1,12 +1,18 @@
 # Sommaires
+
+## Fondements
 - [[Tribu]]
 - [[Tribu borélienne]]
 - [[Probabilité]]
 - [[Probabilité discrète]]
 - [[Probabilités continues]]
+
+## Dénombrement
 - [[Arrangement]]
 - [[Permutation]]
 - [[Combinaison]]
+
+## Conditionnement et indépendance
 - [[Probabilité conditionnelle]]
 - [[Probabilités composées]]
 - [[Système complet d'évènements]]
@@ -14,6 +20,8 @@
 - [[Bayes]]
 - [[Indépendance de deux évènements]]
 - [[Indépendance mutuelle]]
+
+## Variables aléatoires - généralités
 - [[Variable aléatoire]]
 - [[Loi de probabilité d'une variable aléatoire]]
 - [[Espérance d'une variable aléatoire]]
@@ -24,29 +32,34 @@
 - [[Théorème d'indépendance de fonctions de variables indépendantes]]
 - [[Fonction génératrice]]
 - [[Formule de Taylor]]
+
+## Lois discrètes usuelles
 - [[Variable aléatoire uniforme]]
-- [[Variable aléatoire de Bernoulli]]
+- [[Variable aléatoire de Bernoulli]]]
 - [[Variable aléatoire binomiale]]
 - [[Variable aléatoire géométrique]]
 - [[Variable aléatoire de Poisson]]
 - [[Théorème d'approximation de la loi binomiale par la loi de Poisson]]
-- [[Variable aléatoire géométrique]]
 - [[Variable aléatoire hypergéométrique]]
+
+## Outils pour le continu
 - [[Fonction de répartition]]
 - [[Fonction caractéristique]]
 - [[Caractérisation de la loi par la fonction caractéristique]]
+## Lois continues usuelles
 - [[Variable aléatoire gaussienne]]
 - [[Variable aléatoire gamma]]
-- [[Variable aléatoire de cauchy]]
+- [[Variable aléatoire de Cauchy]]
+
+## Vecteurs aléatoires
 - [[Vecteur aléatoire]]
 - [[Loi de probabilité d'un vecteur aléatoire]]
 - [[Lois marginales]]
 - [[Théorème d'indépendance des coordonnées]]
-- [[Théorème de densité de l'image par un difféomorphisme]]
+-  [[Théorème de densité de l'image par un difféomorphisme]]
 - [[Vecteur moyen]]
 - [[Inégalité de Cauchy-Schwarz pour les variables aléatoires]]
 - [[Covariance]]
 - [[Matrice de covariance]]
 - [[Fonction caractéristique d'un vecteur aléatoire]]
 - [[Vecteur gaussien]]
-- 
