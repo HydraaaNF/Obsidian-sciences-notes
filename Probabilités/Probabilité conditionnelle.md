@@ -1,3 +1,3 @@
 # Définition
-Soit $(\Omega, \mathcal{F}, p)$ un espace probabilisé et soit $B$ un élément de $\mathcal{F}$ tel que $p(B) > 0$. On définit une nouvelle probabilité sur la tribu $\mathcal{F}$, notée $p_B$, de la façon suivante $\forall A \in \mathcal{F}, p_B(A) = \frac{p(A \cap B)}{p(B)}$
+Soit $(\Omega, \mathcal{F}, p)$ un espace probabilisé et soit $B$ un élément de $\mathcal{F}$ tel que $p(B) > 0$. On définit une nouvelle [[Probabilité|probabilité]] sur la tribu $\mathcal{F}$, notée $p_B$, de la façon suivante $\forall A \in \mathcal{F}, p_B(A) = \frac{p(A \cap B)}{p(B)}$
 Cette probabilité $p_B$ est également notée $p(.|B)$ et est appelée probabilité conditionnellement à l'évènement $B$.

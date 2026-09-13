@@ -1,5 +1,5 @@
 # Définition
-Un vecteur aléatoire $X = (X_1, ..., X_n)$ est un vecteur gaussien de $\mathbb{R}^n$ si toute combinaison linéaire de ses coordonnées $X_1, ..., X_n$ est une variable aléatoire réelle gaussienne.
+Un vecteur aléatoire $X = (X_1, ..., X_n)$ est un vecteur gaussien de $\mathbb{R}^n$ si toute combinaison linéaire de ses coordonnées $X_1, ..., X_n$ est une [[Variable aléatoire gaussienne| variable aléatoire réelle gaussienne]].
 
 # Propriétés
 - Soit $X$ un vecteur gaussien de $\mathbb{R}^n$ et $c$ un vecteur colonne de $\mathbb{R}^n$. Avec les notations $c \cdot X \sim \mathcal{N}(\mu_c, \sigma_c^2)$, on a

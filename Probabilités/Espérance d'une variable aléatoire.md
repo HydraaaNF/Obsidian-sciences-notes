@@ -7,4 +7,4 @@ Soient $(\Omega, \mathcal{F}, \mathbb{P})$ un espace probabilisé et $X$ une var
 - L'espérance d'une variable aléatoire réelle discrète positive est positive.
 - Si $X$ est une variable aléatoire discrète **positive** vérifiant $\mathbb{E}(X) = 0$, alors $X$ est presque-sûrement nulle.
 - L'espérance d'une variable aléatoire réelle **constante** est égale à cette constante.
-- Soit $X$ et $Y$ deux variables aléatoires réelles intégrables et **indépendantes**. Alors $XY$ est intégrable et $$\mathbb{E}(XY) = \mathbb{E}(X)\mathbb{E}(Y)$$
+- Soit $X$ et $Y$ deux variables aléatoires réelles intégrables et [[Indépendance de variables aléatoires]]. Alors $XY$ est intégrable et $$\mathbb{E}(XY) = \mathbb{E}(X)\mathbb{E}(Y)$$
