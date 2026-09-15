@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilités/Vecteur moyen.md",
+                "file": "Probabilités/Théorie des probabilités de Kolmogorov.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vecteur moyen"
+              "title": "Théorie des probabilités de Kolmogorov"
+            }
+          },
+          {
+            "id": "fdfe131f13318905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI for database query/AI for database querying.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI for database querying"
+            }
+          },
+          {
+            "id": "c422cadce64744f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,34 +217,35 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "f5c8403ad2f908cb",
+  "active": "c422cadce64744f0",
   "lastOpenFiles": [
-    "Probabilités/Vecteur gaussien.md",
-    "Probabilités/Vecteur aléatoire.md",
-    "Probabilités/Variable aléatoire uniforme.md",
-    "Probabilités/Variable aléatoire hypergéométrique.md",
-    "Probabilités/Variable aléatoire géométrique.md",
-    "Probabilités/Variable aléatoire gaussienne.md",
-    "Probabilités/Variable aléatoire gamma.md",
-    "Probabilités/Variable aléatoire de Poisson.md",
-    "Probabilités/Variable aléatoire de Cauchy.md",
-    "Probabilités/Variable aléatoire de Bernoulli.md",
-    "Probabilités/Variable aléatoire binomiale.md",
-    "Probabilités/Variable aléatoire.md",
-    "Probabilités/Tribu borélienne.md",
-    "Probabilités/Tribu.md",
-    "Probabilités/Théorie des probabilités de Kolmogorov.md",
-    "Probabilités/Théorème de transfert.md",
-    "Probabilités/Théorème de densité de l'image par un difféomorphisme.md",
-    "Probabilités/Théorème d'indépendance des coordonnées.md",
-    "Probabilités/Théorème d'indépendance de fonctions de variables indépendantes.md",
-    "Probabilités/Théorème d'approximation de la loi binomiale par la loi de Poisson.md",
-    "Probabilités/Système complet d'évènements.md",
-    "Probabilités/Probabilités totales.md",
-    "Probabilités/Probabilités continues.md",
-    "Probabilités/Probabilités composées.md",
-    "Probabilités/Probabilité discrète.md",
-    "Probabilités/Probabilité conditionnelle.md",
+    "Index.md",
+    "AI for database query/Union d'ensembles flous.md",
+    "AI for database query/AI for database querying.md",
+    "AI for database query/Intersection d'ensembles flous.md",
+    "AI for database query/Dualité entre norme et conorme triangulaires.md",
+    "AI for database query/Conorme triangulaire.md",
+    "AI for database query/Norme triangulaire.md",
+    "AI for database query/Complément d'un ensemble flou.md",
+    "AI for database query/Hauteur d'un ensemble flou.md",
+    "AI for database query/Cardinalité d'un ensemble flou.md",
+    "AI for database query/Coupe de niveau alpha.md",
+    "AI for database query/Noyau d'un ensemble flou.md",
+    "AI for database query/Support d'un ensemble flou.md",
+    "AI for database query/Ensemble flou fini et discret.md",
+    "AI for database query/Fonction d'appartenance trapézoïdale.md",
+    "AI for database query/Fonction d'appartenance.md",
+    "AI for database query/Indicatrice.md",
+    "Probabilités/Fonction caractéristique.md",
+    "AI for database query/Ensemble flou.md",
+    "AI for database query/Logique floue.md",
+    "AI for database query/Approche quantitative des préférences.md",
+    "AI for database query/Limites des requêtes booléennes.md",
+    "AI for database query/Requête à préférences.md",
+    "AI for database query/Requête skyline.md",
+    "AI for database query/Approche qualitative des préférences.md",
+    "Sans titre 1.md",
+    "AI for database query",
     "Probabilités",
     "Théorie des langages",
     "Sans titre.base",

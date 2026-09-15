@@ -1,6 +1,7 @@
-## Map
-### Informatique théorique
+# Map
+## Informatique théorique
 - [[Théorie des langages]]
+- [[AI for database querying]]
 
-### Mathématiques
+## Mathématiques
 - [[Théorie des probabilités de Kolmogorov]]
