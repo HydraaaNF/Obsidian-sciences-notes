@@ -22,13 +22,13 @@ sépare clairement **l'orientation** de la distribution et sa **dispersion** :
 
 $$  
 D = \begin{pmatrix}  
-\lambda_1 & 0\  
+\lambda_1 & 0\\
 0 & \lambda_2  
 \end{pmatrix},  
 \qquad  
 V = \begin{pmatrix}  
-\vert & \vert\  
-v_1 & v_2\  
+\vert & \vert\  \\
+v_1 & v_2\  \\
 \vert & \vert  
 \end{pmatrix}.  
 $$
@@ -59,7 +59,7 @@ Pour une base propre orthonormée, la matrice de rotation standard s'écrit
 $$  
 V = R(\theta)  
 = \begin{pmatrix}  
-\cos\theta & -\sin\theta\  
+\cos\theta & -\sin\theta\  \\
 \sin\theta & \cos\theta  
 \end{pmatrix}.  
 $$
@@ -79,7 +79,7 @@ Les slides donnent aussi l'écriture de la matrice de covariance du point de vue
 $$  
 \Sigma =  
 \begin{pmatrix}  
-\sigma_1^2 & \rho\sigma_1\sigma_2\  
+\sigma_1^2 & \rho\sigma_1\sigma_2\  \\
 \rho\sigma_1\sigma_2 & \sigma_2^2  
 \end{pmatrix}.  
 $$
@@ -89,10 +89,13 @@ On peut retrouver exactement ces coefficients à partir de la diagonalisation
 $$  
 \Sigma = VDV^\top,  
 \qquad  
-D = \begin{pmatrix}\lambda_1&0\0&\lambda_2\end{pmatrix},  
+D = \begin{pmatrix}
+\lambda_1& 0\\
+0&\lambda_2
+\end{pmatrix},  
 \qquad  
 V = \begin{pmatrix}  
-\cos\theta & -\sin\theta\  
+\cos\theta & -\sin\theta\  \\
 \sin\theta & \cos\theta  
 \end{pmatrix}.  
 $$
@@ -102,7 +105,7 @@ En développant le produit matriciel :
 $$  
 VD =  
 \begin{pmatrix}  
-\lambda_1\cos\theta & -\lambda_2\sin\theta\  
+\lambda_1\cos\theta & -\lambda_2\sin\theta\  \\
 \lambda_1\sin\theta & \lambda_2\cos\theta  
 \end{pmatrix},  
 $$
@@ -111,7 +114,7 @@ puis$$
 \begin{pmatrix}  
 \lambda_1\cos^2\theta + \lambda_2\sin^2\theta  
 &  
-(\lambda_1-\lambda_2)\sin\theta\cos\theta  
+(\lambda_1-\lambda_2)\sin\theta\cos\theta  \\
 (\lambda_1-\lambda_2)\sin\theta\cos\theta  
 &  
 \lambda_1\sin^2\theta + \lambda_2\cos^2\theta  
