@@ -32,6 +32,7 @@
 - [[Théorème d'indépendance de fonctions de variables indépendantes]]
 - [[Fonction génératrice]]
 - [[Formule de Taylor]]
+- [[Fiabilité des systèmes]]
 
 ## Lois discrètes usuelles
 - [[Variable aléatoire uniforme]]
@@ -48,6 +49,11 @@
 - [[Fonction caractéristique]]
 - [[Caractérisation de la loi par la fonction caractéristique]]
 - [[Fonction Gamma]]
+- [[Coefficient d'asymétrie (Skewness)]]
+- [[Coefficient d'aplatissement (Kurtosis)]]
+- [[Inégalité de Bienaymé-Tchebyshev]]
+- [[Théorème central limite]]
+- [[Théorème de Lindeberg]]
 ## Lois continues usuelles
 - [[Variable aléatoire gaussienne]]
 - [[Variable aléatoire gamma]]

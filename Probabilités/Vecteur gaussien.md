@@ -1,6 +1,12 @@
 # Définition
 Un vecteur aléatoire $X = (X_1, ..., X_n)$ est un vecteur gaussien de $\mathbb{R}^n$ si toute combinaison linéaire de ses coordonnées $X_1, ..., X_n$ est une [[Variable aléatoire gaussienne| variable aléatoire réelle gaussienne]].
 
+## Interprétation géométrique : Ellipsoïdes d'isodensité
+Les courbes d'isodensité d'un [[Vecteur aléatoire|vecteur]] gaussien sont des hyper-ellipsoïdes d'équation :
+$$ (x - \mu)' \Sigma^{-1} (x - \mu) = c $$
+- La [[Matrice de covariance]] $\Sigma = V D V'$ définit géométriquement la densité.
+- Les **vecteurs propres** ($V$) définissent les axes principaux (l'orientation de la densité).
+- Les **valeurs propres** ($D$) définissent la dispersion le long de ces axes. Si la matrice est diagonale, on retrouve l'[[Théorème d'indépendance des coordonnées|indépendance des composantes]] du vecteur.
 # Propriétés
 - Soit $X$ un vecteur gaussien de $\mathbb{R}^n$ et $c$ un vecteur colonne de $\mathbb{R}^n$. Avec les notations $c \cdot X \sim \mathcal{N}(\mu_c, \sigma_c^2)$, on a
 $$\mu_c = c \cdot \mathbb{E}(X)$$$$\sigma_c^2 = c^T \ C(X) \ c$$
