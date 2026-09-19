@@ -35,8 +35,9 @@
 
 ## Lois discrètes usuelles
 - [[Variable aléatoire uniforme]]
-- [[Variable aléatoire de Bernoulli]]]
+- [[Variable aléatoire de Bernoulli]]
 - [[Variable aléatoire binomiale]]
+- [[Variable aléatoire Binomiale négative]]
 - [[Variable aléatoire géométrique]]
 - [[Variable aléatoire de Poisson]]
 - [[Théorème d'approximation de la loi binomiale par la loi de Poisson]]
@@ -46,6 +47,7 @@
 - [[Fonction de répartition]]
 - [[Fonction caractéristique]]
 - [[Caractérisation de la loi par la fonction caractéristique]]
+- [[Fonction Gamma]]
 ## Lois continues usuelles
 - [[Variable aléatoire gaussienne]]
 - [[Variable aléatoire gamma]]

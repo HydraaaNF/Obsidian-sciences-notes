@@ -41,16 +41,96 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Probabilités/Théorie des probabilités de Kolmogorov.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Théorie des probabilités de Kolmogorov"
+            }
+          },
+          {
+            "id": "89a9537529378060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilités/Théorie des probabilités de Kolmogorov.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Théorie des probabilités de Kolmogorov"
+            }
+          },
+          {
+            "id": "cadc21c631c04a20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilités/Théorie des probabilités de Kolmogorov.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Théorie des probabilités de Kolmogorov"
+            }
+          },
+          {
+            "id": "1932b60acc6d6f19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilités/Théorie des probabilités de Kolmogorov.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Théorie des probabilités de Kolmogorov"
+            }
+          },
+          {
+            "id": "0c642cbc90d72bfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilités/Variable aléatoire exponentielle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variable aléatoire exponentielle"
+            }
+          },
+          {
+            "id": "6d3beb16fee9e230",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilités/Variable aléatoire chi-deux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variable aléatoire chi-deux"
+            }
+          },
+          {
+            "id": "179c0f97ac14b646",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -217,11 +297,26 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "c422cadce64744f0",
+  "active": "179c0f97ac14b646",
   "lastOpenFiles": [
+    "Probabilités/Fonction Gamma.md",
+    "Loi du χ².md",
+    "Probabilités/Variable aléatoire chi-deux.md",
+    "Probabilités/Variable aléatoire de Weibull.md",
+    "Probabilités/Variable aléatoire Erlang.md",
+    "Probabilités/Variable aléatoire exponentielle.md",
+    "Probabilités/Théorie des probabilités de Kolmogorov.md",
     "Index.md",
-    "AI for database query/Union d'ensembles flous.md",
+    "Probabilités/Variable aléatoire Binomiale négative.md",
+    "Probabilités/Variable aléatoire de Bernoulli.md",
+    "Probabilités/Arrangement.md",
+    "Probabilités/Covariance.md",
     "AI for database query/AI for database querying.md",
+    "AI for database query/Approche quantitative des préférences.md",
+    "AI for database query/Requête à préférences.md",
+    "AI for database query/Approche qualitative des préférences.md",
+    "Probabilités/Probabilités composées.md",
+    "AI for database query/Union d'ensembles flous.md",
     "AI for database query/Intersection d'ensembles flous.md",
     "AI for database query/Dualité entre norme et conorme triangulaires.md",
     "AI for database query/Conorme triangulaire.md",
@@ -230,21 +325,6 @@
     "AI for database query/Hauteur d'un ensemble flou.md",
     "AI for database query/Cardinalité d'un ensemble flou.md",
     "AI for database query/Coupe de niveau alpha.md",
-    "AI for database query/Noyau d'un ensemble flou.md",
-    "AI for database query/Support d'un ensemble flou.md",
-    "AI for database query/Ensemble flou fini et discret.md",
-    "AI for database query/Fonction d'appartenance trapézoïdale.md",
-    "AI for database query/Fonction d'appartenance.md",
-    "AI for database query/Indicatrice.md",
-    "Probabilités/Fonction caractéristique.md",
-    "AI for database query/Ensemble flou.md",
-    "AI for database query/Logique floue.md",
-    "AI for database query/Approche quantitative des préférences.md",
-    "AI for database query/Limites des requêtes booléennes.md",
-    "AI for database query/Requête à préférences.md",
-    "AI for database query/Requête skyline.md",
-    "AI for database query/Approche qualitative des préférences.md",
-    "Sans titre 1.md",
     "AI for database query",
     "Probabilités",
     "Théorie des langages",
