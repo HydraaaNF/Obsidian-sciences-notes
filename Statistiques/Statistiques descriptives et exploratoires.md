@@ -57,6 +57,7 @@
 ### Analyse discriminante
 - [[Analyse discriminante linéaire]]
 - [[Discriminant linéaire de Fisher]]
+- [[Analyse discriminante linéaire multiclasse]]
 
 ### Au-delà du linéaire
 - [[Factorisation matricielle non négative]]
@@ -64,8 +65,3 @@
 - [[Astuce du noyau]]
 - [[Perceptron multicouche]]
 - [[Cartes auto-organisatrices]]
-
-### Mentionnés, à approfondir ailleurs
-- [[k-means]]
-- [[Classification ascendante hiérarchique]]
-- [[Classification spectrale]]
