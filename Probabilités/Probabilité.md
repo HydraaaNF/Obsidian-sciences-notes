@@ -11,3 +11,5 @@ Soit $(\Omega, \mathcal{F}, p)$ un espace probabilisé. On a:
 - $\forall (A, B) \in \mathcal{F}^2, p(A \cup B) = p(A) + p(B) - p(A \cap B)$
 - Soit $(A_n)_{n \in \mathbb{N}}$ un suite croissante d'évènements alors $p(\bigcup_{n \in \mathbb{N}} A_n) = lim_{n \to +\infty} p(A_n)$
 - Soit $(A_n)_{n \in \mathbb{N}}$ une suite décroissante d'évènements alors $p(\bigcap_{n \in \mathbb{N}} A_n) = lim_{n \to +\infty} p(A_n)$
+- $\forall A \in \mathcal{F}, p(\bar{A}) = 1 - p(A)$
+- Pour toute suite $(A_n)_{n \in \mathbb{N}}$ d'éléments de $\mathcal{F}$, $p(\bigcup_{n \in \mathbb{N}} A_n) \leq \sum_{n \in \mathbb{N}} p(A_n)$ (sous-additivité, ou inégalité de Boole)

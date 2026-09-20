@@ -20,11 +20,15 @@
 - [[Bayes]]
 - [[Indépendance de deux évènements]]
 - [[Indépendance mutuelle]]
+- [[Paradoxe de Monty Hall]]
+- [[Paradoxe des deux enfants]]
 
 ## Variables aléatoires - généralités
 - [[Variable aléatoire]]
 - [[Loi de probabilité d'une variable aléatoire]]
+- [[Loi conditionnelle d'une variable aléatoire]]
 - [[Espérance d'une variable aléatoire]]
+- [[Espérance conditionnelle]]
 - [[Théorème de transfert]]
 - [[Moment d'ordre k]]
 - [[Moment centré d'ordre k]]
