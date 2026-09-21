@@ -1,3 +1,5 @@
+![[Histogramme.png]]
+
 # Définition
 Pour des données continues, on regroupe les valeurs en classes (intervalles), et on représente chaque classe par un rectangle dont l'aire est proportionnelle à la fréquence $f_i$ de la classe.
 

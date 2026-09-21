@@ -1,3 +1,5 @@
+![[Diagramme tige-feuille.png]]
+
 # Définition
 Représentation compacte d'une distribution de données numériques : chaque valeur est décomposée en une « tige » (les chiffres de poids fort, partagés entre plusieurs valeurs) et une « feuille » (le dernier chiffre), organisées en tableau.
 

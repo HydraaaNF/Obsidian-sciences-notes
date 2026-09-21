@@ -1,3 +1,5 @@
+![[Diagramme circulaire.png]]
+
 # Définition
 Représentation graphique d'une variable catégorielle sous forme de secteurs d'un disque, chaque secteur ayant un angle proportionnel à la fréquence de la catégorie qu'il représente.
 

@@ -1,3 +1,5 @@
+![[Estimation de densité par noyau.png]]
+
 # Définition
 Pour obtenir un histogramme plus lisse qu'un simple découpage en classes, on peut utiliser :
 

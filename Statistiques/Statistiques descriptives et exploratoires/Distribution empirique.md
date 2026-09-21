@@ -1,3 +1,5 @@
+![[Distribution empirique.png]]
+
 # Définition
 Pour une variable discrète observée sur $n$ individus, la distribution empirique associe à chaque valeur possible sa fréquence d'apparition dans l'échantillon.
 

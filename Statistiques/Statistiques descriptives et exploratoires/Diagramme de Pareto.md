@@ -1,3 +1,5 @@
+![[Diagramme de Pareto.png]]
+
 # Définition
 Diagramme en barres où les catégories sont triées par fréquence décroissante, complété par la courbe des fréquences cumulées.
 
