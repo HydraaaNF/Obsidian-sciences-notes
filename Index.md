@@ -6,3 +6,4 @@
 ## Mathématiques
 - [[Théorie des probabilités de Kolmogorov]]
 - [[Statistiques descriptives et exploratoires]]
+- [[Analyse de clusters]]
