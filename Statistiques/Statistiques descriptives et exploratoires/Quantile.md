@@ -3,7 +3,7 @@ Pour un échantillon trié, les quantiles sont les bornes des intervalles divisa
 
 Selon le nombre de parts :
 - 2 parts → médiane
-- 4 parts → quartiles ($Q_1$, $Q_2 = $ médiane, $Q_3$)
+- 4 parts → quartiles ($Q_1$, $Q_2 =$ médiane, $Q_3$)
 - 10 parts → déciles
 - 100 parts → percentiles
 
