@@ -1,7 +1,6 @@
 # Sommaires
 
 ## Fondements
-- [[Vocabulaire de base (probabilités)]]
 - [[Tribu]]
 - [[Tribu borélienne]]
 - [[Probabilité]]
