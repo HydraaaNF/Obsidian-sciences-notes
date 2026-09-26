@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Probabilités/Variable aléatoire Binomiale négative.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -202,6 +202,8 @@
   "active": "73388a19d2fb2d89",
   "lastOpenFiles": [
     "Probabilités/Théorie des probabilités de Kolmogorov.md",
+    "Probabilités/Variable aléatoire géométrique.md",
+    "Probabilités/Variable aléatoire Binomiale négative.md",
     "Probabilités/Variable aléatoire binomiale.md",
     "Probabilités/Variable aléatoire de Bernoulli.md",
     "Probabilités/Variable aléatoire uniforme.md",
@@ -225,8 +227,6 @@
     "Probabilités/Paradoxe des deux enfants.md",
     "Probabilités/Indépendance mutuelle.md",
     "Probabilités/Indépendance de deux évènements.md",
-    "Probabilités/Bayes.md",
-    "Probabilités/Probabilités totales.md",
     "Statistiques/Statistiques descriptives et exploratoires/Diagramme circulaire.png",
     "Statistiques",
     "AI for database query",
