@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilités/Bayes.md",
+                "file": "Probabilités/Loi de probabilité d'une variable aléatoire.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bayes"
+              "title": "Loi de probabilité d'une variable aléatoire"
             }
           }
         ]
@@ -202,6 +202,12 @@
   "active": "73388a19d2fb2d89",
   "lastOpenFiles": [
     "Probabilités/Théorie des probabilités de Kolmogorov.md",
+    "Probabilités/Variable aléatoire.md",
+    "Probabilités/Paradoxe de Monty Hall.md",
+    "Probabilités/Paradoxe des deux enfants.md",
+    "Probabilités/Indépendance mutuelle.md",
+    "Probabilités/Indépendance de deux évènements.md",
+    "Probabilités/Bayes.md",
     "Probabilités/Probabilités totales.md",
     "Probabilités/Système complet d'évènements.md",
     "Probabilités/Probabilités composées.md",
@@ -221,12 +227,6 @@
     "Statistiques/Statistiques descriptives et exploratoires/Matrice de corrélation.md",
     "Statistiques/Statistiques descriptives et exploratoires/Nuage de points.md",
     "Statistiques/Statistiques descriptives et exploratoires/Corrélation.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Diagramme en boîte.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Asymétrie empirique.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Écart interquartile.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Quantile.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Écart-type empirique.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Variance empirique.md",
     "Statistiques/Statistiques descriptives et exploratoires/Diagramme circulaire.png",
     "Statistiques",
     "AI for database query",

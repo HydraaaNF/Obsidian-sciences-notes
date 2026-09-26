@@ -7,4 +7,4 @@ Soit  $(\Omega, \mathcal{F}, \mathbb{P})$ un espace probabilisé et soit $X : \O
 ## Cas continu
 Si la loi de probabilité $p_X$ d'une variable aléatoire réelle $X$ est une probabilité absolument continue dont la densité est $f$, on dit que $X$ est une variable aléatoire continue de densité $f$. La densité $f$ de $X$ est notée $f_X$. On a donc $$\forall B \in \mathcal{B}(\mathbb{R}), p_X(B) = \mathbb{P}(X \in B) = \int_B f_X(x) \ dx$$
 # Propriétés
-- Soit $X$ et $Y$ des variables aléatoires réelles continues et [[Indépendance de variables aléatoires|indépendantes]]. Alors la variable aléatoire réelle $X+Y$ a pour densité $$f_{X+y} = f_X * f_Y$$
+- Soit $X$ et $Y$ des variables aléatoires réelles continues et [[Indépendance de variables aléatoires|indépendantes]]. Alors la variable aléatoire réelle $X+Y$ a pour densité $$f_{X+Y} = f_X * f_Y$$
