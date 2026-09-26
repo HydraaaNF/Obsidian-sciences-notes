@@ -1,0 +1,62 @@
+{
+  "uiLanguage": "auto",
+  "apiProvider": "DeepSeek",
+  "apiKey": "",
+  "baseUrl": "https://api.deepseek.com",
+  "modelName": "deepseek-v4-pro",
+  "supportsVision": false,
+  "llmProfiles": [
+    {
+      "id": "profile-1790080554541-regcyc",
+      "name": "DeepSeek",
+      "apiProvider": "DeepSeek",
+      "apiKey": "",
+      "baseUrl": "https://api.deepseek.com",
+      "modelName": "deepseek-v4-pro",
+      "supportsVision": false
+    },
+    {
+      "id": "profile-1790080554541-7yo0at",
+      "name": "Kimi",
+      "apiProvider": "Kimi",
+      "apiKey": "",
+      "baseUrl": "https://api.moonshot.cn/v1",
+      "modelName": "moonshot-v1-8k-vision-preview",
+      "supportsVision": true
+    },
+    {
+      "id": "profile-1790080554541-60zvcp",
+      "name": "OpenAI",
+      "apiProvider": "OpenAI",
+      "apiKey": "",
+      "baseUrl": "https://api.openai.com/v1",
+      "modelName": "gpt-5.6-terra",
+      "supportsVision": true
+    }
+  ],
+  "defaultLlmProfileId": "profile-1790080554541-regcyc",
+  "courseFolderPath": "",
+  "pdfNotesOutputFolder": "",
+  "pdfNotesMaxPages": 120,
+  "pdfNotesSkipMerge": true,
+  "pdfNotesSectionMaxTokens": 8192,
+  "pdfNotesSectionConcurrency": 2,
+  "pdfNotesMergeMaxTokens": 16384,
+  "pdfNotesStylePrompt": "",
+  "embeddingMode": "local",
+  "localEmbeddingModel": "Xenova/multilingual-e5-small",
+  "hfMirrorUrl": "https://hf-mirror.com",
+  "embeddingBaseUrl": "",
+  "embeddingApiKey": "",
+  "embeddingModelName": "text-embedding-3-small",
+  "ragEnabled": true,
+  "ragTopK": 5,
+  "autoAttachCurrentNote": true,
+  "maxNoteContextChars": 6000,
+  "chatMessageFontSize": 12,
+  "chatHistoryTurnLimit": 10,
+  "chatRagMinScore": 0.25,
+  "chatContextBudgetChars": 108800,
+  "visionRelayEnabled": true,
+  "visionRelayProfileId": "profile-1790080554541-7yo0at"
+}
