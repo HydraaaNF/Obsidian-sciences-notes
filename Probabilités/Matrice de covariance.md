@@ -215,3 +215,6 @@ $$
 \end{tikzpicture}
 \end{document}
 ```
+
+# Remarque
+Le cours source écrit la matrice $V$ de la section "Illustration of 2D Gaussians" sous la forme $\begin{pmatrix}\cos\theta & \sin\theta\\ \sin\theta & \cos\theta\end{pmatrix}$, qui n'est pas une matrice de rotation valide (déterminant $\cos^2\theta - \sin^2\theta \neq \pm 1$ en général, donc pas orthogonale). Cette note utilise la forme mathématiquement correcte $\begin{pmatrix}\cos\theta & -\sin\theta\\ \sin\theta & \cos\theta\end{pmatrix}$, seule cohérente avec une diagonalisation $\Sigma = VDV^\top$ où $V$ doit être orthogonale.
