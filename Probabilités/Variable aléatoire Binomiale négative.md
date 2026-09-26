@@ -12,9 +12,9 @@ Soit $X \sim \mathcal{BN}(r, p)$, alors
 * $\mathbb{E}(X) = \dfrac{r(1-p)}{p}$
 * $\mathbb{V}(X) = \dfrac{r(1-p)}{p^2}$
 * $G_X(z) = \left( \dfrac{p}{1 - (1-p)z} \right)^r, \quad |z| < \dfrac{1}{1-p}$
-* $\varphi_X(t) = \left( \dfrac{p}{1 - (1-p)e^{it}} \right)^r$
+* $\phi_X(t) = \left( \dfrac{p}{1 - (1-p)e^{it}} \right)^r$
 
 # Lien avec la loi binomiale
-Si $Y \sim \mathcal{B}(k + r, p)$, alors $\mathbb{P}(X \leq k) = \mathbb{P}(Y \geq r)$
+Si $Y \sim \mathcal{B}(k + r, p)$, alors $\mathbb{P}(X \leq k) = \mathbb{P}(Y \geq r)$ : ($X \leq k$ : le $r^e$ succès est venu au plus tard après $k^e$ échecs) ***équivalent à dire*** ($Y \geq r$ : il y a eu au moins $r$ succès parmi $k+r$ épreuves)
 
 Remarque : une autre convention (notamment anglo-saxonne) définit la loi binomiale négative sur le nombre total d'épreuves $Y = X + r$ plutôt que sur le nombre d'échecs. On a alors $\mathbb{E}(Y) = \dfrac{r}{p}$ et $\mathbb{V}(Y) = \dfrac{r(1-p)}{p^2}$ (variance inchangée, seule l'espérance est décalée de r).
