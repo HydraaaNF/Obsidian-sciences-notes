@@ -9,5 +9,3 @@ $$\mathbb{P}[D|M_1] = 0{,}003 \qquad \mathbb{P}[D|M_2] = 0{,}008 \qquad \mathbb{
 
 $$\mathbb{P}[M_1|D] = \frac{\mathbb{P}[D|M_1]\mathbb{P}[M_1]}{\mathbb{P}[D|M_1]\mathbb{P}[M_1] + \mathbb{P}[D|M_2]\mathbb{P}[M_2] + \mathbb{P}[D|M_3]\mathbb{P}[M_3]} \approx 5{,}6\%$$
 
-# Remarque
-Le cours source contient une incohérence : l'énoncé donne un taux de défaut de $M_3$ de "1 %", mais tous les calculs (et le résultat final $\approx 5{,}6\%$) utilisent en réalité $\mathbb{P}[D|M_3] = 0{,}15$ (soit 15 %), pas $0{,}01$. La valeur $0{,}15$ est reprise ici telle quelle car c'est elle qui rend l'exemple cohérent de bout en bout — à interpréter comme une coquille dans l'énoncé du cours (le "1 %" en toutes lettres), pas dans les calculs.
