@@ -3,7 +3,7 @@ Un vecteur aléatoire $X = (X_1, ..., X_n)$ est un vecteur gaussien de $\mathbb{
 
 ## Interprétation géométrique : Ellipsoïdes d'isodensité
 Les courbes d'isodensité d'un [[Vecteur aléatoire|vecteur]] gaussien sont des hyper-ellipsoïdes d'équation :
-$$ (x - \mu)' \Sigma^{-1} (x - \mu) = c $$
+$$ (x - \mu)^T \Sigma^{-1} (x - \mu) = c $$
 - La [[Matrice de covariance]] $\Sigma = V D V'$ définit géométriquement la densité.
 - Les **vecteurs propres** ($V$) définissent les axes principaux (l'orientation de la densité).
 - Les **valeurs propres** ($D$) définissent la dispersion le long de ces axes. Si la matrice est diagonale, on retrouve l'[[Théorème d'indépendance des coordonnées|indépendance des composantes]] du vecteur.
