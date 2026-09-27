@@ -63,6 +63,7 @@
 - [[Variable aléatoire gaussienne]]
 - [[Variable aléatoire gamma]]
 - [[Variable aléatoire de Cauchy]]
+- [[Variable aléatoire chi-deux]]
 
 ## Vecteurs aléatoires
 - [[Vecteur aléatoire]]
