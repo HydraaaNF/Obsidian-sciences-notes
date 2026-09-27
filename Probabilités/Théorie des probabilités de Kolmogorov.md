@@ -59,6 +59,7 @@
 - [[Théorème central limite]]
 - [[Théorème de Lindeberg]]
 ## Lois continues usuelles
+- [[Variable aléatoire exponentielle]]
 - [[Variable aléatoire gaussienne]]
 - [[Variable aléatoire gamma]]
 - [[Variable aléatoire de Cauchy]]
