@@ -1,18 +1,18 @@
-# Sommaires
+# Sommaire
 
-## Fondements
+### Fondements
 - [[Tribu]]
 - [[Tribu borélienne]]
 - [[Probabilité]]
 - [[Probabilité discrète]]
 - [[Probabilités continues]]
 
-## Dénombrement
+### Dénombrement
 - [[Arrangement]]
 - [[Permutation]]
 - [[Combinaison]]
 
-## Conditionnement et indépendance
+### Conditionnement et indépendance
 - [[Probabilité conditionnelle]]
 - [[Probabilités composées]]
 - [[Système complet d'évènements]]
@@ -23,7 +23,7 @@
 - [[Paradoxe de Monty Hall]]
 - [[Paradoxe des deux enfants]]
 
-## Variables aléatoires - généralités
+### Variables aléatoires - généralités
 - [[Variable aléatoire]]
 - [[Loi de probabilité d'une variable aléatoire]]
 - [[Loi conditionnelle d'une variable aléatoire]]
@@ -38,7 +38,7 @@
 - [[Formule de Taylor]]
 - [[Fiabilité des systèmes]]
 
-## Lois discrètes usuelles
+### Lois discrètes usuelles
 - [[Variable aléatoire uniforme]]
 - [[Variable aléatoire de Bernoulli]]
 - [[Variable aléatoire binomiale]]
@@ -48,7 +48,7 @@
 - [[Théorème d'approximation de la loi binomiale par la loi de Poisson]]
 - [[Variable aléatoire hypergéométrique]]
 
-## Outils pour le continu
+### Outils pour le continu
 - [[Fonction de répartition]]
 - [[Fonction caractéristique]]
 - [[Caractérisation de la loi par la fonction caractéristique]]
@@ -58,14 +58,14 @@
 - [[Inégalité de Bienaymé-Tchebyshev]]
 - [[Théorème central limite]]
 - [[Théorème de Lindeberg]]
-## Lois continues usuelles
+### Lois continues usuelles
 - [[Variable aléatoire exponentielle]]
 - [[Variable aléatoire gaussienne]]
 - [[Variable aléatoire gamma]]
 - [[Variable aléatoire de Cauchy]]
 - [[Variable aléatoire chi-deux]]
 
-## Vecteurs aléatoires
+### Vecteurs aléatoires
 - [[Vecteur aléatoire]]
 - [[Loi de probabilité d'un vecteur aléatoire]]
 - [[Lois marginales]]

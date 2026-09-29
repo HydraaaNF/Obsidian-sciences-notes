@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistiques/Statistiques descriptives et exploratoires.md",
+                "file": "Probabilités/Théorie des probabilités de Kolmogorov.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Statistiques descriptives et exploratoires"
+              "title": "Théorie des probabilités de Kolmogorov"
             }
           }
         ]
@@ -201,8 +201,17 @@
   },
   "active": "73388a19d2fb2d89",
   "lastOpenFiles": [
-    "Statistiques/Statistiques descriptives et exploratoires/Factorisation matricielle non négative.md",
+    "Index.md",
+    "Statistiques/Analyse de clusters.md",
+    "Statistiques/Clustering/Critères de liaison (linkage).md",
+    "Théorie des langages/Automate fini déterministe.md",
+    "Théorie des langages/Calcul dans un automate fini déterministe.md",
+    "Théorie des langages/Expression Rationnelle.md",
+    "Théorie des langages/Algorithme de reconnaissance d'un mot.md",
+    "Probabilités/Matrice de covariance.md",
+    "Probabilités/Théorie des probabilités de Kolmogorov.md",
     "Statistiques/Statistiques descriptives et exploratoires.md",
+    "Statistiques/Statistiques descriptives et exploratoires/Factorisation matricielle non négative.md",
     "Statistiques/Statistiques descriptives et exploratoires/Discriminant linéaire de Fisher.md",
     "Statistiques/Statistiques descriptives et exploratoires/Analyse discriminante linéaire.md",
     "Statistiques/Statistiques descriptives et exploratoires/Analyse sémantique latente.md",
@@ -218,15 +227,6 @@
     "Statistiques/Statistiques descriptives et exploratoires/Table de contingence.md",
     "Statistiques/Statistiques descriptives et exploratoires/Rapport de corrélation.md",
     "Statistiques/Statistiques descriptives et exploratoires/Coefficient de corrélation de Kendall.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Coefficient de corrélation de Spearman.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Coefficient de corrélation de Pearson.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Diagramme en boîte.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Écart interquartile.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Médiane empirique.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Moyenne tronquée.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Moyenne empirique.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Critères de Yule.md",
-    "Statistiques/Statistiques descriptives et exploratoires/Diagramme de Pareto.md",
     "Statistiques/Statistiques descriptives et exploratoires/Diagramme circulaire.png",
     "Statistiques",
     "AI for database query",

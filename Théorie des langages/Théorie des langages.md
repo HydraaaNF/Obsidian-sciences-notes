@@ -1,4 +1,4 @@
-## Sommaire
+# Sommaire
 - [[Alphabet]]
 - [[Mot]]
 - [[Sous-mot]]
