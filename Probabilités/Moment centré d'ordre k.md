@@ -11,3 +11,8 @@ Soit $X$ admettant un moment d'ordre 2.
 - $\mathbb{V}(X) = \mathbb{E}(X^2) - \mathbb{E}(X)^2$.
 - Soit $X_1, ..., X_n$ des variables aléatoires réelles de carré intégrable. Alors $\mathbb{V}(\sum_{i=1}^n X_i) = \sum_{i=1}^n \mathbb{V}(X_i) + 2 \sum_{1 \leq i < j \leq n} cov(X_i, X_j)$
 - Soit $X_1, ..., X_n$ des variables aléatoires réelles de carré intégrable non corrélées deux à deux. Alors $\mathbb{V}(\sum_{i=1}^n X_i) = \sum_{i=1}^n \mathbb{V}(X_i)$
+
+# Remarque
+
+- Le moment centré d'ordre $k$ se construit à partir du [[Moment d'ordre k|moment brut]] ; le moment centré d'ordre 2 est la [[Variance]].
+- Les moments centrés normalisés $\mu_k/\sigma^k$ (où $\sigma$ est l'écart-type) fournissent l'[[Asymétrie et aplatissement|asymétrie et l'aplatissement]].

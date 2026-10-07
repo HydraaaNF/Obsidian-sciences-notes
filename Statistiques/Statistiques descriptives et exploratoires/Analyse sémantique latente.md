@@ -3,6 +3,6 @@ Application de l'[[Analyse en composantes principales|ACP]] à des documents tex
 
 # Interprétation
 L'ACP sur la matrice terme/document permet de représenter les documents dans un sous-espace de « concepts », capturant des relations sémantiques invisibles au niveau des mots bruts.
-
 # Remarque
-Introduit par S. Deerwester et al., *Indexing by latent semantic analysis*, JASIS, 1990. Aussi appelée LSA ou LSI (*Latent Semantic Indexing*).
+
+Cette méthode est aussi appelée LSA ou LSI (*Latent Semantic Indexing*).

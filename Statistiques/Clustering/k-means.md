@@ -1,40 +1,33 @@
+# Définition
+
+Le k-means est une méthode de [[Clustering|clustering]] qui partitionne des données en $k$ clusters, chacun représenté par son centre. C'est une formulation de problème, et non un algorithme.
+
+Étant donné un espace et une distance euclidiens (voir [[Mesures de similarité et de distance]]), ainsi que $k = \text{nombre de clusters}$ (voir [[Choix du nombre de clusters]]), il s'agit de trouver les centres de clusters qui minimisent la somme des distances au carré de chaque point à son centre de cluster.
+
 # Modèle
-- Données : exemples $\{x_1, \ldots, x_N\}$, avec $x_i \in \mathbb{R}^d$
-- Clusters : centres $\{c_1, \ldots, c_K\}$, avec $c_i \in \mathbb{R}^d$
-- Fonction d'assignation $f : [1,N] \to [1,K]$, où $f(i)$ est l'indice du cluster/centre assigné à l'exemple $i$
-- Cluster $S_k = \{x_i : f(i) = k\}$
-- **Inertie** : $\displaystyle\sum_k \sum_{x \in S_k} \|x - c_k\|^2$
 
-# Objectif
-Le k-means est une **formulation de problème**, pas un algorithme en soi.
+- **Données** : des exemples $\{x_1,\ldots,x_N\}$, avec $x_i \in \mathbb{R}^d$.
+- **Centres** : $\{c_1,\ldots,c_K\}$, avec $c_i \in \mathbb{R}^d$.
+- **Fonction d'affectation** : $f : [1,N] \to [1,K]$, où $f(i)$ est l'indice du cluster (ou du centre) affecté à l'exemple $i$.
+- **Cluster** : $S_k = \{x_i : f(i) = k\}$.
+- **Inertie** : $\sum_k \sum_{x \in S_k} \lVert x - c_k \rVert^2$.
 
-**Problème** : étant donné un espace/une distance euclidienne et $k$ le nombre de clusters souhaité, trouver les centres qui minimisent la somme des carrés des distances de chaque point à son centre.
+# Interprétation
 
-Trouver une solution exacte est **NP-difficile** ; on utilise en pratique une solution approchée : l'**algorithme de Lloyd** (souvent appelé lui-même « algorithme des k-means »).
+Sur un nuage de points en deux dimensions, chaque cluster est muni de son centre (croix) et chaque point est relié à son centre par un trait pointillé ; l'inertie est la somme des carrés des longueurs de ces traits.
 
-# Algorithme (algorithme de Lloyd)
-Idée : diviser les données $x_i$ en $K$ clusters représentés par la valeur moyenne de leurs membres $c_k$ (centroïdes), pour minimiser l'erreur de quantification globale $e = \sum_i d(x_i, c_{f(i)})$.
+# Propriétés
 
-```
-initialiser K centroïdes c_k
-tant que non convergé :
-    pour i = 1 à N :
-        assigner x_i au centroïde le plus proche (f(i) ← argmin_k d(x_i, c_k))
-    pour k = 1 à K :
-        mettre à jour c_k à partir de tous les points assignés
-```
+- Trouver une solution exacte est NP-difficile.
+- La solution approchée est l'[[Algorithme des k-moyennes de Lloyd|algorithme de Lloyd]], ou l'algorithme des k-moyennes.
+- Le choix de la distance est déterminant : la **moyenne** doit avoir un sens pour la distance choisie ; sinon on peut utiliser la médiane, voir [[k-médianes et k-médoïdes]].
+- La convergence est garantie, généralement en 10 à 20 itérations ; la complexité est $O(iKNd)$, où $i$ est le nombre d'itérations et $d$ la dimension des $x_i$.
+- L'initialisation est un point sensible : voir le choix aléatoire, les exécutions multiples, ou l'initialisation hiérarchique de [[k-means hiérarchique de Linde-Buzo-Gray]].
 
-# Remarques
-- Le choix de la distance est déterminant : la **moyenne** doit avoir un sens pour la distance choisie ; sinon on peut utiliser la médiane — voir [[k-médianes et k-médoïdes]]
-- **Convergence** : garantie, généralement en 10 à 20 itérations (convergence = plus rien ne bouge)
-- **Complexité** : $O(iKNd)$, où $i$ = nombre d'itérations, $d$ = dimension des $x_i$
-- **Initialisation** : point sensible — voir choix aléatoire, exécutions multiples, ou [[k-means hiérarchique (LBG)]]
-- Pour choisir $K$, voir [[Choix du nombre de clusters (méthode du coude)]]
+# Exemple
 
-# Avantages / Inconvénients
-**Avantages** : simple, populaire, efficace, convergence garantie, s'adapte à toute forme avec suffisamment de clusters
+Un premier exemple : des données en deux dimensions réparties en trois groupes compacts de points (losanges, cercles et carrés), chacun muni de son centre (croix) ; état de l'exécution à l'itération 6.
 
-**Inconvénients** : sensible à l'initialisation et aux optima locaux, nécessite de fixer $K$ à l'avance, favorise les clusters convexes de taille/densité comparable, tend à créer des cellules déséquilibrées, très sensible au bruit et aux valeurs aberrantes
+# Remarque
 
-# Référence
-J. B. McQueen. *Some methods for classification and analysis of multivariate observations*. Proc. Symposium on Math., Statistics, and Probability, pp. 281-297, 1967.
+Les avantages et inconvénients du k-means sont détaillés dans [[Avantages et inconvénients du k-means]] ; ses propriétés et son algorithme dans [[Propriétés du k-means]] et [[Algorithme des k-moyennes de Lloyd]].

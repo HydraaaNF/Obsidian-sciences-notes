@@ -9,7 +9,7 @@ Deux philosophies principales pour organiser un ensemble de clusters :
 **Agrégation des données**
 - clusters imbriqués (*nested*)
 - structure hiérarchique
-- ex : [[Classification ascendante hiérarchique]]
+- ex : [[Clustering hiérarchique]]
 
 # Remarque
 D'autres philosophies existent : par densité ([[DBSCAN]]), par grille, par modèle, sous contraintes, etc.

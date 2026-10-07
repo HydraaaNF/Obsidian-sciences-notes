@@ -1,19 +1,35 @@
 # Définition
-*Density-Based Spatial Clustering of Applications with Noise*. Méthode de [[Typologie des clusters|clustering basé sur la densité]] : repère les points densément connectés (analyse de voisinage), permet des clusters de forme arbitraire, robuste au bruit, un seul passage sur les données.
+
+**DBSCAN** (*Density-Based Spatial Clustering of Applications with Noise*) est un algorithme de [[Clustering par densité|clustering par densité]]. Il repose sur la [[Points core, border et noise|classification des points]] en core, border et noise, puis sur l'exploration d'un graphe de voisinage construit à partir d'une [[Mesures de similarité et de distance|mesure de distance]]. Il repère les points densément connectés par analyse de voisinage, permet des clusters de forme arbitraire et s'exécute en un seul passage sur les données.
 
 # Algorithme
-1. **Étiqueter les points** :
-   - **points cœurs** : suffisamment de points dans leur voisinage
-   - **points de bordure** : pas assez de points autour, mais proches d'un point cœur
-   - **points de bruit** : ni l'un ni l'autre
-2. Éliminer les points de bruit
-3. Créer les clusters à partir des points cœurs (recherche des composantes connexes du graphe de voisinage, par DFS ou BFS)
-4. Assigner les points de bordure aux clusters cœurs correspondants
 
-# Avantages / Inconvénients
-**Avantages** : aucune hypothèse de convexité des clusters (formes et tailles arbitraires), gère le bruit (détecté comme points isolés), ne nécessite pas de fixer le nombre de clusters à l'avance
+L'algorithme procède en trois étapes :
 
-**Inconvénients** : sensible au choix des paramètres ($\varepsilon$ et nombre minimal de points), difficile à paramétrer quand les clusters ont des densités très différentes, nécessite une fonction de distance pertinente
+1. **étiqueter les points et construire le graphe** ;
+2. **chercher les composantes connexes** ;
+3. **étiqueter les points border**.
+
+La recherche des composantes connexes s'effectue tant qu'il reste des points non étiquetés :
+
+1. choisir un point non étiqueté et lui attribuer une nouvelle étiquette ;
+2. identifier sa composante grâce à un parcours DFS ou BFS.
+
+# Interprétation
+
+Chaque point est d'abord étiqueté (core, border ou noise) et relié à ses voisins dans un graphe ; la recherche des composantes connexes de ce graphe fait apparaître les clusters. Le principe se résume en quatre temps :
+
+1. étiqueter les points ;
+2. éliminer les points noise ;
+3. créer les clusters à partir des points core ;
+4. affecter les points border aux clusters de points core.
+
+# Exemple
+
+Sur un jeu de données en deux dimensions formant deux amas recourbés, le déroulé est le suivant : les points bruts ; puis les points étiquetés et reliés à leurs voisins dans un graphe, les points isolés (noise) restant à l'écart ; puis les composantes connexes du graphe, qui forment deux clusters distincts ; enfin le rattachement des points border à ces clusters.
 
 # Remarque
-DBSCAN est l'algorithme le plus connu de sa famille, mais d'autres méthodes par densité existent, notamment **OPTICS** (variante gérant mieux des densités variables) et **DENCLUE** (approche fondée sur l'estimation de densité par noyau — voir [[Estimation de densité par noyau]]).
+
+La classification des points en core, border et noise et les deux paramètres associés (rayon de voisinage et nombre minimal de points) sont détaillés dans [[Points core, border et noise]]. Les avantages et inconvénients de DBSCAN sont traités dans [[Avantages et inconvénients de DBSCAN]].
+
+DBSCAN est l'algorithme le plus connu de sa famille, mais d'autres méthodes par densité existent, notamment **OPTICS** (variante gérant mieux des densités variables) et **DENCLUE** (approche fondée sur l'[[Lissage d'histogramme|estimation de densité par noyau]]).
