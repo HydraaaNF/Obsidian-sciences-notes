@@ -26,7 +26,14 @@ $$
 # Interprétation
 Une t-norme est toujours **plus exigeante** que chacun de ses arguments.
 
+Elle **généralise la conjonction booléenne** : sur les valeurs $0$ et $1$, elle redonne la table de vérité du « et ».
+
+| Égalité | Justification |
+| --- | --- |
+| $\top(0, 1) = \top(1, 0) = \top(0, 0) = 0$ | $0$ est absorbant |
+| $\top(1, 1) = 1$ | $1$ est neutre |
+
 # Remarque
 Il existe une **infinité** de t-normes. Chacune est associée à une [[Conorme triangulaire]] par la [[Dualité entre norme et conorme triangulaires]]. Les couples usuels sont présentés dans [[Couples usuels de normes et conormes triangulaires]].
 
-La plus grande t-norme est le minimum (voir [[Minimum et maximum]]), la plus petite est la t-norme de Weber (voir [[Norme et conorme de Weber]]). Les t-normes généralisent la conjonction booléenne (voir [[Généralisation des opérateurs booléens par les normes et conormes]]).
+La plus grande t-norme est le minimum (voir [[Minimum et maximum]]), la plus petite est la t-norme de Weber (voir [[Norme et conorme de Weber]]).

@@ -33,5 +33,12 @@ $$
 # Interprétation
 Une t-conorme est toujours **plus permissive** que chacun de ses arguments.
 
+Elle **généralise la disjonction booléenne** : sur les valeurs $0$ et $1$, elle redonne la table de vérité du « ou ».
+
+| Égalité | Justification |
+| --- | --- |
+| $\bot(0, 1) = \bot(1, 0) = \bot(1, 1) = 1$ | $1$ est absorbant |
+| $\bot(0, 0) = 0$ | $0$ est neutre |
+
 # Remarque
 La plus petite t-conorme est le maximum (voir [[Minimum et maximum]]), la plus grande est la t-conorme de Weber (voir [[Norme et conorme de Weber]]). Les couples usuels sont présentés dans [[Couples usuels de normes et conormes triangulaires]].

@@ -34,7 +34,6 @@ Les opérateurs qui généralisent la conjonction et la disjonction aux degrés 
 - [[Norme triangulaire]]
 - [[Conorme triangulaire]]
 - [[Dualité entre norme et conorme triangulaires]]
-- [[Généralisation des opérateurs booléens par les normes et conormes]]
 - [[Couples usuels de normes et conormes triangulaires]]
 - [[Incompatibilité avec l'algèbre de Boole]]
 
