@@ -18,4 +18,4 @@ Soient $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ et $F = \{0{,}3/a,\; 1/c,\
 | Łukasiewicz | $\{0{,}3/a,\; 0{,}7/c\}$ |
 
 # Remarque
-Opération duale : [[Union d'ensembles flous]]. Couples usuels de t-norme et t-conorme : [[Minimum et maximum]], [[Produit et somme probabiliste]], [[Norme et conorme de Łukasiewicz]], [[Norme et conorme de Weber]].
+Opération duale : [[Union d'ensembles flous]]. Couples usuels de t-norme et t-conorme : [[Norme et conorme de Zadeh]], [[Norme et conorme probabilistes]], [[Norme et conorme de Łukasiewicz]], [[Norme et conorme de Weber]].

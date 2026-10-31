@@ -36,13 +36,11 @@ Les opérateurs qui généralisent la conjonction et la disjonction aux degrés 
 - [[Dualité entre norme et conorme triangulaires]]
 - [[Incompatibilité avec l'algèbre de Boole]]
 
-### 3.2 Couples particuliers
-- [[Minimum et maximum]]
-- [[Produit et somme probabiliste]]
+### 3.2 Couples de normes et conormes
+- [[Norme et conorme de Zadeh]]
+- [[Norme et conorme probabilistes]]
 - [[Norme et conorme de Łukasiewicz]]
 - [[Norme et conorme de Weber]]
-- [[Effet de masque du minimum]]
-- [[Minimum et maximum pondérés]]
 
 ## 4. Opérations sur les ensembles flous
 Comment combiner des ensembles flous, au moyen de t-normes et t-conormes ou par compromis.

@@ -17,7 +17,7 @@ $$
 \forall x, \quad \top(x, y) \leq y
 $$
 
-- **Encadrement global** (voir [[Norme et conorme de Weber]] et [[Minimum et maximum]]) :
+- **Encadrement global** (voir [[Norme et conorme de Weber]] et [[Norme et conorme de Zadeh]]) :
 
 $$
 \top_W(x, y) \leq \top(x, y) \leq \min(x, y)
@@ -34,8 +34,8 @@ Elle **généralise la conjonction booléenne** : sur les valeurs $0$ et $1$, el
 | $\top(1, 1) = 1$ | $1$ est neutre |
 
 # Remarque
-Il existe une **infinité** de t-normes. Chacune est associée à une [[Conorme triangulaire]] par la [[Dualité entre norme et conorme triangulaires]]. Couples usuels : [[Minimum et maximum]], [[Produit et somme probabiliste]], [[Norme et conorme de Łukasiewicz]], [[Norme et conorme de Weber]].
+Il existe une **infinité** de t-normes. Chacune est associée à une [[Conorme triangulaire]] par la [[Dualité entre norme et conorme triangulaires]]. Couples usuels : [[Norme et conorme de Zadeh]], [[Norme et conorme probabilistes]], [[Norme et conorme de Łukasiewicz]], [[Norme et conorme de Weber]].
 
-Le choix du couple a des conséquences sur le résultat : voir l'[[Effet de masque du minimum]] et l'[[Incompatibilité avec l'algèbre de Boole]].
+Le choix du couple a des conséquences sur le résultat : voir l'effet de masque du minimum dans l'exemple de la [[Norme et conorme de Zadeh]], et l'[[Incompatibilité avec l'algèbre de Boole]].
 
-La plus grande t-norme est le minimum (voir [[Minimum et maximum]]), la plus petite est la t-norme de Weber (voir [[Norme et conorme de Weber]]).
+La plus grande t-norme est le minimum (voir [[Norme et conorme de Zadeh]]), la plus petite est la t-norme de Weber (voir [[Norme et conorme de Weber]]).

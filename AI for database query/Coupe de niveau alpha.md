@@ -15,7 +15,7 @@ $$
 - **Décroissance pour l'inclusion** : $\alpha_1 > \alpha_2 \implies E_{\alpha_1} \subset E_{\alpha_2}$.
 - $E_1 = \operatorname{noyau}(E)$ (voir [[Noyau d'un ensemble flou]]).
 - $E_{\bar{0}} = \operatorname{supp}(E)$ (voir [[Support d'un ensemble flou]]).
-- Avec le couple [[Minimum et maximum]], les coupes sont compatibles avec l'intersection et l'union : $(E \cap F)_\alpha = E_\alpha \cap F_\alpha$ et $(E \cup F)_\alpha = E_\alpha \cup F_\alpha$.
+- Avec le couple [[Norme et conorme de Zadeh]], les coupes sont compatibles avec l'intersection et l'union : $(E \cap F)_\alpha = E_\alpha \cap F_\alpha$ et $(E \cup F)_\alpha = E_\alpha \cup F_\alpha$.
 
 # Interprétation
 Les coupes de niveau sont **emboîtées** :

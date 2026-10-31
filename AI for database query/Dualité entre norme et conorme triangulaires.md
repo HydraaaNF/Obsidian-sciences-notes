@@ -24,7 +24,7 @@ Couples duaux usuels :
 
 | t-norme | t-conorme duale | Nom |
 | --- | --- | --- |
-| $\min(x, y)$ | $\max(x, y)$ | Zadeh ([[Minimum et maximum]]) |
-| $xy$ | $x + y - xy$ | probabiliste ([[Produit et somme probabiliste]]) |
+| $\min(x, y)$ | $\max(x, y)$ | Zadeh ([[Norme et conorme de Zadeh]]) |
+| $xy$ | $x + y - xy$ | probabiliste ([[Norme et conorme probabilistes]]) |
 | $\max(x + y - 1,\; 0)$ | $\min(x + y,\; 1)$ | Łukasiewicz ([[Norme et conorme de Łukasiewicz]]) |
 | $\top_W$ | $\bot_W$ | Weber ([[Norme et conorme de Weber]]) |

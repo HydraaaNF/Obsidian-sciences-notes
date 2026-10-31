@@ -9,7 +9,7 @@ q & \text{sinon}
 \end{cases}
 $$
 
-La [[Norme triangulaire]] sous-jacente est $\top(u, v) = \min(u, v)$ (voir [[Minimum et maximum]]).
+La [[Norme triangulaire]] sous-jacente est $\top(u, v) = \min(u, v)$ (voir [[Norme et conorme de Zadeh]]).
 
 # Remarque
 Cas particulier d'[[Implication de type R]]. Voir aussi [[Comparaison des implications floues]].

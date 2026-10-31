@@ -5,7 +5,7 @@ $$
 p \Rightarrow_{Rb} q = 1 - p + pq
 $$
 
-La [[Conorme triangulaire]] sous-jacente est $\bot(u, v) = u + v - uv$ (voir [[Produit et somme probabiliste]]).
+La [[Conorme triangulaire]] sous-jacente est $\bot(u, v) = u + v - uv$ (voir [[Norme et conorme probabilistes]]).
 
 # Propriétés
 Dans l'[[Inclusion graduelle par une implication floue]], $\deg(E \subset F) = 1 \iff \operatorname{supp}(E) \subset \operatorname{noyau}(F)$.

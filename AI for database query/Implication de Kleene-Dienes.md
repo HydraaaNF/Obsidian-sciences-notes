@@ -5,7 +5,7 @@ $$
 p \Rightarrow_{KD} q = \max(1 - p,\; q)
 $$
 
-La [[Conorme triangulaire]] sous-jacente est $\bot(u, v) = \max(u, v)$ (voir [[Minimum et maximum]]).
+La [[Conorme triangulaire]] sous-jacente est $\bot(u, v) = \max(u, v)$ (voir [[Norme et conorme de Zadeh]]).
 
 # Propriétés
 C'est la plus **drastique** des S-implications : $(p \Rightarrow_{KD} q) \leq (p \Rightarrow_{Rb} q) \leq (p \Rightarrow_{Lu} q)$.

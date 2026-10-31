@@ -9,7 +9,7 @@ q / p & \text{sinon}
 \end{cases}
 $$
 
-La [[Norme triangulaire]] sous-jacente est $\top(u, v) = uv$ (voir [[Produit et somme probabiliste]]).
+La [[Norme triangulaire]] sous-jacente est $\top(u, v) = uv$ (voir [[Norme et conorme probabilistes]]).
 
 # Remarque
 Cas particulier d'[[Implication de type R]]. Voir aussi [[Comparaison des implications floues]].

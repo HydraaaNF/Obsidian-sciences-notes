@@ -16,8 +16,8 @@ $$
 $$
 
 # Interprétation
-- Avec $\top = \min$ : les degrés de $E$ jouent le rôle de **seuils** ([[Minimum et maximum]]).
-- Avec $\top =$ produit : les degrés de $E$ jouent le rôle de **poids** (niveaux d'importance) ([[Produit et somme probabiliste]]) :
+- Avec $\top = \min$ : les degrés de $E$ jouent le rôle de **seuils** ([[Norme et conorme de Zadeh]]).
+- Avec $\top =$ produit : les degrés de $E$ jouent le rôle de **poids** (niveaux d'importance) ([[Norme et conorme probabilistes]]) :
 
 $$
 \deg(E \subset F) = \frac{\sum_{x \in X} \mu_E(x) \times \mu_F(x)}{\sum_{x \in X} \mu_E(x)}
