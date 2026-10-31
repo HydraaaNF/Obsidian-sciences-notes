@@ -1,5 +1,5 @@
 # Définition
-**Point de départ (cas classique).** $A \subset B \iff (\forall x \in X,\; x \in A \implies x \in B)$.
+**Cas classique.** $A \subset B \iff (\forall x \in X,\; x \in A \implies x \in B)$.
 
 **Extension**, au moyen d'une [[Implication floue]] $\Rightarrow_f$ :
 

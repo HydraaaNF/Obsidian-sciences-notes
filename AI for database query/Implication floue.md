@@ -1,5 +1,5 @@
 # Définition
-**Point de départ.** L'inclusion classique s'exprime par une implication :
+**Cas classique.** L'inclusion classique s'exprime par une implication :
 
 $$
 (A \subset B) \iff (\forall x \in X,\; x \in A \implies x \in B)
@@ -30,4 +30,4 @@ Toute implication floue doit vérifier :
 On considère parfois une propriété supplémentaire : $(1 \Rightarrow_f q) = q$.
 
 # Remarque
-Deux familles d'implications floues sont présentées : les [[Implication de type S|S-implications]] et les [[Implication de type R|R-implications]]. Elles servent à définir l'[[Inclusion graduelle par une implication floue]]. Comparaison : [[Comparaison des implications floues]].
+Il existe deux familles d'implications floues : les [[Implication de type S|S-implications]] et les [[Implication de type R|R-implications]]. Elles servent à définir l'[[Inclusion graduelle par une implication floue]]. Comparaison : [[Comparaison des implications floues]].

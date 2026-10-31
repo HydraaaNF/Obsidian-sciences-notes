@@ -13,7 +13,7 @@ où $\succ$ se lit « est préféré à ».
 # Interprétation
 Le score global fournit directement un **préordre total** sur les réponses : toutes les réponses sont comparables, mais des ex æquo sont possibles.
 
-C'est l'approche retenue dans ce cours, et elle s'appuie sur la [[Logique floue]] : la [[Fonction d'appartenance]] d'un [[Ensemble flou]] joue le rôle de fonction de score. L'agrégation des critères est réalisée par une [[Norme triangulaire]], une [[Conorme triangulaire]] ou un [[Opérateur de compromis]].
+Cette approche s'appuie naturellement sur la [[Logique floue]] : la [[Fonction d'appartenance]] d'un [[Ensemble flou]] joue le rôle de fonction de score. L'agrégation des critères est réalisée par une [[Norme triangulaire]], une [[Conorme triangulaire]] ou un [[Opérateur de compromis]].
 
 # Remarque
 À opposer à l'[[Approche qualitative des préférences]].

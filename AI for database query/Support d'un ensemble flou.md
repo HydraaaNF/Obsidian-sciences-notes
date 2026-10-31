@@ -15,4 +15,4 @@ Pour l'ensemble flou *young* de [[Logique floue]] (égal à $1$ jusqu'à $30$ an
 Pour $E = \{1/a,\; 0{,}7/c,\; 0{,}2/e,\; 0{,}3/f,\; 0{,}6/h,\; 0{,}7/j,\; 0{,}9/k\}$ sur $X = \{a, b, \ldots, k\}$ : $\operatorname{supp}(E) = \{a, c, e, f, h, j, k\}$.
 
 # Remarque
-À opposer au [[Noyau d'un ensemble flou]], qui rassemble les éléments appartenant **totalement** à $E$.
+À opposer au [[Noyau d'un ensemble flou]], qui contient les éléments appartenant **totalement** à $E$.

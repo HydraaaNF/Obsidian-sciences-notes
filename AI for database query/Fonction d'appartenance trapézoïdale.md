@@ -12,7 +12,7 @@ Pour le type à 4 seuils :
 - valeur $0$ ailleurs : le [[Support d'un ensemble flou]] est $]a, d[$.
 
 # Exemple
-Illustration des trois types (seuils arbitraires) :
+Allure des trois types :
 
 ```chart
 type: line

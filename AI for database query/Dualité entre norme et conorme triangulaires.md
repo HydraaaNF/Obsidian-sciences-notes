@@ -17,4 +17,4 @@ $$
 $$
 
 # Remarque
-Un couple $(\top, \bot)$ vérifiant ces relations est dit **dual**. Les couples duaux usuels (Zadeh, probabiliste, Łukasiewicz, Weber) sont rassemblés dans [[Couples usuels de normes et conormes triangulaires]].
+Un couple $(\top, \bot)$ vérifiant ces relations est dit **dual**. Pour les couples duaux usuels (Zadeh, probabiliste, Łukasiewicz, Weber), voir [[Couples usuels de normes et conormes triangulaires]].

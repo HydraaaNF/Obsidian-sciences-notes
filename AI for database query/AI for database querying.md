@@ -1,7 +1,5 @@
 # Sommaire — AI for database querying
 
-> Ordre : pédagogique (prérequis d'abord). 55 notes, 7 parties.
-
 ## 1. Interrogation à préférences
 Pourquoi les requêtes booléennes ne suffisent pas, et les deux grandes familles d'approches pour y remédier.
 - [[Limites des requêtes booléennes]]
@@ -89,6 +87,3 @@ Les quantificateurs linguistiques (*la plupart*, *au moins 5*, …) et l'évalua
 - [[Énoncé quantifié flou]]
 - [[Interprétation de Zadeh d'un énoncé quantifié flou]]
 - [[Interprétation de Yager par coupes de niveau α]]
-
-## Écarts résiduels
-- R8 (ratio plus grosse / plus petite ≤ 3) : 12 / 4 = 3 — à la limite du seuil ; les parties 2 et 3 ne sont pas scindables sans nuire à la cohérence thématique.

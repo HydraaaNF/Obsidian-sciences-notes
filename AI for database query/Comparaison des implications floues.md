@@ -16,4 +16,4 @@ $$
 **Pour toute S-implication :** $(1 - p) \leq (p \Rightarrow_S q)$.
 
 # Remarque
-L'[[Implication de Łukasiewicz]] est la seule des implications présentées qui soit à la fois S et R. Voir [[Implication de type S]], [[Implication de type R]].
+L'[[Implication de Łukasiewicz]] est la seule des implications usuelles qui soit à la fois S et R. Voir [[Implication de type S]], [[Implication de type R]].

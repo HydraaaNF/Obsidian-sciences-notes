@@ -1,5 +1,5 @@
 # Définition
-**Point de départ (cas classique).**
+**Cas classique.**
 
 $$
 (A \subset B) \iff (\forall x \in X,\; f_A(x) \leq f_B(x))

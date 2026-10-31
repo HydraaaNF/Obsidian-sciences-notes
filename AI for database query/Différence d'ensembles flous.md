@@ -1,5 +1,5 @@
 # Définition
-Point de départ : $A \setminus B = \{x \mid x \in A \text{ et } x \notin B\}$.
+Cas classique : $A \setminus B = \{x \mid x \in A \text{ et } x \notin B\}$.
 
 Pour deux [[Ensemble flou|ensembles flous]] $E$ et $F$, avec une [[Norme triangulaire]] $\top$ quelconque :
 

@@ -1,5 +1,5 @@
 # Définition
-**Point de départ (cas classique).** $(A \subset B) \iff (A \cap B = A)$, d'où $(A \subset B) \iff (\operatorname{card}(A \cap B) = \operatorname{card}(A))$.
+**Cas classique.** $(A \subset B) \iff (A \cap B = A)$, d'où $(A \subset B) \iff (\operatorname{card}(A \cap B) = \operatorname{card}(A))$.
 
 Pour $\operatorname{card}(A) > 0$, on définit :
 
