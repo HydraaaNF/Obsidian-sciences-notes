@@ -41,4 +41,4 @@ Elle **généralise la disjonction booléenne** : sur les valeurs $0$ et $1$, el
 | $\bot(0, 0) = 0$ | $0$ est neutre |
 
 # Remarque
-La plus petite t-conorme est le maximum (voir [[Minimum et maximum]]), la plus grande est la t-conorme de Weber (voir [[Norme et conorme de Weber]]). Les couples usuels sont présentés dans [[Couples usuels de normes et conormes triangulaires]].
+La plus petite t-conorme est le maximum (voir [[Minimum et maximum]]), la plus grande est la t-conorme de Weber (voir [[Norme et conorme de Weber]]). Couples usuels : [[Minimum et maximum]], [[Produit et somme probabiliste]], [[Norme et conorme de Łukasiewicz]], [[Norme et conorme de Weber]].

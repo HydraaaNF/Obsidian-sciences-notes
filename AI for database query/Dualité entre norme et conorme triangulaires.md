@@ -17,4 +17,14 @@ $$
 $$
 
 # Remarque
-Un couple $(\top, \bot)$ vérifiant ces relations est dit **dual**. Pour les couples duaux usuels (Zadeh, probabiliste, Łukasiewicz, Weber), voir [[Couples usuels de normes et conormes triangulaires]].
+Un couple $(\top, \bot)$ vérifiant ces relations est dit **dual**.
+
+# Exemple
+Couples duaux usuels :
+
+| t-norme | t-conorme duale | Nom |
+| --- | --- | --- |
+| $\min(x, y)$ | $\max(x, y)$ | Zadeh ([[Minimum et maximum]]) |
+| $xy$ | $x + y - xy$ | probabiliste ([[Produit et somme probabiliste]]) |
+| $\max(x + y - 1,\; 0)$ | $\min(x + y,\; 1)$ | Łukasiewicz ([[Norme et conorme de Łukasiewicz]]) |
+| $\top_W$ | $\bot_W$ | Weber ([[Norme et conorme de Weber]]) |
