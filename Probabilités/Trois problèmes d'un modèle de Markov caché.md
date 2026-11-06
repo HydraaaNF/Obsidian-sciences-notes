@@ -31,3 +31,5 @@ Chacun des trois problèmes a sa méthode propre.
 - L'estimation par maximum de vraisemblance s'appuie sur l'[[Estimation par maximum de vraisemblance d'un modèle de Markov|estimation par maximum de vraisemblance]] et, quand les séquences d'états sont connues, sur l'[[Estimation empirique des paramètres d'un modèle de Markov caché|estimation empirique des paramètres]] ; sinon l'[[Algorithme de Baum-Welch|algorithme de Baum-Welch]] alterne le [[Calcul des espérances par l'algorithme forward-backward|calcul des espérances par l'algorithme forward-backward]] et la maximisation.
 
 Les trois problèmes portent sur les mêmes quantités de base, les [[Probabilités d'un modèle de Markov caché|probabilités d'un modèle de Markov caché]], dont les facteurs sont les [[Paramètres d'un modèle de Markov caché|paramètres du modèle]].
+
+Le décodage y maximise cette loi jointe sur les suites d'états, l'évaluation la somme sur ces suites, et l'estimation en ajuste les facteurs.

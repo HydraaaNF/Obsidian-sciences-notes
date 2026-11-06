@@ -14,3 +14,4 @@ La première est la probabilité de l'évènement $S_t = i$ ; la seconde est la 
 
 - $\gamma_t^{(r)}(i)$ est la [[Statistiques d'occupation d'un état|statistique d'occupation d'un état]] et $\xi_t^{(r)}(i,j)$ la [[Statistiques de transition entre deux états|statistique de transition entre deux états]] ; ces espérances sont évaluées à l'étape E de l'[[Algorithme de Baum-Welch]].
 - Le calcul efficace de ces quantités est l'objet de l'algorithme forward-backward : voir [[Probabilités forward et backward]], [[Algorithme forward]] et [[Algorithme backward]].
+- Ces espérances théoriques sont aussi la quantité que compare aux espérances empiriques le [[Gradient de la vraisemblance conditionnelle|gradient de la vraisemblance conditionnelle]] d'un champ aléatoire conditionnel.

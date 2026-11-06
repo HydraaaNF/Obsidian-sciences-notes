@@ -22,3 +22,5 @@ Le décodage recherche la séquence d'états cachés la plus vraisemblable au vu
 # Remarque
 
 Le décodage d'une séquence d'états correspond au premier des [[Trois problèmes d'un modèle de Markov caché]].
+
+Le même problème se pose dans le cadre conditionnel, où les probabilités du modèle sont remplacées par des scores de traits : voir le [[Décodage d'un champ aléatoire conditionnel à chaîne linéaire]], que résout la [[Programmation dynamique pour un champ aléatoire conditionnel]].

@@ -91,3 +91,5 @@ Conditionnellement à $X_i$, les observations $U_i$ et $Y_i$ ne dépendent plus 
 Le modèle est entièrement paramétrique : les densités des composantes et celle du bruit de mesure sont fixées à un paramètre près, si bien que, $K$ étant fixé, l'estimation porte sur $W$, $\theta$, $\beta$ et $\lambda$ à partir des seules variables observées.
 
 Le nombre de composantes $K$ est un paramètre structurel, extérieur à la plaque : il est commun à tous les individus, comme dans tout modèle en plaques.
+
+Le cœur logistique du modèle est celui de la [[Régression logistique binaire]], dont cette note décrit un emploi avec covariable latente mesurée avec erreur.

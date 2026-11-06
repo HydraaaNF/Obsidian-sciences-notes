@@ -33,3 +33,4 @@ Soit $X$ une variable aléatoire réelle discrète :
 
 - La [[Variance]] et les [[Moment d'ordre k|moments d'ordre k]] sont des quantités descriptives construites à partir de l'espérance.
 - L'[[Espérance conditionnelle]] traite le cas où la valeur d'une autre variable aléatoire est connue.
+- L'[[Entropie d'une variable aléatoire discrète|entropie]] est elle-même une espérance, celle de l'information $-\log_b \mathbb{P}(X)$ apportée par la valeur observée.

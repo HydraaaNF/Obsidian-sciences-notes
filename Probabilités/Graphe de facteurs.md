@@ -62,3 +62,5 @@ Un graphe de facteurs généralise ainsi la factorisation du [[Réseau bayésien
 La ligne conditionnelle du bestiaire des modèles, celle des champs aléatoires conditionnels, se décrit aussi par des graphes de facteurs ; la comparaison avec les modèles génératifs est l'objet de [[Modèles génératifs et modèles conditionnels]].
 
 Le passage d'un graphe dirigé à un graphe non dirigé ne se réduit pas à effacer les flèches : il faut d'abord marier les parents de chaque nœud, ce qui ajoute des arêtes entre eux. C'est l'objet de la [[Moralisation d'un graphe orienté]].
+
+Sur une chaîne, un tel graphe porte les scores de traits locaux d'un [[Champ aléatoire conditionnel à chaîne linéaire]], et ses facteurs y sont évalués position par position.

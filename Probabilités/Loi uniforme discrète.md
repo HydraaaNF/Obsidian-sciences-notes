@@ -26,3 +26,4 @@ $$G_X(z) = \frac{z(z^n-1)}{n(z-1)}.$$
 - La [[Loi de Bernoulli]] de paramètre $p = \frac{1}{2}$ correspond au cas $n = 2$ : elle prend deux valeurs, chacune de probabilité $\frac{1}{2}$.
 - La [[Loi uniforme continue]] est son analogue continu.
 - Si $U$ suit la [[Loi uniforme continue|loi uniforme continue]] sur $[0, 1]$, alors $\lfloor nU \rfloor + 1$ suit la loi uniforme discrète sur $\{1, \dots, n\}$.
+- C'est la loi de [[Principe du maximum d'entropie|maximum d'entropie]] sur un support fini de $n$ valeurs en l'absence de contrainte : son entropie vaut $\log_b n$.

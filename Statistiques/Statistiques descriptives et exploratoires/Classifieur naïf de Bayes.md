@@ -25,3 +25,5 @@ On souhaite prévoir la météo du jour. Le label $y$ est la météo du jour (en
 # Remarque
 
 Le classifieur naïf de Bayes est un cas particulier de la [[Règle de décision de Bayes]] : il applique la décision bayésienne optimale sous l'hypothèse d'indépendance conditionnelle des observations. Voir aussi les [[Règles de décision optimales]].
+
+L'hypothèse qui le définit est l'[[Hypothèse d'indépendance conditionnelle des attributs]] : sachant la classe, les attributs sont indépendants et le produit des lois marginales suffit à décrire la loi des observations.

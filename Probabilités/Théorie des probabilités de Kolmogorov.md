@@ -1,6 +1,6 @@
 # Sommaire
 
-## Fondements et dénombrement
+## Fondements, dénombrement et conditionnement
 
 ### Modélisation et tribus
 - [[Probabilité et statistique]]
@@ -23,8 +23,6 @@
 - [[Nombre d'applications entre ensembles finis]]
 - [[Nombre de parties d'un ensemble]]
 
-## Conditionnement et indépendance
-
 ### Conditionnement
 - [[Probabilité conditionnelle]]
 - [[Probabilités composées]]
@@ -33,14 +31,14 @@
 - [[Formule des probabilités totales]]
 - [[Formule de Bayes]]
 
+### Applications classiques
+- [[Paradoxe de Monty Hall]]
+- [[Paradoxe des deux enfants]]
+
 ### Indépendance
 - [[Indépendance de deux évènements]]
 - [[Indépendance mutuelle d'évènements]]
 - [[Théorème d'indépendance de fonctions de variables indépendantes]]
-
-### Applications classiques
-- [[Paradoxe de Monty Hall]]
-- [[Paradoxe des deux enfants]]
 
 ## Variables aléatoires et lois usuelles
 
@@ -78,7 +76,7 @@
 
 ## Espérance, moments et fonctions caractéristiques
 
-### Espérance et moments
+### Espérance, moments et entropie
 - [[Espérance d'une variable aléatoire]]
 - [[Espérance conditionnelle]]
 - [[Calcul d'une espérance]]
@@ -86,6 +84,8 @@
 - [[Moment centré d'ordre k]]
 - [[Variance]]
 - [[Théorème de transfert]]
+- [[Entropie d'une variable aléatoire discrète]]
+- [[Entropie conditionnelle]]
 
 ### Indépendance et fonctions caractéristiques
 - [[Indépendance de variables aléatoires]]
@@ -208,7 +208,26 @@
 - [[Filtrage, lissage et prédiction avec un modèle de Markov caché]]
 - [[Domaines d'application des modèles de Markov cachés]]
 
-## Modèles graphiques et inférence
+## Maximum d'entropie et modèles conditionnels
+
+### Maximum d'entropie
+- [[Principe du maximum d'entropie]]
+- [[Distribution de maximum d'entropie d'une traduction]]
+- [[Contraintes d'espérance sur les fonctions de traits]]
+- [[Forme exponentielle d'une distribution de maximum d'entropie]]
+- [[Fonctions de traits d'un exemple de traduction]]
+- [[Estimation des paramètres par les multiplicateurs de Lagrange]]
+
+### Modèles conditionnels et régression logistique
+- [[Classification par maximum a posteriori]]
+- [[Hypothèse d'indépendance conditionnelle des attributs]]
+- [[Modèle log-linéaire conditionnel]]
+- [[Espérance empirique d'une fonction de trait]]
+- [[Régression logistique binaire]]
+- [[Régression logistique multinomiale]]
+- [[Modèles génératifs et modèles conditionnels]]
+
+## Modèles graphiques, champs aléatoires conditionnels et inférence
 
 ### Graphes et réseaux bayésiens
 - [[Modèle graphique]]
@@ -224,7 +243,6 @@
 - [[Notation en plaques]]
 - [[Régression logistique à covariables mesurées avec erreur]]
 - [[Champ de Markov caché]]
-- [[Modèles génératifs et modèles conditionnels]]
 
 ### Inférence dans les modèles graphiques
 - [[Graphe de facteurs]]
@@ -238,3 +256,17 @@
 - [[Arbre de jonction]]
 - [[Construction d'un arbre de jonction]]
 - [[Inférence par arbre de jonction]]
+
+### Champs aléatoires conditionnels et réseaux récurrents
+- [[Champ aléatoire conditionnel à chaîne linéaire]]
+- [[Fonctions de traits pour les séquences]]
+- [[Décomposition positionnelle des fonctions de traits]]
+- [[Étiquetage morphosyntaxique par fonctions de traits]]
+- [[Gabarits de traits et annotation BIO]]
+- [[Décodage d'un champ aléatoire conditionnel à chaîne linéaire]]
+- [[Programmation dynamique pour un champ aléatoire conditionnel]]
+- [[Vraisemblance conditionnelle d'un champ aléatoire conditionnel]]
+- [[Gradient de la vraisemblance conditionnelle]]
+- [[Entraînement d'un champ aléatoire conditionnel par gradient]]
+- [[Prédiction directe par un réseau de neurones récurrent]]
+- [[Champ aléatoire conditionnel sur un réseau de neurones récurrent]]

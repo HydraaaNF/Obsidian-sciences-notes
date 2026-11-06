@@ -42,3 +42,5 @@ Les probabilités conjointes correspondantes valent
 La proportion de boulons défectueux de la machine $M_3$ est de 15 %, et non de 1 % : la valeur $\mathbb{P}[D \mid M_3] = 0{,}15$ figure dans les données et elle seule redonne les probabilités conjointes ci-dessus et le résultat $\mathbb{P}[M_1 \mid D] \approx 5{,}6\%$.
 
 Au dénominateur de la seconde forme figure le facteur $\mathbb{P}[B_i]$ sous la somme : $\sum_i \mathbb{P}[A \mid B_i]\mathbb{P}[B_i]$, qui n'est autre que $\mathbb{P}[A]$ d'après la [[Formule des probabilités totales|formule des probabilités totales]]. L'écriture $\sum_i \mathbb{P}[A \mid B_i]$, où ce facteur est omis, est une erreur fréquente : elle ne redonne pas la probabilité totale $\mathbb{P}[A]$.
+
+Réécrite avec une étiquette à prédire à la place de l'évènement $A$, la même formule donne la [[Classification par maximum a posteriori|classification par maximum a posteriori]] : la classe retenue est celle dont le posterior $\mathbb{P}[Y = y \mid X = x]$ est le plus grand.

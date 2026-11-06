@@ -92,3 +92,4 @@ $$S_1 = 2, \quad S_2 = 3, \quad S_3 = 3, \quad S_4 = 3, \quad S_5 = 3, \quad S_6
 - Le principe repose sur le [[Principe d'optimalité de Bellman|principe d'optimalité de Bellman]] : le meilleur chemin complet passant par une case contient le meilleur chemin partiel aboutissant à cette case, de sorte qu'écarter les autres chemins partiels de cette case ne fait perdre aucune solution optimale.
 - L'exploration est complète au sens où toutes les cases du treillis sont visitées : aucune branche n'est élaguée au cours de la construction.
 - La séquence restituée est optimale globalement, et non la suite des états les plus probables observation par observation : c'est la différence avec l'[[Algorithme forward]], qui somme sur tous les chemins au lieu de n'en retenir qu'un.
+- Le même schéma de programmation dynamique s'applique à des scores de traits, sans probabilités de transition ni d'émission : voir la [[Programmation dynamique pour un champ aléatoire conditionnel]].
