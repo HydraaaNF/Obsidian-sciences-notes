@@ -6,7 +6,7 @@ $$(S_1')^2 = \frac{1}{n_1 - 1} \sum_{i=1}^{n_1} (X_i - \overline{X})^2$$
 
 $$(S_2')^2 = \frac{1}{n_2 - 1} \sum_{i=1}^{n_2} (Y_i - \overline{Y})^2.$$
 
-Le test de Fisher d'égalité de variances confronte l'[[Hypothèse nulle et hypothèse alternative|hypothèse nulle]] $H_0 : \sigma_1 = \sigma_2$ à l'hypothèse alternative $H_1 : \sigma_1 \neq \sigma_2$, où $\sigma_1$ et $\sigma_2$ sont les écarts-types des lois mères $\mathcal{N}(m_1, \sigma_1^2)$ et $\mathcal{N}(m_2, \sigma_2^2)$. Dans le cas de deux échantillons gaussiens, on a sous l'hypothèse $H_0$ d'égalité des variances
+Le test de Fisher d'égalité de variances confronte l'[[Hypothèse nulle et hypothèse alternative|hypothèse nulle]] $H_0 : \sigma_1^2 = \sigma_2^2$ à l'hypothèse alternative $H_1 : \sigma_1^2 \neq \sigma_2^2$, où $\sigma_1^2$ et $\sigma_2^2$ sont les variances des lois mères $\mathcal{N}(m_1, \sigma_1^2)$ et $\mathcal{N}(m_2, \sigma_2^2)$. Dans le cas de deux échantillons gaussiens, on a sous l'hypothèse $H_0$ d'égalité des variances
 
 $$\frac{(S_1')^2}{(S_2')^2} \quad \text{suit une loi de Fisher } \mathcal{F}(n_1 - 1, n_2 - 1),$$
 
@@ -28,6 +28,16 @@ Les échantillons $(X_1, \dots, X_{n_1})$ et $(Y_1, \dots, Y_{n_2})$ étant ind�
 
 $$\frac{\frac{n_1 S_1^2}{\sigma_1^2} \ast \frac{1}{n_1 - 1}}{\frac{n_2 S_2^2}{\sigma_2^2} \ast \frac{1}{n_2 - 1}} = \frac{\frac{(S_1')^2}{\sigma_1^2}}{\frac{(S_2')^2}{\sigma_2^2}} \quad \text{suit une loi de Fisher } \mathcal{F}(n_1 - 1, n_2 - 1).$$
 
+# Propriétés
+
+Avec les [[Variance empirique|variances empiriques]] $S_1^2$ et $S_2^2$, la statistique s'écrit encore
+
+$$F_{n_1-1,\, n_2-1} = \left(\frac{n_1 S_1^2}{n_1 - 1}\right)\left(\frac{n_2 S_2^2}{n_2 - 1}\right)^{-1},$$
+
+c'est-à-dire comme le quotient de deux estimations sans biais de $\sigma_1^2$ et de $\sigma_2^2$. Elle vaut $1$ lorsque ces deux estimations coïncident.
+
+La statistique mesure l'écart relatif entre les deux variances estimées : une valeur proche de $1$ est compatible avec l'égalité des variances, une valeur nettement supérieure ou inférieure signale des dispersions différentes.
+
 # Algorithme
 
 Pour un [[Risque de première espèce|risque de première espèce]] $\alpha$, on cherche $a$ et $b$ tels que
@@ -45,7 +55,7 @@ Compte-tenu de la forme de la table de loi de Fisher, on est généralement obli
 $$\frac{(S_2')^2}{(S_1')^2} \quad \text{suit une loi de Fisher } \mathcal{F}(n_2 - 1, n_1 - 1).$$
 
 - si $\frac{(s_1')^2}{(s_2')^2} \in [a, b]$, on accepte $H_0$ et on procède au [[Test de Student d'égalité de deux moyennes|test d'égalité des moyennes]] ;
-- sinon, on conclut que $\sigma_1 \neq \sigma_2$ avec la probabilité $\alpha$ de se tromper. On conclut également que les deux échantillons ne sont pas homogènes et on n'effectue pas le test sur les moyennes.
+- sinon, on conclut que $\sigma_1^2 \neq \sigma_2^2$ avec la probabilité $\alpha$ de se tromper. On conclut également que les deux échantillons ne sont pas homogènes et on n'effectue pas le test sur les moyennes.
 
 # Remarque
 

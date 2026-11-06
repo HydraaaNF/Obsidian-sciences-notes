@@ -6,6 +6,14 @@ Le **seuil** du test est la valeur frontière $a$ de la zone critique. Il est d�
 
 $$\mathbb{P}_{H_0}[\overline{X} > a] = \alpha.$$
 
+# Propriétés
+
+La forme de la zone critique et la position de son seuil relèvent de deux hypothèses différentes.
+
+La **forme** de la zone critique est dictée par l'[[Hypothèse nulle et hypothèse alternative|hypothèse alternative]] $H_1$ : c'est elle qui situe les valeurs conduisant à rejeter $H_0$ d'un côté ou de l'autre de celles postulées sous $H_0$, et qui décide donc si la zone critique est unilatérale ou bilatérale.
+
+Le **seuil** $a$ ne dépend que de $H_0$ et du [[Risque de première espèce|risque de première espèce]] $\alpha$ : il est placé de façon que, sous $H_0$, la probabilité de tomber dans la zone critique vaille $\alpha$. Une connaissance plus précise de $H_1$ n'intervient pas dans ce placement ; elle sert à calculer le [[Risque de seconde espèce|risque de seconde espèce]] $\beta$, donc la [[Puissance d'un test|puissance]] du test.
+
 # Exemple
 
 Dans l'exemple des faiseurs de pluie, le test compare $H_0 : m = 600$ à $H_1 : m = 650$ pour la moyenne $\overline{X}$ d'un échantillon, avec un risque de première espèce $\alpha = 0{,}05$. Compte tenu de la forme de l'hypothèse $H_1$, la zone critique du test est de la forme $]a, +\infty[$ : pour rejeter $H_0$ et donc accepter $H_1$ (où $m = 650$), il faut que l'observation de $\overline{X}$ soit « significativement » plus grande que la valeur 600, c'est-à-dire au-delà d'un certain seuil $a$. On détermine $a$ tel que
@@ -27,6 +35,14 @@ d'où
 $$a = 654{,}83.$$
 
 On calcule ensuite $\bar{x}$ à partir des observations : si $\bar{x}$ est « trop grand » par rapport à 600, c'est-à-dire si $\bar{x} > a$, on rejette alors $H_0$. L'intervalle $]654{,}83 ; +\infty[$ est la région critique du test. Ici, $\bar{x} = 610{,}2$ n'est pas dans la région critique : $H_0$ est acceptée au risque de première espèce $\alpha = 0{,}05$ et les agriculteurs n'achètent pas le procédé.
+
+Le quantile utilisé vaut $1{,}645$ ; le prendre égal à $1{,}64$ conduit au seuil arrondi $655$ mm, qui ne change pas la décision.
+
+Connaître $H_1$ permet ensuite d'évaluer le risque de seconde espèce. Si la méthode était réellement efficace, $\overline{X}$ suivrait une loi normale centrée sur $650$ mm, de même écart type $100/\sqrt{9}$ : une erreur serait commise chaque fois que $\overline{X}$ reste sous le seuil, soit
+
+$$\beta = \mathbb{P}\left[U < \frac{654{,}83 - 650}{100/\sqrt{9}}\right] = 0{,}56$$
+
+où $U$ suit la loi $\mathcal{N}(0, 1)$. Le test ne détecterait donc l'effet réel que dans $44\,\%$ des cas.
 
 # Remarque
 

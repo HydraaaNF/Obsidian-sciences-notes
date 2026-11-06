@@ -30,6 +30,6 @@ $$\frac{k-1}{\lambda} \quad \text{pour } k \geq 1.$$
 
 La loi gamma généralise la [[Loi exponentielle|loi exponentielle]] : pour $k = 1$, elle coïncide avec la loi exponentielle de paramètre $\lambda$.
 
-- La loi gamma de paramètre de forme entier $k$ est la loi de la somme de $k$ variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] et identiquement distribuées de [[Loi exponentielle|loi exponentielle]] de paramètre $\lambda$.
+- La loi gamma de paramètre de forme entier $k$ est la loi de la somme de $k$ variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] et identiquement distribuées de [[Loi exponentielle|loi exponentielle]] de paramètre $\lambda$ ; c'est le cas appelé [[Loi d'Erlang|loi d'Erlang]].
 - La somme de deux variables aléatoires indépendantes de lois gamma de même paramètre de taux $\lambda$ suit une loi gamma : si $X \sim \Gamma(k_1, \lambda)$ et $Y \sim \Gamma(k_2, \lambda)$, alors $X + Y \sim \Gamma(k_1 + k_2, \lambda)$.
 - Elle coïncide avec la [[Loi du chi-deux|loi du chi-deux]] à $n$ degrés de liberté pour $k = n/2$ et $\lambda = 1/2$.

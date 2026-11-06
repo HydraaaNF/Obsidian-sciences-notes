@@ -10,7 +10,7 @@ $$s^2 = \frac{1}{n}\sum_{i=1}^{n} (x_i - \bar{x})^2.$$
 
 Elle s'écrit aussi
 
-- $S^2 = \frac{\sum X_i^2}{n} - \overline{X}^2$ ;
+- $S^2 = \frac{\sum X_i^2}{n} - \overline{X}^2$, forme empirique de l'identité de [[Théorème de König-Huygens|König-Huygens]] ;
 - $S^2 = \frac{\sum (X_i - m)^2}{n} - (\overline{X} - m)^2$,
 
 où $m$ est la moyenne de la population.

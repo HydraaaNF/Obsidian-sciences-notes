@@ -31,6 +31,25 @@ $$\mathbb{P}_{H_0}[T_{n-1} \leq b] = 1 - \alpha.$$
 
 Dans les deux cas, la règle de décision est la même : si la valeur observée de la statistique de test appartient à la zone critique, on rejette $H_0$ et on accepte $H_1$ au [[Risque de première espèce|risque de première espèce]] $\alpha$ ; sinon, rien ne contredit $H_0$ et on conserve $H_0$.
 
+# Propriétés
+
+Lorsque l'écart type $\sigma$ est connu, la statistique de test est la moyenne standardisée
+
+$$Z = \frac{\overline{X} - m_0}{\sigma / \sqrt{n}}.$$
+
+Sous $H_0$, elle suit la loi normale centrée réduite, et la zone critique s'écrit directement sur $Z$ :
+
+- test bilatéral : on rejette $H_0$ lorsque $|Z| > k_\alpha$, où $k_\alpha$ est le [[Quantile de la loi normale centrée réduite|quantile]] d'ordre $1 - \alpha/2$ de la loi $\mathcal{N}(0, 1)$ ;
+- test unilatéral : on rejette $H_0$ lorsque $Z > k_\alpha$, où $k_\alpha$ est le quantile d'ordre $1 - \alpha$.
+
+Sur l'échelle de la moyenne, le seuil de décision correspondant vaut
+
+$$k = m_0 + \frac{\sigma}{\sqrt{n}}k_\alpha,$$
+
+et l'on rejette $H_0$ dès que la moyenne observée dépasse $k$ pour le test unilatéral, ou dès qu'elle s'écarte de $m_0$ de plus de $\frac{\sigma}{\sqrt{n}}k_\alpha$ pour le test bilatéral.
+
+La loi normale de $\overline{X}$ est exacte lorsque les observations sont elles-mêmes gaussiennes ; sinon elle est justifiée par le [[Théorème de la limite centrale]] pour $n$ grand. Ce test est l'un des membres de la famille des tests de comparaison d'une moyenne, recensée dans les [[Familles de tests statistiques|familles de tests statistiques]].
+
 # Exemple
 
 **Les faiseurs de pluie.** Le niveau naturel des pluies dans la Beauce, en millimètres par an, suit une [[Loi gaussienne|loi normale]] $\mathcal{N}(600, 100^2)$. Des entrepreneurs prétendaient pouvoir augmenter le niveau moyen de pluie de 50 mm par an, par insémination des nuages au moyen d'iodure d'argent ; le procédé fut mis à l'essai durant 9 années et l'on releva les hauteurs de pluie suivantes :
@@ -106,3 +125,9 @@ La statistique de test $T_{n-1} = \frac{\overline{X} - m}{S'}\sqrt{n}$ suit une 
 L'écriture « sous $H_1$, on sait juste $m > 0$ » est une erreur fréquente lorsque $H_1 : m \neq 0$ : l'hypothèse alternative signifie que $m$ est non nul, et non qu'il est positif ; c'est le fait que $m$ ne soit pas fixé sous $H_1$ qui empêche de calculer le risque de seconde espèce.
 
 La zone critique d'un test bilatéral est la réunion des deux queues symétriques de la loi de Student, $]-\infty, -a[ \cup ]a, +\infty[$ ; la restreindre à la seule queue $]a, +\infty[$ est une erreur fréquente, car une observation fortement négative de la statistique doit également conduire à rejeter $H_0$.
+
+Sous $H_0$, la statistique s'écrit avec la valeur postulée $m_0$ et non avec la moyenne inconnue $m$ : c'est l'hypothèse $H_0 : m = m_0$ qui autorise à remplacer $m$ par $m_0$, et c'est ce remplacement qui donne à la statistique une loi connue. L'écriture $\frac{\overline{X} - m}{\sigma / \sqrt{n}}$, où $m$ reste inconnue, ne définit pas une statistique calculable sur les données.
+
+Les deux formes de région de rejet ne se comparent pas au même seuil. Le test bilatéral rejette lorsque $|Z| > k_\alpha$ avec le quantile d'ordre $1 - \alpha/2$, le test unilatéral lorsque $Z > k_\alpha$ avec le quantile d'ordre $1 - \alpha$ : au risque $\alpha = 0{,}05$, les deux seuils valent respectivement $1{,}96$ et $1{,}64$. Les intervertir fausse le risque réel du test, puisque la probabilité de dépasser le quantile bilatéral n'est que de $\alpha/2$ pour un test unilatéral.
+
+La même distinction vaut pour la loi de Student. Dans un test bilatéral, la valeur critique au risque $\alpha$ est le quantile d'ordre $1 - \alpha/2$ de $T_{n-1}$, et non le quantile d'ordre $1 - \alpha$ : sur $14$ degrés de liberté et au risque $5\,\%$, elle vaut $2{,}145$, tandis que $1{,}761$ est le quantile d'ordre $0{,}95$, qui correspond à un test unilatéral au même risque. Comparer la statistique à $1{,}761$ dans un test bilatéral double le risque réel par rapport au risque annoncé.

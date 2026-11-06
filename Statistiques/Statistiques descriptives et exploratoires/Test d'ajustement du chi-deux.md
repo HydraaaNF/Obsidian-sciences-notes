@@ -28,7 +28,11 @@ $$N_1 + \dots + N_k = n.$$
 
 Sous $H_0$, parmi $n$ mesures de la loi $\mathcal{L}$, on est en droit d'en attendre une proportion $p_1$ ayant la valeur $\alpha_1$, $p_2$ ayant la valeur $\alpha_2$, etc. Ainsi, si $H_0$ est vérifiée, les **effectifs théoriques** (ou effectifs attendus) pour chaque modalité de la loi mère sont
 
-$$np_1, \dots, np_k.$$
+$$np_1, \dots, np_k,$$
+
+c'est-à-dire que l'effectif attendu dans la classe $i$ vaut
+
+$$\mathbb{E}[N_i] = np_i.$$
 
 # Théorème
 
@@ -58,10 +62,10 @@ Comme pour le [[Test du chi-deux d'indépendance|test du chi-deux comparant des 
 # Remarque
 
 1. Le test étant basé sur un théorème asymptotique, la loi de $D_n^2$ sous l'hypothèse que $X$ suit la loi $\mathcal{L}$ n'est $\chi_{k-1}^2$ (d'ailleurs approximativement) que lorsque $n$ est grand : on n'utilisera donc le protocole décrit que si $n$ est suffisamment grand (pour fixer les idées, $n \geq 50$).
-2. Si $X$ est continue, on la « discrétise » en regroupant ses valeurs en $k$ classes et on est alors ramené au protocole précédent, que l'on applique à la variable aléatoire discrétisée $Y$. Le problème du choix optimal du regroupement en classes est délicat, mais on conseille autant que possible de choisir des classes telles que les effectifs théoriques $np_i$ de chaque classe soient tous (ou presque tous) supérieurs ou égaux à $5$.
-3. On peut montrer que si, pour définir la loi théorique $\mathcal{L}$, on a dû estimer $l$ paramètres, alors la loi $\chi_{k-1-l}^2$ approche mieux la loi de $D_n^2$ que la loi $\chi_{k-1}^2$ ; on l'utilisera donc de préférence à $\chi_{k-1}^2$ lors du test.
+2. Si $X$ est continue, on la « discrétise » en regroupant ses valeurs en $k$ classes et on est alors ramené au protocole précédent, que l'on applique à la variable aléatoire discrétisée $Y$. Le problème du choix optimal du regroupement en classes est délicat, mais on conseille autant que possible de choisir des classes telles que les effectifs théoriques $np_i$ de chaque classe soient tous (ou presque tous) supérieurs ou égaux à $5$, ou à $3$ selon les usages, faute de quoi l'approximation asymptotique par la loi du chi-deux est mauvaise et les classes trop petites se regroupent.
+3. On peut montrer que si, pour définir la loi théorique $\mathcal{L}$, on a dû estimer $l$ paramètres, alors la loi $\chi_{k-1-l}^2$ approche mieux la loi de $D_n^2$ que la loi $\chi_{k-1}^2$ ; on l'utilisera donc de préférence à $\chi_{k-1}^2$ lors du test. Le nombre de paramètres estimés est noté $l$ ici ; la même quantité est parfois notée $m$.
 
-Lorsque la loi supposée a une densité continue et que tous ses paramètres sont connus, l'ajustement peut également se tester par le [[Test de Kolmogorov-Smirnov]].
+Lorsque la loi supposée a une densité continue et que tous ses paramètres sont connus, l'ajustement peut également se tester par le [[Test de Kolmogorov-Smirnov]]. Le même mécanisme d'écarts entre effectifs observés et attendus fournit le [[Test du chi-deux d'indépendance|test du chi-deux d'indépendance]] et le [[Test du chi-deux d'homogénéité de plusieurs sous-échantillons|test du chi-deux d'homogénéité de plusieurs sous-échantillons]].
 
 # Exemple
 

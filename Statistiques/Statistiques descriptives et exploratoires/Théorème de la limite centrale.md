@@ -37,8 +37,18 @@ Le théorème de la limite centrale, également appelé théorème « Central Li
 
 Ainsi, plus $n$ est grand, plus la densité de $\overline{X}$ est une gaussienne très localisée autour de $m$, l'écart-type $\frac{\sigma}{\sqrt{n}}$ devenant très petit.
 
+La forme de la loi mère n'intervient pas dans le résultat : seules son espérance $m$ et son écart-type $\sigma$ y entrent, par l'intermédiaire de la moyenne studentisée. C'est ce comportement asymptotique qui rend la moyenne studentisée utilisable comme [[Statistique de test|statistique de test]], notamment pour comparer une moyenne à une valeur donnée dans le [[Test de comparaison d'une moyenne à une valeur donnée|test de comparaison d'une moyenne à une valeur donnée]].
+
 # Remarque
 
 Il est remarquable que ce résultat soit valable pour tout type de loi, que $X_n$ soit continue, discrète ou autre : c'est en ce sens que la loi normale joue un rôle central en probabilités et en statistiques.
 
 Pour une loi quelconque et un échantillon de grande taille (en pratique $n \geq 100$ suffit dans la majorité des cas), le théorème de la limite centrale permet d'approcher la loi de $\overline{X}$ par une loi normale et de construire un [[Intervalle de confiance de la moyenne d'une loi quelconque|intervalle de confiance de la moyenne]] au niveau $1-\alpha$.
+
+**Cas d'une loi mère gaussienne.** Il ne s'agit plus d'une convergence mais d'une égalité. Pour des variables gaussiennes et pour tout $n$, la moyenne studentisée suit exactement la loi normale centrée réduite :
+
+$$\frac{\overline{X} - m}{\sigma / \sqrt{n}} \sim \mathcal{N}(0, 1),$$
+
+autrement dit la moyenne empirique suit elle-même une loi gaussienne :
+
+$$\overline{X} \sim \mathcal{N}\left(m, \frac{\sigma^2}{n}\right).$$

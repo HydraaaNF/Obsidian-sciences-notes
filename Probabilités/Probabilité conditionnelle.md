@@ -14,5 +14,5 @@ Dans un diagramme de Venn, les évènements $A$ et $B$ se représentent dans $\O
 
 # Remarque
 
-- Les approches purement combinatoires peuvent parfois être délicates : le paradoxe de Monty Hall et le paradoxe de la boîte de Bertrand (le même problème que celui de Monty Hall) en sont des exemples.
+- Les approches purement combinatoires peuvent parfois être délicates : le [[Paradoxe de Monty Hall|paradoxe de Monty Hall]], application classique de ce conditionnement, et le paradoxe de la boîte de Bertrand (le même problème que celui de Monty Hall) en sont des exemples.
 - La [[Formule de Bayes]] repose sur cette notion de conditionnement.

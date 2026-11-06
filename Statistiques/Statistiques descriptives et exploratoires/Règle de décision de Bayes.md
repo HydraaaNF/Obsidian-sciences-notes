@@ -20,6 +20,26 @@ $$R(D(x) = i \mid x) < R(D(x) = j \mid x) \quad \forall j \neq i$$
 
 Elle minimise le risque moyen $\mathbb{E}[R(D(x))]$.
 
+Dans le cadre de plusieurs hypothèses concurrentes $H_i$ et d'une observation $X$, chaque hypothèse porte une probabilité a priori $\mathbb{P}(H_i)$ et une vraisemblance $\mathbb{P}(X \mid H_i)$, que la formule de Bayes combine en probabilité a posteriori :
+
+$$\mathbb{P}(H_i \mid X) = \frac{\mathbb{P}(X \mid H_i)\mathbb{P}(H_i)}{\mathbb{P}(X)}.$$
+
+Le dénominateur $\mathbb{P}(X) = \sum_j \mathbb{P}(X \mid H_j)\mathbb{P}(H_j)$ ne dépend pas de l'hypothèse : il normalise les probabilités a posteriori sans changer leur classement, ce qui permet de le laisser de côté dans la comparaison. La règle du maximum a posteriori retient ainsi l'hypothèse
+
+$$H^\star = \arg\max_i \mathbb{P}(H_i \mid X) = \arg\max_i \mathbb{P}(X \mid H_i)\mathbb{P}(H_i).$$
+
+Le **test bayésien de coût minimum** généralise cette règle : à chaque couple d'hypothèses est associé un coût $C_{i\mid j}$, coût de la décision $H_i$ lorsque l'hypothèse vraie est $H_j$, et l'on retient la décision de plus faible risque a posteriori,
+
+$$\sum_j C_{i\mid j}\mathbb{P}(H_j \mid X) = \frac{1}{\mathbb{P}(X)}\sum_j C_{i\mid j}\mathbb{P}(X \mid H_j)\mathbb{P}(H_j),$$
+
+soit, le facteur $1/\mathbb{P}(X)$ étant commun à toutes les décisions,
+
+$$H^\star = \arg\min_i \sum_j C_{i\mid j}\mathbb{P}(X \mid H_j)\mathbb{P}(H_j).$$
+
+Le risque a posteriori d'une décision $H_i$ additionne les contributions de toutes les hypothèses, chacune pondérée par le coût de décider $H_i$ alors que $H_j$ est vraie. L'écriture réduite au seul terme diagonal $\mathbb{P}(X \mid H_i)\mathbb{P}(H_i)C_{i\mid i}$ est une erreur fréquente : pour un coût 0-1, $C_{i\mid i} = 0$ annule ce terme pour toutes les hypothèses et la comparaison ne départage plus rien. Pour un coût 0-1, le risque a posteriori de décider $H_i$ vaut $\sum_{j \neq i}\mathbb{P}(X \mid H_j)\mathbb{P}(H_j) = \mathbb{P}(X) - \mathbb{P}(X \mid H_i)\mathbb{P}(H_i)$ : le minimiser revient à maximiser $\mathbb{P}(X \mid H_i)\mathbb{P}(H_i)$, et le test de coût minimum se réduit à la règle du maximum a posteriori.
+
+La règle exige la connaissance des probabilités a priori $\mathbb{P}(H_i)$ ; sans elles, la seule comparaison des vraisemblances ne définit pas de décision bayésienne. La maximisation de la probabilité a posteriori est l'opération qui définit l'[[Estimateur du maximum a posteriori|estimateur du maximum a posteriori]], appliquée ici à une hypothèse plutôt qu'à un paramètre ; elle s'oppose au [[Test du rapport de vraisemblance|test du rapport de vraisemblance]], qui compare les seules vraisemblances par le [[Lemme de Neyman-Pearson]]. Le risque a posteriori minimisé par le test de coût minimum est par ailleurs l'analogue, pour une décision, du [[Risque et risque empirique|risque espéré]] minimisé par une fonction de prédiction.
+
 # Exemple
 
 On souhaite classer un pixel en classe 1 (sombre) et classe 2 (clair).

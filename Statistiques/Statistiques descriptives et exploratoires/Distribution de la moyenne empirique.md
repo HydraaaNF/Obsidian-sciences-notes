@@ -10,6 +10,8 @@ $$\mathbb{V}[\overline{X}] = \frac{\sigma^2}{n}$$
 
 L'[[Estimateur|estimateur]] $\overline{X}$ [[Convergence en moyenne d'ordre p|converge en moyenne quadratique]] vers $m$ quand $n \to \infty$, puisque $\mathbb{E}\left[(\overline{X} - m)^2\right] \to 0$.
 
+La variance de $\overline{X}$ fait intervenir celle de la loi mère, $\sigma^2$ : lorsque celle-ci est inconnue, elle s'estime à partir des observations par la [[Variance empirique|variance empirique]] ou sa version corrigée.
+
 # Théorème
 
 D'après le [[Théorème de la limite centrale]], la variable centrée réduite construite à partir de la moyenne empirique [[Convergence en loi|converge en loi]] vers la [[Loi gaussienne|loi gaussienne centrée réduite]] :

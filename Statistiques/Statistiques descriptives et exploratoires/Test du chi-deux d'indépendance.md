@@ -21,8 +21,8 @@ Sur le [[Tableau de contingence|tableau de contingence]] latéralité × sexe (1
 
 $$\chi^2 = \frac{(43-45{,}24)^2}{45{,}24} + \frac{(9-6{,}76)^2}{6{,}76} + \frac{(44-41{,}76)^2}{41{,}76} + \frac{(4-6{,}24)^2}{6{,}24} \approx 1{,}78$$
 
-Le calcul détaillé du $\chi^2$ ci-dessus rend l'exemple exploitable de bout en bout.
-
 # Remarque
 
 Le nom du test provient de sa statistique $\chi^2$ : la [[Loi du chi-deux|loi du chi-deux]] est la loi de référence à laquelle cette statistique est comparée pour conclure le test.
+
+La statistique est la même que celle du [[Test d'ajustement du chi-deux|test d'ajustement du chi-deux]] et du [[Test du chi-deux d'homogénéité de plusieurs sous-échantillons|test du chi-deux d'homogénéité de plusieurs sous-échantillons]], et sa loi sous l'hypothèse nulle également. La différence porte sur l'hypothèse d'échantillonnage testée : l'indépendance concerne deux caractères observés sur une même population, l'ajustement une distribution observée confrontée à une loi théorique, et l'homogénéité plusieurs sous-échantillons d'un même ensemble dont on teste l'identité de loi.

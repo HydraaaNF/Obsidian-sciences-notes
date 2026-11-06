@@ -86,11 +86,11 @@
 - [[Théorème de transfert]]
 - [[Entropie d'une variable aléatoire discrète]]
 - [[Entropie conditionnelle]]
+- [[Formule de Taylor]]
 
 ### Indépendance et fonctions caractéristiques
 - [[Indépendance de variables aléatoires]]
 - [[Fonction génératrice]]
-- [[Formule de Taylor]]
 - [[Fonction caractéristique]]
 - [[Caractérisation de la loi par la fonction caractéristique]]
 

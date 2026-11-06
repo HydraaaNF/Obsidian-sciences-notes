@@ -37,4 +37,5 @@ Soit $X \sim E(n, \lambda)$, alors
 
 # Liens avec d'autres lois
 * Cas particulier $n=1$ : $E(1, \lambda) = \mathcal{E}(\lambda)$
-* Cas particulier de la [[Loi gamma]] à paramètre de forme entier : $E(n, \lambda) = \text{Gamma}(n, 1/\lambda)$
+* Cas particulier de la [[Loi gamma]] à paramètre de forme entier : $E(n, \lambda) = \Gamma(n, \lambda)$, le second paramètre étant le taux dans les deux notes
+* Comme la [[Loi de Weibull|loi de Weibull]], la loi d'Erlang étend la loi exponentielle au-delà du premier évènement, mais par sommation de variables exponentielles et non par transformée puissance.

@@ -48,5 +48,5 @@ series:
 
 # Liens avec d'autres lois
 
-- La loi de Poisson fournit une approximation de la [[Loi binomiale|loi binomiale]] pour $p$ petit et $n$ grand ($n \geq 20$, $p \leq 0.05$) : la loi binomiale $\mathcal{B}(n, p)$ est approchée par la loi de Poisson de paramètre $\alpha = np$.
+- La loi de Poisson fournit une approximation de la [[Loi binomiale|loi binomiale]] pour $p$ petit et $n$ grand ($n \geq 20$, $p \leq 0.05$) : la loi binomiale $\mathcal{B}(n, p)$ est approchée par la loi de Poisson de paramètre $\alpha = np$. Le [[Théorème d'approximation de la loi binomiale par la loi de Poisson|théorème d'approximation]] énonce la convergence correspondante.
 - La somme de deux variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] de lois de Poisson suit une loi de Poisson : si $X \sim \mathcal{P}(\alpha)$ et $Y \sim \mathcal{P}(\beta)$, alors $X + Y \sim \mathcal{P}(\alpha + \beta)$.

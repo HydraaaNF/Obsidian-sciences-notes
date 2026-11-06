@@ -31,3 +31,5 @@ $$\frac{n\widehat{\sigma^2}}{\sigma^2} = \sum_{i=1}^{n} \left( \frac{X_i - \math
 étant donné que cela correspond à la somme de $n$ carrés de variables aléatoires gaussiennes centrées réduites indépendantes. Le fait de remplacer $\mathbb{E}[X]$ par $\overline{X}$ « impose » une dépendance entre toutes les variables $\frac{X_i - \overline{X}}{\sigma}$ pour $1 \leq i \leq n$, justifiant intuitivement la perte d'un degré de liberté dans la loi du chi-deux.
 
 La statistique $\frac{(n-1)S'^2}{\sigma^2}$ sert à construire un [[Intervalle de confiance d'une variance|intervalle de confiance pour la variance]] $\sigma^2$.
+
+La loi décrite ici est celle de la version corrigée $S'^2$ ; la version non corrigée, dont l'espérance est biaisée, est étudiée dans [[Variance empirique]].

@@ -14,3 +14,5 @@ $$\hat{\theta} = \operatorname*{argmax}_{\theta} p(\theta \mid x) = \operatornam
 Le maximum a posteriori est l'un des estimateurs de l'[[Estimation bayésienne]], aux côtés de l'[[Estimateur du minimum d'erreur quadratique moyenne]].
 
 Lorsque la loi a priori $p(\theta)$ est uniforme, il coïncide avec l'[[Estimateur du maximum de vraisemblance|estimateur du maximum de vraisemblance]] : la maximisation de $p(x \mid \theta)p(\theta)$ se réduit alors à celle de $p(x \mid \theta)$.
+
+La même maximisation de probabilité a posteriori définit la [[Règle de décision de Bayes|règle de décision de Bayes]] lorsqu'elle porte sur une hypothèse plutôt que sur un paramètre.

@@ -9,5 +9,7 @@ En changeant de porte, la probabilité de gagner la voiture est $\dfrac{2}{3}$, 
 # Interprétation
 L'erreur intuitive classique consiste à croire que les deux portes restantes ont une probabilité $\dfrac{1}{2}$ chacune une fois qu'une chèvre a été révélée. Ce raisonnement ignore que le choix de l'animateur n'est **pas aléatoire** : il est contraint par la connaissance de l'emplacement de la voiture, ce qui apporte de l'information et rompt la symétrie apparente entre les deux portes restantes.
 
+C'est un cas d'école de [[Probabilité conditionnelle|probabilité conditionnelle]], que la [[Formule de Bayes|formule de Bayes]] permet de quantifier rigoureusement ; le [[Paradoxe des deux enfants|paradoxe des deux enfants]] en est une variante fondée sur la même distinction entre l'évènement réellement conditionnant et l'information disponible.
+
 # Remarque
 Le **paradoxe de la boîte de Bertrand** est structurellement identique : trois boîtes contiennent chacune deux pièces (or/or, argent/argent, or/argent) ; on tire une pièce d'une boîte au hasard, elle est en or ; quelle est la probabilité que l'autre pièce de la même boîte soit également en or ? La réponse ($\frac{2}{3}$, et non $\frac{1}{2}$) repose sur exactement le même type de raisonnement conditionnel.

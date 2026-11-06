@@ -22,5 +22,5 @@ $$G_X(z) = \mathbb{E}(z^X) = (pz + 1-p)^n.$$
 # Liens avec d'autres lois
 
 - La [[Loi de Bernoulli|loi de Bernoulli]] est le cas particulier $n = 1$ de la loi binomiale, c'est-à-dire la loi de la somme d'une seule variable de Bernoulli indépendante.
-- Pour $p$ petit et $n$ grand ($n \geq 20$, $p \leq 0.05$), la loi binomiale est approchée par la [[Loi de Poisson|loi de Poisson]] de paramètre $\alpha = np$.
+- Pour $p$ petit et $n$ grand ($n \geq 20$, $p \leq 0.05$), la loi binomiale est approchée par la [[Loi de Poisson|loi de Poisson]] de paramètre $\alpha = np$ ; cette convergence est précisée par le [[Théorème d'approximation de la loi binomiale par la loi de Poisson]].
 - La somme de deux variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] de lois binomiales de même paramètre $p$ suit une loi binomiale : si $X \sim \mathcal{B}(n, p)$ et $Y \sim \mathcal{B}(m, p)$, alors $X + Y \sim \mathcal{B}(n + m, p)$.

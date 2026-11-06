@@ -9,3 +9,5 @@ Dans l'exemple des faiseurs de pluie, pour un risque de première espèce $\alph
 # Remarque
 
 Il ne faut pas baisser inconsidérément le [[Risque de première espèce|risque de première espèce]] : pour un risque $\alpha$ petit, on augmente la probabilité de conserver $H_0$ à tort, c'est-à-dire le risque de seconde espèce $\beta$. En fonction des enjeux, il y a donc un compromis à trouver.
+
+La puissance se calcule une fois le seuil fixé, voir [[Zone critique et seuil d'un test]] : le seuil est gouverné par $H_0$ et $\alpha$, puis la valeur postulée sous $H_1$ permet d'évaluer $\beta$.

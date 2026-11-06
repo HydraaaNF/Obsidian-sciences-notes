@@ -49,5 +49,6 @@ Le paramètre de forme $k$ commande son évolution :
 # Liens avec d'autres lois
 
 - La loi de Weibull généralise la [[Loi exponentielle|loi exponentielle]] : pour $k = 1$, elle coïncide avec la loi exponentielle de taux $1/\lambda$.
+- La loi de Weibull ne doit pas être confondue avec la [[Loi d'Erlang|loi d'Erlang]] : celle-ci généralise également la loi exponentielle, mais comme loi d'une somme de variables indépendantes, et non comme transformée puissance.
 - C'est la loi de la transformée puissance d'une loi exponentielle : si $Y$ suit la loi exponentielle de paramètre $1$, alors $\lambda\, Y^{1/k}$ suit la loi de Weibull de paramètres $k$ et $\lambda$.
 - Le minimum de variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] de lois de Weibull de même paramètre de forme $k$ et de paramètres d'échelle $\lambda_1, \dots, \lambda_n$ suit une loi de Weibull de paramètres $k$ et $\left(\sum_{i=1}^{n} \lambda_i^{-k}\right)^{-1/k}$.

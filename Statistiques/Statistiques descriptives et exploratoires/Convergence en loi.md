@@ -29,6 +29,8 @@ L'étude de la convergence en loi peut s'effectuer sans avoir connaissance de la
 
 Une suite de variables aléatoires $(X_n)_{n \in \mathbb{N}^*}$ de loi [[Loi binomiale|binomiale]] $\mathcal{B}(n, p_n)$, avec $(p_n)$ tendant vers 0 et $(n p_n)$ tendant vers $\lambda > 0$, converge en loi vers une variable aléatoire de [[Loi de Poisson|loi de Poisson]] $\mathcal{P}(\lambda)$.
 
+La loi de Student fournit un autre exemple de convergence en loi : une variable $T_n$ de loi de Student à $n$ degrés de liberté converge en loi vers la [[Loi gaussienne|loi normale]] centrée réduite quand $n \to +\infty$, ce qui permet d'utiliser la table de la loi normale à la place de celle de la loi de Student pour $n \geq 100$.
+
 Étudions la convergence de la suite $(X_n)_{n \in \mathbb{N}^*}$ où, pour tout $n \in \mathbb{N} \setminus \{0, 1\}$, $X_n(\Omega) = \{-n, 0, n\}$ et
 
 $$\mathbb{P}[X_n = -n] = \mathbb{P}[X_n = n] = \frac{1}{n^2}.$$

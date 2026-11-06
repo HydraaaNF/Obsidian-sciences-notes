@@ -70,7 +70,7 @@ La probabilité conditionnelle de mourir dans un intervalle de durée donnée ne
 
 - La loi exponentielle est un cas particulier de la [[Loi gamma|loi gamma]].
 - Elle est généralisée par la [[Loi de Weibull|loi de Weibull]].
-- La somme de $n$ variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] et identiquement distribuées de loi exponentielle de paramètre $\lambda$ suit la [[Loi gamma|loi gamma]] $\Gamma(n, \lambda)$.
+- La somme de $n$ variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] et identiquement distribuées de loi exponentielle de paramètre $\lambda$ suit la [[Loi gamma|loi gamma]] $\Gamma(n, \lambda)$ ; c'est par définition la [[Loi d'Erlang|loi d'Erlang]] $E(n, \lambda)$.
 - Le minimum de $n$ variables aléatoires indépendantes de lois exponentielles de paramètres $\lambda_1, \dots, \lambda_n$ suit une loi exponentielle de paramètre $\lambda_1 + \dots + \lambda_n$.
 - Si $U$ suit la [[Loi uniforme continue|loi uniforme continue]] sur $[0, 1]$, alors $-\frac{\ln(U)}{\lambda}$ suit la loi exponentielle de paramètre $\lambda$.
 - Si $X$ suit la loi exponentielle de paramètre $\lambda$ et $c > 0$, alors $cX$ suit la loi exponentielle de paramètre $\lambda/c$.

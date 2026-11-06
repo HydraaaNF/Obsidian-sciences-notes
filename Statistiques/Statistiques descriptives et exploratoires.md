@@ -183,25 +183,44 @@
 
 ## Tests statistiques
 
-### Fondements des tests
-- [[Test de comparaison d'une moyenne à une valeur donnée]]
-- [[Risque de première espèce]]
+### Fondements des tests et comparaison d'une moyenne
+- [[Rôle du test d'hypothèse]]
+- [[Méthodologie d'un test d'hypothèse]]
 - [[Hypothèse nulle et hypothèse alternative]]
+- [[Statistique de test]]
 - [[Zone critique et seuil d'un test]]
+- [[Risque de première espèce]]
 - [[Risque de seconde espèce]]
 - [[Puissance d'un test]]
-- [[Statistique de test]]
+- [[Familles de tests statistiques]]
+- [[Lecture d'une table de probabilité]]
+- [[Test de comparaison d'une moyenne à une valeur donnée]]
 
 ### Tests de comparaison de deux échantillons
 - [[Test d'homogénéité de deux échantillons gaussiens]]
 - [[Test de Fisher d'égalité de variances]]
 - [[Test de Student d'égalité de deux moyennes]]
+- [[Comparaison d'échantillons appariés]]
+- [[Test de Wilcoxon de comparaison de deux échantillons indépendants]]
 - [[Test de comparaison de deux proportions]]
 
-### Tests du chi-deux et ajustement
-- [[Test du chi-deux d'indépendance]]
+### Tests d'ajustement et du chi-deux
 - [[Test d'ajustement du chi-deux]]
+- [[Test du chi-deux d'indépendance]]
+- [[Test du chi-deux d'homogénéité de plusieurs sous-échantillons]]
 - [[Test de Kolmogorov-Smirnov]]
+
+### Tests de rapport de vraisemblance et applications
+- [[Lemme de Neyman-Pearson]]
+- [[Test du rapport de vraisemblance]]
+- [[Détection de changement]]
+- [[Vérification d'identité de locuteur ou de visage]]
+
+### Tests multiples
+- [[Correction de Bonferroni]]
+- [[Procédure de Benjamini-Hochberg]]
+- [[Méta-test]]
+- [[P-hacking]]
 
 ## Apprentissage statistique et sélection de modèle
 
