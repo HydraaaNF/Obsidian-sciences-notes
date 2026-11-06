@@ -32,6 +32,6 @@ $$f(x) = 0{,}3\,f_1(x) + 0{,}7\,f_2(x).$$
 
 # Remarque
 
-La notation des poids d'un mélange n'est pas uniforme : le poids de la composante $i$ se rencontre aussi bien noté $\pi_i$ que $w_i$ ; la notation $\pi_i$ est retenue uniformément.
+La notation des poids d'un mélange n'est pas uniforme : le poids de la composante $i$ se rencontre aussi bien noté $\pi_i$ que $w_i$ ; la notation $\pi_i$ est celle retenue dans cette note.
 
 Le cas particulier où toutes les composantes sont gaussiennes est traité dans [[Mélange gaussien]]. Pour l'estimation des paramètres à partir d'un échantillon, voir [[Estimation par maximum de vraisemblance d'un modèle de mélange]] ; pour le rôle des variables cachées dans un tel modèle, voir [[Variables cachées d'un modèle de mélange]].

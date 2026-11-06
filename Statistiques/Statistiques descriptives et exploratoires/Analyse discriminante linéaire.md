@@ -32,6 +32,8 @@ Le cas à deux classes est équivalent au [[Discriminant linéaire de Fisher]], 
 
 $$\Sigma_0 = \Sigma_1 = \Sigma$$
 
+Au-delà de deux classes, les mêmes matrices de dispersion et le même système propre généralisé s'écrivent pour $K$ classes : voir [[Analyse discriminante linéaire multiclasse]].
+
 # Exemple
 
 ## LDA comme front-end pour la reconnaissance audiovisuelle de la parole

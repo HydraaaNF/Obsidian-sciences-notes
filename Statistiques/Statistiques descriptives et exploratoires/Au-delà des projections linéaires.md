@@ -7,9 +7,9 @@ La [[Projection linéaire des données|projection linéaire]] $y = Ux$ obtenue p
 
 D'autres approches vont au-delà :
 
-- des formes plus complexes de $U$ : la **NMF** (factorisation en matrices non négatives) et l'**ICA** (analyse en composantes indépendantes) ;
-- des **transformations non linéaires** : l'emploi de **noyaux** (astuce du noyau, *kernel trick*) et les **réseaux de neurones artificiels** (perceptron multicouche) ;
-- les **cartes auto-organisatrices** (*self-organizing maps*).
+- des formes plus complexes de $U$ : la **NMF** ([[Factorisation matricielle non négative|factorisation en matrices non négatives]]) et l'**ICA** ([[Analyse en composantes indépendantes|analyse en composantes indépendantes]]) ;
+- des **transformations non linéaires** : l'emploi de **noyaux** ([[Astuce du noyau|astuce du noyau]], *kernel trick*) et les **réseaux de neurones artificiels** ([[Perceptron multicouche|perceptron multicouche]]) ;
+- les **[[Cartes auto-organisatrices|cartes auto-organisatrices]]** (*self-organizing maps*).
 
 # Exemple
 

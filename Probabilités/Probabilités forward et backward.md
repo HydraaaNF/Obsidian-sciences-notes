@@ -20,3 +20,4 @@ $$\mathbb{P}[\mathbf{o};\lambda_N(\theta)] = \sum_{i=1}^{N}\alpha_i(t)\beta_i(t)
 
 - La probabilité forward se calcule récursivement par l'[[Algorithme forward]] et la probabilité backward par l'[[Algorithme backward]].
 - Ces deux quantités servent au [[Calcul des espérances par l'algorithme forward-backward]].
+- Ce sont les mêmes messages que ceux du [[Passage de messages sur une chaîne]] : là, l'indice repère la position de la variable dont part le message et l'argument la valeur de la variable destinataire ; ici, l'indice repère la valeur de l'état et l'argument l'instant.

@@ -4,11 +4,11 @@ Pour un caractère quantitatif continu, par opposition à un [[Caractère quanti
 
 La distribution par classes s'établit en associant à chaque classe sa fréquence (le pourcentage du nombre total d'observations) et les fréquences cumulées.
 
-La représentation graphique de cette distribution est l'**histogramme** : il est formé d'un rectangle par classe, et par construction, **l'aire de chaque rectangle est proportionnelle à la fréquence $f_i$** de la classe correspondante.
+La représentation graphique de cette distribution est l'**[[Histogramme|histogramme]]** : il est formé d'un rectangle par classe, et par construction, **l'aire de chaque rectangle est proportionnelle à la fréquence $f_i$** de la classe correspondante.
 
 # Interprétation
 
-L'histogramme sert à **représenter la distribution empirique** de la variable, afin de :
+L'histogramme sert à **représenter la [[Distribution empirique|distribution empirique]]** de la variable, afin de :
 
 - se faire une idée de la distribution sous-jacente ;
 - vérifier le comportement des données : valeurs aberrantes, nombre de modes, etc.

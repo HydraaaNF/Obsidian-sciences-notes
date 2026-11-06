@@ -4,7 +4,7 @@ L'[[Algorithme d'espérance-maximisation|algorithme d'espérance-maximisation]] 
 
 ## Propriété 1
 
-La suite des estimateurs $\theta_n$ est telle que la [[Fonction de vraisemblance|vraisemblance]] des données augmente à chaque itération de l'algorithme.
+La suite des estimateurs $(\theta_i)$ est telle que la [[Fonction de vraisemblance|vraisemblance]] des données augmente à chaque itération de l'algorithme.
 
 On peut montrer que
 
@@ -20,15 +20,15 @@ L'algorithme EM permet le calcul du gradient de la fonction de log-[[Fonction de
 
 On peut vérifier que, sous des hypothèses peu restrictives,
 
-$$\frac{\partial Q(\theta,\theta_i)}{\partial\theta}\Big|_{\theta=\theta_i}=\frac{\partial\ln f(\mathbf{x};\theta)}{\partial\theta}\Big|_{\theta=\theta_i}+\underbrace{\frac{\partial \mathbb{E}[\ln p(\mathbf{z}\mid\mathbf{x};\theta)\mid\mathbf{x};\theta_i]}{\partial\theta}\Big|_{\theta=\theta_i}}_{=0}$$
+$$\frac{\partial Q(\theta,\theta_i)}{\partial\theta}\Big|_{\theta=\theta_i}=\frac{\partial\ln p(\mathbf{x}\mid\theta)}{\partial\theta}\Big|_{\theta=\theta_i}+\underbrace{\frac{\partial \mathbb{E}[\ln p(\mathbf{z}\mid\mathbf{x},\theta)\mid\mathbf{x},\theta_i]}{\partial\theta}\Big|_{\theta=\theta_i}}_{=0}$$
 
 ## Convergence
 
-Les deux propriétés précédentes impliquent que l'estimation EM converge vers les points stationnaires de la fonction de log-vraisemblance $\ln p(\mathbf{x}; \theta)$.
+Les deux propriétés précédentes impliquent que l'estimation EM converge vers les points stationnaires de la fonction de log-vraisemblance $\ln p(\mathbf{x} \mid \theta)$.
 
 # Remarque
 
-La convergence n'est garantie que vers un maximum local de la fonction de vraisemblance $\ln p(\mathbf{x}; \theta)$ :
+La convergence n'est garantie que vers un maximum local de la fonction de vraisemblance $\ln p(\mathbf{x} \mid \theta)$ :
 
 - il faut une bonne estimation initiale $\theta_0$ ;
 - il faut éviter les solutions dégénérées (voir [[Espérance-maximisation pour un mélange de gaussiennes]]).

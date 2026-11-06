@@ -18,7 +18,6 @@
 
 ### Indicateurs de centrage et de forme
 - [[Moyenne, médiane et mode]]
-- [[Mode (statistique descriptive)]]
 - [[Théorème de König-Huygens]]
 - [[Transformation des observations]]
 - [[Moyenne et variance d'une population composite]]

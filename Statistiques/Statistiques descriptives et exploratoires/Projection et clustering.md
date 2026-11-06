@@ -11,7 +11,7 @@ L'approche par projection comprend notamment :
 
 - l'[[Analyse en composantes principales|analyse en composantes principales]] (ACP) ;
 - l'[[Analyse discriminante linéaire|analyse discriminante linéaire]] (LDA) et les méthodes voisines ;
-- l'analyse des correspondances ;
+- l'[[Analyse des correspondances]] ;
 - l'[[Analyse factorielle]].
 
 L'approche par clustering comprend notamment :

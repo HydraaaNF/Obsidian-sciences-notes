@@ -2,7 +2,7 @@
 
 Un échantillon d'un [[Modèles de mélange|modèle de mélange]] est tiré selon la loi de l'une des composantes $f_i()$ du mélange, avec la probabilité $\pi_i$. Concrètement, le tirage d'un échantillon est un processus en deux étapes :
 
-1. choisir une composante $i$ du mélange selon la loi discrète définie par les poids $w_j$ ;
+1. choisir une composante $i$ du mélange selon la loi discrète définie par les poids $\pi_j$ ;
 2. tirer un échantillon selon la loi $f_i()$.
 
 Les échantillons d'un modèle de mélange sont donc tirés de l'une des composantes du modèle, dans la proportion définie par les poids : pour chaque composante $i$, il existe un ensemble d'échantillons distribués selon $f_i(x)$, et la proportion de ces échantillons est donnée par $\pi_i$. Il en résulte une variable cachée indiquant la composante à laquelle chaque échantillon appartient.

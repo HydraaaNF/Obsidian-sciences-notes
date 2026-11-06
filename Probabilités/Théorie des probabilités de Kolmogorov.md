@@ -207,3 +207,34 @@
 - [[Modèle à espace d'état]]
 - [[Filtrage, lissage et prédiction avec un modèle de Markov caché]]
 - [[Domaines d'application des modèles de Markov cachés]]
+
+## Modèles graphiques et inférence
+
+### Graphes et réseaux bayésiens
+- [[Modèle graphique]]
+- [[Graphes dirigés et graphes non dirigés]]
+- [[Réseau bayésien]]
+- [[Réseau bayésien du système d'arrosage]]
+- [[Raisonnement causal et raisonnement diagnostique]]
+- [[Explication par une cause concurrente]]
+- [[Indépendance conditionnelle le long d'une chaîne]]
+- [[Indépendance conditionnelle sachant une cause commune]]
+
+### Modèles graphiques particuliers
+- [[Notation en plaques]]
+- [[Régression logistique à covariables mesurées avec erreur]]
+- [[Champ de Markov caché]]
+- [[Modèles génératifs et modèles conditionnels]]
+
+### Inférence dans les modèles graphiques
+- [[Graphe de facteurs]]
+- [[Moralisation d'un graphe orienté]]
+- [[Inférence dans un modèle graphique]]
+- [[Élimination de variables]]
+- [[Passage de messages sur une chaîne]]
+- [[Algorithme somme-produit]]
+
+### Arbres de jonction
+- [[Arbre de jonction]]
+- [[Construction d'un arbre de jonction]]
+- [[Inférence par arbre de jonction]]

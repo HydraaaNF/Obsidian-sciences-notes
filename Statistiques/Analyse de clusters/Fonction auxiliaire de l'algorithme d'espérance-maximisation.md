@@ -4,13 +4,13 @@ L'[[Algorithme d'espérance-maximisation|algorithme d'espérance-maximisation]] 
 
 $$Q(\theta, \hat{\theta}) = \mathbb{E}[\ln f(\mathbf{z}, \mathbf{x}; \theta) | \mathbf{x}; \hat{\theta}]$$
 
-où $f(z, x; \theta)$ est la [[Fonction de vraisemblance|vraisemblance]] des données complètes, formées des observations $\mathbf{x}$ et de leurs [[Variables cachées d'un modèle de mélange|classes cachées]] $\mathbf{z}$, et où l'espérance est prise conditionnellement aux observations, pour la valeur courante $\hat{\theta}$ des paramètres.
+où $f(\mathbf{z}, \mathbf{x}; \theta)$ est la [[Fonction de vraisemblance|vraisemblance]] des données complètes, formées des observations $\mathbf{x}$ et de leurs [[Variables cachées d'un modèle de mélange|classes cachées]] $\mathbf{z}$, et où l'espérance est prise conditionnellement aux observations, pour la valeur courante $\hat{\theta}$ des paramètres.
 
 # Algorithme
 
 La fonction auxiliaire est exploitée par les deux étapes de l'algorithme :
 
-- **Étape E (estimation)** : calculer les quantités espérées dans $Q(\theta, \hat{\theta})$ (sachant $\hat{\theta} = \theta_n$) ;
+- **Étape E (estimation)** : calculer les quantités espérées dans $Q(\theta, \hat{\theta})$ (sachant $\hat{\theta} = \theta_i$) ;
 - **Étape M (maximisation)** : maximiser la fonction auxiliaire par rapport aux (vrais) paramètres $\theta$ (sachant les quantités espérées), pour obtenir une nouvelle estimation $\hat{\theta} = \theta_{i+1}$ :
 
 $$\theta_{i+1} = \arg\max_{\theta} Q(\theta, \theta_i)$$
@@ -25,7 +25,7 @@ $$Q(\theta, \hat{\theta}) = \sum_{j=1}^K \sum_{i=1}^n \ln(\pi_j) \mathbb{E}_{\ha
 
 La log-vraisemblance des données complètes s'écrit
 
-$$\begin{aligned}\ln f_{\theta}(\mathbf{z}, \mathbf{x}) &= \ln \left( \prod_{i=1}^n \mathbb{P}_{\theta}[Z_i = z_i] p_{\theta}(x_i \mid z_i) \right) \\ &= \sum_{i=1}^n \ln \underbrace{\mathbb{P}_{\theta}[Z_i = z_i]}_{=\pi_{z_i}} + \ln \underbrace{p_{\theta}(x_i \mid z_i)}_{\text{par exemple, }\mathcal{N}(\mu_{z_i}, \sigma_{z_i})} \\ &= \sum_{j=1}^K \sum_{i=1}^n \ln(\pi_j)\mathbb{I}_{(j=z_i)} + \ln\bigl(p_{\theta_j}(x_i)\bigr)\mathbb{I}_{(j=z_i)} \end{aligned}$$
+$$\begin{aligned}\ln f(\mathbf{z}, \mathbf{x}; \theta) &= \ln \left( \prod_{i=1}^n \mathbb{P}_{\theta}[Z_i = z_i] p_{\theta}(x_i \mid z_i) \right) \\ &= \sum_{i=1}^n \ln \underbrace{\mathbb{P}_{\theta}[Z_i = z_i]}_{=\pi_{z_i}} + \ln \underbrace{p_{\theta}(x_i \mid z_i)}_{\text{par exemple, }\mathcal{N}(\mu_{z_i}, \sigma_{z_i})} \\ &= \sum_{j=1}^K \sum_{i=1}^n \ln(\pi_j)\mathbb{I}_{(j=z_i)} + \ln\bigl(p_{\theta_j}(x_i)\bigr)\mathbb{I}_{(j=z_i)} \end{aligned}$$
 
 En prenant l'[[Espérance conditionnelle|espérance conditionnelle]] sachant $\mathbf{x}$ sous $\hat{\theta}$, chaque indicatrice devient son espérance et l'on obtient la forme ci-dessus.
 

@@ -3,8 +3,8 @@
 Soit $\mathbf{x} = \{x_1, \dots, x_N\}$ un ensemble d'[[Échantillon et échantillonnage|échantillons d'entraînement]] dont on veut estimer les paramètres d'un [[Mélange gaussien|modèle de mélange gaussien]] à $K$ composantes par la [[Méthode du maximum de vraisemblance|méthode du maximum de vraisemblance]], c'est-à-dire
 
 - les poids $\{w_1, \dots, w_K\}$,
-- les vecteurs des moyennes $\{\mu_1, \dots, \mu_2\}$,
-- les vecteurs des variances $\{\sigma_1, \dots, \sigma_2\}$.
+- les vecteurs des moyennes $\{\mu_1, \dots, \mu_K\}$,
+- les vecteurs des variances $\{\sigma_1, \dots, \sigma_K\}$.
 
 Le critère du maximum de vraisemblance s'écrit
 
@@ -35,3 +35,5 @@ Un algorithme de descente de gradient présente de plus deux limites :
 - une connaissance a priori du domaine de $\theta$ est nécessaire.
 
 L'[[Algorithme d'espérance-maximisation]] en apporte une solution élégante.
+
+Les listes de paramètres couvrent les $K$ composantes du mélange : les écritures $\{\mu_1, \dots, \mu_2\}$ et $\{\sigma_1, \dots, \sigma_2\}$ sont des coquilles fréquentes pour $\{\mu_1, \dots, \mu_K\}$ et $\{\sigma_1, \dots, \sigma_K\}$, puisque le nombre de composantes est $K$.

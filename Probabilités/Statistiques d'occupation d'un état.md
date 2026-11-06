@@ -15,4 +15,5 @@ Le dénominateur $\sum_{i=1}^N \alpha_i(t)\beta_i(t)$ vaut la probabilité $\mat
 # Remarque
 
 - La statistique d'occupation est l'analogue temporel de la [[Probabilité d'appartenance à une classe]] : elle exprime la probabilité conditionnelle de l'état occupé au temps $t$ sachant toute la séquence d'observations.
+- Elle est le cas $n = T$ du lissage, décrit dans [[Filtrage, lissage et prédiction avec un modèle de Markov caché]].
 - Son calcul relève du [[Calcul des espérances par l'algorithme forward-backward|calcul des espérances par l'algorithme forward-backward]] ; la statistique jumelle décrivant les changements d'état est la [[Statistiques de transition entre deux états|statistique de transition entre deux états]].

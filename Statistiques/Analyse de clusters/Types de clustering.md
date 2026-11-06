@@ -14,6 +14,8 @@ Les types de clustering se distinguent également par plusieurs caractéristique
 - **partiel ou non ?** seule une partie des données est regroupée en clusters ;
 - **homogène ou non ?** les clusters peuvent être de forme très différente.
 
+Ces caractéristiques ne fixent pas la forme attendue des clusters : plusieurs définitions plus précises d'un cluster coexistent (bien séparé, centré, contigu, fondé sur la densité), voir [[Typologie des clusters]].
+
 Pour le choix d'une méthode de clustering, voir [[Choix d'une méthode de clustering]].
 
 # Interprétation

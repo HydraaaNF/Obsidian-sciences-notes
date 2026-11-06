@@ -22,7 +22,11 @@ $$\frac{x_{20} + x_{21}}{2}.$$
 
 ## Mode
 
-Le **mode** est un extremum local de l'[[Caractère quantitatif continu|histogramme]].
+Le **mode** est la valeur la plus fréquente de la distribution : un extremum local de l'[[Caractère quantitatif continu|histogramme]], c'est-à-dire, pour un caractère regroupé en classes, un intervalle modal.
+
+# Interprétation
+
+Une distribution peut avoir plusieurs modes (distribution multimodale), ce qui peut indiquer un mélange de sous-populations.
 
 # Propriétés
 

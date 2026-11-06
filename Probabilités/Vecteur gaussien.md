@@ -1,6 +1,6 @@
 # Définition
 
-Un [[Vecteur aléatoire|vecteur aléatoire]] $X$ de dimension $p$ est un **vecteur gaussien** si toute combinaison linéaire de ses composantes, notée $a'X$, est une [[Loi gaussienne|variable aléatoire gaussienne]] de dimension 1.
+Un [[Vecteur aléatoire|vecteur aléatoire]] $X$ de dimension $p$ est un **vecteur gaussien** si toute combinaison linéaire de ses composantes, notée $a^\top X$, est une [[Loi gaussienne|variable aléatoire gaussienne]] de dimension 1.
 
 Sa [[Densité d'un vecteur gaussien|densité]] s'écrit
 
@@ -20,7 +20,7 @@ Les courbes d'isodensité d'un vecteur gaussien sont des hyper-ellipsoïdes : vo
 
 # Procédé de décorrélation
 
-Pour trouver une base orthonormée $\{v_1, \dots, v_n\}$ de $\mathbb{R}^n$ dans laquelle les coordonnées d'un vecteur gaussien $X$ de matrice de covariance $\mathbf{C}(X)$ sont des variables aléatoires réelles indépendantes, on diagonalise $\mathbf{C}(X)$ :
+Pour trouver une base orthonormée $\{v_1, \dots, v_p\}$ de $\mathbb{R}^p$ dans laquelle les coordonnées d'un vecteur gaussien $X$ de matrice de covariance $\mathbf{C}(X)$ sont des variables aléatoires réelles indépendantes, on diagonalise $\mathbf{C}(X)$ :
 
 - deux vecteurs propres associés à deux valeurs propres distinctes sont automatiquement orthogonaux, car $\mathbf{C}(X)$ est symétrique réelle ;
 - si toutes les valeurs propres sont simples, il suffit de normer les vecteurs propres ;
