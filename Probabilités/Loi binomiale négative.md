@@ -10,6 +10,14 @@ Pour une suite d'épreuves de Bernoulli indépendantes et de même probabilité 
 
 $$\mathbb{P}(X = n) = \binom{n-1}{r-1} p^r (1-p)^{n-r}, \qquad n \geq r.$$
 
+### Démonstration
+
+Pour que le $r$-ième succès se produise à la $n$-ième épreuve, la $n$-ième épreuve doit être un succès, de probabilité $p$. Parmi les $n-1$ épreuves qui précèdent, il faut alors exactement $r-1$ succès et $n-r$ échecs : le nombre de placements possibles de ces $r-1$ succès est $\binom{n-1}{r-1}$, et chacun de ces placements a pour probabilité $p^{r-1}(1-p)^{n-r}$. Les épreuves étant indépendantes, les probabilités se multiplient :
+
+$$\mathbb{P}(X = n) = \binom{n-1}{r-1} p^{r-1}(1-p)^{n-r} \times p = \binom{n-1}{r-1} p^r (1-p)^{n-r}.$$
+
+Les deux indices du coefficient viennent de la condition d'arrêt : $n-1$ parce que la dernière épreuve est fixée, c'est celle du $r$-ième succès, et $r-1$ parce que cette dernière épreuve consomme le dernier succès attendu, les $r-1$ autres se répartissant librement parmi les $n-1$ épreuves précédentes.
+
 # Propriétés
 
 Son [[Espérance d'une variable aléatoire|espérance]] et sa [[Variance|variance]] valent
