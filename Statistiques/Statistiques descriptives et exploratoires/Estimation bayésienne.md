@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 L'**estimation bayésienne** définit deux estimateurs du paramètre $\theta$.

@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Propriétés
 
 Pour une variable aléatoire $X$ de densité $f$, l'espérance d'une fonction $\phi$ de $X$ est

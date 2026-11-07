@@ -1,3 +1,5 @@
+#adm-5
+
 # Définition
 
 La **probabilité d'appartenance** de la $i$-ème observation à la classe $j$ est

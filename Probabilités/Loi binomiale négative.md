@@ -1,3 +1,5 @@
+#adm-1
+
 # Définition
 
 La loi binomiale négative est la loi du nombre d'épreuves de [[Loi de Bernoulli|Bernoulli]] nécessaires pour obtenir le $r$-ième succès. C'est une loi de probabilité [[Probabilité discrète|discrète]], à valeurs dans $\{r, r + 1, r + 2, \ldots\}$.

@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 La **distribution conditionnelle** du caractère $X$ associée à la modalité $\beta_j$ du caractère $Y$ est constituée des indicateurs associés aux observations de $X$ parmi les [[Population statistique et caractère|individus]] ayant pour caractère $Y$ la modalité $\beta_j$ fixée ; ces indicateurs se calculent à partir des effectifs conjoints $n_{i,j}$ du [[Tableau de contingence]].

@@ -1,3 +1,5 @@
+#adm-6 #adm-7
+
 # Modèle
 
 Un [[Modèle de Markov caché|modèle de Markov caché]] se note $\lambda_N$, où $N$ est le nombre d'états cachés.

@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 Un **arbre de jonction** $\mathcal{T}$ d'un graphe $\mathcal{G}$ est un arbre dont les nœuds sont des clusters de nœuds de $\mathcal{G}$, associés aux cliques de $\mathcal{G}$, et qui vérifie les propriétés suivantes :

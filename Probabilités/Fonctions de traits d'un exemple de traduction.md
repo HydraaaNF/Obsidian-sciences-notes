@@ -1,3 +1,5 @@
+#adm-8
+
 # Modèle
 
 On cherche à traduire le mot anglais *in* en français. La variable aléatoire $Y$ prend ses valeurs dans l'ensemble des traductions possibles :

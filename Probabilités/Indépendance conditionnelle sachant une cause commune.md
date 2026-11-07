@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 Dans une structure de **cause commune**, une même variable $Z$ est la cause de deux variables $X$ et $Y$, et aucune arête ne relie directement ces deux effets :

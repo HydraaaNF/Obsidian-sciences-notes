@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 **Estimation par maximum de vraisemblance.** Le paramètre $\theta$ du modèle est estimé par

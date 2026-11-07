@@ -1,3 +1,5 @@
+#adm-7
+
 # Algorithme
 
 Le principe de passage de messages illustré sur une chaîne se généralise directement aux arbres, c'est-à-dire aux graphes où chaque nœud possède un seul parent : c'est l'algorithme *somme-produit* (sum-product). Le [[Passage de messages sur une chaîne]] en est le cas particulier où l'arbre est une chaîne.

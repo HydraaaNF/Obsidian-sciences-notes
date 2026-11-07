@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 On considère une [[File d'attente|file d'attente]] à $n$ serveurs identiques montés en parallèle, où $N(t)$ désigne le nombre de clients présents dans la file à l'instant $t$, et telle que :

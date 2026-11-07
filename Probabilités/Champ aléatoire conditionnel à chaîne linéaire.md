@@ -1,3 +1,5 @@
+#adm-8
+
 # Modèle
 
 Un **champ aléatoire conditionnel à chaîne linéaire** modélise directement la loi conditionnelle d'une suite d'étiquettes sachant une suite d'observations :

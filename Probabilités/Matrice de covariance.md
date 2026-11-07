@@ -1,3 +1,5 @@
+#adm-0 #adm-1 #adm-5
+
 # Définition
 
 La matrice de covariance $\Sigma$ d'un [[Vecteur aléatoire|vecteur aléatoire]] $X = (X_1, \dots, X_p)$ est la matrice de terme général

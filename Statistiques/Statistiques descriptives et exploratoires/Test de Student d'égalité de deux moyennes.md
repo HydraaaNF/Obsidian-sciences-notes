@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Modèle
 
 Le test de Student d'égalité de deux moyennes s'applique à deux [[Échantillon et échantillonnage|échantillons]] indépendants $(X_1, \dots, X_{n_1})$ et $(Y_1, \dots, Y_{n_2})$ issus de [[Loi gaussienne|lois mères gaussiennes]] de même variance. Il constitue la seconde étape du [[Test d'homogénéité de deux échantillons gaussiens|test d'homogénéité de deux échantillons gaussiens]] : l'égalité des variances est d'abord testée à l'aide du [[Test de Fisher d'égalité de variances|test de Fisher]] et, si elle est acceptée, on teste l'[[Hypothèse nulle et hypothèse alternative|hypothèse nulle]] $H_0$ contre l'hypothèse alternative $H_1$, soit

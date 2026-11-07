@@ -1,3 +1,5 @@
+#adm-0 #adm-1 #adm-5
+
 # Théorème
 
 Soit $X = (X_1, \dots, X_p)$ un [[Vecteur gaussien]] de [[Matrice de covariance|matrice de covariance]] $\Sigma$. Les composantes $X_1, \dots, X_p$ sont [[Indépendance de variables aléatoires|indépendantes]] si et seulement si $\Sigma$ est une matrice diagonale, c'est-à-dire si et seulement si les composantes sont [[Variables aléatoires non corrélées|non corrélées]].

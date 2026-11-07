@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 L'entropie d'une variable aléatoire discrète $X$ est l'[[Espérance d'une variable aléatoire|espérance]] de la quantité d'information apportée par l'évènement observé : à chaque valeur $x_i$ de probabilité $\mathbb{P}(x_i)$, on associe l'information $-\log_b \mathbb{P}(x_i)$, et l'entropie est la moyenne de cette quantité.

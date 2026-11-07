@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 Un **test d'hypothèse** est une démarche qui consiste à prendre une décision sur la véracité d'une assertion à partir de preuves expérimentales, tout en connaissant le risque attaché à cette décision.

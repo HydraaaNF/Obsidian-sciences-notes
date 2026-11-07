@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Le **test du chi-deux d'indépendance** mesure l'écart à l'[[Indépendance de deux caractères|indépendance empirique]] entre deux caractères qualitatifs $X$ et $Y$ observés sur une [[Population statistique et caractère|population]], à partir des effectifs de leur [[Tableau de contingence]]. Il s'appuie sur la statistique

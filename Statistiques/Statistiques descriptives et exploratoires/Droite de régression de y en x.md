@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Théorème
 
 La *droite de régression linéaire* de $y$ en $x$, ou encore *droite des moindres carrés*, cas linéaire de la [[Courbe de régression]], est la droite qui minimise la somme des carrés des erreurs
@@ -85,3 +87,5 @@ $$y \approx 8.81 \times 5 + 35.72 \approx 79.75\,m^{2}.$$
 Pour prédire une valeur de $x$ à partir d'une valeur donnée de $y$, il est préférable de calculer la droite de régression de $x$ en $y$ et de se servir de celle-ci, plutôt que d'utiliser la droite de régression de $y$ en $x$.
 
 La variance des observations de $x$ se déduit de la table : $\sum_{i=1}^{20} x_i^2 = 110$, d'où $\mathbb{V}(x) = \frac{110}{20} - 1.9^2 = 1.89$. L'écriture $\mathbb{V}(x) = 1.52$ est une erreur fréquente : elle exigerait $\sum_{i=1}^{20} x_i^2 = 20 \times (1.52 + 1.9^2) = 102.6$, incompatible avec la table. Les coefficients de la droite de régression et le coefficient de corrélation linéaire en découlent : $a \approx 8.81$, $b \approx 35.72$ et $r \approx 0.87$.
+
+La même droite s'obtient en apprentissage en minimisant une perte sur les paramètres, voir [[Régression linéaire]] ; la qualité de l'ajustement s'y résume par le [[Coefficient de détermination]].

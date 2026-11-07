@@ -1,3 +1,5 @@
+#adm-5
+
 # Définition
 
 L'[[Algorithme d'espérance-maximisation|espérance-maximisation]] estime les paramètres d'un [[Modèles de mélange|mélange]] lorsque l'appartenance des observations aux composantes est inconnue : les poids et les moyennes de chaque composante se calculent alors à partir des espérances des indicatrices d'appartenance.

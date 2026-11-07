@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Dans les applications courantes, le processus $(A(t))_{t \geq 0}$ peut être modélisé par un **processus de Poisson** : il s'agit d'un [[Processus de comptage|processus de comptage]] vérifiant des propriétés qui s'avèrent raisonnables dans des contextes variés.

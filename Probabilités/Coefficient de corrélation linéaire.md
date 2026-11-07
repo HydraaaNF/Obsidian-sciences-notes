@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soient $X$ et $Y$ deux [[Variable aléatoire réelle|variables aléatoires réelles]] admettant un [[Moment d'ordre k|moment d'ordre 2]]. On appelle **coefficient de corrélation linéaire** de $X$ et de $Y$ la quantité
@@ -32,3 +34,5 @@ Dans le même esprit, le coefficient de corrélation linéaire est une quantité
 # Remarque
 
 Lorsque la covariance de $X$ et de $Y$ est nulle, le coefficient de corrélation linéaire est nul : les deux variables sont alors dites [[Variables aléatoires non corrélées|non corrélées]].
+
+Son carré, $r_{X,Y}^2$, intervient dans le [[Coefficient de détermination]] d'une régression linéaire, où il mesure la part de la variance de $Y$ expliquée par l'ajustement linéaire.

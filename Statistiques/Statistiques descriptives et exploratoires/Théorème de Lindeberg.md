@@ -1,3 +1,5 @@
+#adm-1
+
 # Théorème
 
 Soit $X_1, \ldots, X_n$ des [[Variable aléatoire|variables aléatoires]] [[Indépendance de variables aléatoires|indépendantes]], de moyennes $\mu_i$ et d'écarts-types $\sigma_i$. Sous certaines conditions,

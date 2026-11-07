@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Une **chaîne de Markov d'ordre N** est un [[Processus stochastique|processus]] $(X_t)_{t = 1, \ldots, T}$ dont la loi de chaque état, conditionnellement à tout le passé, ne dépend que des $N$ états précédents :

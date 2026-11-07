@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Théorème
 
 Soit $X_1, \dots, X_n$ un [[Échantillon et échantillonnage|échantillon]] de variables aléatoires indépendantes et identiquement distribuées de loi [[Loi gaussienne|gaussienne]] $\mathcal{N}(m, \sigma^2)$. On note $\overline{X}$ la [[Moyenne empirique|moyenne empirique]],

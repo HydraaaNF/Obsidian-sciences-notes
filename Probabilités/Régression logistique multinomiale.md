@@ -1,3 +1,5 @@
+#adm-8
+
 # Modèle
 
 La régression logistique multinomiale étend la [[Régression logistique binaire]] au cas où la variable de classe prend plus de deux valeurs.
@@ -41,3 +43,6 @@ Pour $K = 2$, en posant $Y \in \{0, 1\}$, la formule se réduit à la sigmoïde 
 - L'exposant $k$ désigne la classe du score et l'indice $i$ la covariable $x_i$. La somme du dénominateur porte sur les classes et est indicée $c$ dans cette note, pour ne pas la confondre avec l'indice $i$ des covariables.
 - Le même modèle s'écrit aussi sous forme vectorielle avec un biais $b^{(k)}$ et un vecteur de poids $\mathbf{w}^{(k)}$ à la place de $\lambda_0^{(k)}$ et $\boldsymbol{\lambda}^{(k)}$. Cette note retient la notation en $\lambda$, alignée sur la [[Régression logistique binaire]] et sur le [[Modèle log-linéaire conditionnel]].
 - Le principe d'un jeu de coefficients par étiquette, normalisé sur l'ensemble des étiquettes, s'étend des classes aux séquences : voir les [[Fonctions de traits pour les séquences]].
+- La même loi a posteriori se lit comme un classifieur linéaire dont les scores sont normalisés, voir [[Régression logistique]].
+- La normalisation sur les classes est la [[Fonction softmax|fonction softmax]] appliquée aux scores.
+- La sortie du modèle est une probabilité par classe, c'est-à-dire un [[Un vecteur par classe|vecteur de probabilités indexé par les classes]].

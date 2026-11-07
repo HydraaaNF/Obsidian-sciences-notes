@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Le **nuage de points** (scatter plot) est la représentation graphique d'une [[Série statistique double]] de variables numériques : chaque observation $i$ y est figurée par un point de coordonnées $(x_i, y_i)$ dans le plan, valeurs prises par les deux variables.

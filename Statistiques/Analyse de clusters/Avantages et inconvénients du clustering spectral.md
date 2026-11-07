@@ -1,3 +1,5 @@
+#adm-3
+
 # Propriétés
 
 Par rapport à [[DBSCAN]], le [[Clustering spectral|clustering spectral]] présente les avantages et inconvénients suivants.

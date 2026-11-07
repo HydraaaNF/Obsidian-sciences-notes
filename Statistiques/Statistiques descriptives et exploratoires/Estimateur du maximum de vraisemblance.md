@@ -1,3 +1,5 @@
+#adm-0bis #adm-4
+
 # Définition
 
 Soient $X = (X_1, \dots, X_n)$ des variables aléatoires de $\mathbb{R}^d$ et $p(x; \theta)$ leur densité. La [[Fonction de vraisemblance|vraisemblance]] est la densité jointe des observations, vue comme une fonction $\theta \to p(x; \theta)$.

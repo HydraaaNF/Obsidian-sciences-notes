@@ -1,3 +1,5 @@
+#adm-7
+
 # Modèle
 
 Une chaîne de $n$ variables $x_1, \dots, x_n$ est décrite par un facteur par paire de variables voisines : la loi jointe du vecteur $\mathbf{x} = (x_1, \dots, x_n)$ est proportionnelle au produit de ces facteurs,

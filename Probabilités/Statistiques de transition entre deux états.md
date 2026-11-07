@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Soient un [[Modèle de Markov caché|modèle de Markov caché]] à $N$ états et une séquence d'observations $o_1, \dots, o_T$. La **statistique de transition entre deux états** est la probabilité jointe que l'état caché soit $i$ à l'instant $t-1$ et $j$ à l'instant $t$, conditionnellement à la séquence complète des observations :

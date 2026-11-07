@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Dans un test d'hypothèses opposant une [[Hypothèse nulle et hypothèse alternative|hypothèse nulle]] $H_0$ à une hypothèse alternative $H_1$, la décision repose sur l'observation de la [[Moyenne empirique|moyenne empirique]] $\overline{X}$ : on conserve $H_0$ si cette observation appartient à un intervalle $\mathcal{D}$, et on rejette $H_0$ sinon. La probabilité de rejeter $H_0$ à tort est notée

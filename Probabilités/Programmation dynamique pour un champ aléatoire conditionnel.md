@@ -1,3 +1,5 @@
+#adm-8
+
 # Algorithme
 
 La **programmation dynamique pour un champ aléatoire conditionnel** à chaîne linéaire calcule la suite d'étiquettes de score maximal sans énumérer les $K^n$ suites possibles, quand $K$ est le nombre d'étiquettes et $n$ la longueur de la séquence. Elle adapte l'[[Algorithme de Viterbi]] aux scores locaux du champ : au lieu d'enchaîner des probabilités de transition et d'émission, elle additionne les scores $g_s(y_{s-1}, y_s)$ portés par chaque couple d'étiquettes consécutives.

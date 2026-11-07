@@ -1,3 +1,5 @@
+#adm-6 #adm-7
+
 # Définition
 
 Un [[Modèle de Markov caché|modèle de Markov caché]] de paramètres $\lambda_N$ décrit une séquence d'états $s = s_1, \ldots, s_T$ et une séquence d'observations $o = o_1, \ldots, o_T$. Trois problèmes se posent à son sujet.

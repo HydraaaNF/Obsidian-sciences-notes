@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Chaque [[Échantillon et échantillonnage|échantillon]] peut être vu comme une [[Variable aléatoire|variable aléatoire]] $X_i$, dont la valeur observée est $x_i$ ; toutes les variables $X_i$ suivent la même loi.

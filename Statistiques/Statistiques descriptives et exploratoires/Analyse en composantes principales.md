@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 L'**analyse en composantes principales** (ACP) est une méthode de [[Projection linéaire des données|projection linéaire]] : on se restreint aux transformations linéaires, c'est-à-dire que

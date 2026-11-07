@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 La **matrice des nuages de points** rassemble en une seule figure les relations entre toutes les paires de variables d'un jeu de données. Les variables sont disposées en lignes et en colonnes d'une grille :

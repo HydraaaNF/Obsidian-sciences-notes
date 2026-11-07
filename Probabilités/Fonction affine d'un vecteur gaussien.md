@@ -1,3 +1,5 @@
+#adm-0
+
 # Propriétés
 
 **Fonction affine d'un vecteur gaussien.** Soit $X$ un [[Vecteur gaussien|vecteur gaussien]] de $\mathbb{R}^n$, $A \in \mathcal{M}_{m,n}(\mathbb{R})$, et $B$ un vecteur colonne de $\mathbb{R}^m$. Alors $AX + B$ est un vecteur gaussien de $\mathbb{R}^m$ de [[Vecteur moyen|vecteur moyen]] $A\mathbb{E}(X) + B$ et de [[Matrice de covariance|matrice de covariance]] $A\mathbf{C}(X)A^T$.

@@ -1,3 +1,5 @@
+#adm-5
+
 # Propriétés
 
 L'[[Algorithme d'espérance-maximisation|algorithme d'espérance-maximisation]] (EM) vérifie les deux propriétés suivantes, où $Q$ désigne la [[Fonction auxiliaire de l'algorithme d'espérance-maximisation|fonction auxiliaire]].

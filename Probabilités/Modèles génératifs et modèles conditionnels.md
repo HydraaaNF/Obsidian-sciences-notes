@@ -1,3 +1,5 @@
+#adm-7 #adm-8
+
 # Modèle
 
 Un problème de prédiction met en regard des observations $X$ et une sortie $Y$ à prédire. Deux familles de modèles graphiques s'en chargent :

@@ -1,3 +1,5 @@
+#adm-1
+
 # Définition
 
 Soient $X$ et $Y$ deux [[Variable aléatoire|variables aléatoires]]. L'**espérance conditionnelle** de $X$ sachant $Y = y$ est définie par

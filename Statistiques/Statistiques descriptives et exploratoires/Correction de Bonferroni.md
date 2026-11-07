@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 On considère une famille de $m$ tests d'hypothèses, le test $i$ opposant une hypothèse nulle $H_{0,i}$ à une hypothèse alternative $H_{1,i}$ et produisant une p-value $p_i$. Pour un niveau $\alpha$ fixé, la **correction de Bonferroni** rejette l'hypothèse nulle de chaque test $i$ dont la p-value vérifie

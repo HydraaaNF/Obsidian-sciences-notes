@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Les paramètres d'une distribution de maximum d'entropie de [[Forme exponentielle d'une distribution de maximum d'entropie|forme exponentielle]] constituent l'ensemble $\Lambda = \{\lambda_1, \dots, \lambda_m\}$.

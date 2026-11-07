@@ -1,3 +1,5 @@
+#adm-8
+
 # Algorithme
 
 L'estimation des paramètres d'un [[Champ aléatoire conditionnel à chaîne linéaire|champ aléatoire conditionnel à chaîne linéaire]] se fait par montée de gradient sur la [[Vraisemblance conditionnelle d'un champ aléatoire conditionnel|vraisemblance conditionnelle]]. Pour chaque couple d'apprentissage $(x^{(r)}, y^{(r)})$, en partant d'une estimation courante $\Lambda$ des paramètres et avec un pas d'apprentissage $\alpha > 0$ :

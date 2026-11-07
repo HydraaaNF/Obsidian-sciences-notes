@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Entre deux caractères (variables) $X$ et $Y$, il existe différents types de corrélation :

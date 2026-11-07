@@ -1,3 +1,5 @@
+#adm-0
+
 # Modèle
 
 On considère l'[[Espace probabilisé|espace probabilisé]] fondamental $(\Omega, \mathcal{F}, \mathbb{P})$. Pour chaque instant $t \geq 0$, on s'intéresse au nombre $N(t)$ de clients présents dans la [[File d'attente|file]] à l'instant $t$. C'est une [[Variable aléatoire discrète|v.a. discrète]] (à valeurs dans $\mathbb{N}$). On dit que la famille de v.a. $(N(t))_{t \in \mathbb{R}^+}$, indexée par l'intervalle $\mathbb{R}^+$, est un **processus stochastique à temps continu**. Au besoin, on note $N(t, \omega)$ la valeur de la v.a. $N(t)$ en $\omega \in \Omega$.

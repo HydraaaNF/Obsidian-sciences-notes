@@ -1,3 +1,5 @@
+#adm-0 #adm-0bis
+
 # Théorème
 
 Soit $X$ une [[Variable aléatoire réelle|variable aléatoire réelle]] positive et intégrable. Alors

@@ -1,3 +1,5 @@
+#adm-5
+
 # Définition
 
 Soit $\mathbf{x} = \{x_1, \dots, x_N\}$ un ensemble d'[[Échantillon et échantillonnage|échantillons d'entraînement]] dont on veut estimer les paramètres d'un [[Mélange gaussien|modèle de mélange gaussien]] à $K$ composantes par la [[Méthode du maximum de vraisemblance|méthode du maximum de vraisemblance]], c'est-à-dire

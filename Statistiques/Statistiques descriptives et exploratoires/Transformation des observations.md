@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Propriétés
 
 Soient $y_1, \ldots, y_n$ obtenus à partir des [[Population statistique et caractère|observations]] $x_1, \ldots, x_n$ de la façon suivante, pour tout $i = 1, \ldots, n$,

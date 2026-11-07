@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 La notion de [[Fonction caractéristique|fonction caractéristique]] d'une variable aléatoire réelle se généralise immédiatement à des [[Vecteur aléatoire|vecteurs aléatoires]].

@@ -1,3 +1,5 @@
+#adm-8
+
 # Modèle
 
 Un **champ aléatoire conditionnel sur un réseau de neurones récurrent** empile une couche de [[Champ aléatoire conditionnel à chaîne linéaire|champ aléatoire conditionnel]] sur une couche récurrente de type LSTM. Les observations sont les mots $x_1, \dots, x_n$ d'une phrase, les étiquettes $y = (y_1, \dots, y_n)$ prennent chacune leurs valeurs dans un alphabet fini $\mathcal{Y}$, donc la suite $y$ appartient à $\mathcal{Y}^n$, et $h_1, \dots, h_n$ sont les états cachés produits par le [[Réseau de neurones récurrent|réseau récurrent]] dans le sens de la lecture.

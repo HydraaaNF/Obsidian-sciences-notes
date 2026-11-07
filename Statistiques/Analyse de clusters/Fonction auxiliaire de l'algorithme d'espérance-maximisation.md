@@ -1,3 +1,5 @@
+#adm-5
+
 # Définition
 
 L'[[Algorithme d'espérance-maximisation|algorithme d'espérance-maximisation]] vise à maximiser une **fonction auxiliaire**, définie par

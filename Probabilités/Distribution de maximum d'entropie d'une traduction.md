@@ -1,3 +1,5 @@
+#adm-8
+
 # Exemple
 
 On cherche à traduire le mot anglais *in* vers le français. Les données rassemblées associent au mot *in* ses traductions observées, dont l'ensemble est

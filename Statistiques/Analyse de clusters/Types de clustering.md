@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Le [[Clustering|clustering]] conduit à un ensemble de clusters. Deux façons d'organiser les données se distinguent :

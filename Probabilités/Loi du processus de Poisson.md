@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 **Loi de $A(t)$.** Soit $(A(t))_{t \geq 0}$ un [[Processus de Poisson|processus de Poisson]] de taux $\lambda$. Alors la variable aléatoire $A(t)$ est distribuée, sous l'hypothèse $A(0) = 0$, suivant la [[Loi de Poisson|loi de Poisson]] de paramètre $\lambda t$ :

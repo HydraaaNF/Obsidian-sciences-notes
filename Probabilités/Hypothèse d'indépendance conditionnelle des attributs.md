@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Soit $y$ une étiquette discrète et $x_1, \dots, x_n$ les attributs observés, regroupés en un vecteur $\mathbf{x}$. L'**hypothèse d'indépendance conditionnelle des attributs** suppose que, sachant $y$, les attributs sont mutuellement indépendants, au sens de l'[[Indépendance de variables aléatoires|indépendance de variables aléatoires]]. La loi jointe de l'étiquette et des attributs se factorise alors en

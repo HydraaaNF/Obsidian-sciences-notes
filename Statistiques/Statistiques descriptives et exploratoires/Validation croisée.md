@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 La **validation croisée** consiste à diviser les données $D_n$ en $N$ ensembles séparés.
@@ -22,3 +24,5 @@ La **validation croisée** consiste à diviser les données $D_n$ en $N$ ensembl
 # Remarque
 
 La validation croisée généralise la [[Méthode de validation]].
+
+Sa variante opérationnelle, en trois jeux aux rôles disjoints dont un jeu de développement pour comparer les réglages, est décrite dans [[Jeux d'entraînement, de développement et de test]].

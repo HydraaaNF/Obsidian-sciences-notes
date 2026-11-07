@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Un cas particulièrement fréquent est celui où les transitions instantanées se font entre états « voisins » : cela arrive lorsqu'il est très improbable de constater deux arrivées (ou plus) en même temps, ou deux départs (correspondant à des fins de service) en même temps.

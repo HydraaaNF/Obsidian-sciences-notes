@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Dans un espace probabilisé, à chaque [[Évènement|événement]] est associé un nombre de $[0,1]$, sa probabilité, qui satisfait les axiomes de Kolmogorov :
@@ -19,6 +21,8 @@ Les conséquences des axiomes sont :
 # Remarque
 
 $\mathbb{P}[A] = 0$ (resp. $\mathbb{P}[A] = 1$) n'implique pas que $A$ ne se produise jamais (resp. qu'il se produise toujours).
+
+L'écart entre ce cadre théorique et l'usage du modèle probabiliste pour décrire des données observées est traité dans [[Probabilité et statistique]].
 
 # Exemple
 

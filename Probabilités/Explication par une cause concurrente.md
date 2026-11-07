@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 Un **graphe en $v$** (ou *v-shape*) est un graphe orienté à trois sommets formé de deux causes $X$ et $Y$ qui pointent toutes deux vers un même effet $Z$, sans arête entre $X$ et $Y$.

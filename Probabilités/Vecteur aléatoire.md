@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $(\Omega, \mathcal{F}, \mathbb{P})$ l'[[Espace probabilisé|espace probabilisé]] fondamental. On appelle [[Variable aléatoire|variable aléatoire]] à valeurs dans $\mathbb{R}^n$, ou **vecteur aléatoire de $\mathbb{R}^n$**, toute application mesurable $X$ de $\Omega$ dans $\mathbb{R}^n$.

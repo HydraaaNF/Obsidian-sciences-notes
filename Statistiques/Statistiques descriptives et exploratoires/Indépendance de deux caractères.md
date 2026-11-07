@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Deux caractères qualitatifs $X$ et $Y$ observés sur une [[Population statistique et caractère|population]] sont **empiriquement indépendants** si tous les profils lignes et tous les profils colonnes de leur [[Tableau de contingence]] sont identiques : la répartition des individus selon l'un des caractères ne dépend alors pas de la modalité prise par l'autre.

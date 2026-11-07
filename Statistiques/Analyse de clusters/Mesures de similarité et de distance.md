@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 La similarité entre deux objets appelle une **notion de distance** : toute mesure de similarité $d(x_i, x_j)$ entre deux objets peut être utilisée pour résoudre le problème de [[Clustering|clustering]]. La mesure adéquate dépend fortement de la nature des données et de la nature du problème.

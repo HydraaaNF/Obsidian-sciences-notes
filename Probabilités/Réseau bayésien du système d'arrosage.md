@@ -1,3 +1,5 @@
+#adm-7
+
 # Modèle
 
 Le **réseau bayésien du système d'arrosage** est l'instance paramétrée d'un [[Réseau bayésien]] : un graphe orienté acyclique à quatre variables binaires.

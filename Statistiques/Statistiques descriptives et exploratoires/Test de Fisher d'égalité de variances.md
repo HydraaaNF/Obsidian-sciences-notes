@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Théorème
 
 Soient $(X_1, \dots, X_{n_1})$ et $(Y_1, \dots, Y_{n_2})$ deux échantillons gaussiens indépendants, de [[Loi de la variance empirique corrigée|variances empiriques corrigées]]

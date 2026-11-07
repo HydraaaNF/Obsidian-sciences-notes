@@ -1,3 +1,5 @@
+#adm-3
+
 # Propriétés
 
 Le [[Clustering hiérarchique|clustering hiérarchique]] présente les avantages et inconvénients suivants.

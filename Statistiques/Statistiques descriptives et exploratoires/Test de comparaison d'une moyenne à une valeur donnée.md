@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Modèle
 
 Un test de comparaison d'une moyenne à une valeur donnée confronte une [[Hypothèse nulle et hypothèse alternative|hypothèse nulle]] $H_0$ à une hypothèse alternative $H_1$, à partir d'un [[Échantillon et échantillonnage|échantillon]] $(X_1, \dots, X_n)$ de loi mère [[Loi gaussienne|gaussienne]] $\mathcal{N}(m, \sigma^2)$. On teste l'hypothèse nulle

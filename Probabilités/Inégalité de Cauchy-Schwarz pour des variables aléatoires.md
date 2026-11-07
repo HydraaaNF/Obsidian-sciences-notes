@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 L'inégalité de Cauchy-Schwarz, résultat général de la théorie de la mesure, se traduit en probabilités de la façon suivante (résultat admis).

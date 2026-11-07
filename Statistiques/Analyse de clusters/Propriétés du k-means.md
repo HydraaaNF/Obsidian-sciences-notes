@@ -1,3 +1,5 @@
+#adm-3
+
 # Propriétés
 
 - **Distance** : la distance est l'élément clé du [[k-means]], la moyenne doit avoir un sens pour la mesure choisie. Sinon, on peut utiliser la médiane à la place (algorithmes des k-medians ou k-medoids).

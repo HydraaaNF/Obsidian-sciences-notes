@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 On observe deux caractères $X$ et $Y$ et on dispose des [[Échantillon et échantillonnage|échantillons]] $x_1, \dots, x_n$ et $y_1, \dots, y_n$. On note la **covariance empirique**

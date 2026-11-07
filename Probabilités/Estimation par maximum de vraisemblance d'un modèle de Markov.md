@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 **Le problème.** À partir d'un (grand) corpus de séquences $\mathcal{C} = \{S_1, \dots, S_n\}$, estimer l'ensemble des probabilités conditionnelles $\mathbb{P}[w \mid h]$ d'un modèle de Markov, pour tous $h$ et $w$, où $h$ désigne le contexte et $w$ le symbole qui le suit.

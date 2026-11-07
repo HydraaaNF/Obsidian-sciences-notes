@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soient $n$ et $p$ des entiers tels que $1 \leq p \leq n$ et $E$ un ensemble à $n$ éléments. On appelle **arrangement** de $p$ éléments de $E$ toute suite ordonnée $(a_1, \dots, a_p)$ d'éléments de $E$ **tous distincts**. On dit aussi que $(a_1, \dots, a_p)$ est un arrangement de $p$ éléments pris parmi $n$.

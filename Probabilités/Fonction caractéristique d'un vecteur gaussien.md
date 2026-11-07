@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 Soit $X$ un [[Vecteur gaussien|vecteur gaussien]]. Sa [[Fonction caractéristique d'un vecteur aléatoire|fonction caractéristique]] est donnée par

@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 La **méthode des moments** consiste à exprimer analytiquement les moments en fonction du paramètre, puis à estimer la valeur du paramètre à partir des estimations empiriques de ces moments.

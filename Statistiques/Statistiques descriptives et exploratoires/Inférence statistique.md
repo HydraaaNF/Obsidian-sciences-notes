@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 L'inférence statistique consiste, à partir d'un nombre limité d'échantillons d'une population, à inférer les propriétés de la population entière.
@@ -27,3 +29,5 @@ La réunion de ces deux sources d'information mène à l'[[Modélisation statist
 # Remarque
 
 Pour des modèles simples, estimer la moyenne et/ou la variance équivaut à estimer les paramètres du modèle.
+
+L'apprentissage automatique élargit ce cadre à des espaces de fonctions et à des données hors modèle probabiliste ; la place respective des deux démarches est décrite dans [[Apprentissage automatique et disciplines voisines]].

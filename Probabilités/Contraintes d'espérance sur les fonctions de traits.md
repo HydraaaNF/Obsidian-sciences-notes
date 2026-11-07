@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Soit $x$ une variable prenant ses valeurs dans $\{x_1, \ldots, x_n\}$. Les contraintes qui pèsent sur sa distribution s'expriment au moyen de $m$ fonctions de traits mesurables $f_k(x)$, dont l'espérance théorique doit coïncider avec les faits connus, par exemple les fréquences empiriques observées. Chaque contrainte s'écrit, pour $k = 1, \ldots, m$ :

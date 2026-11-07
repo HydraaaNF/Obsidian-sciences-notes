@@ -1,3 +1,5 @@
+#adm-7
+
 # Modèle
 
 La **régression logistique à covariables mesurées avec erreur** est un [[Réseau bayésien|réseau bayésien]] qui combine trois mécanismes : une régression logistique, un [[Modèles de mélange|modèle de mélange]] pour la covariable et un modèle de mesure bruitée. C'est un exemple de réseau nettement plus complexe que les modèles en étoile ou en chaîne.

@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Un [[Modèle de Markov caché|modèle de Markov caché]] de paramètres $\lambda_N(\theta)$ est décrit par $\theta = \{\pi, A, B\}$ :

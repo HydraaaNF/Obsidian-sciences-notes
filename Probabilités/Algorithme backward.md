@@ -1,3 +1,5 @@
+#adm-6
+
 # Algorithme
 
 L'**algorithme backward** calcule les [[Probabilités forward et backward|probabilités backward]] $\beta_i(t)$ d'un [[Modèle de Markov caché]] de paramètres $\lambda_N(\theta)$. La quantité backward se calcule récursivement selon

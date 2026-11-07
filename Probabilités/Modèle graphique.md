@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 Un **modèle graphique** est une famille de lois de probabilité définies à partir d'un [[Graphes dirigés et graphes non dirigés|graphe, dirigé ou non]]. Les nœuds du graphe sont identifiés à des variables aléatoires, et la loi jointe s'obtient en prenant le produit de fonctions définies sur des sous-ensembles connexes de nœuds.

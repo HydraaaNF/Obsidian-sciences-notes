@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 L'[[Estimateur|estimateur]] du minimum d'erreur quadratique moyenne (MMSE) minimise l'[[Erreur quadratique moyenne|erreur quadratique moyenne]] ; il est donné par l'[[Espérance conditionnelle|espérance conditionnelle]] de $\theta$ sachant $x$ :

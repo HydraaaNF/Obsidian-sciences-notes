@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Pour une série d'observations $x_1, \dots, x_n$ d'une variable, on appelle **minimum** la plus petite observation, notée $x_{\min}$, et **maximum** la plus grande observation, notée $x_{\max}$.

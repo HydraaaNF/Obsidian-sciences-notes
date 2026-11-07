@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La définition de la [[Probabilité conditionnelle]] conduit à la **règle de multiplication**, ou règle des **probabilités composées**. Pour deux [[Évènement|évènements]] $A$ et $B$ :

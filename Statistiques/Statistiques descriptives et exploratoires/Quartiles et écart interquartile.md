@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Les quantiles sont les bornes des intervalles qui divisent les données en parts égales. Selon le nombre de parts, ils portent des noms particuliers :

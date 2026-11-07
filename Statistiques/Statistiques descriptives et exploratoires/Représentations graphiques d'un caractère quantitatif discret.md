@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Pour un [[Caractère quantitatif discret|caractère quantitatif discret]] dont les observations sont regroupées en classes de valeurs $m_j$ d'effectifs $n_j$, on peut établir :

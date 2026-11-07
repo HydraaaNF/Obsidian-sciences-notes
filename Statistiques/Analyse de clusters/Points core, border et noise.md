@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Chaque point est étiqueté selon le nombre de points présents autour de lui :

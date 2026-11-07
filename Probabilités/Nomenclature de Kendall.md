@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Pour classifier les différentes [[File d'attente|files d'attente]], on utilise la nomenclature

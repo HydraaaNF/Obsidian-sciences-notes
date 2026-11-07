@@ -1,3 +1,5 @@
+#adm-7
+
 # Interprétation
 
 La factorisation d'une loi sur un graphe orienté acyclique, c'est-à-dire dans un [[Réseau bayésien]], autorise deux directions de raisonnement, selon le sens dans lequel le conditionnement traverse les flèches.

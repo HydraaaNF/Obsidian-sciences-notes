@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soient $n \in \mathbb{N}$, $E$ un ensemble à $n$ éléments et $p \in \{0, \dots, n\}$. On appelle **combinaison** de $p$ éléments pris parmi les $n$ éléments de $E$ toute partie $\{a_1, \dots, a_p\}$ de $E$.

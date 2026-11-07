@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 L'**analyse discriminante linéaire** (LDA) cherche une projection linéaire des données $X$ dans un sous-espace de dimension plus petite qui :

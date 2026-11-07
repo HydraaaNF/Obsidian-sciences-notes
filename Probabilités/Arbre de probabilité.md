@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Un **arbre de probabilité** est une représentation d'une expérience aléatoire décomposée en une succession d'expériences élémentaires : c'est l'idée de **séquentialité**. Chaque chemin de l'arbre correspond à une succession d'[[Évènement|évènements]] plus simples, c'est-à-dire à l'intersection de ces évènements.

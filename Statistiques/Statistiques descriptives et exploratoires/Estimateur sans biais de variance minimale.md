@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Pour une famille de lois $f(x, \theta)$ donnée, un **estimateur sans biais de variance minimale** de $\theta$ est un [[Estimateur|estimateur]] [[Biais d'un estimateur|sans biais]] de $\theta$ dont la variance est minimale parmi tous les estimateurs sans biais de $\theta$.

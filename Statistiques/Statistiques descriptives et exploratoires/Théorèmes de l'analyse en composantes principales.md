@@ -1,3 +1,5 @@
+#adm-2
+
 # Théorème 1
 
 Si $F_k$ est le sous-espace de dimension $k$ d'inertie maximale, le sous-espace de dimension $k+1$ d'inertie maximale est la somme directe de $F_k$ et du sous-espace de dimension 1 orthogonal à $F_k$ d'inertie maximale.

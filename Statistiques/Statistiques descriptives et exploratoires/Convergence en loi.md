@@ -1,3 +1,5 @@
+#adm-0 #adm-0bis
+
 # Définition
 
 Pour des [[Variable aléatoire discrète|variables aléatoires discrètes]] $X_n$ et $X$ de [[Loi d'une variable aléatoire|lois]] respectives $p_{X_n}$ et $p_X$, la suite $(p_{X_n})$ converge vers $p_X$ lorsque

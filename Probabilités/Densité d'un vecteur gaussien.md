@@ -1,3 +1,5 @@
+#adm-0 #adm-5
+
 # Théorème
 
 **Densité d'un vecteur gaussien.** Soit $X$ un [[Vecteur gaussien|vecteur gaussien]] de $\mathbb{R}^n$. On suppose que sa [[Matrice de covariance|matrice de covariance]] $\mathbf{C}(X)$ est inversible. Alors $X$ admet une [[Loi d'un vecteur aléatoire|densité]], donnée par

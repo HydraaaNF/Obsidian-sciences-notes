@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La loi de Bernoulli est la loi d'une variable aléatoire binaire $X$, prenant la valeur 1 avec probabilité $p$ et la valeur 0 avec probabilité $1-p$ :

@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La loi géométrique est la loi du nombre d'épreuves de [[Loi de Bernoulli|Bernoulli]] nécessaires pour obtenir le premier succès.

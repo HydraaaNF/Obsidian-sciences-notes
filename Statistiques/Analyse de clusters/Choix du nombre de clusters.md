@@ -1,3 +1,5 @@
+#adm-3
+
 # Interprétation
 
 Le nombre de clusters n'est pas une notion objective : les mêmes données peuvent être décrites par plusieurs [[Types de clustering|partitionnements]] également plausibles. Sur un même ensemble de points en deux dimensions, on peut ainsi mettre en évidence six, deux ou quatre clusters (chaque groupe distingué par un symbole différent) sans qu'un découpage s'impose comme le seul correct.

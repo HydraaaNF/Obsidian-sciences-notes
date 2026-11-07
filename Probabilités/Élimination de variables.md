@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 L'élimination de variables calcule la loi marginale d'une variable d'un [[Graphe de facteurs]] sans jamais former le produit complet de tous les facteurs : les variables sont sommées une par une, par sommes partielles successives.

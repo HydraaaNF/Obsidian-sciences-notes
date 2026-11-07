@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La loi binomiale est la loi du nombre de réalisations d'un événement de probabilité d'occurrence $p$ au cours de $n$ épreuves de Bernoulli indépendantes. On note $X \sim \mathcal{B}(n, p)$ lorsque $X$ est la somme de $n$ [[Loi de Bernoulli|variables de Bernoulli]] indépendantes.
@@ -24,3 +26,4 @@ $$G_X(z) = \mathbb{E}(z^X) = (pz + 1-p)^n.$$
 - La [[Loi de Bernoulli|loi de Bernoulli]] est le cas particulier $n = 1$ de la loi binomiale, c'est-à-dire la loi de la somme d'une seule variable de Bernoulli indépendante.
 - Pour $p$ petit et $n$ grand ($n \geq 20$, $p \leq 0.05$), la loi binomiale est approchée par la [[Loi de Poisson|loi de Poisson]] de paramètre $\alpha = np$ ; cette convergence est précisée par le [[Théorème d'approximation de la loi binomiale par la loi de Poisson]].
 - La somme de deux variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] de lois binomiales de même paramètre $p$ suit une loi binomiale : si $X \sim \mathcal{B}(n, p)$ et $Y \sim \mathcal{B}(m, p)$, alors $X + Y \sim \mathcal{B}(n + m, p)$.
+- Le tirage sans remise, où la probabilité de succès change d'un tirage à l'autre, relève de la [[Loi hypergéométrique]].

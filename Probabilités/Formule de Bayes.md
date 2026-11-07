@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Théorème
 
 La **formule de Bayes** exprime la [[Probabilité conditionnelle|probabilité conditionnelle]] de $B$ sachant $A$ à partir de celle de $A$ sachant $B$ :

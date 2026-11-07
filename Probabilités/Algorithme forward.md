@@ -1,3 +1,5 @@
+#adm-6
+
 # Algorithme
 
 L'**algorithme forward** calcule les [[Probabilités forward et backward|probabilités forward]] $\alpha_i(t)$ d'un [[Modèle de Markov caché]] de paramètres $\lambda_N(\theta)$. La quantité forward se calcule récursivement selon

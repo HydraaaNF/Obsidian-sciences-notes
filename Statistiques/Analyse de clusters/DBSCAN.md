@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 **DBSCAN** (*Density-Based Spatial Clustering of Applications with Noise*) est un algorithme de [[Clustering par densité|clustering par densité]]. Il repose sur la [[Points core, border et noise|classification des points]] en core, border et noise, puis sur l'exploration d'un graphe de voisinage construit à partir d'une [[Mesures de similarité et de distance|mesure de distance]]. Il repère les points densément connectés par analyse de voisinage, permet des clusters de forme arbitraire et s'exécute en un seul passage sur les données.

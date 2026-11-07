@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Théorème
 
 Soit une [[Population statistique et caractère|population]] $\mathcal{P}$ de $n$ individus composée de $l$ sous-populations $\mathcal{P}_1, \ldots, \mathcal{P}_l$ d'effectifs $N_1, \ldots, N_l$ respectivement. On observe un caractère $X$ sur chacune de ces sous-populations, avec pour moyenne arithmétique $\bar{x}_j$ et variance $s_j^2$ pour $\mathcal{P}_j$. La [[Moyenne, médiane et mode|moyenne arithmétique]] et la [[Variance et écart-type|variance]] des observations sur la population totale $\mathcal{P}$ sont données par

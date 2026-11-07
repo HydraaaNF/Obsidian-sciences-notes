@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Pour une fonction $f$ de l'[[Espace d'hypothèses]] $\mathcal{F}$, le risque espéré est défini par
@@ -41,3 +43,5 @@ La solution $f^*(D_n)$ trouvée en minimisant l'erreur d'entraînement est meill
 # Remarque
 
 L'erreur d'entraînement ne peut pas servir d'estimation directe du risque : elle est mesurée sur l'échantillon $D_n$ qui a servi à choisir $f^*(D_n)$ et sous-estime donc le risque ; estimer celui-ci correctement passe par une [[Estimation non biaisée du risque|estimation non biaisée du risque]].
+
+En régression, le risque empirique prend la forme d'une moyenne des pertes quadratiques ou absolues sur les données, quantités que l'on retrouve comme mesures d'erreur de prédiction dans [[Mesures d'erreur en régression]].

@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 La **moyenne tronquée**, ou **moyenne $\alpha$-tronquée**, est la [[Moyenne empirique|moyenne empirique]] d'une série d'observations après avoir écarté les $\alpha$ % de valeurs extrêmes. Soit un échantillon trié $x_{(1)} \leq x_{(2)} \leq \dots \leq x_{(n)}$ et $\alpha \in ]0, 1[$ : on écarte les $\alpha$ % de valeurs extrêmes de part et d'autre, puis on calcule la moyenne arithmétique des valeurs restantes.

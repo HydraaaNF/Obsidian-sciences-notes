@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Dans le cas d'une [[Variable aléatoire continue|variable aléatoire continue]] $X$, on appelle **médiane** de $X$ la valeur $M(X)$ telle que

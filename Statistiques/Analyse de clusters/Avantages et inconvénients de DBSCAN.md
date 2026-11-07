@@ -1,3 +1,5 @@
+#adm-3
+
 # Propriétés
 
 Le [[DBSCAN]] présente les avantages et inconvénients suivants.

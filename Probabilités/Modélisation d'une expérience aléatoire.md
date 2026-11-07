@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Modéliser une expérience aléatoire, c'est déterminer l'ensemble, noté $\Omega$, des résultats possibles de l'expérience. C'est la première étape de la construction d'un [[Espace probabilisé]].

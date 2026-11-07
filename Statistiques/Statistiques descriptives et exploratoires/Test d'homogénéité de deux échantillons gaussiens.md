@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 On effectue un **test d'homogénéité** dans le cas de deux [[Échantillon et échantillonnage|échantillons]] indépendants de [[Loi gaussienne|loi mère gaussienne]], afin de savoir si les lois mères associées sont identiques.

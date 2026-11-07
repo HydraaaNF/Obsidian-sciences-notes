@@ -1,3 +1,5 @@
+#adm-6
+
 # Modèle
 
 Un **réseau de neurones récurrent** prédit l'état $X_i$ d'un processus en résumant tout son historique dans un vecteur d'**état caché** $h_{i-1}$ :
@@ -50,3 +52,5 @@ Après l'entrée « the », la cible est « cat » ; après l'entrée « cat »,
 Le réseau de neurones récurrent généralise la [[Chaîne de Markov à temps discret]] : celle-ci conditionne la loi de l'état suivant par le seul état courant, tandis que le réseau résume tout l'historique dans son état caché. Le [[Mécanisme d'attention]] en propose une autre généralisation.
 
 Appliqué à l'étiquetage d'une séquence, le réseau alimente la [[Prédiction directe par un réseau de neurones récurrent|prédiction directe]] position par position ; couplé à des scores de transition entre étiquettes voisines, il fournit le [[Champ aléatoire conditionnel sur un réseau de neurones récurrent]].
+
+La cellule décrite ci-dessus est la [[Cellule d'Elman]], cas le plus simple du [[Réseau récurrent]] générique, dont l'étude ajoute les poids partagés, le dépliage dans le temps et la [[Rétropropagation dans le temps|rétropropagation dans le temps]].

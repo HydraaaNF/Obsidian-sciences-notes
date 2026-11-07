@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Soit une variable $X$ prenant ses valeurs dans $\{x_1, \dots, x_n\}$, et $m$ fonctions de traits mesurables $f_1, \dots, f_m$ dont les espérances sous la distribution de $X$ sont fixées par les faits connus, sous la forme des [[Contraintes d'espérance sur les fonctions de traits|contraintes d'espérance]] portant sur ces fonctions.

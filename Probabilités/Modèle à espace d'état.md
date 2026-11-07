@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Un **modèle à espace d'état** décrit conjointement deux [[Processus stochastique|processus stochastiques]], un état $X_k$ et une observation $Y_k$, par les équations

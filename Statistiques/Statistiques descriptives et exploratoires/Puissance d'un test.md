@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 La **puissance** d'un test est la quantité $1 - \beta$, où $\beta$ désigne le [[Risque de seconde espèce|risque de seconde espèce]]. Elle correspond à la probabilité de ne pas se tromper en acceptant l'[[Hypothèse nulle et hypothèse alternative|hypothèse alternative]] $H_1$.

@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Théorème
 
 Si les $B_i$ forment un [[Système complet d'évènements|système complet d'évènements]], alors, pour tout [[Évènement|évènement]] $A$ :

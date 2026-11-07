@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $D$ un sous-ensemble de $\mathbb{R}^2$ d'aire finie. L'aire de $D$ est le nombre

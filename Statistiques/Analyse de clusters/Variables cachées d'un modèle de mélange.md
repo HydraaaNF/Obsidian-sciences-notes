@@ -1,3 +1,5 @@
+#adm-5
+
 # Interprétation
 
 Un échantillon d'un [[Modèles de mélange|modèle de mélange]] est tiré selon la loi de l'une des composantes $f_i()$ du mélange, avec la probabilité $\pi_i$. Concrètement, le tirage d'un échantillon est un processus en deux étapes :

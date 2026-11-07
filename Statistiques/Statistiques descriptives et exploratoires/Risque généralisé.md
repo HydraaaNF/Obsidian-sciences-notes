@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Le risque peut être défini de manière plus générale à l'aide d'une [[Fonction de perte|fonction de perte]] (ou d'erreur) $l(t, \theta)$ : $l(\theta, t) = 0$ si et seulement si $t = \theta$. Le risque généralisé d'un [[Estimateur|estimateur]] $T$ du paramètre $\theta$ est l'espérance de cette perte :

@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La loi de Poisson $\mathcal{P}(\alpha)$ est une loi de [[Probabilité discrète|probabilité discrète]] définie par

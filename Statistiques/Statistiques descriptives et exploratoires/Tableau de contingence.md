@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Définition
 
 Le **tableau de contingence**, ou *tableau à double entrée des effectifs*, rassemble les effectifs conjoints d'une [[Série statistique double]] : les modalités $\alpha_1, \dots, \alpha_k$ du caractère $X$ sont disposées en lignes, les modalités $\beta_1, \dots, \beta_l$ du caractère $Y$ en colonnes, et chaque case $n_{i,j}$ désigne le nombre d'[[Population statistique et caractère|individus]] ayant un caractère $X$ égal à $\alpha_i$ et un caractère $Y$ égal à $\beta_j$.

@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 Le diagramme de Pareto est une représentation graphique destinée à mettre en évidence les facteurs les plus importants d'un phénomène : par exemple la principale source de défauts ou les motifs de réclamation les plus fréquents.

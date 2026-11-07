@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Soit un [[Modèle de Markov caché|modèle de Markov caché]] de paramètres $\lambda_N$. Pour une séquence d'observations donnée $\mathbf{o} = o_1, \dots, o_T$, le **décodage d'une séquence d'états** consiste à calculer efficacement la séquence d'états $\mathbf{s} = s_1, \dots, s_T$ pour laquelle la probabilité de cette séquence d'observations est maximale, c'est-à-dire

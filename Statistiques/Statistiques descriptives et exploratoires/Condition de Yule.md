@@ -1,3 +1,5 @@
+#adm-2
+
 # Propriétés
 
 La condition de Yule énonce les qualités qu'un bon [[Résumés numériques d'une distribution|résumé numérique d'une distribution]] devrait réunir :

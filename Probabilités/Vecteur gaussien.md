@@ -1,3 +1,5 @@
+#adm-0 #adm-1 #adm-5
+
 # Définition
 
 Un [[Vecteur aléatoire|vecteur aléatoire]] $X$ de dimension $p$ est un **vecteur gaussien** si toute combinaison linéaire de ses composantes, notée $a^\top X$, est une [[Loi gaussienne|variable aléatoire gaussienne]] de dimension 1.

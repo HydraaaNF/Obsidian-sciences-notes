@@ -1,3 +1,5 @@
+#adm-6
+
 # Algorithme
 
 L'**algorithme de Baum-Welch** est l'application de l'[[Algorithme d'espérance-maximisation|algorithme d'espérance-maximisation]] à un [[Modèle de Markov caché]] : il estime les [[Paramètres d'un modèle de Markov caché|paramètres]] du modèle à partir d'échantillons d'entraînement, alors que les séquences d'états ne sont pas observées.

@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 L'**analyse factorielle** consiste à expliquer les variables observées au moyen d'un plus petit nombre de variables non observées, dites **latentes** ou **facteurs**.

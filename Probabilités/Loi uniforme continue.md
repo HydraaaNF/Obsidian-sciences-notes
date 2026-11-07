@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Loi
 
 Une [[Variable aléatoire continue|variable aléatoire continue]] suit la loi uniforme continue sur un intervalle $[a, b]$ ($a < b$) lorsque sa [[Probabilité à densité|densité de probabilité]] y est constante :

@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 L'estimation des paramètres d'un [[Modèle de Markov caché]] fait intervenir deux espérances, pour une séquence d'observations $\mathbf{o}$ et une estimation courante $\theta_n$ des paramètres :

@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 La théorie de l'échantillonnage se propose d'étudier les propriétés du $n$-uplet $(X_1, \dots, X_n)$ et des caractéristiques le résumant à partir de la loi mère supposée, ainsi que ce qui se passe lorsque la taille de l'échantillon est élevée.

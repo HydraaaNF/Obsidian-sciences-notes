@@ -1,3 +1,5 @@
+#adm-6 #adm-7
+
 # Algorithme
 
 L'**algorithme de Viterbi** résout le [[Décodage d'une séquence d'états|décodage d'une séquence d'états]] d'un [[Modèle de Markov caché|modèle de Markov caché]] : il recherche la séquence d'états la plus probable pour une séquence d'observations donnée. Il travaille sur le [[Treillis|treillis]], dont les colonnes correspondent aux observations successives et les lignes aux états du modèle.

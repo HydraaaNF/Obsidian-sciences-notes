@@ -1,3 +1,5 @@
+#adm-8
+
 # Modèle
 
 On considère une séquence d'observations $x = (x_1, \dots, x_n)$ et la séquence d'étiquettes $y = (y_1, \dots, y_n)$ qui lui est associée. Les [[Fonctions de traits pour les séquences|fonctions de traits]] d'un modèle séquentiel sont des fonctions $f_i : X \times Y \to \mathbb{R}$, ou à valeurs dans $\{0, 1\}$. On suppose, sans perte de généralité, que chacune d'elles se décompose en une somme de contributions locales, une par position :

@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Le **clustering par densité** est une approche du [[Clustering|clustering]] qui suit les points connectés par densité (*density-connected points*) : elle procède par analyse de voisinage. Elle réalise les [[Objectifs d'un clustering|objectifs de clusters par densité]].

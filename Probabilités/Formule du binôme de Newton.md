@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 $$\forall (a, b) \in \mathbb{C}^2 \quad \forall n \in \mathbb{N} \quad (a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^k b^{n-k}$$

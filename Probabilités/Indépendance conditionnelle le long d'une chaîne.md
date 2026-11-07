@@ -1,3 +1,5 @@
+#adm-7
+
 # Propriétés
 
 Dans un graphe en chaîne à trois sommets $X \to Z \to Y$, conditionner sur le sommet intermédiaire $Z$ rend les deux sommets extrêmes indépendants :

@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 Pour obtenir un histogramme plus régulier, on peut recourir à deux techniques de lissage : la fenêtre glissante et, éventuellement, la pondération par un noyau. Il s'applique à l'histogramme d'un [[Caractère quantitatif continu|caractère quantitatif continu]].

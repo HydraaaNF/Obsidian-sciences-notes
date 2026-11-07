@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Définition
 
 La **zone critique** (ou **région critique**) d'un test est la partie des valeurs de la [[Statistique de test|statistique de test]] pour laquelle on rejette l'[[Hypothèse nulle et hypothèse alternative|hypothèse nulle]] $H_0$ au profit de l'hypothèse alternative $H_1$. Compte tenu de la forme de $H_1$, elle est de la forme $]a, +\infty[$ ou de la forme $]-\infty, a[$ selon le sens du test.

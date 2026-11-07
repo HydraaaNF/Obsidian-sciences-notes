@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Un [[Clustering|clustering]] peut viser différents objectifs, qui précisent la forme des clusters recherchée.

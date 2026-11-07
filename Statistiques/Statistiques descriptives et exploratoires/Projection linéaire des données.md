@@ -1,3 +1,5 @@
+#adm-2
+
 # Interprétation
 
 La projection linéaire des données crée de nouvelles variables.

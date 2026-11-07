@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 L'**estimation non biaisée du risque** consiste à découper les données en deux ensembles distincts :
@@ -18,3 +20,5 @@ Le second ensemble étant distinct du premier, il n'a pas participé à la déte
 # Remarque
 
 La [[Sélection de modèle et estimation de la performance]] exige une estimation du risque. Le découpage des données en ensembles séparés est également le principe de la [[Méthode de validation]] et de la [[Validation croisée]].
+
+Le découpage en trois ensembles, avec les rôles respectifs de chacun et l'usage du jeu de développement, est décrit dans [[Jeux d'entraînement, de développement et de test]].

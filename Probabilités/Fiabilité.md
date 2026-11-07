@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Soit un système composé de plusieurs composants connectés. On note $A_i$ l'évènement « le composant $i$ fonctionne correctement » et on appelle **fiabilité** du composant $i$ la probabilité que ce composant fonctionne correctement :

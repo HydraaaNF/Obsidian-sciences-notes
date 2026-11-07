@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Soit $f_i(x, y)$ une fonction de trait dépendant d'une observation $x$ et d'une étiquette $y$, et soit $\tilde{p}$ la distribution empirique des couples $(x, y)$ observés dans les données d'entraînement. L'espérance empirique de $f_i$ est la moyenne de la fonction de trait sur ces couples :

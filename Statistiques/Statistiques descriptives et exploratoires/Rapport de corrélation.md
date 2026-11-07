@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 Le **rapport de corrélation** mesure la [[Corrélation de deux caractères|corrélation]] entre deux caractères dans les situations mixtes, où le caractère $X$ est [[Caractère qualitatif|catégoriel]] et le caractère $Y$ est numérique. Il compare la dispersion des [[Moyenne et variance conditionnelles|moyennes conditionnelles]] de $Y$ entre les catégories de $X$ à la dispersion totale de $Y$ :

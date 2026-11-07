@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 Le **test de Wilcoxon de comparaison de deux échantillons indépendants** répond à la question suivante : deux échantillons indépendants, de tailles respectives $n$ et $m$, proviennent-ils de la même population, c'est-à-dire de la même loi ?

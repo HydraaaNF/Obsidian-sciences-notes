@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Théorème
 
 Soit $X_1, \dots, X_n$ des variables aléatoires indépendantes et identiquement distribuées (i.i.d.) [[Loi gaussienne|gaussiennes]] de [[Variance|variance]] $\sigma^2$. On note $\overline{X} = \frac{1}{n} \sum_{i=1}^{n} X_i$ leur [[Moyenne empirique|moyenne empirique]], $S^2$ la [[Variance empirique|variance empirique]] et $S'^2$ la variance empirique corrigée :

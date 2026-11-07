@@ -1,3 +1,5 @@
+#adm-1
+
 # Loi
 
 La loi de Weibull est une [[Probabilité à densité|loi à densité]] utilisée en [[Fiabilité]] pour modéliser des durées de vie.

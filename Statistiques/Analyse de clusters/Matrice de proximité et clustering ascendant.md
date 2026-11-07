@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 La **matrice de proximité** rassemble les proximités entre clusters : chaque ligne et chaque colonne correspond à un cluster, et chaque case à la proximité du couple de clusters correspondant.

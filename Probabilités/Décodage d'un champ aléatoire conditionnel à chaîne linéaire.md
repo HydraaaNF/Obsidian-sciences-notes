@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Décoder un [[Champ aléatoire conditionnel à chaîne linéaire|champ aléatoire conditionnel à chaîne linéaire]] consiste, pour une suite d'observations $x$ fixée, à trouver la suite d'étiquettes $\hat{y}$ qui maximise la probabilité a posteriori du modèle, une [[Distribution de Gibbs|distribution de Gibbs]] :

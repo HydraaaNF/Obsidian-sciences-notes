@@ -1,3 +1,5 @@
+#adm-0bis #adm-4
+
 # Définition
 
 Soit $X_1, \ldots, X_n$ un [[Échantillon et échantillonnage|échantillon]] de variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] et identiquement distribuées, de loi normale de moyenne $m$ inconnue et de variance $\sigma^2$ connue. La [[Moyenne empirique|moyenne empirique]]

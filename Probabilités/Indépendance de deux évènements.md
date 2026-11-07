@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Deux [[Évènement|évènements]] $A$ et $B$ sont **indépendants** si et seulement si la [[Probabilité conditionnelle|probabilité conditionnelle]] de $A$ sachant $B$ est égale à la probabilité de $A$ :

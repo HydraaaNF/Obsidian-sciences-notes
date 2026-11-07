@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Une **statistique suffisante** est une [[Statistique|statistique]] qui contient toute l'information portée par l'[[Échantillon et échantillonnage|échantillon]] $X_1, X_2, \ldots, X_n$ sur le paramètre $\theta$. Elle est aussi dite **exhaustive**.

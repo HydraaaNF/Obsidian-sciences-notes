@@ -1,3 +1,5 @@
+#adm-6 #adm-7 #adm-8
+
 # Loi
 
 Un [[Modèle de Markov caché|modèle de Markov caché]] fait vivre deux séquences sur les mêmes instants $t = 1, \dots, T$ : les états cachés $S = s_1, \dots, s_T$ et les observations $O = o_1, \dots, o_T$. La loi qui régit l'ensemble du modèle est la loi jointe du couple, et elle se factorise en la loi des états et en la loi des observations sachant les états :

@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Soit $X$ une [[Variable aléatoire continue|variable aléatoire continue]] définie sur un [[Espace probabilisé]], de densité de probabilité $f$ et de [[Fonction de répartition|fonction de répartition]] $F$. La densité est une fonction positive ou nulle et d'intégrale $1$ sur $\mathbb{R}$ :

@@ -1,3 +1,5 @@
+#adm-4 #adm-9
+
 # Définition
 
 Une **règle de décision** associe à toute observation $x$ une classe $y$ parmi $K$ classes possibles :

@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 La *courbe de régression* de $y$ en $x$ est la courbe représentant les [[Moyenne et variance conditionnelles|moyennes conditionnelles]] $\bar{y}_i$ en fonction des modalités $\alpha_i$ du caractère $X$. On la note $C_{y|x}$.
@@ -42,3 +44,5 @@ $$D = \mathbb{V}(y) - \sum_{i=1}^k f_{i.} (\bar{y}_i - \bar{y})^2 + \sum_{i=1}^k
 Le terme $\mathbb{V}(y) - \sum_{i=1}^k f_{i.} (\bar{y}_i - \bar{y})^2$ est constant en $\varphi$ : le minimum de $D$ est donc bien atteint pour $\varphi(\alpha_i) = \bar{y}_i$.
 
 Lorsqu'une relation linéaire est recherchée entre les deux caractères, l'ajustement conduit à la [[Droite de régression de y en x]] ; l'étude de la liaison linéaire correspondante se poursuit avec la [[Covariance et coefficient de corrélation linéaire]].
+
+La version paramétrique de cet ajustement, où la fonction $\varphi$ est choisie dans une famille et ses paramètres obtenus en minimisant une perte, est traitée dans [[Régression linéaire]].

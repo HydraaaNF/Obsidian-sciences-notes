@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 On considère une variable $X$ observée sur $n$ [[Échantillon et échantillonnage|échantillons]]. On cherche à décrire cette variable et à résumer l'information qu'elle porte. Les données sont généralement organisées en tables.
@@ -16,3 +18,5 @@ La provenance des données influence leur représentativité :
 
 - des données déjà disponibles (« elles sont là ») peuvent ne pas être représentatives de la population visée ;
 - des données dont on conçoit le recueil permettent de viser un échantillon représentatif (conception de bases de données, plan d'échantillonnage).
+
+En apprentissage automatique, la table des observations est une [[Donnée et attributs|donnée]] dont les colonnes sont les attributs et les lignes les individus.

@@ -85,7 +85,6 @@
 - [[Factorisation matricielle non négative]]
 - [[Analyse en composantes indépendantes]]
 - [[Astuce du noyau]]
-- [[Perceptron multicouche]]
 - [[Cartes auto-organisatrices]]
 - [[Au-delà des projections linéaires]]
 

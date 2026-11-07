@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 Dans un [[Modèle graphique]], les variables $x_1, \dots, x_n$ se répartissent en variables observées et variables non observées. L'inférence consiste à déterminer les lois a posteriori de toutes les variables non observées sachant celles qui sont observées, c'est-à-dire les quantités

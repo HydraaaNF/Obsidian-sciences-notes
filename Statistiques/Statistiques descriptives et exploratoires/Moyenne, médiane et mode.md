@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 La moyenne, la médiane et le mode sont des caractéristiques centrales d'une variable.

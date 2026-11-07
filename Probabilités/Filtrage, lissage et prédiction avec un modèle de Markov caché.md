@@ -1,3 +1,5 @@
+#adm-6 #adm-7
+
 # Définition
 
 Dans un [[Modèle de Markov caché|modèle de Markov caché]], de nombreux problèmes, souvent traités en temps réel, se ramènent à prédire l'état $S_k$ à un instant donné $k$ connaissant seulement une partie des observations. La loi correspondante se note

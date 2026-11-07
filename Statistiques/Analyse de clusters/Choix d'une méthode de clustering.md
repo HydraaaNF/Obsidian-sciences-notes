@@ -1,3 +1,5 @@
+#adm-3
+
 # Interprétation
 
 Pour choisir la méthode de [[Clustering|clustering]] la plus appropriée parmi les [[Types de clustering|types de clustering]], il faut examiner les éléments suivants :

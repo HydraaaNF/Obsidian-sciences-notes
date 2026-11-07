@@ -1,3 +1,5 @@
+#adm-5
+
 # Algorithme
 
 Pour un [[Mélange gaussien|mélange gaussien]] à $K$ composantes, l'[[Algorithme d'espérance-maximisation|algorithme d'espérance-maximisation]] prend une forme explicite, en fonction des densités $f(x_i; \mu_j, \sigma_j)$ des composantes et des [[Variables cachées d'un modèle de mélange|classes cachées]] $z_i$.

@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Étant donnée une information testable (ou a priori) connue sur les données, la meilleure distribution de probabilité pour ces données est celle dont l'[[Entropie d'une variable aléatoire discrète|entropie]] est maximale sous les contraintes imposées par cette information.

@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 On considère un ensemble de mesures $x_1, \dots, x_n$ issues d'une [[Loi gaussienne|loi gaussienne]] de moyenne $\mathbb{E}[X] = m$ et de [[Variance|variance]] $\sigma^2$ inconnues. On souhaite, à partir de ces mesures, obtenir une estimation de $m$ et un [[Intervalle de confiance|intervalle de confiance]] pour cette estimation.

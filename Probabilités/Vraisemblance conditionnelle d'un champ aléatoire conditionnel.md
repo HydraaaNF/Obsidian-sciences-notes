@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Un [[Champ aléatoire conditionnel à chaîne linéaire|champ aléatoire conditionnel]] définit la loi conditionnelle des étiquettes sachant les observations. Pour un exemple $(x, y)$ et des paramètres $\Lambda = \{\lambda_1, \dots, \lambda_m\}$, cette loi est la [[Distribution de Gibbs|distribution de Gibbs]]

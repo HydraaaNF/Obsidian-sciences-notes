@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 Le test du rapport de vraisemblance confronte une valeur postulée d'un paramètre à l'ensemble des valeurs possibles, en comparant la vraisemblance des données sous cette valeur à la meilleure vraisemblance atteignable. Il généralise le [[Lemme de Neyman-Pearson]], établi pour des hypothèses simples, au cas d'hypothèses composites.

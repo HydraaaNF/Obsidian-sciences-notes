@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 La procédure de Benjamini-Hochberg est une règle de rejet portant sur $m$ tests simultanés. Elle contrôle le **taux de fausses découvertes** (FDR, *false discovery rate*), défini comme l'espérance de la proportion de tests qui rejettent l'hypothèse nulle alors qu'ils ne le devraient pas, parmi l'ensemble des tests rejetés. En notant $V$ le nombre de tests rejetant $H_0$ à tort et $R$ le nombre total de tests rejetés :

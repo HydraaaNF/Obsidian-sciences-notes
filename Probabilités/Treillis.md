@@ -1,3 +1,5 @@
+#adm-6 #adm-7
+
 # Définition
 
 Le **treillis** (trellis) d'un [[Modèle de Markov caché|modèle de Markov caché]] est le dépliage de la chaîne dans le temps : chaque état et chaque instant y occupent une position fixe.

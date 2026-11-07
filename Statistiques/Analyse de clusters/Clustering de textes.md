@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Le **clustering de textes** applique le [[Clustering|clustering]] à des documents textuels : il regroupe automatiquement ces documents en thèmes apparentés. C'est l'une des [[Applications du clustering|applications du clustering]].

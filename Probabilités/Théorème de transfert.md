@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorèmes
 
 Le théorème de transfert, admis, permet de calculer l'[[Espérance d'une variable aléatoire|espérance]] de $g \circ X$, notée abusivement $g(X)$ et dite « fonction de la variable aléatoire $X$ », sans connaître la [[Loi d'une variable aléatoire|loi]] de $g(X)$ mais seulement celle de $X$ : c'est très utile en pratique.

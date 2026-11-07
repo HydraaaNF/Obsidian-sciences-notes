@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soient $(\Omega, \mathcal{F}, \mathbb{P})$ un [[Espace probabilisé|espace probabilisé]] et $X$ une [[Variable aléatoire réelle|variable aléatoire réelle]] définie sur $\Omega$ telle que $X(\Omega) \subset \mathbb{N}$. On appelle **fonction génératrice** de $X$ la fonction $G_X$ définie par

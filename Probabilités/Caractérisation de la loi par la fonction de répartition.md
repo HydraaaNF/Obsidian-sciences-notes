@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 Deux [[Variable aléatoire réelle|variables aléatoires réelles]] ont même [[Loi d'une variable aléatoire|loi]] si et seulement si elles ont même [[Fonction de répartition|fonction de répartition]].

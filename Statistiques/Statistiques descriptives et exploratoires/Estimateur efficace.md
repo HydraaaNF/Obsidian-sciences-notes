@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Un [[Estimateur|estimateur]] $T$ [[Biais d'un estimateur|sans biais]] de $\theta$ est dit **efficace** s'il est le plus précis des estimateurs sans biais de $\theta$, c'est-à-dire s'il minimise la [[Distance en moyenne d'ordre p|distance en moyenne quadratique]] $\mathbb{E}\left[(T-\theta)^2\right]$.

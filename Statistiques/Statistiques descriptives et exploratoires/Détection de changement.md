@@ -1,3 +1,5 @@
+#adm-9
+
 # Modèle
 
 Une série statistique est observée au fil du temps, sous la forme d'observations successives indexées par un instant. Autour d'un instant $t$, on distingue deux régimes, décrits chacun par une statistique $\theta$ :

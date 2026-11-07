@@ -1,10 +1,12 @@
+#adm-6 #adm-7 #adm-8
+
 # Loi
 
 Un [[Champ aléatoire de Markov|champ aléatoire]] $X$ est indexé par un ensemble fini de sites $S$ : pour tout site $s \in S$, la variable $X_s$ prend ses valeurs dans un ensemble $E$, et une configuration du champ est un vecteur $x = (x_s)_{s \in S}$ de l'espace d'échantillonnage
 
 $$\Omega = E^{|S|}$$
 
-Le [[Graphes dirigés et graphes non dirigés|graphe non dirigé]] du champ munit $S$ d'un système de voisinage $V$, qui associe à chaque site $s$ l'ensemble $V_s$ de ses voisins ; on note $\mathcal{C}$ l'ensemble des cliques de ce système, c'est-à-dire des parties de $S$ dont deux sites quelconques sont voisins.
+Le [[Graphes dirigés et graphes non dirigés|graphe non dirigé]] du champ induit sur $S$ un système de voisinage $V$, qui associe à chaque site $s$ l'ensemble $V_s$ des sites reliés à $s$ par une arête ; on note $\mathcal{C}$ l'ensemble des cliques de ce système, c'est-à-dire des parties de $S$ dont deux sites distincts quelconques sont voisins.
 
 La **distribution de Gibbs** d'énergie $U$ est la loi sur $\Omega$ définie par
 

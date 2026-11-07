@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 La **file $M/M/1$** est l'exemple le plus simple de [[File d'attente|file d'attente]] gouvernée par un [[Processus de naissance et de mort|processus de naissance et de mort]] (PNM). Les temps d'inter-arrivées sont des v.a.i.i.d. de loi commune $\mathcal{E}(\lambda)$, ce qui est équivalent à dire que le processus des arrivées est un [[Processus de Poisson]] de taux $\lambda$ ; les durées de service sont des v.a.i.i.d. de loi commune $\mathcal{E}(\mu)$ ; il y a un seul serveur ; la capacité de la file est infinie ainsi que le nombre de clients potentiels. On admet que le processus $(N(t))_{t \geq 0}$ est une [[Chaîne de Markov à temps continu|CMTCH]], et l'on constate que c'est bien un PNM en calculant les taux de transition.

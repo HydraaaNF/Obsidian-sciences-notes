@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 Pour déterminer la loi, ou simplement l'[[Espérance d'une variable aléatoire|espérance]], de la v.a.r. $g(X_1, \dots, X_n)$ en utilisant seulement la [[Loi d'un vecteur aléatoire|loi conjointe]] de $X_1, \dots, X_n$, on utilise le théorème de transfert (admis) :

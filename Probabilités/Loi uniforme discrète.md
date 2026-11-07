@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La loi uniforme discrète est la loi d'une [[Variable aléatoire discrète]] prenant un nombre fini $n$ de valeurs possibles $x_1, \ldots, x_n$, toutes de même probabilité :

@@ -1,3 +1,5 @@
+#adm-5
+
 # Définition
 
 Un **mélange gaussien** est un [[Modèles de mélange|modèle de mélange]] dont chaque composante $f_i$ est la [[Densité d'un vecteur gaussien|densité]] d'un [[Vecteur gaussien]] de moyenne $\mu_i$ et de [[Matrice de covariance|matrice de covariance]] $\Sigma_i$ :

@@ -1,3 +1,5 @@
+#adm-0bis #adm-4
+
 # Définition
 
 La **moyenne empirique** d'un ensemble d'observations $X_1, \ldots, X_n$ est une [[Statistique|statistique]] estimant la [[Moyenne, médiane et mode|moyenne]] d'une population à partir d'un ensemble fini d'échantillons :

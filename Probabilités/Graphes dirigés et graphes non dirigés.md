@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 Deux familles de graphes structurent les [[Modèle graphique|modèles graphiques]] :

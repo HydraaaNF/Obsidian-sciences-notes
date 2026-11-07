@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 Un graphe de facteurs représente une loi jointe comme le produit normalisé de fonctions dont chacune ne dépend que d'un sous-ensemble de variables :

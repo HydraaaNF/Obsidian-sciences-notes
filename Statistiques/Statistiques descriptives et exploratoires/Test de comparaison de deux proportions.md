@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Modèle
 
 Un test de comparaison de deux proportions confronte une [[Hypothèse nulle et hypothèse alternative|hypothèse nulle]] $H_0$ à une hypothèse alternative $H_1$ à partir de deux [[Échantillon et échantillonnage|échantillons]] indépendants $(X_1, \ldots, X_{n_1})$ et $(Y_1, \ldots, Y_{n_2})$, issus d'une loi mère de [[Loi de Bernoulli|Bernoulli]] de paramètres $p_1$ et $p_2$ respectivement. On souhaite tester l'hypothèse

@@ -1,3 +1,5 @@
+#adm-0 #adm-0bis
+
 # Théorème
 
 Soit $(X_n)_{n \in \mathbb{N}}$ une suite de [[Variable aléatoire réelle|variables aléatoires réelles]] et $X$ une variable aléatoire réelle, définies sur un même [[Espace probabilisé|espace probabilisé]]. Si, pour tout $\eta > 0$, la **série** de terme général $\mathbb{P}[|X_n - X| > \eta]$ est convergente, alors la suite $(X_n)_{n \in \mathbb{N}}$ converge [[Convergence presque sûre|presque sûrement]] vers $X$.

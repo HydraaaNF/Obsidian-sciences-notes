@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 On appelle **quantité d'information de Fisher** sur le paramètre $\theta$ apportée par un échantillon de taille $n$ la quantité positive (ou nulle) suivante :

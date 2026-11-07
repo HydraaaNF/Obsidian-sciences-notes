@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 Le **test du chi-deux d'homogénéité** compare plusieurs sous-échantillons d'un même ensemble au regard d'un caractère qualitatif à $r$ modalités : il teste l'hypothèse que tous ces sous-échantillons sont issus d'une même [[Population statistique et caractère|population]], autrement dit que la distribution des modalités y est identique.

@@ -1,3 +1,5 @@
+#adm-6
+
 # Propriétés
 
 Les [[Paramètres d'un modèle de Markov caché|paramètres]] d'un [[Modèle de Markov caché|modèle de Markov caché]] sont réestimés par [[Méthode du maximum de vraisemblance|maximum de vraisemblance]] à partir de $R$ échantillons d'observations $\mathbf{o}^{(r)}$ de longueurs $n_r$. En respectant les contraintes de normalisation $\sum_i \pi_i = 1$, $\sum_j a_{ij} = 1$ et $\sum_k b_{ik} = 1$, les formules de réestimation s'écrivent :

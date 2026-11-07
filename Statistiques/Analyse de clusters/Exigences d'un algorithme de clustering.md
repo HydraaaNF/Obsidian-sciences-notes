@@ -1,3 +1,5 @@
+#adm-3
+
 # Propriétés
 
 Un [[Clustering|algorithme de clustering]] doit satisfaire les exigences suivantes :

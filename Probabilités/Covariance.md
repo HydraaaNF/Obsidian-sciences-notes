@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La **covariance** de deux variables aléatoires $X$ et $Y$ est définie par

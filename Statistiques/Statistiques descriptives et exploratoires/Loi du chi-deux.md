@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Loi
 
 La **loi du chi-deux** à $n$ degrés de liberté, notée $\chi_n^2$, est la loi de la variable aléatoire

@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Le [[Clustering hiérarchique|clustering hiérarchique]] peut être construit de deux façons :

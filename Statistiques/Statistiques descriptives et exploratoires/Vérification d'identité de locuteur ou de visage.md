@@ -1,3 +1,5 @@
+#adm-9
+
 # Modèle
 
 La vérification d'identité, d'un locuteur ou d'un visage, s'écrit comme un test opposant deux hypothèses simples :
@@ -52,3 +54,5 @@ Les performances mesurées sur trois systèmes, exprimées en pourcentage, sont 
 | F-measure | 46,9 | 84,3 | 66,0 |
 
 Le F-measure le plus élevé, donc le meilleur compromis entre les deux taux d'erreur, est obtenu par le système IRISA, avec le taux de fausses acceptations le plus faible des trois.
+
+L'approche par apprentissage consiste à apprendre un espace où les observations d'une même personne sont proches et celles de personnes différentes éloignées, comparaison assurée par des [[Réseaux siamois]].

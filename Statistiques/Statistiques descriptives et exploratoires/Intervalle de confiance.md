@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 On dispose d'un [[Échantillon et échantillonnage|échantillon]] $(x_1, \dots, x_n)$ issu de la loi de $X$ et d'un paramètre inconnu $\theta$ à estimer à partir de cet échantillon. Il est souvent plus réaliste de fournir un renseignement du type

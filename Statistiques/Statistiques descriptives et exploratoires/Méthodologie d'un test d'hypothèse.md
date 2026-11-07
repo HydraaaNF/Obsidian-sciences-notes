@@ -1,3 +1,5 @@
+#adm-9
+
 # Algorithme
 
 Un test d'hypothèse se conduit en sept étapes :

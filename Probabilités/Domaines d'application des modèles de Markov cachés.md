@@ -1,3 +1,5 @@
+#adm-6
+
 # Interprétation
 
 Les [[Modèle de Markov caché|modèles de Markov cachés]] trouvent des applications dans un grand nombre de domaines, notamment :

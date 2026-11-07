@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 La classification (l'un des [[Problèmes d'apprentissage statistique|problèmes d'apprentissage statistique]]) consiste à prédire un label discret $y$ à partir de données observées $x$. La décision bayésienne (optimale) associe à $x$ le label

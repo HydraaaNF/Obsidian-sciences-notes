@@ -1,3 +1,5 @@
+#adm-7
+
 # Algorithme
 
 Un [[Arbre de jonction]] se construit à partir d'un graphe $\mathcal{G}$ en cinq étapes : un ordre d'élimination fixe les cliques, un graphe complet pondéré relie ces cliques, et un arbre couvrant de poids maximum en extrait l'arbre de jonction.

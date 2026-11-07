@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 Le **p-hacking** consiste à collecter les données d'abord, puis à chercher le test qui dit ce qu'on veut : la procédure de test est choisie après avoir vu les données, en fonction du résultat qu'elle produit, au lieu d'être fixée avant.

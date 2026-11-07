@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 Le coefficient de corrélation des rangs de Kendall, noté $\tau_{XY}$, mesure si deux [[Variable aléatoire|variables aléatoires]] $X$ et $Y$ varient dans le même sens. C'est une mesure de la [[Corrélation de deux caractères|corrélation entre deux caractères]].

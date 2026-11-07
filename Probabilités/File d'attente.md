@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Une **file d'attente** (ou **système d'attente**) est une entité composée d'une zone de service (un ou plusieurs serveurs montés en parallèle) pouvant recevoir des clients et d'une zone d'attente où les clients ne pouvant être immédiatement servis attendent qu'un serveur se libère.

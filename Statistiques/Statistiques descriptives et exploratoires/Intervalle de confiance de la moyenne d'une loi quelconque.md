@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Algorithme
 
 On souhaite estimer $m = \mathbb{E}[X]$, l'[[Espérance d'une variable aléatoire|espérance]] d'une variable aléatoire mère $X$ de loi quelconque (continue ou discrète), à partir d'un [[Échantillon et échantillonnage|échantillon]] de taille $n$ ; on note $\sigma^2 = \mathbb{V}(X)$ la [[Variance|variance]] de $X$.

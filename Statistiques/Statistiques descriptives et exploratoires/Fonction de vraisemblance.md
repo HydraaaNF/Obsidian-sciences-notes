@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Soit un échantillon $(x_1, \dots, x_n)$ issu de la loi d'une [[Variable aléatoire|variable aléatoire]] $X$ et soit $\theta$ un paramètre à estimer. La **fonction de vraisemblance** de l'[[Échantillon et échantillonnage|échantillon]] est
@@ -21,6 +23,8 @@ $$\mathcal{L}(x_1, \dots, x_n; \theta) = \prod_{i=1}^n f(x_i)$$
 $$\mathcal{L}(x_1, \dots, x_n; \theta) = \prod_{i=1}^n \mathbb{P}[X = x_i].$$
 
 La maximisation de cette fonction fait l'objet de la [[Méthode du maximum de vraisemblance]] et conduit à l'[[Estimateur du maximum de vraisemblance]].
+
+Pour une classe binaire, la vraisemblance maximisée prend, une fois changée de signe et moyennée sur les observations, la forme de l'[[Entropie croisée binaire]] employée comme perte de classification.
 
 # Propriétés
 

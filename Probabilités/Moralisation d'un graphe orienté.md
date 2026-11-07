@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 La moralisation associe à un graphe orienté un graphe non dirigé, son graphe moralisé, en deux étapes :

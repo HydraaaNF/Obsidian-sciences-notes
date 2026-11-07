@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Considérons une population de $N$ individus dont une proportion $p \in [0,1]$ vérifie une certaine propriété $\mathcal{P}$. Si $N$ est très grand, il est impossible de connaître exactement $p$, et l'on a alors recours à un *sondage* : on tire au hasard et indépendamment $n$ individus, avec $n$ nettement inférieur à $N$ (sinon la méthode n'a aucun intérêt), et on regarde s'ils satisfont la propriété $\mathcal{P}$. On obtient les mesures $x_1, \dots, x_n$ telles que

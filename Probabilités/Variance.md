@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La **variance** d'une variable aléatoire $X$ est définie par

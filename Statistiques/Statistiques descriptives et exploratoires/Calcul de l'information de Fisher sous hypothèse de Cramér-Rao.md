@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Théorème
 
 Si le domaine de définition de $X$ ne dépend pas du paramètre $\theta$ (dite **hypothèse de Cramér-Rao**), alors la [[Information de Fisher|quantité d'information de Fisher]] apportée par un échantillon de taille $n$ s'écrit

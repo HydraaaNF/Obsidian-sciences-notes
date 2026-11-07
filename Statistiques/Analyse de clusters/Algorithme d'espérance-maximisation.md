@@ -1,3 +1,5 @@
+#adm-5
+
 # Algorithme
 
 L'**algorithme d'espérance-maximisation** (EM) compense des données manquantes (ou [[Variables cachées d'un modèle de mélange|données latentes]]) en les remplaçant par leurs espérances. Il s'applique en particulier à l'[[Estimation par maximum de vraisemblance d'un modèle de mélange|estimation par maximum de vraisemblance]] des paramètres d'un [[Modèles de mélange|modèle de mélange]].

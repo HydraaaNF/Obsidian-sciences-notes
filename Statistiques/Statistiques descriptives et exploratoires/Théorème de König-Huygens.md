@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Théorème
 
 Le théorème de König-Huygens, aussi appelé *centrage pour la moyenne*, s'énonce ainsi : pour tout réel $a$,

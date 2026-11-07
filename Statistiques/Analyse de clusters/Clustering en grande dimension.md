@@ -1,3 +1,5 @@
+#adm-3
+
 # Interprétation
 
 De nombreuses applications nécessitent des espaces de grande dimension : documents textuels, images, données d'ADN, etc. La grande dimension soulève de nouvelles difficultés pour le [[Clustering|clustering]] :

@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Le **lissage des probabilités** (*discounting*) consiste à emprunter de la masse de probabilité aux événements observés et à la redistribuer aux événements non observés, de la façon la plus astucieuse possible.

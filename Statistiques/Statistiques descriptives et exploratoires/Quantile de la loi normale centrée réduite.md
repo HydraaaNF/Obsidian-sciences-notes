@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Soit $Z \sim \mathcal{N}(0,1)$ une [[Loi gaussienne|variable aléatoire de loi normale centrée réduite]]. Pour un risque $\alpha \in ]0, 1[$ (par exemple, $\alpha = 0,1$ ou $\alpha = 0,05$), on détermine à l'aide de la table de la loi normale centrée réduite le réel $u_{\frac{\alpha}{2}}$, appelé **quantile** de la loi normale centrée réduite, tel que

@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Loi
 
 Une [[Variable aléatoire continue|variable aléatoire continue]] suit la loi gamma de paramètre de forme $k > 0$ et de paramètre de taux $\lambda > 0$ lorsque sa [[Probabilité à densité|densité de probabilité]] s'écrit, pour $x > 0$,

@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Soient $U$ et $V$ deux [[Variable aléatoire réelle|variables aléatoires réelles]] [[Indépendance de variables aléatoires|indépendantes]], de lois respectives $\chi_p^2$ et $\chi_q^2$ ([[Loi du chi-deux|lois du chi-deux]] à $p$ et $q$ degrés de liberté). La variable aléatoire définie par

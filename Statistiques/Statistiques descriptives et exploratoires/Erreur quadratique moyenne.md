@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Pour mesurer la précision d'un [[Estimateur|estimateur]] $T$ d'un paramètre $\theta$, on considère la [[Distance en moyenne d'ordre p|distance en moyenne quadratique]] : l'objectif est de choisir un estimateur $T$ minimisant la quantité
@@ -29,3 +31,7 @@ $$\mathbb{V}(\overline{X}) = \frac{\sigma^2}{n},$$
 lorsque la loi mère admet un moment d'ordre 2. Ainsi, l'erreur quadratique moyenne diminue lorsque la taille d'échantillon grandit :
 
 $$\mathbb{E}\left[(\overline{X} - \mathbb{E}[X])^2\right] = \frac{\sigma^2}{n} \xrightarrow{n \to +\infty} 0.$$
+
+# Remarque
+
+Cette erreur quadratique moyenne mesure l'écart entre un estimateur et le paramètre qu'il estime : c'est une erreur d'**estimation**. Elle ne doit pas être confondue avec les erreurs de **prédiction** d'un modèle, qui comparent une sortie prédite à une valeur observée, voir [[Mesures d'erreur en régression]] et [[Perte absolue et perte quadratique]].

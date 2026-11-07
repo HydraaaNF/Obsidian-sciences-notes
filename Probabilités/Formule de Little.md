@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 La **formule de Little** est une égalité qui relie le taux moyen d'arrivées $\bar{\lambda}$ et le temps moyen passé dans le système par un client $\bar{R}$ au nombre moyen de clients dans le système à un instant quelconque du régime stationnaire, noté $\bar{N} = \mathbb{E}(N_\infty)$, cette notation étant justifiée par l'[[Système ergodique|ergodicité du système]].

@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 L'**espérance** d'une [[Variable aléatoire]] $X$ est définie par :
@@ -34,3 +36,4 @@ Soit $X$ une variable aléatoire réelle discrète :
 - La [[Variance]] et les [[Moment d'ordre k|moments d'ordre k]] sont des quantités descriptives construites à partir de l'espérance.
 - L'[[Espérance conditionnelle]] traite le cas où la valeur d'une autre variable aléatoire est connue.
 - L'[[Entropie d'une variable aléatoire discrète|entropie]] est elle-même une espérance, celle de l'information $-\log_b \mathbb{P}(X)$ apportée par la valeur observée.
+- Le calcul effectif de l'espérance, à partir de la loi de la variable, est décrit dans [[Calcul d'une espérance]].

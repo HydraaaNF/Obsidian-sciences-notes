@@ -1,3 +1,5 @@
+#adm-0bis #adm-4 #adm-9
+
 # Définition
 
 La **variance empirique** d'un ensemble d'observations $X_1, \ldots, X_n$ est l'[[Estimateur|estimateur]] de la [[Variance]] donné par

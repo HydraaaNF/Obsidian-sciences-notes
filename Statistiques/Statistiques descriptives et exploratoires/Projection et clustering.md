@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 On observe des variables $X \in \mathbb{R}^p$. Lorsque $p$ est grand, deux familles d'approches permettent d'analyser les données :

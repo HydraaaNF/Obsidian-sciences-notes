@@ -1,3 +1,5 @@
+#adm-8
+
 # Modèle
 
 Un modèle log-linéaire conditionnel décrit la loi conditionnelle d'une étiquette $Y$ sachant une observation $X = x$, sans modéliser la loi de $X$. Il est déterminé par :

@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Soit $X(t)$ l'« état » d'un [[Processus stochastique|processus stochastique]] au temps $t$.

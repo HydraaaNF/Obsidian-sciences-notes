@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Le k-means est une méthode de [[Clustering|clustering]] qui partitionne des données en $k$ clusters, chacun représenté par son centre. C'est une formulation de problème, et non un algorithme.

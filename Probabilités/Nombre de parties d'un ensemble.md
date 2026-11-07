@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $E$ un ensemble. On appelle ensemble des parties de $E$, noté $\mathcal{P}(E)$, l'ensemble dont les éléments sont les sous-ensembles de $E$.

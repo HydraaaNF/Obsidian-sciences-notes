@@ -1,3 +1,5 @@
+#adm-0bis #adm-4
+
 # Interprétation
 
 Un [[Estimateur|estimateur]] biaisé n'est pas nécessairement un mauvais estimateur : le biais n'est qu'une composante de l'[[Erreur quadratique moyenne|erreur quadratique moyenne]], et un estimateur biaisé peut être préféré à un estimateur sans biais dont la variance est plus grande.

@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 La **notation en plaques** est une convention de dessin des [[Réseau bayésien|réseaux bayésiens]] qui résume un motif répété : on encadre d'un rectangle, appelé *plaque*, le groupe de nœuds qui se répète, et l'étiquette de la plaque donne le nombre de répétitions.

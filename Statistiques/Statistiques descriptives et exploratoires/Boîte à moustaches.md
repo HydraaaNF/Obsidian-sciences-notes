@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 La **boîte à moustaches** (en anglais *box and whisker plot*) est une représentation compacte de la moyenne et de la dispersion d'une distribution. Elle repose sur les [[Quartiles et écart interquartile|quartiles]] $Q_1$ et $Q_3$ et sur l'écart interquartile $Q_3 - Q_1$ :

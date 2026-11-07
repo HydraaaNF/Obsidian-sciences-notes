@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Propriétés
 
 Pour deux variables aléatoires $X$ et $Y$, la [[Variance|variance]] de leur somme vaut

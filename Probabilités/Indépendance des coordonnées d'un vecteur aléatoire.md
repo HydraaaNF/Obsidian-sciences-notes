@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $X = (X_1, \dots, X_n)$ un [[Vecteur aléatoire|vecteur aléatoire]] de $\mathbb{R}^n$. Ses coordonnées $X_1, \dots, X_n$ sont dites [[Indépendance de variables aléatoires|mutuellement indépendantes]] si, pour tout $I \subset \{1, \dots, n\}$ et pour toute famille $(B_i)_{i \in I}$ de [[Tribu borélienne|boréliens]] (ou d'intervalles), on a

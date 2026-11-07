@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Le coefficient de variation est une caractéristique de dispersion relative, définie par

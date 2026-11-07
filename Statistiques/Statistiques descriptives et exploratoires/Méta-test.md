@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 Essayer successivement $m$ tests $T_1, \dots, T_m$, chacun de [[Risque de première espèce|niveau]] $\alpha$, puis rejeter $H_0$ dès que l'un d'eux rejette $H_0$, est en soi une procédure de décision : le **méta-test**. Sa règle de rejet s'écrit

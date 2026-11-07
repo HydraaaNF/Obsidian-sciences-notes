@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Soient $X_1, \ldots, X_n$ des [[Variable aléatoire discrète|variables aléatoires discrètes]] [[Indépendance de variables aléatoires|indépendantes]] et identiquement distribuées, à valeurs dans $[1, K]$. La proportion empirique (ou fréquence empirique) de l'événement $k$ (ou, de façon équivalente, de la probabilité $p_k = \mathbb{P}[X = k]$) est estimée par la [[Statistique|statistique]]

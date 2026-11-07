@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Le **test de Kolmogorov-Smirnov** est un test réservé à l'ajustement de données à une loi de probabilité avec une **densité continue** (c'est-à-dire une fonction de répartition $F_0$ de classe $\mathcal{C}^1$) **connue** (c'est-à-dire dont tous les éventuels paramètres sont connus et ne nécessitent pas d'être estimés).

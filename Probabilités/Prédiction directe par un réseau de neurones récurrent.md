@@ -1,3 +1,5 @@
+#adm-8
+
 # Modèle
 
 Un [[Réseau de neurones récurrent|réseau de neurones récurrent]] déroulé de gauche à droite sur les entrées $x_1, \dots, x_n$ produit à chaque position un état caché $h_k$ qui résume le préfixe $x_1, \dots, x_k$. Dans le mode de prédiction directe, l'étiquette $y_k$ de la position $k$ est lue sur cet état, sans étape intermédiaire.

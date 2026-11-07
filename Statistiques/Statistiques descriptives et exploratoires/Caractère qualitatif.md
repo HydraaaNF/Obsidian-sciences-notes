@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 On considère un caractère qualitatif $X$ à $k$ modalités $m_1, \dots, m_k$ observé sur $n$ [[Population statistique et caractère|individus]], avec les valeurs $x_1, \dots, x_n$. Dans un premier temps, les données sont généralement représentées sous forme d'une liste faisant correspondre à chaque individu $i$ la modalité qu'on lui a observée $x_i$.
@@ -27,3 +29,5 @@ Ces fréquences sont souvent exprimées sous forme de pourcentage.
 Pour la représentation graphique des effectifs et des fréquences, voir [[Représentations graphiques d'un caractère qualitatif]].
 
 Pour un caractère dont les valeurs sont discrètes (ou isolées), voir [[Caractère quantitatif discret]].
+
+En apprentissage automatique, un tel caractère observé sur une population est l'un des attributs d'une [[Donnée et attributs|donnée]].

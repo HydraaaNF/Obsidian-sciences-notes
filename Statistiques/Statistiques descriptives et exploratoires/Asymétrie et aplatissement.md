@@ -1,3 +1,5 @@
+#adm-1 #adm-2
+
 # Définition
 
 La [[Moyenne, médiane et mode|moyenne]] ne suffit pas à décrire une variable : il faut aussi en résumer la dispersion et la forme. La forme d'ensemble est décrite par deux moments centrés normalisés :

@@ -1,3 +1,5 @@
+#adm-0 #adm-0bis
+
 # Définition
 
 Soit $p \geq 1$. Soit $(X_n)$ une suite de [[Variable aléatoire réelle|variables aléatoires réelles]] et $X$ une variable aléatoire réelle, toutes définies sur le même [[Espace probabilisé|espace probabilisé]]. On suppose que ces variables aléatoires admettent toutes un [[Moment d'ordre k|moment]] d'ordre $p$. On dit que la suite $(X_n)$ converge en moyenne d'ordre $p$ vers $X$ si

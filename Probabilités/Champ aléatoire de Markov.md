@@ -1,3 +1,5 @@
+#adm-6 #adm-7 #adm-8
+
 # Définition
 
 Un **champ aléatoire de Markov** est un [[Processus stochastique|champ aléatoire]], c'est-à-dire une famille de variables aléatoires $(X_s)_{s \in S}$ indexée par un ensemble de sites $S$, chaque $X_s$ prenant ses valeurs dans un ensemble fini $E$ d'états, dont la loi vérifie la propriété de Markov spatiale : la loi conditionnelle de la variable d'un site sachant toutes les autres ne dépend que des variables des sites voisins. Pour tout site $s \in S$ et toute valeur $x_s \in E$,

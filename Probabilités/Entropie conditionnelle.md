@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Soient $X$ et $Y$ deux [[Variable aléatoire|variables aléatoires]] discrètes. L'**entropie conditionnelle** de $X$ sachant $Y$ est la quantité

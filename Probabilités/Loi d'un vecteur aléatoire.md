@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Soit $(X, Y)$ un [[Vecteur aléatoire|vecteur aléatoire]] de $\mathbb{R}^2$. La **loi jointe** (ou *distribution jointe*) de $X$ et de $Y$ est définie par sa [[Fonction de répartition|fonction de répartition]] jointe :

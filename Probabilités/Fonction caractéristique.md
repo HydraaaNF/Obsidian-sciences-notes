@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Il est immédiat d'étendre la définition de l'[[Espérance d'une variable aléatoire|espérance]] à une variable aléatoire $Z = Z_1 + iZ_2$ à valeurs complexes : il suffit pour cela que les [[Variable aléatoire réelle|variables aléatoires réelles]] $Z_1$ et $Z_2$ admettent une espérance, et on a alors

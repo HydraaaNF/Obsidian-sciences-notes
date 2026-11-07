@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Dans un [[Clustering hiérarchique|clustering hiérarchique]], le **type de liaison** (linkage) définit la façon de mesurer la distance entre deux clusters. C'est cette distance qui décide de la fusion des clusters et qui est reportée dans la [[Matrice de proximité et clustering ascendant|matrice de proximité]].

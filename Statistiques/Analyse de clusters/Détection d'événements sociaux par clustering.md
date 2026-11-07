@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 La **détection d'événements sociaux** est une application du [[Clustering|clustering]] : elle consiste à regrouper des images partagées sur les réseaux sociaux selon l'événement social qu'elles documentent. Elle compte parmi les [[Applications du clustering]].

@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 L'**estimateur du maximum a posteriori** (MAP) est donné par

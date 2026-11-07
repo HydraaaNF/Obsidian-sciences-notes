@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 On appelle **fonction Gamma** la fonction $\Gamma$ définie sur $]0, +\infty[$ par

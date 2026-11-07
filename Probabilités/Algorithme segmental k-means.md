@@ -1,3 +1,5 @@
+#adm-6
+
 # Algorithme
 
 L'**algorithme segmental k-means** estime les [[Paramètres d'un modèle de Markov caché|paramètres]] $\theta$ d'un [[Modèle de Markov caché|modèle de Markov caché]] $\lambda_N$ à partir d'échantillons d'entraînement. Il procède par itérations :

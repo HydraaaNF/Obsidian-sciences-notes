@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 Soient des observations $\mathbf{x}_i$ issues de deux classes, de moyennes respectives $\mu_0$ et $\mu_1$ et de matrices de covariance respectives $\Sigma_0$ et $\Sigma_1$. La projection de ces observations le long de la droite dirigée par $\mathbf{w}$ produit une séparation définie par

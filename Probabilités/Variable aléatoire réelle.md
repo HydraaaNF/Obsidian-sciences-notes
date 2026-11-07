@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $(\Omega, \mathcal{F}, p)$ un [[Espace probabilisé|espace probabilisé]] modélisant une certaine expérience aléatoire. La valeur d'une variable aléatoire réelle $X$ définie via cette expérience est obtenue à partir du résultat $\omega \in \Omega$ de l'expérience aléatoire. $X$ est donc une application définie sur $\Omega$ et à valeurs dans $\mathbb{R}$, puisque la valeur de la v.a. est une fonction de $\omega$ :

@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Les [[Évènement|évènements]] d'une expérience aléatoire forment un ensemble de parties de $\Omega$ ayant une structure de **tribu** (ou **$\sigma$-algèbre**) : il doit contenir $\Omega$ et $\emptyset$, être stable par passage au complémentaire et stable par union et intersection dénombrables.

@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Dans un [[Modèle de Markov caché]], la **statistique d'occupation** de l'état $i$ au temps $t$ est la probabilité conditionnelle

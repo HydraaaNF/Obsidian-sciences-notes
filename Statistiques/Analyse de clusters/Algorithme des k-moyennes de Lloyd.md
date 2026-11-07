@@ -1,3 +1,5 @@
+#adm-3
+
 # Algorithme
 
 L'**algorithme des k-moyennes de Lloyd** fournit une solution approchée du problème du [[k-means]].

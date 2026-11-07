@@ -1,3 +1,5 @@
+#adm-6
+
 # Loi
 
 La **loi de Zipf** est une distribution de probabilité qui reflète le fait que les **événements fréquents sont rares et les événements rares sont fréquents** : le produit du nombre d'occurrences (*count*) par le rang (*rank*), c'est-à-dire sa position dans le classement par fréquence décroissante, est approximativement constant :

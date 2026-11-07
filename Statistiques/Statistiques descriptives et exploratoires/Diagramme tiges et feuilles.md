@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 Le diagramme tiges et feuilles (stem and leaf plot) est un mode de représentation d'une distribution empirique : les valeurs observées y sont regroupées sous des tiges, chacune portant ses feuilles.

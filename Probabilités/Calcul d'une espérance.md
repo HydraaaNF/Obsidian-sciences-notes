@@ -1,3 +1,5 @@
+#adm-0
+
 # Propriétés
 
 Le calcul pratique de l'[[Espérance d'une variable aléatoire|espérance]] s'effectue différemment selon la nature de la variable aléatoire.

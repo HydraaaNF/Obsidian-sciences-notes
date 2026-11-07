@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Propriétés
 
 Soient $X$ et $Y$ les deux caractères d'une [[Série statistique double]], de modalités respectives $\alpha_1, \dots, \alpha_k$ et $\beta_1, \dots, \beta_l$. Pour chaque modalité $\beta_j$ du caractère $Y$, $j$ allant de $1$ à $l$, on dispose des moyenne et variance conditionnelles $\bar{x}_j$ et $V(x)_j$ des observations de $X$ conditionnellement à $\beta_j$ (voir [[Distributions conditionnelles]]). La [[Moyenne, médiane et mode|moyenne]] et la [[Variance et écart-type|variance]] de l'ensemble des observations $x_1, \dots, x_n$ de $X$ sont données par

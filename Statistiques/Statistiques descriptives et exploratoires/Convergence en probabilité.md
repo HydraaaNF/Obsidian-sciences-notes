@@ -1,3 +1,5 @@
+#adm-0 #adm-0bis
+
 # Définition
 
 Soit $(X_n)_{n \in \mathbb{N}}$ une suite de [[Variable aléatoire réelle|v.a.r.]] et $X$ une v.a.r. définies sur un même [[Espace probabilisé|espace probabilisé]]. On dit que la suite $(X_n)_{n \in \mathbb{N}}$ converge en probabilité vers $X$ si

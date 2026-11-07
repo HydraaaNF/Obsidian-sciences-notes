@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Un [[Estimateur|estimateur]] $T_n$ de $\theta$ est dit **fortement convergent** (ou fortement consistant) si

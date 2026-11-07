@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Soient $A$ et $B$ deux [[Évènement|évènements]] d'un [[Espace probabilisé]]. La **probabilité conditionnelle** de $A$ sachant $B$ est définie par

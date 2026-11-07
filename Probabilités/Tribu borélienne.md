@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 On appelle **tribu borélienne** de $\mathbb{R}^{d}$ la [[Tribu]] engendrée par les ouverts de $\mathbb{R}^{d}$, c'est-à-dire la plus petite tribu de parties de $\mathbb{R}^{d}$ contenant les ouverts de $\mathbb{R}^{d}$. On la note $\mathcal{B}(\mathbb{R}^{d})$. Tout élément de cette tribu est appelé **borélien** de $\mathbb{R}^{d}$.

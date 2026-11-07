@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Étant donné un [[Échantillon et échantillonnage|échantillon]] d'observations $(x_1, \dots, x_n)$ issu de la loi de $X$, la **méthode du maximum de vraisemblance** permet d'obtenir un [[Estimateur|estimateur]] d'un paramètre $\theta$ inconnu, qui n'est pas nécessairement l'[[Espérance d'une variable aléatoire|espérance]] ou la [[Variance]] de $X$.
@@ -7,3 +9,5 @@ Pour un échantillon donné $(x_1, \dots, x_n)$, elle consiste à chercher la va
 # Remarque
 
 L'estimateur obtenu en appliquant cette méthode est l'[[Estimateur du maximum de vraisemblance|estimateur du maximum de vraisemblance]] du paramètre $\theta$.
+
+En classification, maximiser la vraisemblance d'une classe binaire revient à minimiser une [[Entropie croisée binaire|entropie croisée]].

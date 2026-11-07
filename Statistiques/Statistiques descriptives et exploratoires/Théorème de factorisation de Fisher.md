@@ -1,3 +1,5 @@
+#adm-4
+
 # Théorème
 
 Soient $X_1, \dots, X_n$ un [[Échantillon et échantillonnage|échantillon]] et $T$ une [[Statistique|statistique]]. On note

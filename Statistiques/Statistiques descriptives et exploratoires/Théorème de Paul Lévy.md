@@ -1,3 +1,5 @@
+#adm-0 #adm-0bis
+
 # Théorème
 
 Si la suite $(X_n)_{n \in \mathbb{N}}$ converge en [[Convergence en loi|loi]] vers $X$, alors la suite $(\Phi_{X_n}(\xi))_{n \in \mathbb{N}}$ des [[Fonction caractéristique|fonctions caractéristiques]] converge vers $\Phi_X(\xi)$ :

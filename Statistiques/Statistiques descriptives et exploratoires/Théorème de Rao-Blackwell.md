@@ -1,3 +1,5 @@
+#adm-4
+
 # Théorème 1
 
 **Théorème de Rao-Blackwell.** Si $T$ est un [[Estimateur|estimateur]] [[Biais d'un estimateur|sans biais]] de $\theta$ et $U$ une [[Statistique suffisante|statistique suffisante]] pour $\theta$, alors $T^* = \mathbb{E}[T \mid U]$ est un estimateur sans biais de $\theta$, au moins aussi bon que $T$.

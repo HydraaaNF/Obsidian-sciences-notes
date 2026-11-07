@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La **fonction de répartition** (en anglais *cumulative distribution function*, cdf) d'une [[Variable aléatoire|variable aléatoire]] réelle $X$ est la fonction $F_X$ définie par

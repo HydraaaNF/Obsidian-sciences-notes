@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Le **clustering hiérarchique** est une approche de [[Clustering|clustering]] qui génère progressivement des clusters en fusionnant ou en divisant les données.

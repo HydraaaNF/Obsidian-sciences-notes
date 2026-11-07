@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 L'**espace d'échantillonnage**, ou univers des possibles, est l'ensemble des résultats possibles d'une expérience aléatoire ; il est noté $\Omega$. Il n'est pas défini par l'expérience elle-même, mais par l'usage qu'on en fait, par exemple, pour le lancer d'un dé.

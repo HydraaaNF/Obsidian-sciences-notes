@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 La **classification par maximum a posteriori** prédit une étiquette discrète $y$ à partir de données observées $x$. La décision bayésienne, optimale au sens où elle choisit l'étiquette la plus probable sachant l'observation, associe à $x$ l'étiquette

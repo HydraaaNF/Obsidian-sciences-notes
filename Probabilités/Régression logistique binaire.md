@@ -1,3 +1,5 @@
+#adm-8
+
 # Modèle
 
 La **régression logistique binaire** décrit la loi conditionnelle d'une classe binaire $Y \in \{0,1\}$ sachant un jeu de variables observées $X = (X_1, \dots, X_n)$. La classe suit une [[Loi de Bernoulli|loi de Bernoulli]], c'est-à-dire une [[Loi binomiale]] à une seule épreuve.
@@ -76,3 +78,5 @@ $$\mathbb{P}[Y = y \mid X = x] = \frac{1}{Z(x)} \exp\left( \sum_{j=0}^{n} \lambd
 attribue le score $s(x) = \lambda_0 + \lambda_1 x_1 + \dots + \lambda_n x_n$ à la classe $1$ et le score $0$ à la classe $0$, d'où $Z(x) = 1 + \exp(s(x))$ : elle se réduit à la probabilité ci-dessus, et la sigmoïde est la version à deux étiquettes du modèle log-linéaire conditionnel.
 
 Le modèle ne spécifie que la loi conditionnelle de $Y$ sachant $X$ ; il ne dit rien de la loi des variables observées $X_1, \dots, X_n$, qui n'ont donc pas à être modélisées.
+
+Lu comme un modèle à entraîner, le même classifieur s'écrit à partir du logit et de la sigmoïde, puis s'ajuste en minimisant une entropie croisée, voir [[Régression logistique]].

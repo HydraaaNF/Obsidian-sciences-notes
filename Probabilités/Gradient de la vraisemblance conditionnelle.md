@@ -1,3 +1,5 @@
+#adm-8
+
 Le [[Vraisemblance conditionnelle d'un champ aléatoire conditionnel|maximum de vraisemblance conditionnelle]] d'un [[Champ aléatoire conditionnel à chaîne linéaire|champ aléatoire conditionnel]] n'a pas de solution analytique : on maximise l'objectif par montée de gradient, ce qui demande d'exprimer la dérivée partielle de la log-vraisemblance par rapport à chaque paramètre $\lambda_i$.
 
 # Propriétés

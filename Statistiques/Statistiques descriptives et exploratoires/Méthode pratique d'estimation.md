@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Algorithme
 
 On dispose de l'observation $(x_1, \dots, x_n)$ de l'[[Échantillon et échantillonnage|échantillon]] $(X_1, \dots, X_n)$ issu d'une loi mère connue mis à part le paramètre $\theta$ que l'on cherche à estimer. Afin de déterminer un [[Estimateur|estimateur]] de $\theta$, on cherche l'[[Estimateur du maximum de vraisemblance|estimateur du maximum de vraisemblance]], noté $\hat{\theta}$ (voir la [[Méthode du maximum de vraisemblance]]). Pour cela, on cherche généralement à résoudre l'équation du maximum de vraisemblance suivante

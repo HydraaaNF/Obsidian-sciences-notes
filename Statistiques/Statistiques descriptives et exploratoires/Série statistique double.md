@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Une *série statistique double* est l'étude conjointe de deux [[Population statistique et caractère|caractères]] $X$ et $Y$ sur une même population de $n$ individus. On dispose alors des observations

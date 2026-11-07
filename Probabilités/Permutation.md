@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $E$ un ensemble. On appelle **permutation** de $E$ toute bijection de $E$ sur lui-même. L'ensemble des permutations de $E$ est noté $\mathcal{S}(E)$.

@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Interprétation
 
 Les données proviennent de sources variées : mesures physiques, résultats expérimentaux, descripteurs, etc. Leur origine détermine si l'échantillon observé peut être considéré comme représentatif de la [[Population statistique et caractère|population]] étudiée.

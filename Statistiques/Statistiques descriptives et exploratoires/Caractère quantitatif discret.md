@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Exemple
 
 Le nombre de suicides par an et par état, observé dans 14 états sur 14 ans, est un [[Population statistique et caractère|caractère]] quantitatif discret. Le tableau d'effectifs suivant donne ses valeurs $x_i$ et leurs effectifs $n_i$ ; les valeurs supérieures ou égales à 10 sont regroupées :

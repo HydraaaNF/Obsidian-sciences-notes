@@ -1,3 +1,5 @@
+#adm-9
+
 # Théorème
 
 Soit $X$ une variable aléatoire de densité $f(x;\theta)$, et soit $L(\mathbf{x};\theta)$ la densité de l'[[Échantillon et échantillonnage|échantillon]] $\mathbf{x}$ (la [[Fonction de vraisemblance|vraisemblance]] de cet échantillon). On considère le test de deux [[Hypothèse nulle et hypothèse alternative|hypothèses]] simples

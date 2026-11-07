@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Les algorithmes de [[Clustering|clustering]] se répartissent en deux grandes familles de méthodes.

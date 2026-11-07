@@ -1,3 +1,5 @@
+#adm-6
+
 # Théorème
 
 **Principe d'optimalité de Bellman.** Le meilleur chemin partiel aboutissant à l'état $(i,t)$ fait nécessairement partie du meilleur chemin qui passe par $(i,t)$.

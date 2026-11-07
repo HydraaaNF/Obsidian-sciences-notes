@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Dans une [[Série statistique double|série statistique double]] $(X, Y)$, on appelle **distributions marginales** les distributions du [[Population statistique et caractère|caractère]] $X$ seul et du caractère $Y$ seul : chaque distribution marginale décrit un caractère pris isolément, en ignorant l'autre. Leurs indicateurs sont les indicateurs associés aux observations $x_1, \dots, x_n$ du caractère $X$ et les indicateurs associés aux observations $y_1, \dots, y_n$ du caractère $Y$.

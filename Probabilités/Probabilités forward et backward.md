@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Dans un [[Modèle de Markov caché]] de paramètres $\lambda_N(\theta_n)$, les espérances s'expriment en fonction de deux probabilités.

@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Pour visualiser les fréquences empiriques d'un [[Caractère qualitatif|caractère qualitatif]] à $k$ modalités, on dispose de deux représentations graphiques usuelles :

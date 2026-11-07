@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 Il est souvent pratique de décrire une distribution par quelques nombres qui la résument :

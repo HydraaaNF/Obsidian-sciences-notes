@@ -1,3 +1,5 @@
+#adm-7 #adm-8
+
 # Définition
 
 Un **champ de Markov caché** (HMRF) est un couple de champs aléatoires $(X, Y)$ indexés par le même ensemble de sites $S$, dont seul le second est observé. Le modèle est donc une application $X \longmapsto Y$, où $X$ est le champ d'intérêt, inconnu, et $Y$ le champ mesuré.

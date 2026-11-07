@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 La méthode du bootstrap est une méthode de simulation qui fournit plusieurs réalisations $\overline{x}_1, \dots, \overline{x}_p$ de la [[Moyenne empirique|moyenne]] $\overline{X}$ d'un [[Échantillon et échantillonnage|échantillon]], à partir desquelles on construit un [[Intervalle de confiance|intervalle de confiance]] pour la moyenne $m$ à l'aide de la [[Loi de Student|loi de Student]].

@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Un [[Processus stochastique|processus]] est une collection de [[Variable aléatoire|variables aléatoires]] $\{X(t) \mid t \in T\}$ indexée par un **ensemble d'indices** $T$, où $X(t)$ prend ses valeurs dans un **espace d'états** $I$.

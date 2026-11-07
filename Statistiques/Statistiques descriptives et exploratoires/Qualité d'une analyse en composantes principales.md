@@ -1,3 +1,5 @@
+#adm-2
+
 # Propriétés
 
 La qualité de la représentation fournie par une [[Analyse en composantes principales|analyse en composantes principales]] se mesure globalement, pour l'ensemble du nuage, et localement, pour un échantillon donné :

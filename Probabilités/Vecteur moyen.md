@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $X = (X_1, \ldots, X_n)$ un [[Vecteur aléatoire|vecteur aléatoire]] de $\mathbb{R}^n$ tel que chaque [[Variable aléatoire réelle|variable aléatoire réelle]] $X_j$ est intégrable (c'est-à-dire admet une [[Espérance d'une variable aléatoire|espérance]]). On appelle **espérance du vecteur** $X$, ou **vecteur moyen**, le vecteur de $\mathbb{R}^n$

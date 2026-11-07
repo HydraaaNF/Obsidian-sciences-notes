@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Théorème
 
 Soit $(X_n)_{n \geq 1}$ une suite de v.a. indépendantes et de même loi (i.i.d.) et

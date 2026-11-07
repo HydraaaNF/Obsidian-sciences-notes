@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Le **principe de minimisation du risque empirique** (ERM, de l'anglais *empirical risk minimization*) consiste à choisir, dans l'[[Espace d'hypothèses|espace de fonctions]] $\mathcal{F}$, la fonction $f^*(D_n)$ qui minimise le [[Risque et risque empirique|risque empirique]] sur les données observées $D_n$ :

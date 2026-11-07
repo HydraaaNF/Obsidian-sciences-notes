@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Considérons le produit cartésien des ensembles $A_1, A_2, \dots, A_n$ :

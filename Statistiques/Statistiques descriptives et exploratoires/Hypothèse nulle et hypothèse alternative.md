@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Définition
 
 Un test statistique confronte une **hypothèse nulle** $H_0$ (l'hypothèse de travail) aux données observées : si ces données sont en contradiction (ou plus précisément très improbables) avec l'hypothèse de travail $H_0$, alors on rejette $H_0$ et on accepte l'**hypothèse alternative** $H_1$ ; à défaut du contraire, on conserve $H_0$.

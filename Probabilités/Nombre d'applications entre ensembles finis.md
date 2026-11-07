@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soient $E$ et $F$ des ensembles finis. L'ensemble des applications de $E$ dans $F$ est noté $\mathcal{A}(E,F)$ ; il est aussi noté $F^E$.

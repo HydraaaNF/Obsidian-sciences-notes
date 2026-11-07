@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 L'**éboulis des valeurs propres** (en anglais *scree plot*) est la représentation graphique des valeurs propres d'une [[Analyse en composantes principales]] en fonction de leur rang : chaque valeur propre est reportée selon la dimension qu'elle décrit, dans l'ordre décroissant.

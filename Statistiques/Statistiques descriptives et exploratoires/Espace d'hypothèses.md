@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 L'apprentissage consiste à rechercher une bonne fonction dans un espace de fonctions $\mathcal{F}$, appelé **espace d'hypothèses**. C'est le cadre dans lequel se posent les [[Problèmes d'apprentissage statistique|problèmes d'apprentissage statistique]].
@@ -17,3 +19,4 @@ Exemples de fonctions paramétriques :
 
 - La qualité d'une fonction de $\mathcal{F}$ se mesure par une [[Fonction de perte]] ; c'est sur elle que se construit le [[Risque et risque empirique|risque]].
 - Dans la densité gaussienne, l'exposant du facteur de normalisation est la moitié de la dimension $d$ de $z$ : c'est cette valeur qui assure que l'intégrale de la densité sur $\mathbb{R}^d$ vaut $1$. L'écriture $(2\pi)^{|z|/2}$, où l'exposant dépendrait de la valeur de $z$ plutôt que de la dimension, est une erreur fréquente.
+- Un espace d'hypothèses accompagné du choix d'une valeur de ses paramètres définit un [[Modèle d'apprentissage]] ; l'écart entre le meilleur élément possible de $\mathcal{F}$ et la meilleure fonction atteignable par la classe choisie est l'[[Erreur d'approximation et erreur d'estimation|erreur d'approximation]], l'autre part du risque étant l'erreur d'estimation.

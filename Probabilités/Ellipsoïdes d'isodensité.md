@@ -1,3 +1,5 @@
+#adm-1 #adm-5
+
 # Définition
 
 Les courbes d'isodensité d'un [[Vecteur gaussien|vecteur gaussien]] sont les lignes de niveau de sa [[Densité d'un vecteur gaussien|densité]] : ce sont des (hyper)ellipsoïdes dont l'équation est donnée par

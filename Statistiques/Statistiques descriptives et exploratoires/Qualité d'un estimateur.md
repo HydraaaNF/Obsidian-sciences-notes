@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Soit un estimateur $T$ d'un paramètre $\theta$, obtenu à partir d'un ensemble d'échantillons $X_i$. Les qualités attendues d'un estimateur sont :

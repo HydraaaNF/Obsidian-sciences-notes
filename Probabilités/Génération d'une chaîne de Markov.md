@@ -1,3 +1,5 @@
+#adm-6
+
 # Algorithme
 
 Le point de vue génératif décrit une [[Chaîne de Markov à temps discret|chaîne de Markov]] comme une procédure d'échantillonnage des états successifs : l'état initial est tiré selon la loi initiale $\pi$, puis chaque nouvel état est tiré selon la loi de transition du seul état courant, conformément à la [[Propriété de Markov]].

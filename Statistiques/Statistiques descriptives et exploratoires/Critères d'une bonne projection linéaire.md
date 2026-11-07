@@ -1,3 +1,5 @@
+#adm-2
+
 # Propriétés
 
 Une [[Projection linéaire des données|projection linéaire]] des données est d'autant meilleure qu'elle satisfait les critères suivants :

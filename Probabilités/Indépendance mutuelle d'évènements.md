@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Trois [[Évènement|évènements]] $A$, $B$ et $C$ sont **mutuellement indépendants** si :

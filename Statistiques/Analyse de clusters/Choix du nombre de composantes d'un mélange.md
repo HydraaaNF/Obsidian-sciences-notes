@@ -1,3 +1,5 @@
+#adm-5
+
 # Interprétation
 
 Le nombre de composantes $K$ d'un [[Modèles de mélange|mélange]] doit être choisi : deux approches sont possibles, l'expérimentation ou un critère d'information.

@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Définition
 
 Pour l'estimation d'un paramètre à l'aide de la [[Méthode du maximum de vraisemblance|méthode du maximum de vraisemblance]] ou pour le calcul d'un [[Intervalle de confiance|intervalle de confiance]] associé, on suppose la forme (normale, exponentielle, Poisson, etc.) de la loi de la variable aléatoire mère $X$ connue à l'avance. Dans le cas général, on dispose seulement de $n$ observations $x_1, \dots, x_n$ de la loi mère et, à l'aide d'un diagramme représentant la densité empirique, le mieux que l'on puisse faire est d'émettre une hypothèse sur la forme de cette loi $\mathcal{L}$.

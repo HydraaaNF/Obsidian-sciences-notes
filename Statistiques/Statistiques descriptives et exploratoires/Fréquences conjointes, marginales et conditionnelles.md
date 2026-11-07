@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Dans un [[Tableau de contingence]] d'effectifs conjoints $n_{i,j}$ et d'effectif total $n$, le total $n_{i.}$ correspond au nombre d'[[Population statistique et caractère|individus]] ayant un caractère $X$ égal à $\alpha_i$ et $n_{.j}$ au nombre d'individus ayant un caractère $Y$ égal à $\beta_j$.

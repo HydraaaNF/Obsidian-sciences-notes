@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Pour deux caractères quantitatifs $X$ et $Y$ observés sur $n$ individus, dont les observations forment les couples $(x_1, y_1), \dots, (x_n, y_n)$, le **coefficient de corrélation linéaire de Pearson** est la quantité

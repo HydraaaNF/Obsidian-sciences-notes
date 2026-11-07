@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 L'**apprentissage automatique automatisé** (Auto-ML) a pour objectif la **sélection automatique des modèles et de leurs paramètres**.

@@ -1,3 +1,5 @@
+#adm-6
+
 # Exemple
 
 Un **modèle de Markov pour les textes** engendre un texte comme une suite de symboles (lettres ou mots) selon une [[Chaîne de Markov d'ordre N]] : chaque symbole est tiré conditionnellement aux $N$ symboles précédents ($N = 0$ correspond à des symboles tirés indépendamment les uns des autres). Les séquences suivantes sont des textes engendrés de cette façon.

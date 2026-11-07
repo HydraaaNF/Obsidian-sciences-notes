@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Pour un échantillon unique $\mathbf{o}$, la **densité des données complètes** $(\mathbf{o}, \mathbf{s})$ d'un [[Modèle de Markov caché]] (la [[Probabilités d'un modèle de Markov caché|loi jointe]] de la suite des états et de la suite des observations) a pour logarithme

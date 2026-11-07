@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Le **clustering spectral** est une méthode de [[Clustering|clustering]] qui représente les données sous forme de graphe : chaque point de données est un nœud du graphe, et les arêtes encodent la similarité entre deux nœuds avec des poids $w_{ij}$, donnés par une [[Mesures de similarité et de distance|mesure de similarité ou de distance]].

@@ -1,3 +1,5 @@
+#adm-6
+
 # Algorithme
 
 Le point de vue génératif d'un [[Modèle de Markov caché|modèle de Markov caché]] décrit comment engendrer une suite d'états et la suite d'observations associée à partir de ses [[Paramètres d'un modèle de Markov caché|paramètres]].

@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 Pour un caractère quantitatif continu, par opposition à un [[Caractère quantitatif discret]], les observations sont regroupées en **classes** avant d'être représentées.
@@ -49,3 +51,5 @@ Valeurs relevées sur la figure, approximatives.
 # Remarque
 
 Le choix du découpage en classes reste ouvert : combien de classes ? des amplitudes égales ou non ? et si non, comment ? Le [[Lissage d'histogramme]] permet de s'affranchir de ces choix.
+
+En apprentissage automatique, ce caractère fournit les attributs numériques d'une [[Donnée et attributs|donnée]] ; le découpage en classes n'y intervient pas, le modèle travaillant sur les valeurs elles-mêmes.

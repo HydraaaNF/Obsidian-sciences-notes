@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 On considère un lot de $n$ composants dont $d$ sont défectueux, et l'on prélève **sans remise** $m$ composants. La loi hypergéométrique est la loi du nombre $X$ de composants défectueux dans le prélèvement.

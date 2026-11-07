@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Une **file à pertes** $M/M/n/K$ (voir la [[Nomenclature de Kendall]]) est un [[File d'attente|système d'attente]] composé d'une zone d'attente ayant un nombre limité de places et d'une zone de service avec $n$ serveurs montés en parallèle et indépendants entre eux. La capacité totale de ce système est $K \geq n$ (il y a donc $K - n$ places dans la zone d'attente, et il y a une probabilité non nulle de perdre des clients).

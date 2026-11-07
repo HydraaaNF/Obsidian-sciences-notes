@@ -1,3 +1,5 @@
+#adm-0 #adm-0bis #adm-1
+
 # Théorème
 
 Soit $X$ une [[Variable aléatoire réelle|v.a.r.]] de carré intégrable. Alors

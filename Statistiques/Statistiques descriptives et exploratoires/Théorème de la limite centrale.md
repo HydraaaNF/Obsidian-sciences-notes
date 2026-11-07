@@ -1,3 +1,5 @@
+#adm-0bis #adm-1 #adm-9
+
 # Théorème
 
 Soit $(X_n)_{n \in \mathbb{N}^*}$ une suite de [[Variable aléatoire réelle|variables aléatoires réelles]] indépendantes et identiquement distribuées (i.i.d.) admettant un moment d'ordre 2. Alors la [[Moyenne empirique|moyenne empirique]] $\overline{X}$ vérifie

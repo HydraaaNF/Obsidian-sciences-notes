@@ -1,3 +1,5 @@
+#adm-2
+
 # Interprétation
 
 La [[Projection linéaire des données|projection linéaire]] $y = Ux$ obtenue par un système propre sert à :

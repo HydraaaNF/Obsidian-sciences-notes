@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Un [[Processus stochastique]] est dit :

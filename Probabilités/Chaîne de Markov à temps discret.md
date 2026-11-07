@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Une **chaîne de Markov à temps discret** est un [[Propriété de Markov|processus de Markov]] dont la variable $X_t$ est discrète ; $X_t$ indique l'état du processus. L'ensemble des valeurs possibles de $X_t$, noté $[1, N]$, est l'**espace d'états** (voir [[Espaces d'états et d'indices d'un processus]]).

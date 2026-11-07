@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Loi
 
 La loi gaussienne, ou loi normale, est une [[Probabilité à densité|loi à densité]] de moyenne $\mu$ et d'écart-type $\sigma$. Pour une [[Variable aléatoire continue|variable aléatoire continue]] $X$, la densité s'écrit

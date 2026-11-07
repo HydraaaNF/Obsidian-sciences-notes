@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 La sélection de modèle et l'estimation de la performance peuvent poursuivre trois objectifs :
@@ -13,3 +15,5 @@ Ces objectifs nécessitent toujours une estimation du risque :
 $$\mathbb{E}_z[L(z, \hat{\theta})]$$
 
 Estimer ce risque fait l'objet de méthodes dédiées : [[Estimation non biaisée du risque|estimation non biaisée du risque]], [[Méthode de validation]] et [[Validation croisée]].
+
+Ces trois objectifs concernent la sélection ; une fois le modèle retenu, la lecture de sa qualité contre la conduite de son entraînement relève de l'[[Évaluation d'un modèle d'apprentissage]].

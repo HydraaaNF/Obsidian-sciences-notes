@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 On appelle **statistique de test** une variable aléatoire dont la loi et l'observation permettent de procéder à un test statistique et de prendre une décision. Sa valeur observée est confrontée à la [[Zone critique et seuil d'un test|zone critique]] : si elle y appartient, on rejette l'[[Hypothèse nulle et hypothèse alternative|hypothèse nulle]] $H_0$ au profit de l'hypothèse alternative $H_1$ ; sinon, on conserve $H_0$.

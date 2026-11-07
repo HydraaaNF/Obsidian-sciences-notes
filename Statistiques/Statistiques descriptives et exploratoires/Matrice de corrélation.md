@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 La **matrice de corrélation** de $p$ variables observées sur $n$ individus est la matrice $p \times p$ dont le coefficient $(i, j)$ est le [[Covariance et coefficient de corrélation linéaire|coefficient de corrélation linéaire]] entre les variables $i$ et $j$. Elle rassemble en un seul tableau toutes les corrélations linéaires deux à deux entre les variables d'un jeu de données.

@@ -1,3 +1,5 @@
+#adm-6
+
 # Définition
 
 Un [[Processus stochastique|processus stochastique]] $\{X(t) \mid t \in T\}$ est un **processus de Markov** si, pour tout $t_0 < t_1 < \ldots < t_n < t$, la distribution conditionnelle de $X(t)$ sachant $X(t_0), \ldots, X(t_n)$ ne dépend que de $X(t_n)$, c'est-à-dire :

@@ -1,3 +1,5 @@
+#adm-8
+
 # Exemple
 
 En étiquetage morphosyntaxique, chaque mot $x_s$ d'une séquence $x = (x_1, \dots, x_n)$ reçoit une étiquette $y_s$ indiquant sa catégorie grammaticale : nom (NOUN), nom propre (PROPER_NOUN), salutation (SALUTATION), et ainsi de suite. Une fonction de traits d'une telle séquence évalue une position $s$ à partir de l'étiquette courante $y_s$, de l'étiquette précédente $y_{s-1}$ et de l'observation $x$ entière, sous la forme $f(y_{s-1}, y_s, x, s)$.

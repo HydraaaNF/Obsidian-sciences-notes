@@ -1,3 +1,5 @@
+#adm-0bis #adm-9
+
 # Définition
 
 Pour obtenir l'[[Intervalle de confiance|intervalle de confiance]] pour $m$, on a été amené à introduire une nouvelle loi de probabilités, dite **loi de Student**.

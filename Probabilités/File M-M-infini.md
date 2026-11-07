@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 La **file $M/M/\infty$** est un [[File d'attente|système d'attente]] comportant une infinité de serveurs montés en parallèle, de capacité infinie (voir la [[Nomenclature de Kendall]] pour cette notation). Dans ce modèle, il n'y a aucune attente.

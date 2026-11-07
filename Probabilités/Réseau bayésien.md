@@ -1,3 +1,5 @@
+#adm-7
+
 # Définition
 
 Un **réseau bayésien** est un graphe acyclique dirigé (DAG) sur une collection de variables aléatoires (discrètes).

@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soient $X$ et $Y$ deux [[Variable aléatoire réelle|variables aléatoires réelles]] de carré intégrable (c'est-à-dire admettant un [[Moment d'ordre k|moment d'ordre 2]]). On dit que $X$ et $Y$ sont **non corrélées** lorsque leur [[Covariance|covariance]] est nulle :

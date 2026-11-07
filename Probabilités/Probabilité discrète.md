@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soient $\Omega = \{x_n \mid n \in I\}$ un ensemble **fini ou dénombrable** ($I \subset \mathbb{N}$) et $(p_n)_{n \in I}$ une suite de réels **positifs** telle que

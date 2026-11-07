@@ -1,3 +1,5 @@
+#adm-0bis #adm-2
+
 # Définition
 
 La variance et l'écart-type sont des caractéristiques de **dispersion** d'une variable : la [[Moyenne, médiane et mode|moyenne]] ne suffit pas à décrire une distribution. La dispersion se résume aussi par l'[[Étendue|étendue]] (minimum, maximum) et les [[Quartiles et écart interquartile|quantiles]].

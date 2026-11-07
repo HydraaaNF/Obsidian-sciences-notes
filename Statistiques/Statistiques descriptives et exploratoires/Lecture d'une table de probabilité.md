@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 La table de la loi normale centrée réduite associe à une valeur $u$ la probabilité cumulée

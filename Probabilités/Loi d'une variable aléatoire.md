@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 La **loi** d'une [[Variable aléatoire]] $X$ décrit la répartition des probabilités de ses valeurs possibles. Pour une variable aléatoire [[Variable aléatoire discrète|discrète]], elle est donnée par sa **fonction de masse** (pmf, *probability mass function*) :

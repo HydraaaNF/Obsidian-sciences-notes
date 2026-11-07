@@ -1,3 +1,5 @@
+#adm-3
+
 # Propriétés
 
 Le [[k-means]] présente les avantages et inconvénients suivants.

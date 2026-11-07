@@ -1,3 +1,5 @@
+#adm-6
+
 # Modèle
 
 Le **mécanisme d'attention** repose sur un [[Réseau de neurones récurrent|réseau récurrent]] **attentif** : celui-ci génère une **requête** (*query*) décrivant ce sur quoi il veut se focaliser. Chaque **item**, c'est-à-dire chaque état produit par le réseau récurrent sur la séquence, est mis en correspondance avec la requête par un **produit scalaire** ; le résultat est un **score**, qui décrit la qualité de l'appariement de l'item avec la requête. Les scores sont ensuite passés dans un **softmax**, qui crée la **distribution d'attention**.
@@ -24,3 +26,5 @@ En traduction, la distribution d'attention relie les mots de la phrase produite 
 # Remarque
 
 Le mécanisme d'attention généralise la [[Chaîne de Markov à temps discret]] ; il constitue une alternative au [[Réseau de neurones récurrent]] pour cette généralisation.
+
+Dans un montage [[Encodeur-décodeur pour les séquences|encodeur-décodeur]], les items sont les états de l'encodeur et la requête vient du décodeur ; l'[[Encodeur bidirectionnel et causalité|encodeur bidirectionnel]] fournit des items qui voient toute la séquence, contrainte que le décodeur ne peut pas s'autoriser.

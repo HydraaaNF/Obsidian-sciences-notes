@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Deux [[Évènement|évènements]] $A$ et $B$ sont **incompatibles** si l'occurrence de l'un exclut l'occurrence de l'autre, c'est-à-dire si $A \cap B = \emptyset$.

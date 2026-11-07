@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Une **variable aléatoire** $X$ sur un [[Espace probabilisé|espace des possibles]] $\Omega$ est une fonction $X : \Omega \to \mathbb{R}$, encore appelée [[Variable aléatoire réelle|variable aléatoire réelle]], qui associe un nombre réel $X(\omega)$ à chaque issue $\omega \in \Omega$.

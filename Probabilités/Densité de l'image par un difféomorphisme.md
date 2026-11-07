@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Théorème
 
 Soit $X$ une [[Variable aléatoire continue|variable aléatoire continue]] de [[Probabilité à densité|densité]] $f_X$ et $\phi$ une fonction différentiable monotone, c'est-à-dire un difféomorphisme de son domaine sur son image. Alors $Y = \phi(X)$ est une variable aléatoire continue de densité $f_Y$ donnée par

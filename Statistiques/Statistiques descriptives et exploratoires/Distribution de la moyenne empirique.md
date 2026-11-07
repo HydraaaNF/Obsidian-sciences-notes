@@ -1,3 +1,5 @@
+#adm-4
+
 # Propriétés
 
 Soit $X_1, \ldots, X_n$ un [[Échantillon et échantillonnage|échantillon]] de variables aléatoires [[Indépendance de variables aléatoires|indépendantes]] et identiquement distribuées, d'[[Espérance d'une variable aléatoire|espérance]] $m$ et de [[Variance|variance]] $\sigma^2$, et soit $\overline{X}$ la [[Moyenne empirique|moyenne empirique]] associée.

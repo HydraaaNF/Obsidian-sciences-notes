@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $(\Omega, \mathcal{F}, \mathbb{P})$ un [[Espace probabilisé|espace probabilisé]] et $E$ un ensemble **fini ou dénombrable**. Toute application $X$ de $\Omega$ dans $E$ :

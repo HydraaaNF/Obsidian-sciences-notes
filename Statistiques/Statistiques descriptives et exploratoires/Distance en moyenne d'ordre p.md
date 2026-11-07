@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 La distance en moyenne d'ordre $p$ ($p \geq 1$) entre deux [[Variable aléatoire réelle|variables aléatoires]] est définie par

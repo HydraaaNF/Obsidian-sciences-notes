@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Pour une [[Variable aléatoire]] continue $X$, la probabilité d'une valeur isolée est nulle : $\mathbb{P}[X = x] = 0$. La probabilité se définit sur un intervalle : $\mathbb{P}(x < X < x + dx) = f(x)dx$, où $f(x)$ est sa [[Probabilité à densité|densité de probabilité]] (pdf, *probability density function*).

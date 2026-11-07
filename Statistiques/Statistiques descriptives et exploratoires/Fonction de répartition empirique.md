@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Définition
 
 Soit un caractère quantitatif $X$ observé sur $n$ [[Population statistique et caractère|individus]], donnant les observations $x_1, \dots, x_n$. La **fonction de répartition empirique** se construit à partir du tableau des fréquences cumulées des observations.

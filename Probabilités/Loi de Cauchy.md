@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Soit $m$ un réel et $a > 0$. Une [[Variable aléatoire réelle|variable aléatoire réelle]] $X$ suit la **loi de Cauchy** de paramètres $m$ et $a$ si elle admet la [[Probabilité à densité|densité]]

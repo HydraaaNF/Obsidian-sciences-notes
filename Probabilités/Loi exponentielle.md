@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Loi
 
 La loi exponentielle est une [[Probabilité à densité|loi à densité]] qui modélise des durées de vie telles que :

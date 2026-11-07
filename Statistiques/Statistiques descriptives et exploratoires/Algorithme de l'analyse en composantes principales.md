@@ -1,3 +1,5 @@
+#adm-2
+
 # Algorithme
 
 L'[[Analyse en composantes principales|analyse en composantes principales]] (ACP) s'applique à $n$ observations décrites par $p$ variables chacune, rassemblées dans la matrice de données $\mathbf{X}$ ($n \times p$) :

@@ -1,3 +1,5 @@
+#adm-4
+
 # Théorème
 
 Une condition nécessaire et suffisante pour qu'un [[Échantillon et échantillonnage|échantillon]] $(X_1, \dots, X_n)$ admette une [[Statistique suffisante]] est que la [[Probabilité à densité|densité]] appartienne à la famille exponentielle, c'est-à-dire

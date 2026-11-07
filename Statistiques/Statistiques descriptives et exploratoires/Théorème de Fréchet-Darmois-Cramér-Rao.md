@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Théorème
 
 Si le support de la [[Échantillon et échantillonnage|loi mère]] ne dépend pas de $\theta$, tout [[Biais d'un estimateur|estimateur sans biais]] $T$ de $\theta$ vérifie

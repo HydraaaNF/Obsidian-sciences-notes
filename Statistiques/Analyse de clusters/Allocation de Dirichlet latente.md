@@ -1,3 +1,5 @@
+#adm-5
+
 # Définition
 
 L'**allocation de Dirichlet latente** (en anglais *Latent Dirichlet Allocation*, LDA) est un [[Modèles de mélange|modèle de mélange]] appliqué aux textes : un document est décrit comme un mélange de *topics* (thèmes), chaque topic étant une distribution de probabilité sur les mots.

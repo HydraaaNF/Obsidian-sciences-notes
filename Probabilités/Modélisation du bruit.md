@@ -1,3 +1,5 @@
+#adm-0
+
 # Modèle
 
 Le *bruit* (de transmission, de traitement, etc.) qui s'ajoute à un signal déterministe à temps continu $t \in \mathbb{R} \mapsto x(t)$ ou à temps discret $n \in \mathbb{Z} \mapsto x_n$ se modélise dans les applications par une famille de [[Variable aléatoire réelle|variables aléatoires réelles]] $(X(t))_{t \in \mathbb{R}}$ ou $(X_n)_{n \in \mathbb{Z}}$.

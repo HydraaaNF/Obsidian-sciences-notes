@@ -1,3 +1,5 @@
+#adm-1
+
 # Définition
 
 La **probabilité** et la **statistique** se distinguent par leur objet :

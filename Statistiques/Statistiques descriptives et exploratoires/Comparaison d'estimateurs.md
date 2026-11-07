@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Il est possible de comparer des [[Estimateur|estimateurs]] sur la base de leur [[Risque généralisé|risque]], même si la fonction de risque est rarement facile à définir.

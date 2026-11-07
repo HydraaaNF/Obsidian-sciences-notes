@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 En étiquetage de séquences, les [[Fonctions de traits pour les séquences|fonctions de traits]] ne sont pas énumérées à la main : les boîtes à outils les engendrent à partir de **gabarits** (en anglais *templates*), motifs textuels très concis dont chacun désigne une classe de traits.

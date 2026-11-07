@@ -1,3 +1,5 @@
+#adm-9
+
 # Définition
 
 Un test d'hypothèse se rattache à l'une des grandes familles suivantes, selon la comparaison qu'il met en œuvre :

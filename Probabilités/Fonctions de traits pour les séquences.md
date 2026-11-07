@@ -1,3 +1,5 @@
+#adm-8
+
 # Définition
 
 Une fonction de trait associe à un couple formé d'une observation $x$ et d'une étiquette $y$ une valeur réelle ou binaire :

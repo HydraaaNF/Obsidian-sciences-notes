@@ -1,3 +1,5 @@
+#adm-3
+
 # Définition
 
 Le **clustering ascendant pour le partitionnement temporel** est une application du [[Clustering hiérarchique|clustering hiérarchique]] au découpage d'une séquence temporelle en groupes de segments homogènes.

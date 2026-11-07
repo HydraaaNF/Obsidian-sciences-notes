@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 Pour deux caractères quantitatifs $X$ et $Y$ observés sur $n$ individus, le **coefficient de corrélation des rangs de Spearman** est la quantité

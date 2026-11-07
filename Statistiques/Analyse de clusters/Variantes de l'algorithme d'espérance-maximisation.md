@@ -1,3 +1,5 @@
+#adm-5
+
 # Algorithme
 
 Le principe de l'[[Algorithme d'espérance-maximisation|algorithme d'espérance-maximisation]] (EM) admet de nombreuses variantes lorsque l'étape E et/ou l'étape M ne sont pas réalisables en pratique :

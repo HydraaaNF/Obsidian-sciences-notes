@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 On note $(X_n)_{n \in \mathbb{N}}$ la suite des [[Variable aléatoire|variables aléatoires]] représentant les durées entre deux arrivées successives d'un [[Processus de comptage|processus de comptage]] :

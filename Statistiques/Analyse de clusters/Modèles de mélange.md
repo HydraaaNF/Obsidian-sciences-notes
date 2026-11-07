@@ -1,3 +1,5 @@
+#adm-5
+
 # Définition
 
 Un modèle de mélange est une somme pondérée de lois : la vraisemblance d'un échantillon $x$ est donnée par

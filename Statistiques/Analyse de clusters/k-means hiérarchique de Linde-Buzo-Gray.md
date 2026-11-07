@@ -1,3 +1,5 @@
+#adm-3
+
 # Algorithme
 
 Le **k-means hiérarchique**, algorithme original de **Linde-Buzo-Gray** (LBG), aussi appelé *bisecting k-means*, est une variante du [[k-means]] qui construit les clusters par divisions successives.

@@ -1,3 +1,5 @@
+#adm-0
+
 # Théorème
 
 La [[Fonction caractéristique|fonction caractéristique]] caractérise la [[Loi d'une variable aléatoire|loi]] $p_X$ de $X$. Autrement dit, si deux [[Variable aléatoire réelle|variables aléatoires réelles]] $X$ et $Y$ ont mêmes fonctions caractéristiques, elles ont mêmes lois :

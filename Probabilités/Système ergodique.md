@@ -1,3 +1,5 @@
+#adm-0
+
 # Définition
 
 Un [[File d'attente|système d'attente]] est dit **ergodique** lorsqu'il existe une distribution limite $\pi$ indépendante des conditions initiales :

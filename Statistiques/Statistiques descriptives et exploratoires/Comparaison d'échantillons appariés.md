@@ -1,3 +1,5 @@
+#adm-9
+
 # Modèle
 
 On considère une population unique $X_1, \dots, X_n$ observée à travers une même variable, mais mesurée à deux instants différents : pour chaque individu $i$, la valeur $A_i$ avant traitement et la valeur $P_i$ après traitement. Les deux échantillons ainsi obtenus sont dits **appariés**, chaque mesure « après » étant associée à la mesure « avant » du même individu.

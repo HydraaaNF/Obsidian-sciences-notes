@@ -1,3 +1,5 @@
+#adm-0bis
+
 # Algorithme
 
 Pour estimer la [[Variance|variance]] $\sigma^2$ d'une loi quelconque, il n'existe pas de méthode générale. Il faut donc, dans chaque cas, utiliser la procédure en quatre étapes de construction d'un [[Intervalle de confiance|intervalle de confiance]] pour un paramètre $\theta$, appliquée ici à $\theta = \sigma^2$ :

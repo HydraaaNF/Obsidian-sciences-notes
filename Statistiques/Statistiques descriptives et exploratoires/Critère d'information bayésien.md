@@ -1,3 +1,5 @@
+#adm-4
+
 # Définition
 
 Le **critère d'information bayésien** (BIC, *Bayesian information criterion*) est un critère utilisé pour la [[Sélection de modèle et estimation de la performance|sélection de modèle]] : choix d'une famille de distributions, du nombre de composantes, etc. Il est défini par

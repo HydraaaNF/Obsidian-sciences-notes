@@ -1,3 +1,5 @@
+#adm-3
+
 # Algorithme
 
 L'**algorithme de clustering spectral** réalise le [[Clustering spectral|clustering spectral]]. À partir d'une matrice de similarité, il construit le graphe de similarité, calcule son [[Laplacien du graphe]] $\mathbf{L}$, puis applique l'algorithme des [[k-means|k-moyennes]] aux lignes de la matrice des vecteurs propres.

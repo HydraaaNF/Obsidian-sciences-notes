@@ -1,3 +1,5 @@
+#adm-7
+
 # Algorithme
 
 L'inférence par arbre de jonction applique l'[[Algorithme somme-produit]] à un [[Arbre de jonction]] de $\mathcal{G}$ pour mener l'inférence sur $\mathcal{G}$.

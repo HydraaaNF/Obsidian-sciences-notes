@@ -1,3 +1,5 @@
+#adm-2
+
 # Définition
 
 En [[Analyse en composantes principales|analyse en composantes principales]] (ACP), on appelle :

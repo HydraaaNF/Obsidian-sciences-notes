@@ -1,3 +1,5 @@
+#adm-0 #adm-1
+
 # Définition
 
 Soient $(\Omega, \mathcal{F}, \mathbb{P})$ un [[Espace probabilisé|espace probabilisé]], $X$ une [[Variable aléatoire discrète|variable aléatoire réelle discrète]] définie sur $\Omega$ et $n \in \mathbb{N}$. Lorsque
