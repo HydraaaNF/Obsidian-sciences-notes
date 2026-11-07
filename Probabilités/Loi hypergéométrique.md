@@ -20,6 +20,10 @@ Son [[Espérance d'une variable aléatoire|espérance]] vaut
 
 $$\mathbb{E}(X) = m\,\frac{d}{n}.$$
 
+# Remarque
+
+L'espérance est la même que celle d'une [[Loi binomiale|loi binomiale]] $\mathcal{B}(m, d/n)$ : si le prélèvement était effectué avec remise, le nombre de composants défectueux prélevés suivrait cette loi binomiale, dont l'espérance vaut également $m\,\frac{d}{n}$. Le nombre moyen de composants défectueux prélevés ne dépend donc pas du fait que le prélèvement soit effectué avec ou sans remise.
+
 # Liens avec d'autres lois
 
 - La loi hypergéométrique se distingue de la [[Loi binomiale|loi binomiale]] : la loi binomiale compte le nombre de succès sur un nombre fixé d'épreuves indépendantes de même probabilité de succès $p$ (tirage avec remise), tandis que la loi hypergéométrique correspond à un tirage sans remise dans une population finie.
