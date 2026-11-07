@@ -6,8 +6,6 @@ La loi de Poisson $\mathcal{P}(\alpha)$ est une loi de [[Probabilité discrète|
 
 $$\mathbb{P}[X = k] = \frac{\alpha^k e^{-\alpha}}{k!}$$
 
-Elle donne la probabilité d'observer $k$ événements se produisant à un taux $\lambda$ sur un intervalle de durée $t$, le paramètre valant alors $\alpha = \lambda t$ : c'est la loi du nombre d'événements d'un [[Processus de Poisson|processus de Poisson]] de taux $\lambda$.
-
 # Propriétés
 
 - Son [[Espérance d'une variable aléatoire|espérance]] et sa [[Variance|variance]] sont égales : $\mathbb{E}[X] = \mathbb{V}[X] = \alpha$.
@@ -18,7 +16,8 @@ $$G_X(z) = \mathbb{E}(z^X) = e^{\alpha(z-1)}.$$
 
 # Interprétation
 
-Pour de petites valeurs de $\alpha$, la masse est concentrée au voisinage de $0$ et la distribution est fortement asymétrique ; quand $\alpha$ augmente, la distribution se déplace vers des valeurs plus grandes et s'étale autour de $\alpha$, tandis que la fonction de répartition se rapproche de $1$.
+- **La situation modélisée.** La loi de Poisson décrit le nombre d'occurrences d'un même évènement comptées sur un intervalle de temps de durée fixée : arrivées de clients à un guichet ou, plus généralement, à un serveur, tâches effectuées par un processeur pendant une unité de temps, accouchements, accidents. Le paramètre vaut alors $\alpha = \lambda t$, où $\lambda$ est le taux d'occurrence par unité de temps et $t$ la durée de l'intervalle : c'est la loi du nombre d'évènements d'un [[Processus de Poisson|processus de Poisson]] de taux $\lambda$ comptés sur un intervalle de durée $t$, quand aucun évènement n'a eu lieu au début de l'intervalle.
+- **L'allure de la loi.** Pour de petites valeurs de $\alpha$, la masse est concentrée au voisinage de $0$ et la distribution est fortement asymétrique ; quand $\alpha$ augmente, la distribution se déplace vers des valeurs plus grandes et s'étale autour de $\alpha$, tandis que la fonction de répartition se rapproche de $1$.
 
 Fonction de masse $\mathbb{P}[X = k]$ pour trois valeurs du paramètre (valeurs calculées à partir de la formule de la définition, arrondies à $10^{-4}$) :
 
