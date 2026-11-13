@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f2a04d64e1f43d97",
+        "id": "67646040bba71bc0",
         "type": "tabs",
         "children": [
           {
-            "id": "07cc74bf6e4279ab",
+            "id": "79b2be831d24a513",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilités/Théorie des probabilités de Kolmogorov.md",
+                "file": "AI for database query/Implication de Kleene-Dienes.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Théorie des probabilités de Kolmogorov"
+              "title": "Implication de Kleene-Dienes"
             }
           }
         ]
@@ -199,9 +199,19 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "07cc74bf6e4279ab",
+  "active": "79b2be831d24a513",
   "lastOpenFiles": [
+    "AI for database query/Implication de Gödel.md",
+    "AI for database query/AI for database querying.md",
+    "Index.md",
+    "Probabilités/Loi de Weibull.md",
+    "Probabilités/Fiabilité.md",
+    "Probabilités/Théorie des probabilités de Kolmogorov.md",
+    "Probabilités/Loi binomiale négative.md",
+    "Probabilités/Loi hypergéométrique.md",
+    "Probabilités/Loi géométrique.md",
     "Probabilités/Loi de Poisson.md",
+    "Probabilités/Loi exponentielle.md",
     "Probabilités/Processus de Poisson.md",
     "Machine Learning/Seuil de décision.md",
     "Machine Learning/Sauvegarde et reprise de l'entraînement.md",
@@ -217,16 +227,6 @@
     "Machine Learning/Métrique et fonction de perte.md",
     "Machine Learning/Mémoire à long et court terme.md",
     "Machine Learning/Moyennes macro et micro.md",
-    "Machine Learning/Réseaux siamois.md",
-    "Machine Learning/Fonctions d'activation.md",
-    "Machine Learning/Fonction softmax.md",
-    "Machine Learning/Modèle d'apprentissage.md",
-    "Machine Learning/Mesures d'erreur en régression.md",
-    "Machine Learning/F-mesure F1.md",
-    "Machine Learning/Réseau récurrent.md",
-    "Machine Learning/Matrice de confusion et exactitude.md",
-    "Machine Learning/Machine Learning.md",
-    "Machine Learning/Erreur d'approximation et erreur d'estimation.md",
     "Machine Learning",
     "Statistiques/Analyse de clusters",
     "Statistiques/Statistiques descriptives et exploratoires/Diagramme circulaire.png",
