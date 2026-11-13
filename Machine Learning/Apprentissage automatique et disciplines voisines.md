@@ -6,7 +6,7 @@ Les champs liés à l'apprentissage automatique, ou [[Machine Learning|machine l
 
 - l'apprentissage automatique
 - les statistiques
-- le data mining
+- le [[Fouille de données et visualisation|data mining]]
 - la data science
 - le big data
 
