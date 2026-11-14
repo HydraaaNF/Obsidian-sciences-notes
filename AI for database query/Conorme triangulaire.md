@@ -8,12 +8,12 @@ Symétriques de celles d'une [[Norme triangulaire]] :
 - **Monotonie** : croissante en chaque argument
 - **Élément neutre $0$** : $\bot(0, x) = \bot(x, 0) = x$
 - **Élément absorbant $1$** : $\bot(x, 1) = \bot(1, y) = 1$
-- **Bornage** :
+- **Bornage** : pour tous $x, y \in [0, 1]$,
 
 $$
-\forall y, \quad x \leq \bot(x, y)
+x \leq \bot(x, y)
 \qquad\text{et}\qquad
-\forall x, \quad y \leq \bot(x, y)
+y \leq \bot(x, y)
 $$
 
 - **Encadrement global** :
@@ -22,7 +22,7 @@ $$
 \max(x, y) \leq \bot(x, y) \leq \bot_W(x, y)
 $$
 
-En combinant avec le bornage d'une t-norme :
+En combinant avec le bornage d'une t-norme, pour tous $x, y \in [0, 1]$ :
 
 $$
 \top(x, y) \leq x \leq \bot(x, y)

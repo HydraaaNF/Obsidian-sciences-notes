@@ -9,7 +9,7 @@ $$
 Dans une [[Requête à préférences]], l'intersection correspond au **et** entre deux critères : le degré de satisfaction global ne peut pas dépasser le degré du critère le moins bien satisfait.
 
 # Exemple
-Soient $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ et $F = \{0{,}3/a,\; 1/c,\; 1/d,\; 0{,}6/e\}$.
+Sur l'univers $X = \{a, b, c, d, e\}$, soient $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ et $F = \{0{,}3/a,\; 1/c,\; 1/d,\; 0{,}6/e\}$.
 
 | t-norme     | $E \cap F$                           |
 | ----------- | ------------------------------------ |
@@ -18,4 +18,4 @@ Soient $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ et $F = \{0{,}3/a,\; 1/c,\
 | Łukasiewicz | $\{0{,}3/a,\; 0{,}7/c\}$             |
 
 # Remarque
-Opération duale : [[Union d'ensembles flous]]. Couples usuels de t-norme et t-conorme : [[Norme et conorme de Zadeh]], [[Norme et conorme probabilistes]], [[Norme et conorme de Łukasiewicz]], [[Norme et conorme de Weber]].
+Opération duale : [[Union d'ensembles flous]]. Version pour les relations floues : [[Intersection de relations floues]]. Couples usuels de t-norme et t-conorme : [[Norme et conorme de Zadeh]], [[Norme et conorme probabilistes]], [[Norme et conorme de Łukasiewicz]], [[Norme et conorme de Weber]].

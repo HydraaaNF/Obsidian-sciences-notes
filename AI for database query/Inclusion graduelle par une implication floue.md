@@ -32,3 +32,6 @@ $$
 - $\deg(E_2 \subset F) = 1$
 
 (car $\mu_{E_i}(x) \leq \mu_F(x)$ pour tout $x$ et $i \in \{1, 2\}$)
+
+# Remarque
+Cette inclusion graduelle définit la [[Division de relations floues]].

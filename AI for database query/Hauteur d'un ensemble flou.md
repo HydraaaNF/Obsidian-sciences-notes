@@ -10,3 +10,5 @@ $E$ est dit **normalisé** si $\operatorname{hauteur}(E) = 1$, c'est-à-dire s'i
 
 # Exemple
 Avec $E = \{1/a,\; 0{,}7/c,\; 0{,}2/e,\; 0{,}3/f,\; 0{,}6/h,\; 0{,}7/j,\; 0{,}9/k\}$ : $\operatorname{hauteur}(E) = 1$, donc $E$ est normalisé.
+
+Sur l'univers $X = \{a, b, c, d, e\}$, avec $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ : $\operatorname{hauteur}(E) = 1$, donc $E$ est normalisé.

@@ -83,3 +83,21 @@ Les quantificateurs linguistiques (*la plupart*, *au moins 5*, …) et l'évalua
 - [[Énoncé quantifié flou]]
 - [[Interprétation de Zadeh d'un énoncé quantifié flou]]
 - [[Interprétation de Yager par coupes de niveau α]]
+
+## 8. Requêtes floues simples
+Les relations floues et l'algèbre relationnelle floue, de la sélection à la division.
+
+### 8.1 Relations floues et opérateurs ensemblistes
+- [[Relation floue]]
+- [[Algèbre relationnelle floue]]
+- [[Produit cartésien de relations floues]]
+- [[Union de relations floues]]
+- [[Intersection de relations floues]]
+- [[Différence de relations floues]]
+
+### 8.2 Opérateurs relationnels
+- [[Sélection floue]]
+- [[Projection floue]]
+- [[Jointure floue]]
+- [[Division relationnelle]]
+- [[Division de relations floues]]

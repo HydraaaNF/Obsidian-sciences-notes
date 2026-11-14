@@ -17,3 +17,6 @@ Cela revient à intersecter $E$ avec le [[Complément d'un ensemble flou|complé
 Avec $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ et $F = \{0{,}3/a,\; 1/c,\; 1/d,\; 0{,}6/e\}$ :
 - avec $\min$ : $E \setminus F = \{0{,}7/a,\; 0{,}3/b,\; 0{,}2/e\}$ ;
 - avec Łukasiewicz : $E \setminus F = \{0{,}7/a,\; 0{,}3/b\}$.
+
+# Remarque
+Version pour les relations floues : [[Différence de relations floues]].

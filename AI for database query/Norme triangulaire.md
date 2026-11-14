@@ -9,12 +9,12 @@ Une **norme triangulaire** (ou **t-norme**), notée $\top$, est une opération b
   - si $y_1 \leq y_2$ alors $\top(x, y_1) \leq \top(x, y_2)$.
 - **Élément neutre $1$** : $\top(1, x) = \top(x, 1) = x$
 - **Élément absorbant $0$** : $\top(x, 0) = \top(0, y) = 0$
-- **Bornage** :
+- **Bornage** : pour tous $x, y \in [0, 1]$,
 
 $$
-\forall y, \quad \top(x, y) \leq x
+\top(x, y) \leq x
 \qquad\text{et}\qquad
-\forall x, \quad \top(x, y) \leq y
+\top(x, y) \leq y
 $$
 
 - **Encadrement global** (voir [[Norme et conorme de Weber]] et [[Norme et conorme de Zadeh]]) :

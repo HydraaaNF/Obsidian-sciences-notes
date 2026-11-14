@@ -9,7 +9,7 @@ $$
 Dans une [[Requête à préférences]], l'union correspond au **ou** entre deux critères : le degré de satisfaction global est au moins égal au degré du critère le mieux satisfait.
 
 # Exemple
-Avec les mêmes $E$ et $F$ que dans [[Intersection d'ensembles flous]] :
+Sur le même univers $X = \{a, b, c, d, e\}$, avec les mêmes $E$ et $F$ que dans [[Intersection d'ensembles flous]] :
 
 | t-conorme | $E \cup F$ |
 | --- | --- |
@@ -18,4 +18,4 @@ Avec les mêmes $E$ et $F$ que dans [[Intersection d'ensembles flous]] :
 | Łukasiewicz | $\{1/a,\; 0{,}3/b,\; 1/c,\; 1/d,\; 0{,}8/e\}$ |
 
 # Remarque
-Opération duale : [[Intersection d'ensembles flous]].
+Opération duale : [[Intersection d'ensembles flous]]. Version pour les relations floues : [[Union de relations floues]].

@@ -12,6 +12,12 @@ $$
 \operatorname{card}(E) = 1 + 0{,}7 + 0{,}2 + 0{,}3 + 0{,}6 + 0{,}7 + 0{,}9 = 4{,}4
 $$
 
+Sur l'univers $X = \{a, b, c, d, e\}$, avec $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ :
+
+$$
+\operatorname{card}(E) = 1 + 0{,}3 + 0{,}7 + 0 + 0{,}2 = 2{,}2
+$$
+
 # Remarque
 Contrairement au cas classique, la cardinalité d'un ensemble flou n'est généralement **pas un entier**. On retrouve la cardinalité classique lorsque $\mu_E$ se réduit à l'[[Indicatrice]] : la somme compte alors exactement les éléments de degré $1$.
 
