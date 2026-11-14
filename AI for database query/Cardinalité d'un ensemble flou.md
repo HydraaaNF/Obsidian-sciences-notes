@@ -5,6 +5,14 @@ $$
 \operatorname{card}(E) = \sum_{x \in X} \mu_E(x)
 $$
 
+# Remarque
+Contrairement au cas classique, la cardinalité d'un ensemble flou n'est généralement **pas un entier**. On retrouve la cardinalité classique lorsque $\mu_E$ se réduit à l'[[Indicatrice]] : la somme compte alors exactement les éléments de degré $1$.
+
+L'univers $X$ est supposé fini (voir [[Ensemble flou]]).
+
+# Interprétation
+La cardinalité est utilisée dans l'[[Inclusion graduelle par la cardinalité]] et dans l'[[Interprétation de Zadeh d'un énoncé quantifié flou]].
+
 # Exemple
 Avec $E = \{1/a,\; 0{,}7/c,\; 0{,}2/e,\; 0{,}3/f,\; 0{,}6/h,\; 0{,}7/j,\; 0{,}9/k\}$ :
 
@@ -17,11 +25,3 @@ Sur l'univers $X = \{a, b, c, d, e\}$, avec $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 
 $$
 \operatorname{card}(E) = 1 + 0{,}3 + 0{,}7 + 0 + 0{,}2 = 2{,}2
 $$
-
-# Remarque
-Contrairement au cas classique, la cardinalité d'un ensemble flou n'est généralement **pas un entier**. On retrouve la cardinalité classique lorsque $\mu_E$ se réduit à l'[[Indicatrice]] : la somme compte alors exactement les éléments de degré $1$.
-
-L'univers $X$ est supposé fini (voir [[Ensemble flou]]).
-
-# Interprétation
-La cardinalité est utilisée dans l'[[Inclusion graduelle par la cardinalité]] et dans l'[[Interprétation de Zadeh d'un énoncé quantifié flou]].

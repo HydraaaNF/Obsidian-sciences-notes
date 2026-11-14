@@ -27,13 +27,13 @@ $$
 Un ensemble flou $E$ peut être **entièrement défini** par la collection de ses coupes de niveau. L'[[Interprétation de Yager par coupes de niveau α]] s'appuie sur cette propriété.
 
 # Exemple
-**Ensemble flou *young*.** Pour $\mu_{\text{young}}$ égale à $1$ jusqu'à $30$ ans, puis décroissant linéairement jusqu'à $0$ à $45$ ans, la coupe de niveau $\alpha = 0{,}5$ est $E_{0{,}5} = [0,\; 37{,}5]$ : $37{,}5$ est l'âge où le degré vaut $0{,}5$.
+**Ensemble flou *jeune*.** Pour $\mu_{\text{jeune}}$ égale à $1$ jusqu'à $30$ ans, puis décroissant linéairement jusqu'à $0$ à $45$ ans, la coupe de niveau $\alpha = 0{,}5$ est $E_{0{,}5} = [0,\; 37{,}5]$ : $37{,}5$ est l'âge où le degré vaut $0{,}5$.
 
 ```chart
 type: line
 labels: ["0", "2.5", "5", "7.5", "10", "12.5", "15", "17.5", "20", "22.5", "25", "27.5", "30", "32.5", "35", "37.5", "40", "42.5", "45", "47.5", "50", "52.5", "55", "57.5", "60"]
 series:
-  - title: μ young
+  - title: μ jeune
     data: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.83, 0.67, 0.5, 0.33, 0.17, 0, 0, 0, 0, 0, 0, 0]
   - title: α = 0,5
     data: [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]

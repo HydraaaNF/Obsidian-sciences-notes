@@ -10,7 +10,7 @@ $$
 - Dans le cas classique, $\operatorname{supp}(A) = \operatorname{noyau}(A) = A$.
 
 # Exemple
-Pour l'ensemble flou *young* de [[Logique floue]] (égal à $1$ jusqu'à $30$ ans, nul à partir de $45$ ans) : $\operatorname{supp}(\text{young}) = [0, 45[$.
+Pour l'ensemble flou *jeune* de [[Logique floue]] (égal à $1$ jusqu'à $30$ ans, nul à partir de $45$ ans) : $\operatorname{supp}(\text{jeune}) = [0, 45[$.
 
 Pour $E = \{1/a,\; 0{,}7/c,\; 0{,}2/e,\; 0{,}3/f,\; 0{,}6/h,\; 0{,}7/j,\; 0{,}9/k\}$ sur $X = \{a, b, \ldots, k\}$ : $\operatorname{supp}(E) = \{a, c, e, f, h, j, k\}$.
 

@@ -1,8 +1,8 @@
 # Définition
 Une [[Fonction d'appartenance]] peut être définie par une **fonction trapézoïdale**, ce qui suffit à modéliser la plupart des concepts usuels. Il en existe trois types :
-- **décroissante** : constante égale à $1$ jusqu'à un premier seuil, puis décroissance linéaire jusqu'à un second seuil, au-delà duquel elle vaut $0$ (ex. *young*) ;
-- **croissante** : nulle jusqu'à un premier seuil, puis croissance linéaire jusqu'à un second seuil, au-delà duquel elle vaut $1$ (ex. *tall*) ;
-- **croissante puis décroissante**, définie par **4 seuils** $a \le b \le c \le d$ (ex. *around 100*, centrée sur $100$).
+- **décroissante** : constante égale à $1$ jusqu'à un premier seuil, puis décroissance linéaire jusqu'à un second seuil, au-delà duquel elle vaut $0$ (ex. *jeune*) ;
+- **croissante** : nulle jusqu'à un premier seuil, puis croissance linéaire jusqu'à un second seuil, au-delà duquel elle vaut $1$ (ex. *grand*) ;
+- **croissante puis décroissante**, définie par **4 seuils** $a < b \leq c < d$ (ex. *environ 100*, centrée sur $100$).
 
 # Propriétés
 Pour le type à 4 seuils :

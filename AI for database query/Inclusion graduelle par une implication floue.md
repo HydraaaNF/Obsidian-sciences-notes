@@ -18,13 +18,13 @@ Soient $E_1 = \{0{,}4/a,\; 0{,}7/b\}$, $E_2 = \{1/a,\; 0{,}9/b,\; 0{,}4/c\}$ et 
 **Avec $\Rightarrow_{KD}$ :**
 
 $$
-\deg(E_1 \subset F) = \min\big(\max(1 - 0{,}4;\, 1),\; \max(1 - 0{,}7;\, 1),\; \max(1 - 0;\, 0{,}5)\big) = \min(1, 1, 1) = 1
+\deg(E_1 \subset F) = \min\big(\max(1 - 0{,}4;\, 1),\; \max(1 - 0{,}7;\, 1),\; \max(1 - 0;\, 0{,}5)\big) = \min(1;\, 1;\, 1) = 1
 $$
 
 (en effet $\operatorname{supp}(E_1) = \{a, b\} \subset \operatorname{noyau}(F) = \{a, b\}$)
 
 $$
-\deg(E_2 \subset F) = \min\big(\max(1 - 1;\, 1),\; \max(1 - 0{,}9;\, 1),\; \max(1 - 0{,}4;\, 0{,}5)\big) = \min(1, 1, 0{,}6) = 0{,}6
+\deg(E_2 \subset F) = \min\big(\max(1 - 1;\, 1),\; \max(1 - 0{,}9;\, 1),\; \max(1 - 0{,}4;\, 0{,}5)\big) = \min(1;\, 1;\, 0{,}6) = 0{,}6
 $$
 
 **Avec $\Rightarrow_{G\ddot{o}}$ :**

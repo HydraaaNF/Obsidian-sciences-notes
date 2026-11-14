@@ -14,7 +14,7 @@ Cela revient à intersecter $E$ avec le [[Complément d'un ensemble flou|complé
 - Avec la t-norme de Łukasiewicz : $\mu_{E \setminus F}(x) = \max(\mu_E(x) - \mu_F(x),\; 0)$ (voir [[Norme et conorme de Łukasiewicz]]).
 
 # Exemple
-Avec $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ et $F = \{0{,}3/a,\; 1/c,\; 1/d,\; 0{,}6/e\}$ :
+Sur le même univers $X = \{a, b, c, d, e\}$, avec les mêmes $E$ et $F$ que dans [[Intersection d'ensembles flous]] :
 - avec $\min$ : $E \setminus F = \{0{,}7/a,\; 0{,}3/b,\; 0{,}2/e\}$ ;
 - avec Łukasiewicz : $E \setminus F = \{0{,}7/a,\; 0{,}3/b\}$.
 

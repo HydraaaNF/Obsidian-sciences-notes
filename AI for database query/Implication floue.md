@@ -1,11 +1,11 @@
 # Définition
-**Cas classique.** L'inclusion classique s'exprime par une implication :
+**Inclusion classique.** L'inclusion s'exprime par une implication :
 
 $$
 (A \subset B) \iff (\forall x \in X,\; x \in A \implies x \in B)
 $$
 
-**Cas classique.** Table de vérité de $p \implies q$ :
+**Implication classique.** Table de vérité de $p \implies q$ :
 
 | $p \backslash q$ | vrai | faux |
 | --- | --- | --- |

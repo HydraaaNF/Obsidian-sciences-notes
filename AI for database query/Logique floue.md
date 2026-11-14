@@ -4,9 +4,9 @@ La **logique floue** (*fuzzy logic*), fondée sur la **théorie des ensembles fl
 Idée clé : représenter des **classes d'éléments dont les frontières sont vagues**, ce qui permet de modéliser de nombreux termes du langage naturel (*température élevée*, *prix abordable*, *couleur claire*, …). Sa notion centrale est l'[[Ensemble flou]].
 
 # Exemple
-**Le concept « jeune »** (*young*). Deux modèles du même concept :
-- **modèle booléen** : $f_{\text{young}}(x) = 1$ si $x < 30$, $0$ sinon ;
-- **modèle flou** : $\mu_{\text{young}} : [0, 150] \to [0, 1]$, égale à $1$ jusqu'à $30$ ans, puis décroissant linéairement jusqu'à $0$ à $45$ ans (voir [[Fonction d'appartenance trapézoïdale]]).
+**Le concept « jeune »**. Deux modèles du même concept :
+- **modèle booléen** : $f_{\text{jeune}}(x) = 1$ si $x < 30$, $0$ sinon ;
+- **modèle flou** : $\mu_{\text{jeune}} : [0, 150] \to [0, 1]$, égale à $1$ jusqu'à $30$ ans, puis décroissant linéairement jusqu'à $0$ à $45$ ans (voir [[Fonction d'appartenance trapézoïdale]]).
 
 ```chart
 type: line

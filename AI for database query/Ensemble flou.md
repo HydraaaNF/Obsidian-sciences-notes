@@ -1,11 +1,6 @@
 # Définition
 Un **ensemble flou** (*fuzzy set*) $E$, défini sur un univers de référence $X$, est caractérisé par sa [[Fonction d'appartenance]] $\mu_E : X \to [0, 1]$.
 
-# Remarque
-**Notation.** Ensembles classiques : $A$, $B$, … ; ensembles flous : $E$, $F$, … L'univers $X$ reste toujours classique.
-
-Dès qu'une somme, un maximum ou un minimum porte sur $X$ (voir [[Cardinalité d'un ensemble flou]], [[Hauteur d'un ensemble flou]]), $X$ est supposé **fini**.
-
 # Propriétés
 Un ensemble flou est :
 - **subjectif** : il dépend de l'utilisateur ;
@@ -17,3 +12,8 @@ Un ensemble flou est :
 **Interface symbolique / numérique.** Les ensembles flous fournissent une interface entre le **symbolique** (les termes du langage naturel) et le **numérique** (les degrés d'appartenance).
 
 Voir aussi : [[Support d'un ensemble flou]], [[Noyau d'un ensemble flou]], [[Coupe de niveau alpha]].
+
+# Remarque
+**Notation.** Ensembles classiques : $A$, $B$, … ; ensembles flous : $E$, $F$, … L'univers $X$ reste toujours classique.
+
+Dès qu'une somme, un maximum ou un minimum porte sur $X$ (voir [[Cardinalité d'un ensemble flou]], [[Hauteur d'un ensemble flou]]), $X$ est supposé **fini**.

@@ -1,5 +1,5 @@
 # Définition
-Une **S-implication** (S pour *strong*) part de l'équivalence classique $(p \implies q) \iff (\neg p \lor q)$ et utilise une [[Conorme triangulaire]] $\bot$ :
+Une **S-implication** (S pour *strong*) part de l'équivalence classique $(p \implies q) \iff (\neg p \lor q)$ et utilise une [[Conorme triangulaire]] $\bot$, avec $\neg p = 1 - p$ :
 
 $$
 (p \Rightarrow_f q) = \bot(1 - p,\; q)

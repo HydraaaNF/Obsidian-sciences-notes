@@ -8,7 +8,7 @@ $$
 Elle provient de l'équivalence ensembliste classique :
 
 $$
-\overline{A} \cup B = \overline{A \setminus B} = \bigcup \{Z \mid A \cap Z \subset B\}
+\bar{A} \cup B = \overline{A \setminus B} = \bigcup \{Z \mid A \cap Z \subset B\}
 $$
 
 # Propriétés

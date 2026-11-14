@@ -36,11 +36,11 @@ Calcul de $r[A \div B]s$ avec les implications de Gödel, de Kleene-Dienes et de
 **Avec [[Implication de Gödel|Gödel]] :**
 
 $$
-\mu(x) = \min(1 \Rightarrow_{G\ddot{o}} 0{,}7,\ 0{,}5 \Rightarrow_{G\ddot{o}} 0{,}4,\ 0{,}3 \Rightarrow_{G\ddot{o}} 1) = \min(0{,}7;\ 0{,}4;\ 1) = 0{,}4
+\mu(x) = \min(1 \Rightarrow_{G\ddot{o}} 0{,}7;\ 0{,}5 \Rightarrow_{G\ddot{o}} 0{,}4;\ 0{,}3 \Rightarrow_{G\ddot{o}} 1) = \min(0{,}7;\ 0{,}4;\ 1) = 0{,}4
 $$
 
 $$
-\mu(y) = \min(1 \Rightarrow_{G\ddot{o}} 1,\ 0{,}5 \Rightarrow_{G\ddot{o}} 0{,}6,\ 0{,}3 \Rightarrow_{G\ddot{o}} 0{,}2) = \min(1;\ 1;\ 0{,}2) = 0{,}2
+\mu(y) = \min(1 \Rightarrow_{G\ddot{o}} 1;\ 0{,}5 \Rightarrow_{G\ddot{o}} 0{,}6;\ 0{,}3 \Rightarrow_{G\ddot{o}} 0{,}2) = \min(1;\ 1;\ 0{,}2) = 0{,}2
 $$
 
 **Avec [[Implication de Kleene-Dienes|Kleene-Dienes]] :**

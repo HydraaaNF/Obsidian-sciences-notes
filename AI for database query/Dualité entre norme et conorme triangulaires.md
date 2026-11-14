@@ -16,9 +16,6 @@ $$
 \overline{E \cap F} = \bar{E} \cup \bar{F} \qquad\text{et}\qquad \overline{E \cup F} = \bar{E} \cap \bar{F}
 $$
 
-# Remarque
-Un couple $(\top, \bot)$ vérifiant ces relations est dit **dual**.
-
 # Exemple
 Couples duaux usuels :
 
@@ -28,3 +25,6 @@ Couples duaux usuels :
 | $xy$ | $x + y - xy$ | probabiliste ([[Norme et conorme probabilistes]]) |
 | $\max(x + y - 1,\; 0)$ | $\min(x + y,\; 1)$ | Łukasiewicz ([[Norme et conorme de Łukasiewicz]]) |
 | $\top_W$ | $\bot_W$ | Weber ([[Norme et conorme de Weber]]) |
+
+# Remarque
+Un couple $(\top, \bot)$ vérifiant ces relations est dit **dual**.
