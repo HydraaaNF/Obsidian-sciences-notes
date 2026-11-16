@@ -140,6 +140,31 @@
 - [[Ordre et code DFS minimal]]
 - [[Élagage par codes canoniques]]
 
+## Fouille de sous-groupes
+### Motifs et mesures de qualité
+- [[Principe de la découverte de sous-groupes]]
+- [[Tâche de découverte de sous-groupes]]
+- [[Motif de sous-groupe]]
+- [[Sélecteur d'un motif de sous-groupe]]
+- [[Fonction de qualité d'un sous-groupe]]
+- [[Matrice de confusion d'un sous-groupe]]
+- [[Exactitude relative pondérée]]
+- [[Fonction de qualité pour cible numérique]]
+### Attributs cibles et modèles exceptionnels
+- [[Attributs de description et attributs cibles]]
+- [[Découverte de modèles exceptionnels]]
+- [[Classe de modèle et modèle exceptionnel]]
+### Recherche exhaustive et heuristique
+- [[Recherche des sous-groupes]]
+- [[Espace de recherche des sous-groupes]]
+- [[Estimation optimiste d'une fonction de qualité]]
+- [[Élagage top-k]]
+### Redondance et diversité
+- [[Limites du classement top-k]]
+- [[Sélection d'un ensemble de sous-groupes]]
+- [[Recherche en faisceau diversifiée]]
+- [[Degrés de diversité d'un ensemble de sous-groupes]]
+
 ## Fondements de la visualisation de données
 ### Place de la visualisation dans l'analyse de données
 - [[Cadre d'analyse de la visualisation]]
