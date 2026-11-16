@@ -52,6 +52,7 @@
 - [[Algorithme FP-growth]]
 - [[Exemple déroulé de FP-growth]]
 - [[Temps d'exécution comparés des algorithmes]]
+- [[Exercices de fouille de motifs fréquents]]
 
 ## Des itemsets aux motifs séquentiels
 ### Fouille de motifs sur des données structurées
@@ -90,6 +91,7 @@
 - [[Motif séquentiel maximal]]
 - [[Motif séquentiel clos]]
 - [[Algorithme CloSpan]]
+- [[Exercices de fouille de motifs séquentiels]]
 
 ## Contraintes temporelles et fouille d'épisodes
 ### Contraintes temporelles et écart entre itemsets
@@ -110,6 +112,33 @@
 - [[Algorithme WINEPI]]
 - [[Occurrence minimale d'un épisode]]
 - [[Algorithme MINEPI]]
+
+## Motifs de graphes : isomorphisme, support et algorithmes
+### Graphes, isomorphismes et énoncé du problème
+- [[Graphe]]
+- [[Types de graphes]]
+- [[Isomorphisme de graphes]]
+- [[Isomorphisme de sous-graphe]]
+- [[Fouille de motifs de graphes]]
+- [[Illustration et bilan de la fouille de motifs de graphes]]
+### Support d'un motif de graphe
+- [[Collection de graphes et graphe unique]]
+- [[Support d'un motif de graphe]]
+- [[Support d'un motif dans une collection de graphes]]
+- [[Anti-monotonie du support dans une collection de graphes]]
+- [[Support naïf par comptage d'occurrences]]
+- [[Support par chevauchement]]
+- [[Support par image minimale]]
+### Algorithmes de fouille de motifs de graphes
+- [[Algorithmes par fusion de motifs]]
+- [[Algorithme FSG]]
+- [[Croissance de motifs de graphes]]
+- [[Panorama des algorithmes de croissance de motifs de graphes]]
+### Codes canoniques et élagage
+- [[Code canonique d'un graphe]]
+- [[Code DFS d'un graphe]]
+- [[Ordre et code DFS minimal]]
+- [[Élagage par codes canoniques]]
 
 ## Fondements de la visualisation de données
 ### Place de la visualisation dans l'analyse de données
@@ -177,7 +206,3 @@
 - [[FiberClay, sculpture de trajectoires en trois dimensions]]
 - [[Outils de construction pour l'analytique immersive]]
 - [[Défis de recherche de l'analytique immersive]]
-
-## Exercices
-- [[Exercices de fouille de motifs fréquents]]
-- [[Exercices de fouille de motifs séquentiels]]
