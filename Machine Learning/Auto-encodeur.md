@@ -43,4 +43,6 @@ Le pré-entraînement rattache l'auto-encodeur à l'[[Apprentissage semi-supervi
 
 L'auto-encodeur est le cas non supervisé de l'[[Encodeur-décodeur]].
 
+Une variante à entrée et sortie binaires, dont l'unique couche cachée porte les motifs, est décrite dans [[Auto-encodeur de motifs]].
+
 L'encodeur et l'espace latent servent aussi de support aux [[Réseaux de neurones contrefactuels]] et à l'[[Apprentissage de contrefactuels]].

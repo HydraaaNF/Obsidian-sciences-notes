@@ -54,7 +54,7 @@
 - [[Temps d'exécution comparés des algorithmes]]
 - [[Exercices de fouille de motifs fréquents]]
 
-## Des itemsets aux motifs séquentiels
+## Motifs séquentiels : énoncé et algorithmes
 ### Fouille de motifs sur des données structurées
 - [[Extension de la fouille de motifs aux données structurées]]
 - [[Identification de motif dans des données structurées]]
@@ -74,7 +74,6 @@
 - [[Espace de recherche des motifs séquentiels]]
 - [[Panorama des algorithmes de fouille de motifs séquentiels]]
 
-## Algorithmes de fouille de motifs séquentiels
 ### Générer et élaguer
 - [[Algorithme GSP]]
 - [[Génération et évaluation des candidats de GSP]]
@@ -165,25 +164,26 @@
 - [[Recherche en faisceau diversifiée]]
 - [[Degrés de diversité d'un ensemble de sous-groupes]]
 
-## Fondements de la visualisation de données
+## Fondements et encodage de la visualisation
 ### Place de la visualisation dans l'analyse de données
 - [[Cadre d'analyse de la visualisation]]
 - [[Processus d'extraction de connaissances dans les bases de données]]
 - [[Visualisation assistée par ordinateur]]
 - [[Complémentarité de la visualisation et des méthodes automatiques]]
 - [[Visualisation scientifique et visualisation d'information]]
+
 ### Système de visualisation et boucles d'interaction
 - [[Boucle du système de visualisation]]
 - [[Faire entrer l'ordinateur dans la boucle d'analyse]]
 - [[Analyse pilotée par l'utilisateur]]
 - [[Représentation externe et déchargement cognitif]]
 - [[Interactivité de la visualisation]]
+
 ### Perception et attention
 - [[Perception visuelle et traitement préconscient]]
 - [[Limites de la perception humaine]]
 - [[Cécité au changement]]
 
-## Données, tâches et encodage visuel
 ### Types de données et représentations visuelles
 - [[Types de jeux de données]]
 - [[Attribut et types d'attributs]]
@@ -194,16 +194,19 @@
 - [[Représentation visuelle des réseaux]]
 - [[Graphique de flux]]
 - [[Visualisation de tenseurs]]
-### Abstraction des tâches
+
+### Abstraction des tâches d'analyse
 - [[Abstraction des tâches d'analyse]]
 - [[Actions d'une tâche d'analyse]]
 - [[Recherche et requête dans une visualisation]]
 - [[Cibles d'une tâche d'analyse]]
 - [[Questions du comment en conception de visualisation]]
-### Encodage visuel des données
+### Principes de composition de la vue
 - [[Exprimer toutes les données dans la vue]]
 - [[Séparer les marques sans recouvrement]]
 - [[Ordonner et aligner les marques]]
+
+### Canaux visuels, couleur et techniques d'encodage
 - [[Coordonnées parallèles]]
 - [[Loi de puissance de Stevens]]
 - [[Canaux visuels et efficacité d'encodage]]
@@ -231,6 +234,36 @@
 - [[FiberClay, sculpture de trajectoires en trois dimensions]]
 - [[Outils de construction pour l'analytique immersive]]
 - [[Défis de recherche de l'analytique immersive]]
+
+## Apprentissage profond pour la fouille de motifs
+### Du problème de l'ensemble de motifs aux réseaux de neurones
+- [[Capture de motifs par l'apprentissage automatique]]
+- [[Ensemble de motifs]]
+- [[Complexité de la recherche d'un ensemble de motifs]]
+- [[Données de polymorphismes nucléotidiques simples]]
+- [[Fouille de motifs et réseaux de neurones profonds]]
+
+### Architecture de l'auto-encodeur de motifs
+- [[Auto-encodeur de motifs]]
+- [[Couche de motifs]]
+- [[Poids binaires et optimisation différentiable]]
+
+### Encodage et décodage de la couche de motifs
+- [[Encodage d'une transaction en motifs]]
+- [[Décodage d'une couche de motifs]]
+- [[Fonction de bornage dans un intervalle]]
+
+### Entraînement de l'auto-encodeur de motifs
+- [[Boucle d'apprentissage de l'auto-encodeur de motifs]]
+- [[Perte de reconstruction pondérée par la parcimonie]]
+- [[Exemple déroulé d'apprentissage de motifs par auto-encodeur]]
+
+### Résultats, passage à l'échelle et prolongements
+- [[Qualité des motifs selon le nombre de variables]]
+- [[Temps de calcul selon le nombre de variables]]
+- [[Passage à l'échelle de l'apprentissage de motifs]]
+- [[Prolongement vers d'autres langages de motifs]]
+- [[Questions ouvertes de la fouille de motifs par descente de gradient]]
 
 ## Explicabilité en apprentissage supervisé : cadrage et formes
 ### Cadrage sur l'intelligence artificielle et l'explicabilité

@@ -75,3 +75,5 @@ ce qui redonne bien la somme des deux contributions.
 Un logiciel de [[Différenciation automatique]] comme PyTorch accumule les gradients dans l'attribut `.grad` des tenseurs. C'est exactement pour cette raison que `a.grad` doit être remis à zéro entre deux étapes : deux `backward()` successifs donnent $-36$ au lieu de $-18$.
 
 Le gradient ainsi accumulé est la quantité que consomment les [[Optimiseurs]] pour mettre à jour les paramètres.
+
+La passe arrière de la boucle d'apprentissage de l'auto-encodeur de motifs est une rétropropagation appliquée à ce graphe de calcul : voir [[Boucle d'apprentissage de l'auto-encodeur de motifs]].

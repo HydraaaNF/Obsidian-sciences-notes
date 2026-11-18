@@ -39,3 +39,5 @@ Les quatre itemsets $\{A, B, C\}$, $\{A, B\}$, $\{A, C\}$ et $\{B, C\}$ ont le m
 Deux représentations condensées suppriment cette redondance sans énumérer tous les itemsets fréquents : les [[Itemsets fréquents fermés]], maximums des classes d'équivalence de même tidlist, et les [[Itemsets fréquents maximaux]], itemsets sans sur-ensemble fréquent. La seconde est la plus compacte, mais elle perd l'information de support des sous-ensembles ; la première la conserve. Le nombre d'itemsets produits par chaque représentation est comparé dans [[Nombre d'itemsets par type]].
 
 Le calcul peut lui-même éviter l'énumération complète. La voie directe énumère tous les itemsets fréquents et ne retient que les fermés, ce qui reste inefficace sauf si l'ensemble des itemsets fréquents est très petit. La voie par fermeture ne calcule que les itemsets fermés, au moyen d'opérations de fermeture, et peut être très efficace.
+
+L'explosion du nombre de candidats s'aggrave d'un second niveau lorsque la cible n'est plus un itemset mais un ensemble de motifs : voir [[Complexité de la recherche d'un ensemble de motifs]].

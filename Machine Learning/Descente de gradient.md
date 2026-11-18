@@ -82,3 +82,4 @@ Les valeurs $-18$ et $-4$ sont les composantes du gradient au point initial.
 - La même descente résout d'autres problèmes d'optimisation : pour la régression logistique, on minimise l'opposé de la log-vraisemblance, toujours par descente de gradient, avec le même algorithme et une perte différente.
 - La méthode s'applique à toute perte dérivable, par exemple la [[Perte absolue et perte quadratique|perte quadratique]] utilisée dans l'exemple.
 - La règle de base est raffinée par les [[Optimiseurs]].
+- La contrainte de binarité des paramètres détourne la descente de son usage ordinaire, la mise à jour devant rester sur les sommets du cube : voir [[Poids binaires et optimisation différentiable]].

@@ -63,3 +63,5 @@ Avec la sigmoïde pour activation, le neurone calcule exactement un [[Lien logis
 # Remarque
 
 Dès que les neurones s'enchaînent, le modèle devient une « boîte noire » : les poids et les activations internes rendent la décision difficile à interpréter directement, ce qui motive l'étude de l'[[Interprétabilité]].
+
+Le neurone de motif est un neurone formel à activation en échelon et à biais négatif : voir [[Couche de motifs]].

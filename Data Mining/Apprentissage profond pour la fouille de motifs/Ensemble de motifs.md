@@ -1,0 +1,19 @@
+#dmv-pattern_mining_vs_deep_learning
+
+# Définition
+
+Un **ensemble de motifs** (en anglais *pattern set*) est un petit ensemble de motifs qui capture les structures principales existant dans les données.
+
+# Interprétation
+
+L'ensemble est qualifié de petit, et c'est la collection entière qui doit capturer les structures principales des données.
+
+Chaque motif de l'ensemble se juge par rapport aux autres et non isolément, à la différence d'un [[Itemset fréquent]] retenu pour son seul support.
+
+Trouver un ensemble de motifs est le problème de l'état de l'art en pattern mining.
+
+# Remarque
+
+La recherche d'un ensemble de motifs a une complexité propre, ses algorithmes reposant sur des heuristiques : voir [[Complexité de la recherche d'un ensemble de motifs]].
+
+L'apprentissage automatique offre une autre voie pour obtenir un tel ensemble, en apprenant directement les motifs qui le composent : voir [[Capture de motifs par l'apprentissage automatique]].
