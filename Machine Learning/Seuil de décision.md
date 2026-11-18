@@ -24,6 +24,7 @@ Voir [[Précision et rappel]] pour la lecture conjointe de ces deux mesures.
 - Le seuil se règle sur le [[Jeux d'entraînement, de développement et de test|jeu de développement]], pour la métrique qui compte réellement dans l'application visée, et non sur le jeu de test.
 - À modèle entraîné identique, des seuils différents définissent des points de fonctionnement différents : le seuil est un réglage d'exploitation, pas une étape d'apprentissage supplémentaire.
 - La même logique de seuil s'étend à la [[Classification multi-étiquette]], où chaque étiquette peut recevoir son propre seuil.
+- Le [[Lien logistique comme modèle interprétable|modèle logistique]] applique ce seuil au score pour classer.
 
 # Exemple
 

@@ -31,3 +31,5 @@ Le [[Problème du ou exclusif|problème du ou exclusif]] l'illustre déjà : dan
 L'état caché $h_t$ d'un [[Réseau récurrent]] est un plongement du préfixe : il résume $x_1, \dots, x_t$ et représente donc une portion de séquence, pas seulement une entrée isolée.
 
 La notion se retrouve à l'entrée avec la [[Couche de plongement]], qui apprend un vecteur par symbole, et sans étiquette avec l'[[Auto-encodeur]], qui apprend une représentation compacte en imposant un goulot d'étranglement.
+
+Le plongement est la représentation latente produite par les [[Architectures et représentations des réseaux]].

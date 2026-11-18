@@ -13,3 +13,7 @@ Ce sous-ensemble se caractérise par trois restrictions :
 La qualité des fonctions estimées y bénéficie de bonnes propriétés. Elle se mesure par le [[Risque et risque empirique|risque]] construit sur la [[Fonction de perte|perte]] retenue, et les procédures d'estimation correspondantes relèvent de l'[[Inférence statistique]].
 
 La position de ce sous-ensemble parmi les disciplines voisines, et ce qui le distingue d'un apprentissage non probabiliste, est décrite dans [[Apprentissage automatique et disciplines voisines]].
+
+# Remarque
+
+L'[[Place de l'apprentissage automatique parmi les disciplines|apprentissage automatique]] est le sous-ensemble de cette modélisation qui apprend le modèle à partir des données.

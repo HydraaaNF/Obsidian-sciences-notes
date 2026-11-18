@@ -36,3 +36,5 @@ Apprendre à conduire : les leçons se prennent sur une Renault Clio, puis on pa
 La généralisation est ce que montrent les exemples de cette note : la salivation déclenchée par la cloche seule, et la conduite d'un véhicule jamais conduit.
 
 Les situations inconnues visées relèvent des [[Problèmes d'apprentissage statistique|problèmes d'apprentissage statistique]], dont les tâches usuelles sont la [[Régression, classification et clustering|régression et la classification]].
+
+La généralisation décrite ici est la définition même de la [[Place de l'apprentissage automatique parmi les disciplines|place de l'apprentissage automatique parmi les disciplines]].

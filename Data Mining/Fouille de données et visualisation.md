@@ -231,3 +231,60 @@
 - [[FiberClay, sculpture de trajectoires en trois dimensions]]
 - [[Outils de construction pour l'analytique immersive]]
 - [[Défis de recherche de l'analytique immersive]]
+
+## Explicabilité en apprentissage supervisé : cadrage et formes
+### Cadrage sur l'intelligence artificielle et l'explicabilité
+- [[Intelligence]]
+- [[Place de l'apprentissage automatique parmi les disciplines]]
+- [[Apprentissage à partir de données étiquetées]]
+- [[Interprétabilité]]
+- [[Explicabilité]]
+- [[Taxonomie des techniques d'explicabilité]]
+### Formes et motivations de l'explication
+- [[Explication]]
+- [[Formes d'explication selon la modalité des données]]
+- [[Motivations de l'explicabilité]]
+- [[Affaires révélant les risques des modèles opaques]]
+- [[Cadre légal et éthique de l'explicabilité]]
+
+## Modèles interprétables et explications par conception
+### Modèles interprétables
+- [[Modèle linéaire]]
+- [[Lien logistique comme modèle interprétable]]
+- [[Arbre de décision]]
+- [[Règles, listes et ensembles de décision]]
+- [[Méthodes à base d'exemplaires]]
+- [[Neurone formel]]
+- [[Architectures et représentations des réseaux]]
+- [[Méthodes d'ensemble et machines à vecteurs de support]]
+### Explications par conception
+- [[Familles d'analyses internes d'un modèle]]
+- [[Explications par concepts et prototypes]]
+- [[Réseaux de neurones contrefactuels]]
+- [[Shapelets]]
+
+## Explications après coup, contrefactuels et évaluation
+### Explications globales
+- [[Explication globale]]
+- [[Graphique de dépendance partielle]]
+- [[Importance des variables par agrégation]]
+- [[Substituts globaux par arbre et par règles]]
+- [[Contrefactuels globaux]]
+### Explications locales
+- [[Explication locale]]
+- [[Représentation interprétable]]
+- [[LIME]]
+- [[Méthodes d'attribution par gradients]]
+- [[Valeur de Shapley]]
+- [[SHAP]]
+- [[Règles locales d'explication]]
+### Explications contrefactuelles
+- [[Explication contrefactuelle]]
+- [[Apprentissage de contrefactuels]]
+- [[Algorithmes de génération de contrefactuels]]
+- [[Contrefactuels pour le texte]]
+### Évaluation et questions ouvertes
+- [[Critères et métriques d'évaluation d'une explication]]
+- [[Évaluation de la compréhension et de la confiance]]
+- [[Protocole de comparaison d'explications]]
+- [[Questions ouvertes de l'explicabilité]]

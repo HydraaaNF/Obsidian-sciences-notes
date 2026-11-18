@@ -43,3 +43,4 @@ a = torch.rand(2)          # un vecteur
 - Deux conventions de disposition circulent pour les poids. Celle retenue ici range les poids d'une composante de sortie en ligne, d'où $A$ de taille $m \times n$ et le produit $xA^\top$ ; l'écriture alternative place ces poids en colonne, avec une matrice de taille $n \times m$ et le produit direct. Les deux décrivent la même application et ne diffèrent que par une transposition : les formes des tenseurs doivent être vérifiées avant le produit.
 - Un biais $b$ de forme $(m,)$ est ajouté à chaque ligne du lot, sans dimension d'échantillon.
 - Écrire les paramètres comme des matrices plutôt que comme des vecteurs change la forme du résultat : avec $A$ de taille $(n, 1)$, la sortie d'un lot est $(B, 1)$ ; avec $a$ de forme $(n,)$, elle est $(B,)$.
+- Le [[Modèle linéaire]] en donne le cas scalaire, attribut par attribut.

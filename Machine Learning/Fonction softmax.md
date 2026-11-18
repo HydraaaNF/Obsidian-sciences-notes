@@ -66,3 +66,5 @@ ce qui redonne le logit de la régression logistique.
 La [[Régression logistique multinomiale]] est le modèle complet dont cette transformation fournit les probabilités a posteriori : un score linéaire par classe, normalisé sur l'ensemble des classes.
 
 Le softmax est la transformation de sortie d'un classifieur multi-classe ; voir l'[[Entropie croisée multi-classe]] pour la perte associée et la [[Température d'un softmax]] pour l'effet d'un facteur d'échelle sur les scores.
+
+Le [[Lien logistique comme modèle interprétable|modèle logistique]] est le cas à deux scores du softmax, l'un fixé à zéro.

@@ -44,6 +44,8 @@ La valeur absolue du score mesure la confiance de la prédiction, car $|z|$ cro�
 - Loin de la droite, la probabilité prédite $\hat{y}$ est proche de $0$ ou de $1$ : le modèle est assuré.
 - Sur la droite, $\hat{y} = 0.5$ : le modèle est indécis.
 
+La lecture des coefficients comme effets sur le score, qui fait de ce modèle un modèle blanc, est traitée dans le [[Lien logistique comme modèle interprétable|modèle logistique interprétable]].
+
 # Remarque
 
 - La [[Régression logistique binaire]] donne la formulation probabiliste du modèle pour un jeu de variables observées $X = (X_1, \dots, X_n)$, avec un coefficient par variable.

@@ -33,3 +33,5 @@ Un premier exemple : des données en deux dimensions réparties en trois groupes
 # Remarque
 
 Les avantages et inconvénients du k-means sont détaillés dans [[Avantages et inconvénients du k-means]] ; ses propriétés et son algorithme dans [[Propriétés du k-means]] et [[Algorithme des k-moyennes de Lloyd]].
+
+Le centre de cluster joue le rôle du prototype dans les [[Méthodes à base d'exemplaires]].

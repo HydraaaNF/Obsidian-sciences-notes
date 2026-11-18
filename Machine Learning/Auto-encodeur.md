@@ -42,3 +42,5 @@ Trois usages de l'auto-encodeur :
 Le pré-entraînement rattache l'auto-encodeur à l'[[Apprentissage semi-supervisé]] : les données non étiquetées servent à apprendre la représentation, les données étiquetées à entraîner le classifieur final.
 
 L'auto-encodeur est le cas non supervisé de l'[[Encodeur-décodeur]].
+
+L'encodeur et l'espace latent servent aussi de support aux [[Réseaux de neurones contrefactuels]] et à l'[[Apprentissage de contrefactuels]].
