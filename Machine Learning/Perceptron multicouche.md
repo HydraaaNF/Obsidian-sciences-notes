@@ -18,7 +18,7 @@ et ainsi de suite jusqu'à la sortie.
 
 # Propriétés
 
-Une couche compte $m$ neurones qui lisent la même entrée $x \in \mathbb{R}^n$. Le neurone $j$ calcule :
+Une couche compte $m$ [[Neurone artificiel|neurones]] qui lisent la même entrée $x \in \mathbb{R}^n$. Le neurone $j$ calcule :
 
 $$h_j = f(xa_j^\top + b_j)$$
 

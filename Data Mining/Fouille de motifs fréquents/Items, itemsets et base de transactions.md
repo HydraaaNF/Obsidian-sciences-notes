@@ -39,3 +39,5 @@ La base écrite ci-dessus, avec une ligne par transaction et une colonne par ite
 Les itemsets sont les objets de base sur lesquels se définissent le [[Support d'un itemset|support]] et la notion d'[[Itemset fréquent|itemset fréquent]] ; ce sont eux qui servent ensuite de briques aux [[Règle d'association et confiance|règles d'association]], une règle $X \to Y$ portant sur deux itemsets disjoints.
 
 La transaction binaire décrite ici est l'entrée du réseau qui apprend un ensemble de motifs : voir [[Encodage d'une transaction en motifs]].
+
+La base binaire se relit comme une matrice de cases, dont un motif recouvre localement certaines lignes et certaines colonnes : c'est la lecture du [[Motif comme propriété locale des données]].

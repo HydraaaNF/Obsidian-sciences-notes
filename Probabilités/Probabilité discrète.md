@@ -10,7 +10,7 @@ On définit une probabilité $\mathbb{P}$ (dite **discrète**) sur $\mathcal{P}(
 
 $$\forall A \in \mathcal{P}(\Omega) \quad \mathbb{P}(A) = \sum_{\{n \in I \mid x_n \in A\}} p_n.$$
 
-Cette probabilité est appelée *loi de probabilité discrète sur $\Omega$*. On considère $p_n$ comme la probabilité de l'évènement élémentaire $\{x_n\}$ : un évènement est dit *élémentaire* lorsqu'il est réduit à une seule des éventualités possibles de l'expérience aléatoire considérée.
+Cette probabilité est appelée *loi de probabilité discrète sur $\Omega$*. On considère $p_n$ comme la probabilité de l'[[Évènement|évènement]] élémentaire $\{x_n\}$ : un évènement est dit *élémentaire* lorsqu'il est réduit à une seule des éventualités possibles de l'expérience aléatoire considérée.
 
 # Propriétés
 

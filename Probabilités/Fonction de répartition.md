@@ -20,7 +20,7 @@ La densité est la dérivée de la fonction de répartition :
 
 $$f_X(x) = \lim_{\delta \to 0^+} \frac{\mathbb{P}(x < X < x + \delta)}{\delta} = F_X'(x).$$
 
-Soit $X$ une variable aléatoire réelle, alors :
+Soit $X$ une [[Variable aléatoire réelle|variable aléatoire réelle]], alors :
 
 - $F_X$ est croissante sur $\mathbb{R}$ ;
 - $\lim_{t \to -\infty} F_X(t) = 0$ et $\lim_{t \to +\infty} F_X(t) = 1$ ;

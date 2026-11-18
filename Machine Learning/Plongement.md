@@ -32,4 +32,6 @@ L'état caché $h_t$ d'un [[Réseau récurrent]] est un plongement du préfixe :
 
 La notion se retrouve à l'entrée avec la [[Couche de plongement]], qui apprend un vecteur par symbole, et sans étiquette avec l'[[Auto-encodeur]], qui apprend une représentation compacte en imposant un goulot d'étranglement.
 
+L'apprentissage de plongements de mots par prédiction du contexte est traité dans [[word2vec]].
+
 Le plongement est la représentation latente produite par les [[Architectures et représentations des réseaux]].

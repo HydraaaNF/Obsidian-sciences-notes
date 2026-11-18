@@ -23,4 +23,4 @@ Pour obtenir un score élevé sur « chat », la représentation $h$ d'une photo
 
 # Remarque
 
-Les vecteurs $a_c$ sont eux aussi des plongements : un vecteur par classe. C'est le même score linéaire par classe que dans la [[Régression logistique multinomiale]], dont le [[Fonction softmax|softmax]] normalise les sorties. Les mots reçoivent de la même façon des vecteurs du côté de l'entrée, par une [[Couche de plongement]].
+Les vecteurs $a_c$ sont eux aussi des [[Plongement|plongements]] : un vecteur par classe. C'est le même score linéaire par classe que dans la [[Régression logistique multinomiale]], dont le [[Fonction softmax|softmax]] normalise les sorties. Les mots reçoivent de la même façon des vecteurs du côté de l'entrée, par une [[Couche de plongement]].

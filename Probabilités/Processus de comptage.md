@@ -2,7 +2,7 @@
 
 # Définition
 
-Le [[Processus d'arrivée et de service|processus des arrivées]] $(A(t))_{t \geq 0}$ d'un [[File d'attente|système d'attente]] est un **processus de comptage**, c'est-à-dire un processus stochastique à temps continu, à valeurs dans $\mathbb{N}$ et croissant avec $t$ ; $A(t)$ désigne le nombre d'arrivées de clients dans l'intervalle de temps $]0, t]$.
+Le [[Processus d'arrivée et de service|processus des arrivées]] $(A(t))_{t \geq 0}$ d'un [[File d'attente|système d'attente]] est un **processus de comptage**, c'est-à-dire un [[Processus stochastique|processus stochastique]] à temps continu, à valeurs dans $\mathbb{N}$ et croissant avec $t$ ; $A(t)$ désigne le nombre d'arrivées de clients dans l'intervalle de temps $]0, t]$.
 
 On note $T_n$ l'instant de la $n$-ième arrivée ($n \in \mathbb{N}^*$) et $X_n$ le temps séparant la $n$-ième arrivée de la $(n+1)$-ième :
 

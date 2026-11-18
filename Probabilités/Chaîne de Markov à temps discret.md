@@ -32,6 +32,6 @@ $$\begin{aligned} \mathbb{P}[\mathbf{x} \mid X_1 = i] &= \mathbb{P}[i \mid i]^{d
 
 # Remarque
 
-Une chaîne de Markov à temps discret est l'équivalent à temps discret de la [[Chaîne de Markov à temps continu]]. La matrice de transition et la loi initiale déterminent la loi de toute trajectoire ; la [[Génération d'une chaîne de Markov]] en décrit la simulation. Lorsque les états de la chaîne ne sont pas observables directement, le modèle s'étend au [[Modèle de Markov caché]].
+Une chaîne de Markov à temps discret est l'équivalent à temps discret de la [[Chaîne de Markov à temps continu]]. La matrice de transition et la loi initiale déterminent la loi de toute trajectoire ; la [[Génération d'une chaîne de Markov]] en décrit la simulation. Lorsque les états de la chaîne ne sont pas observables directement, le modèle s'étend au [[Modèle de Markov caché]]. Indexée par une position et non par un instant, la même propriété de Markov définit le [[Champ aléatoire de Markov]].
 
 La valeur exacte de la probabilité de la séquence ci-dessus est $0{,}000512$, et non $0{,}0004608$ : le produit $\pi_3 a_{33}^2 a_{31} a_{11} a_{12} a_{23}$ vaut $\frac{1}{3} \times 0{,}001536 = 0{,}000512$.

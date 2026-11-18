@@ -265,6 +265,59 @@
 - [[Prolongement vers d'autres langages de motifs]]
 - [[Questions ouvertes de la fouille de motifs par descente de gradient]]
 
+## De l'explosion des motifs à la description minimale
+### Limites de la fouille exhaustive des motifs
+- [[Efficacité et utilité de la fouille de motifs]]
+- [[Familles d'approches pour maîtriser le nombre de motifs]]
+- [[Énoncé standard de la fouille de motifs]]
+- [[Explosion du nombre de motifs]]
+- [[Écart entre les motifs demandés et les motifs utiles]]
+- [[Motif comme propriété locale des données]]
+- [[Factorisation des données en modèle et en données couvertes]]
+
+### Principe de description minimale et complexité de Kolmogorov
+- [[Principe de la longueur minimale de description]]
+- [[Compromis entre longueur du modèle et longueur des données]]
+- [[Complexité de Kolmogorov]]
+
+### Tables de codes et mesure de longueur
+- [[Panorama des approches par compression en fouille de motifs]]
+- [[Table de codes]]
+- [[Couverture d'une transaction par une table de codes]]
+- [[Table de codes standard]]
+- [[Probabilité et longueur optimale d'un code]]
+- [[Longueur de description d'une table de codes]]
+- [[Longueur de description d'une base encodée]]
+- [[Taille totale d'un modèle et des données encodées]]
+- [[Recherche de la table de codes optimale]]
+
+## Algorithmes de compression et bilan
+### Tables de codes pour les itemsets
+- [[Algorithme KRIMP]]
+- [[Élagage après acceptation d'une table de codes]]
+- [[Propriétés des tables de codes de KRIMP]]
+- [[Applications des tables de codes]]
+- [[Classification par compression avec des tables de codes]]
+- [[Algorithme SLIM]]
+
+### Tables de codes pour les séquences
+- [[Table de codes pour séquences d'événements]]
+- [[Longueur des codes de motifs et de trous]]
+- [[Longueur de description d'une base de séquences]]
+- [[Longueur de description d'une table de codes de séquences]]
+- [[Algorithme de sélection de candidats de SQS]]
+- [[Algorithme de recherche progressive de SQS]]
+
+### Tables de codes pour les graphes et bilan
+- [[Compression d'un graphe par un ensemble de motifs]]
+- [[Table de codes de motifs de graphes]]
+- [[Perte d'information d'une table de codes sans ports]]
+- [[Ports d'un motif de graphe]]
+- [[Réduction du nombre de motifs de graphes par compression]]
+- [[Version progressive de GraphMDL]]
+- [[Bilan de la fouille de motifs par compression]]
+- [[Trois questions de conception d'une approche par compression]]
+
 ## Explicabilité en apprentissage supervisé : cadrage et formes
 ### Cadrage sur l'intelligence artificielle et l'explicabilité
 - [[Intelligence]]

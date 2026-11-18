@@ -27,7 +27,7 @@ On admet la conséquence suivante de la définition : pour des instants $t_0 < \
 
 $$\mathbb{P}(A(t_{n+1}) = i_{n+1} \mid A(t_0) = i_0, \dots, A(t_n) = i_n) = \mathbb{P}(A(t_{n+1}) = i_{n+1} \mid A(t_n) = i_n)$$
 
-L'égalité ci-dessus exprime que $(A(t))_{t \geq 0}$ vérifie la **propriété de Markov à temps continu** : un processus de Poisson est donc une [[Chaîne de Markov à temps continu|chaîne de Markov à temps continu]]. On a également
+L'égalité ci-dessus exprime que $(A(t))_{t \geq 0}$ vérifie la **[[Propriété de Markov|propriété de Markov]] à temps continu** : un processus de Poisson est donc une [[Chaîne de Markov à temps continu|chaîne de Markov à temps continu]]. On a également
 
 $$\mathbb{P}(A(t_{n+1}) = i_{n+1} \mid A(t_n) = i_n) = \mathbb{P}(A(t_{n+1} - t_n) = i_{n+1} \mid A(0) = i_n)$$
 

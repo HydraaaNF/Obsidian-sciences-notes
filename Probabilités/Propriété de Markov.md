@@ -20,4 +20,6 @@ La propriété de Markov est la forme générale de la propriété qui définit 
 
 Sur un graphe orienté, sa forme graphique est l'[[Indépendance conditionnelle le long d'une chaîne|indépendance conditionnelle le long d'une chaîne]] : sachant le sommet présent, la variable amont n'apporte plus d'information sur la variable aval.
 
+Dans un [[Champ aléatoire conditionnel à chaîne linéaire]], la [[Décomposition positionnelle des fonctions de traits|décomposition positionnelle]] des fonctions de traits restreint de même chaque terme à ses étiquettes voisines : la dépendance entre positions successives y est l'analogue de la propriété de Markov.
+
 Sous sa forme spatiale, le [[Champ aléatoire de Markov]] remplace le passé immédiat par un voisinage de sites, et sa loi se factorise alors sur les cliques en une [[Distribution de Gibbs]].

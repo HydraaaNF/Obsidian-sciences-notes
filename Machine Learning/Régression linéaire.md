@@ -35,3 +35,4 @@ $$(a^*, b^*) = \operatorname*{argmin}_{(a,b)} L(a, b).$$
 - La solution fermée est donnée par la [[Droite de régression de y en x|droite de régression de y en x]], dite droite des moindres carrés : ses coefficients se calculent directement à partir des moyennes, de la covariance et de la variance des observations.
 - La démarche se transpose à d'autres modèles : on y minimise toujours une perte sur les données observées, et la même descente de gradient résout le problème ; seule la perte change.
 - Le [[Modèle linéaire]] est la famille dont cette régression est la démarche d'ajustement.
+- La [[Forme matricielle de la régression]] en donne l'écriture matricielle, pour plusieurs variables explicatives.

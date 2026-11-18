@@ -2,7 +2,7 @@
 
 # Définition
 
-Un processus stochastique à temps continu $(N(t))_{t \geq 0}$, à valeurs dans un espace d'états $E$ (ensemble fini ou dénombrable), est une **chaîne de Markov à temps continu homogène** (CMTCH) lorsque la connaissance de sa trajectoire passée (les valeurs de $N(u)$ pour $u < s$) n'apporte aucune information sur la loi de son état futur, et que la quantité suivante ne dépend pas de $s$ :
+Un [[Processus stochastique|processus stochastique]] à temps continu $(N(t))_{t \geq 0}$, à valeurs dans un espace d'états $E$ (ensemble fini ou dénombrable), est une **chaîne de Markov à temps continu homogène** (CMTCH) lorsque la connaissance de sa trajectoire passée (les valeurs de $N(u)$ pour $u < s$) n'apporte aucune information sur la loi de son état futur, et que la quantité suivante ne dépend pas de $s$ :
 
 $$p_{i,j}(t) = \mathbb{P}(N(s+t) = j \mid N(s) = i)$$
 

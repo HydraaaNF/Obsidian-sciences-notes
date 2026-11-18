@@ -2,7 +2,7 @@
 
 # Modèle
 
-Un **réseau récurrent** (RNN) lit une [[Données séquentielles|séquence]] pas à pas en transportant une mémoire d'un pas au suivant. À chaque pas $t$ :
+Un **réseau récurrent** (RNN) est un [[Réseau de neurones]] dont le graphe comporte une boucle : il lit une [[Données séquentielles|séquence]] pas à pas en transportant une mémoire d'un pas au suivant. À chaque pas $t$ :
 
 $$(\hat{y}_t, h_t) = f(x_t, h_{t-1})$$
 
