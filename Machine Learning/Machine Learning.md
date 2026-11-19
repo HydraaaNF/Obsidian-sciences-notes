@@ -12,7 +12,7 @@
 - [[Apprentissage non supervisé]]
 - [[Apprentissage semi-supervisé]]
 
-## Données, tableaux et tenseurs
+## Données et tenseurs
 - [[Donnée et attributs]]
 - [[Données structurées et non structurées]]
 - [[Encodage des valeurs symboliques]]
@@ -39,18 +39,33 @@
 - [[Jeux d'entraînement, de développement et de test]]
 - [[Évaluer un classifieur avec scikit-learn]]
 
-## Régression linéaire et différenciation automatique
+## Optimisation et entraînement
+
+### Régression linéaire et descente de gradient
 - [[Régression linéaire]]
 - [[Perte absolue et perte quadratique]]
+- [[Forme matricielle de la régression]]
 - [[Descente de gradient]]
 - [[Entraîner un modèle linéaire pas à pas]]
-- [[Forme matricielle de la régression]]
-- [[Optimiseurs]]
+
+### Graphe de calcul et rétropropagation
 - [[Graphe de calcul]]
 - [[Rétropropagation]]
 - [[Différenciation automatique]]
+- [[Optimiseurs]]
 
-## Du neurone au réseau
+### Entraîner avec PyTorch
+- [[Composer un réseau avec PyTorch]]
+- [[Boucle d'entraînement et validation]]
+- [[Lots, époques et chargement des données]]
+- [[Sauvegarde et reprise de l'entraînement]]
+- [[Normalisation des entrées]]
+- [[Normalisation par lots]]
+- [[Connexions résiduelles]]
+- [[Planificateurs de taux d'apprentissage]]
+- [[Calcul sur GPU]]
+
+## Du neurone aux réseaux multicouches
 
 ### Classification binaire et régression logistique
 - [[Classification binaire]]
@@ -69,18 +84,7 @@
 - [[Hyper-paramètres]]
 - [[Première et dernière couches]]
 
-## Entraîner un réseau avec PyTorch
-- [[Composer un réseau avec PyTorch]]
-- [[Boucle d'entraînement et validation]]
-- [[Lots, époques et chargement des données]]
-- [[Sauvegarde et reprise de l'entraînement]]
-- [[Normalisation des entrées]]
-- [[Normalisation par lots]]
-- [[Connexions résiduelles]]
-- [[Planificateurs de taux d'apprentissage]]
-- [[Calcul sur GPU]]
-
-## Classification à plusieurs classes
+### Classification à plusieurs classes
 - [[Types de classification]]
 - [[Fonction softmax]]
 - [[Température d'un softmax]]
@@ -89,6 +93,27 @@
 - [[Classification multi-étiquette]]
 - [[Entropie croisée multi-classe avec PyTorch]]
 - [[Un vecteur par classe]]
+
+## Convolution et réseaux convolutifs
+
+### Convolution en une et deux dimensions
+- [[Intérêt de la convolution]]
+- [[Couche de convolution]]
+- [[Convolution en une dimension]]
+- [[Taille de sortie d'une convolution]]
+- [[Convolution en deux dimensions]]
+
+### Paramètres et variantes de la convolution
+- [[Padding, stride et dilation]]
+- [[Convolution dilatée]]
+- [[Convolution causale]]
+- [[Conservation de la longueur dans une convolution causale]]
+
+### Assembler un réseau convolutif
+- [[Max pooling]]
+- [[Réseau de neurones convolutif]]
+- [[Dropout]]
+- [[Réseau convolutif avec PyTorch]]
 
 ## Représentations et plongements
 - [[Plongement]]
@@ -123,3 +148,41 @@
 - [[Génération d'une séquence]]
 - [[Teacher forcing]]
 - [[Encodeur-décodeur pour les séquences]]
+
+## Modèles génératifs
+
+### Fondements des modèles génératifs
+- [[Modèle génératif]]
+- [[Décodeur génératif]]
+- [[Décomposition autorégressive d'une densité]]
+- [[Panorama des modèles génératifs]]
+
+### Audio et représentation du son
+- [[Audio numérique]]
+- [[Compression mu-law]]
+- [[Spectrogramme mel]]
+- [[Tacotron 2]]
+
+### WaveNet
+- [[Architecture WaveNet]]
+- [[Unité résiduelle de WaveNet]]
+- [[Dilatation des convolutions de WaveNet]]
+- [[Champ récepteur d'une pile de convolutions]]
+- [[Entraînement de WaveNet]]
+- [[Inférence autorégressive]]
+- [[Conditionnement de WaveNet]]
+
+### Auto-encodeur variationnel et représentations
+- [[Auto-encodeur variationnel]]
+- [[Astuce de reparamétrisation]]
+- [[Désenchevêtrement des représentations]]
+
+### Réseaux antagonistes génératifs
+- [[Réseau antagoniste génératif]]
+- [[Entraînement d'un réseau antagoniste génératif]]
+- [[Variantes de réseaux antagonistes génératifs]]
+
+### Diffusion et bilan
+- [[Modèle de diffusion]]
+- [[Diffusion latente]]
+- [[Modèle neuronal, architecture et fonction de coût]]

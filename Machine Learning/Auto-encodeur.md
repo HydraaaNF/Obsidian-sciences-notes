@@ -1,4 +1,4 @@
-#ml-1
+#ml-1 #ml-2
 
 # Définition
 
@@ -8,6 +8,14 @@ Le réseau est la composition de deux fonctions :
 
 - un **encodeur** $e$, qui transforme l'entrée $x$ en une représentation $e(x)$ ;
 - un **décodeur** $d$, qui produit la reconstruction $\hat{x} = d(e(x))$.
+
+Dans un réseau profond, l'encodeur enchaîne plusieurs couches,
+
+$$\mathbf{x} \longrightarrow \mathbf{h}^{(1)} \longrightarrow \mathbf{h}^{(2)} \longrightarrow \mathbf{z} = \mathbf{h}^{(3)} = e(\mathbf{x})$$
+
+puis le décodeur repart de $\mathbf{z}$,
+
+$$\hat{\mathbf{x}} = d(e(\mathbf{x}))$$
 
 Ce qui distingue l'auto-encodeur est le **goulot d'étranglement** : la dimension de $e(x)$ est plus petite que celle de $x$.
 
@@ -46,3 +54,5 @@ L'auto-encodeur est le cas non supervisé de l'[[Encodeur-décodeur]].
 Une variante à entrée et sortie binaires, dont l'unique couche cachée porte les motifs, est décrite dans [[Auto-encodeur de motifs]].
 
 L'encodeur et l'espace latent servent aussi de support aux [[Réseaux de neurones contrefactuels]] et à l'[[Apprentissage de contrefactuels]].
+
+Le décodeur d'un auto-encodeur devient un [[Décodeur génératif]] dès que sa variable latente est tirée au hasard au lieu d'être calculée par l'encodeur : un auto-encodeur reconstruit son entrée, un décodeur génératif engendre des sorties nouvelles, et l'[[Auto-encodeur variationnel]] combine les deux en imposant une loi à $\mathbf{z}$.
