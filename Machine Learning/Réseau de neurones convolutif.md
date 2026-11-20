@@ -48,3 +48,5 @@ La recherche arborescente et l'apprentissage par auto-jeu qui complètent un tel
 Les architectures de réseaux convolutifs les plus connues sont LeNet, AlexNet et ResNet ; cette dernière ajoute des [[Connexions résiduelles]] pour faciliter l'entraînement de réseaux très profonds.
 
 L'assemblage concret d'un tel réseau avec `nn.Sequential` est détaillé dans [[Réseau convolutif avec PyTorch]], qui applique la démarche de [[Composer un réseau avec PyTorch]] en intercalant [[Couche de convolution|convolutions]] et [[Max pooling]].
+
+Le mécanisme d'[[Attention dans un réseau convolutif|attention]] peut être ajouté à un tel réseau pour pondérer les pixels ou les canaux avant la classification.

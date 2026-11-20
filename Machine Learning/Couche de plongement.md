@@ -1,4 +1,4 @@
-#ml-1
+#ml-1 #ml-3
 
 # Définition
 
@@ -29,7 +29,23 @@ Le produit est inutile : il suffit de lire directement la ligne $k$. En pratique
 
 La couche ne combine pas les entrées : elle lit une ligne de sa table, et toute l'information vient des valeurs qui y sont apprises.
 
+# Algorithme
+
+Pour transformer une séquence de tokens en matrice de vecteurs :
+
+1. tokeniser le texte, puis convertir chaque token en son identifiant entier (voir [[Tokenisation]]) ;
+2. pour chaque identifiant, lire la ligne correspondante de la table $E$ ;
+3. empiler les lignes lues pour former la matrice $T$.
+
+La table $E$ est de taille $\lvert\mathcal{V}\rvert \times 1024$ : une ligne par token du vocabulaire, et 1024 nombres par ligne. Aucune opération arithmétique n'est nécessaire, seulement une lecture (*lookup*).
+
 # Exemple
+
+La phrase « the little cat » donne après tokenisation quatre tokens, d'identifiants
+
+$$t = [5, 48, 20, 1780]$$
+
+et la matrice $T = \mathrm{embedding}(t)$ a la forme $[4, 1024]$ : sa ligne $i$ est la ligne $t_i$ de $E$. Les vecteurs obtenus sont ensuite additionnés à un [[Encodage positionnel]] avant les couches d'attention.
 
 Avec un vocabulaire de $V$ mots et des plongements de dimension $H$ :
 

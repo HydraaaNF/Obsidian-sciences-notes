@@ -1,6 +1,8 @@
 # Sommaire
 
-## Fondements de l'apprentissage
+## Fondements
+
+### Apprendre : modèles et généralisation
 - [[Apprentissage automatique et disciplines voisines]]
 - [[Apprentissage par l'expérience]]
 - [[Rasoir d'Occam]]
@@ -11,6 +13,19 @@
 - [[Apprentissage supervisé]]
 - [[Apprentissage non supervisé]]
 - [[Apprentissage semi-supervisé]]
+
+### Mesurer la performance
+- [[Évaluation d'un modèle d'apprentissage]]
+- [[Métrique et fonction de perte]]
+- [[Mesures d'erreur en régression]]
+- [[Coefficient de détermination]]
+- [[Matrice de confusion et exactitude]]
+- [[Précision et rappel]]
+- [[F-mesure F1]]
+- [[Moyennes macro et micro]]
+- [[Évaluation d'un clustering]]
+- [[Jeux d'entraînement, de développement et de test]]
+- [[Évaluer un classifieur avec scikit-learn]]
 
 ## Données et tenseurs
 - [[Donnée et attributs]]
@@ -25,19 +40,6 @@
 - [[Forme d'un tenseur]]
 - [[Diffusion entre tenseurs]]
 - [[Indexation et réductions]]
-
-## Évaluer un modèle
-- [[Évaluation d'un modèle d'apprentissage]]
-- [[Métrique et fonction de perte]]
-- [[Mesures d'erreur en régression]]
-- [[Coefficient de détermination]]
-- [[Matrice de confusion et exactitude]]
-- [[Précision et rappel]]
-- [[F-mesure F1]]
-- [[Moyennes macro et micro]]
-- [[Évaluation d'un clustering]]
-- [[Jeux d'entraînement, de développement et de test]]
-- [[Évaluer un classifieur avec scikit-learn]]
 
 ## Optimisation et entraînement
 
@@ -117,14 +119,16 @@
 
 ## Représentations et plongements
 - [[Plongement]]
+- [[Couche de plongement]]
+- [[Tokenisation]]
+- [[word2vec]]
+- [[Analogies dans l'espace des plongements]]
+- [[Hypothèse distributionnelle]]
 - [[Auto-encodeur]]
 - [[Encodeur-décodeur]]
 - [[Apprentissage multi-tâches]]
-- [[Hypothèse distributionnelle]]
-- [[word2vec]]
-- [[Analogies dans l'espace des plongements]]
-- [[Couche de plongement]]
 - [[Réseaux siamois]]
+- [[Encodage positionnel]]
 
 ## Séquences et récurrence
 
@@ -148,6 +152,44 @@
 - [[Génération d'une séquence]]
 - [[Teacher forcing]]
 - [[Encodeur-décodeur pour les séquences]]
+
+## Transformers
+
+### Mécanisme d'attention
+- [[Attention dans un réseau convolutif]]
+- [[Attention dans un encodeur-décodeur]]
+- [[Score d'attention de Bahdanau]]
+- [[Attention croisée]]
+
+### Self-attention et attention multi-têtes
+- [[Self-attention]]
+- [[Attention à produit scalaire normalisé]]
+- [[Attention multi-têtes]]
+- [[Interprétabilité de l'attention]]
+
+### Architecture et performance du Transformer
+- [[Architecture du Transformer]]
+- [[Masque causal]]
+- [[Sortie du Transformer et fonction de perte]]
+- [[Réseau feed-forward du Transformer]]
+- [[Cache de clés et de valeurs]]
+- [[Variantes du Transformer]]
+- [[Transformer décodeur seul]]
+- [[FlashAttention]]
+
+### Modèles pré-entraînés
+- [[T5 et l'apprentissage multi-tâche]]
+- [[Résumé automatique avec BART]]
+- [[BERT et le modèle de langage masqué]]
+- [[Plongements de phrases avec SBERT]]
+- [[Panorama des modèles pré-entraînés]]
+- [[Pipeline Hugging Face]]
+- [[Loi de Chinchilla]]
+
+### Combiner et router des modèles
+- [[Combinaison de modèles]]
+- [[Mécanisme de copie]]
+- [[Mélange d'experts]]
 
 ## Modèles génératifs
 
@@ -186,3 +228,16 @@
 - [[Modèle de diffusion]]
 - [[Diffusion latente]]
 - [[Modèle neuronal, architecture et fonction de coût]]
+
+### Échelle, lois d'échelle et entraînement
+- [[Loi d'échelle]]
+- [[Émergence de structure dans les plongements]]
+- [[Parallélisme d'entraînement à l'échelle]]
+- [[État de l'art des grands modèles de langage]]
+
+### Entraîner et servir un grand modèle
+- [[Cycle de vie d'un grand modèle de langage]]
+- [[Taille de stockage des poids]]
+- [[Quantification des poids]]
+- [[Empreinte environnementale de l'intelligence artificielle]]
+- [[Raisonnement des grands modèles de langage]]

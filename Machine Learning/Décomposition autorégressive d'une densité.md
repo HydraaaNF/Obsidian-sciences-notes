@@ -1,4 +1,4 @@
-#ml-2
+#ml-2 #ml-3
 
 # Définition
 
@@ -13,6 +13,8 @@ soit, sous forme condensée,
 $$
 p(\mathbf{x}) = \prod_{t=1}^{T} p(x_t \mid x_1, \dots, x_{t-1}).
 $$
+
+Ce produit est la **probabilité autorégressive de la séquence** $\mathbf{x}$ : la probabilité que le modèle attribue à la séquence entière, lue comme une suite de décisions conditionnelles.
 
 L'ordre des variables est celui de la séquence : la composante $x_t$ n'est conditionnée que par le passé $x_1, \dots, x_{t-1}$, jamais par le futur. Le produit définit un [[Modèle génératif]] dont chaque facteur est une distribution portant sur la seule variable courante.
 
@@ -36,6 +38,8 @@ Elle rend l'échantillonnage possible de proche en proche : on tire $x_1$ selon 
 
 Le prix de cette simplicité est le caractère séquentiel de la génération : un pas de calcul par échantillon, soit 16 000 pas pour une seconde d'audio.
 
+Appliquée au texte, la même factorisation porte sur une séquence de jetons : le produit donne la probabilité de la séquence entière, et chaque facteur est la distribution du jeton suivant sachant les jetons déjà produits.
+
 # Algorithme
 
 Échantillonnage autorégressif d'une séquence de longueur $T$ :
@@ -44,7 +48,7 @@ Le prix de cette simplicité est le caractère séquentiel de la génération : 
 2. Tirer $x_t$ selon $p(x_t \mid x_1, \dots, x_{t-1})$ pour $t = 2, \dots, T$.
 3. Concaténer chaque nouvel échantillon au contexte, puis répéter.
 
-À l'entraînement, chaque position $t$ fournit une paire formée du contexte et de la cible $x_t$, et la perte est calculée sur cette cible unique : c'est le *teacher forcing*, une seule passe avant suffit pour toutes les positions.
+À l'entraînement, chaque position $t$ fournit une paire formée du contexte et de la cible $x_t$, et la perte est calculée sur cette cible unique : c'est le [[Teacher forcing|teacher forcing]], une seule passe avant suffit pour toutes les positions.
 
 # Exemple
 
