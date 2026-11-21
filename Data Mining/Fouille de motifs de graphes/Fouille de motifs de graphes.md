@@ -21,5 +21,3 @@ La fouille de motifs de graphes étend aux graphes l'[[Extension de la fouille d
 Compter les occurrences d'un motif et décider de sa fréquence demande une mesure de [[Support d'un motif de graphe|support]].
 
 L'énumération des motifs fréquents se fait par [[Algorithmes par fusion de motifs|fusion de motifs]] ou par [[Croissance de motifs de graphes|croissance de motifs]].
-
-Le déroulement complet de la fouille, du jeu de données aux motifs retenus, est résumé dans [[Illustration et bilan de la fouille de motifs de graphes]].

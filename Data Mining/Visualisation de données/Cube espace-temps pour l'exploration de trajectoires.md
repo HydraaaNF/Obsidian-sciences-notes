@@ -14,4 +14,3 @@ Le cube vise ainsi l'exploration intuitive des trajectoires : l'espace et le tem
 
 Le cube espace-temps est une technique d'[[Analytique immersive]], où il gagne à être manipulé en trois dimensions.
 Sa déclinaison en réalité augmentée, avec interactions tangibles sur un support physique, est décrite dans [[GeoGate, cube espace-temps en réalité augmentée]].
-Les données de position datées relèvent de la [[Visualisation scientifique et visualisation d'information]].

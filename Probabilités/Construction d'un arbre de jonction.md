@@ -64,5 +64,3 @@ Les séparateurs sont $\{b\}$ entre $\{b, c, e\}$ et $\{b, d\}$, $\{b, c\}$ entr
 Le poids d'une arête mesure la taille du séparateur, donc le nombre de variables communes aux deux cliques. L'écriture avec la réunion, $|A \cup B|$, est une erreur fréquente : elle compte aussi les variables propres à chaque clique et ne mesure plus ce qui circule entre elles. Sur l'exemple, toutes les arêtes auraient un poids de 4 ou de 5, et l'arbre de poids maximum ne serait plus celui des plus grands séparateurs.
 
 Le choix de l'ordre d'élimination commande la taille des cliques, donc le coût de l'inférence menée ensuite sur l'arbre (voir [[Inférence par arbre de jonction]]). C'est le point délicat de l'[[Élimination de variables]] : un ordre mal choisi produit des cliques bien plus grosses que nécessaire.
-
-La construction suppose un graphe non dirigé. Sur un graphe orienté, il faut d'abord le transformer par [[Moralisation d'un graphe orienté]], puis appliquer les cinq étapes au graphe moralisé. La définition de l'arbre de jonction et la vérification de ses trois conditions sont données dans [[Arbre de jonction]].

@@ -29,7 +29,3 @@ Les variances $\mathbb{V}(x)$ et $\mathbb{V}(y)$ de $X$ et $Y$ sont données par
 $$\begin{aligned} \mathbb{V}(x) &= \frac{1}{n} \sum_{i=1}^n (x_i - \bar{x})^2 \\ &= \frac{1}{n} \sum_{i=1}^k n_{i.} (\alpha_i - \bar{x})^2 \\ &= \left( \sum_{i=1}^k f_{i.} \alpha_i^2 \right) - \bar{x}^2 \end{aligned}$$
 
 $$\begin{aligned} \mathbb{V}(y) &= \frac{1}{n} \sum_{i=1}^n (y_i - \bar{y})^2 \\ &= \frac{1}{n} \sum_{j=1}^l n_{.j} (\beta_j - \bar{y})^2 \\ &= \left( \sum_{j=1}^l f_{.j} \beta_j^2 \right) - \bar{y}^2 \end{aligned}$$
-
-# Remarque
-
-Les distributions marginales d'une série statistique double sont l'analogue empirique des [[Lois marginales]] d'un couple de variables aléatoires. Pour les indicateurs calculés sur les individus ayant une modalité fixée de l'autre caractère, voir [[Distributions conditionnelles]] et [[Moyenne et variance conditionnelles]].

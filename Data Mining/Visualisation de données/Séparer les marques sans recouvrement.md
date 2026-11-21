@@ -18,6 +18,4 @@ La séparation remplace la superposition des marques par un partage du plan : se
 
 # Remarque
 
-Le diagramme en barres et le graphique de flux sont traités séparément : voir [[Diagramme en barres et diagramme en lignes]] et [[Graphique de flux]].
-
 Separate s'accompagne des deux autres opérations d'arrangement, l'exposition de toutes les valeurs dans la vue et la mise en ordre des marques : voir [[Exprimer toutes les données dans la vue]] et [[Ordonner et aligner les marques]].

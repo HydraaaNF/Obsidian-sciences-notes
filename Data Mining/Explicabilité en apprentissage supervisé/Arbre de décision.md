@@ -69,6 +69,4 @@ Le choix des tests reste local : chaque split est retenu pour la région qu'il p
 - Un test se lit avec sa négation : la branche « non » du test state = v. good correspond exactement à state ≠ v. good, et non au niveau good privé du préfixe. La négation d'un test ne désigne pas un autre niveau du même attribut.
 - Les règles énoncées ne couvrent que le sous-arbre du type cottage : le sous-arbre de droite développe les mêmes tests sur $A(x)$, mais sous ptype ≠ cottage, condition que la branche « non » de la racine doit porter explicitement.
 - La lecture des couleurs d'un découpage demande une convention explicite : les six points sont les mêmes dans les deux panneaux, et une teinte atténuée sur un point ne crée pas une classe de plus.
-- L'arbre s'apprend sur des données étiquetées, comme le rappelle l'[[Apprentissage à partir de données étiquetées]].
-- Chaque chemin se réécrit en règle valable pour une instance, forme que reprennent les [[Règles locales d'explication]].
 - Sur une série temporelle, les [[Shapelets]] fournissent de la même manière des features lisibles à un classifieur simple.

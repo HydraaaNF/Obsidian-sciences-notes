@@ -76,8 +76,4 @@ flowchart LR
 
 Il s'agit du cas séquentiel du [[Modèle log-linéaire conditionnel]] : la même loi conditionnelle normalisée par une fonction de partition, appliquée à des suites d'étiquettes.
 
-La fonction de partition $Z(x, \Lambda)$ ne dépend pas de $y$ : elle ne change pas le classement des suites d'étiquettes, si bien que décoder revient à maximiser le seul score $\sum_{i=1}^{m} \lambda_i f_i(x, y)$ (voir [[Décodage d'un champ aléatoire conditionnel à chaîne linéaire]]).
-
 La somme sur $y$ porte sur toutes les suites d'étiquettes possibles : leur nombre croît exponentiellement avec la longueur $n$. La structure de chaîne rend néanmoins le calcul tractable, par [[Programmation dynamique pour un champ aléatoire conditionnel|programmation dynamique]].
-
-Les paramètres $\Lambda$ s'estiment en maximisant la vraisemblance conditionnelle des étiquettes observées, et non la vraisemblance jointe (voir [[Vraisemblance conditionnelle d'un champ aléatoire conditionnel]]).

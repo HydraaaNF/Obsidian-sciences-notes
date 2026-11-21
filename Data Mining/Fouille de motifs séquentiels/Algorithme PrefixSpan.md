@@ -34,8 +34,5 @@ L'algorithme tire trois avantages de ce principe :
 
 - aucune génération de candidats, donc aucun candidat non pertinent à élaguer ;
 - la base projetée rétrécit à chaque étape, le préfixe consommé disparaissant des séquences ;
-- l'étape la plus coûteuse est la construction de la base projetée, coût que les [[Pseudo-projection|pseudo-projections]] réduisent en remplaçant la copie des séquences par un pointeur et un offset.
-
-Par rapport à l'[[Algorithme GSP]], PrefixSpan est la variante par croissance de motifs : au lieu d'engendrer des candidats pour les évaluer ensuite, il extrait les items fréquents directement des bases projetées, ce qui le soustrait aux limites des approches générer puis élaguer. Le principe est parallèle à celui de [[Principe de la croissance de motifs FP-growth|FP-growth]] pour les itemsets fréquents : plutôt que d'énumérer des candidats, on fait croître des motifs à partir de préfixes fréquents, l'arbre de préfixes jouant pour les itemsets le rôle que la base projetée joue pour les séquences.
 
 La sortie de PrefixSpan rassemble tous les motifs fréquents. L'[[Algorithme CloSpan]] en est l'extension pour le calcul des seuls [[Motif séquentiel clos|motifs séquentiels clos]] : il conserve la génération des motifs fréquents et y ajoute un post-élagage des séquences non closes.

@@ -16,6 +16,3 @@ Sur l'univers $X = \{a, b, c, d, e\}$, soient $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\
 | $\min$      | $\{0{,}3/a,\; 0{,}7/c,\; 0{,}2/e\}$  |
 | produit     | $\{0{,}3/a,\; 0{,}7/c,\; 0{,}12/e\}$ |
 | Łukasiewicz | $\{0{,}3/a,\; 0{,}7/c\}$             |
-
-# Remarque
-Opération duale : [[Union d'ensembles flous]]. Version pour les relations floues : [[Intersection de relations floues]]. Couples usuels de t-norme et t-conorme : [[Norme et conorme de Zadeh]], [[Norme et conorme probabilistes]], [[Norme et conorme de Łukasiewicz]], [[Norme et conorme de Weber]].

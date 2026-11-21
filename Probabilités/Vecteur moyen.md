@@ -15,7 +15,3 @@ $$\mathbb{E}(X) = \int_{-R}^R x \frac{1}{\pi R^2} 2\sqrt{R^2 - x^2} dx = 0$$
 puisque la fonction que l'on intègre sur $[-R, R]$ est impaire (l'existence provient du fait que $\int_{-R}^R |x| \sqrt{R^2 - x^2} dx < +\infty$ : c'est l'intégrale d'une fonction continue sur un intervalle compact).
 
 Par conséquent le vecteur moyen est $\mathbb{E}((X, Y)) = (0, 0)$, ce qui est logique. On dit que $(X, Y)$ est *centré*.
-
-# Remarque
-
-Pour la dispersion d'un vecteur aléatoire autour de son vecteur moyen, voir la [[Matrice de covariance]].

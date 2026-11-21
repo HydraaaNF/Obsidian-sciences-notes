@@ -16,4 +16,4 @@ Chaque palier est franchi par un progrès portant sur les algorithmes, leurs str
 
 # Remarque
 
-L'efficacité ne suffit pas. Une extraction terminée en quelques secondes livre encore des motifs trop nombreux, redondants et sans pertinence pour la question posée, et l'utilisateur placé devant cette masse de motifs n'a pas de réponse directe : c'est l'[[Explosion du nombre de motifs|explosion du nombre de motifs]]. Les familles d'approches qui traitent ce second versant sont décrites dans [[Familles d'approches pour maîtriser le nombre de motifs]], et la reformulation du besoin en un petit ensemble de motifs structurels dans [[Écart entre les motifs demandés et les motifs utiles]].
+L'efficacité ne suffit pas. Une extraction terminée en quelques secondes livre encore des motifs trop nombreux, redondants et sans pertinence pour la question posée, et l'utilisateur placé devant cette masse de motifs n'a pas de réponse directe : c'est l'[[Explosion du nombre de motifs|explosion du nombre de motifs]].

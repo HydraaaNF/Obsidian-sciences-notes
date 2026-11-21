@@ -43,6 +43,4 @@ La conversion se lit en colonnes : l'item C figure dans les six transactions, l'
 
 # Remarque
 
-Le format vertical supprime le coût du comptage par test d'inclusion : plus besoin de tester les sous-ensembles de chaque transaction ni de construire un arbre de hachage des candidats, le support d'un itemset s'obtient par une intersection de tidlists, voir [[Support par intersection de tidlists]].
-
 Sa limite est la place mémoire : sur une grosse base, les tidlists des nombreux candidats créés deviennent volumineuses et ne tiennent plus en mémoire. La parade consiste à partitionner le treillis des itemsets en [[Classes d'équivalence des itemsets|classes d'équivalence]] et à ne traiter qu'une classe à la fois ; Eclat retient comme relation d'équivalence le partage d'un même préfixe, ce qui ramène la fouille à un parcours en profondeur, comme le fait l'[[Algorithme Eclat]].

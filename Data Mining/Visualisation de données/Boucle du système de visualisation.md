@@ -35,4 +35,4 @@ La boucle reprend, à l'échelle d'un outil, la structure du [[Processus d'extra
 
 # Remarque
 
-La position de l'interface dans la boucle est stable d'une application à l'autre : elle reste le point de passage obligé entre l'utilisateur, les algorithmes et la visualisation, seul l'ordre d'exposition des nœuds du schéma varie. C'est le dispositif que décrit aussi l'[[Analyse pilotée par l'utilisateur]].
+La position de l'interface dans la boucle est stable d'une application à l'autre : elle reste le point de passage obligé entre l'utilisateur, les algorithmes et la visualisation, seul l'ordre d'exposition des nœuds du schéma varie.

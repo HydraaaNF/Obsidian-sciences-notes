@@ -19,7 +19,3 @@ series:
 ```
 
 Le sous-ensemble décrit par le cursus suivi s'écarte nettement de la population totale : la proportion d'hommes y passe de 50 % à 80 %.
-
-# Remarque
-
-Le caractère significatif de l'écart se juge avec la [[Fonction de qualité d'un sous-groupe|fonction de qualité]] : c'est elle qui décide si la différence observée suffit à retenir le sous-groupe. Le cadre général de la démarche est décrit dans [[Principe de la découverte de sous-groupes]].

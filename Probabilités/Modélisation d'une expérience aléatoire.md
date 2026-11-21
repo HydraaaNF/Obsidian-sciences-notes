@@ -39,7 +39,3 @@ Selon la façon de préciser ce choix « au hasard », on obtient des résultats
 $$\frac{\pi(r/2)^2}{\pi r^2} = 1/4.$$
 
 Les deux solutions paraissent justes : c'est le paradoxe. En réalité, l'expérience aléatoire proposée (« choisir une corde ») est mal définie ; il conviendrait d'expliquer ce que l'on entend par « choisir une corde » (par exemple : fixer une extrémité et choisir l'autre, ou bien : choisir le milieu de la corde). Si l'on cherche à écrire l'ensemble $\Omega$ des résultats possibles de l'expérience aléatoire, on se rend vite compte que c'est impossible sans préciser la façon de choisir la corde : c'est encore un défaut de modélisation.
-
-# Remarque
-
-La nécessité de la modélisation apparaît dans les deux exemples : une expérience « au hasard » doit être précisée avant tout calcul, sans quoi la même question peut recevoir plusieurs réponses, et une éventualité ne peut être déclarée équiprobable que si la modélisation le justifie. Définir l'ensemble $\Omega$ des résultats possibles est donc la première étape de tout calcul de probabilité.

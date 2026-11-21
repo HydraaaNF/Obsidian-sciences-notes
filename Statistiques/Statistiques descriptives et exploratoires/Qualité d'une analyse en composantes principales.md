@@ -20,7 +20,3 @@ où $\bar{U}$ est la matrice des $q$ premiers axes et $\mathbf{y}_i$ la projecti
 # Interprétation
 
 La fraction d'inertie totale retenue est une mesure **globale** : elle quantifie la part de l'inertie du nuage restituée par les $q$ axes retenus, et sert de critère pour choisir le nombre de composantes (voir l'[[Éboulis des valeurs propres]]). L'angle entre le plan principal et un échantillon ainsi que l'erreur de reconstruction sont des mesures **locales** : elles évaluent la représentation d'un échantillon particulier.
-
-# Remarque
-
-Le plan principal, les axes et les composantes principales sont définis dans le [[Vocabulaire de l'analyse en composantes principales]] ; la matrice $\bar{U}$ des axes retenus est construite par l'[[Algorithme de l'analyse en composantes principales]].

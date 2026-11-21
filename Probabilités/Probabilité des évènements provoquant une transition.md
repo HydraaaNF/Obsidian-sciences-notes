@@ -55,7 +55,3 @@ Or les différents EPT sont soit un évènement du type $E_{k,\ell}$, soit de pr
 # Exemple
 
 Considérons le cas de $n = 2$ serveurs et supposons qu'à l'instant $t$ il y a un seul client ($i = 1$) ; ce client est donc en service à $t$. Considérons alors l'évènement suivant : « entre $t$ et $t + \delta t$ le client en service à $t$ termine son service, un autre client arrive (dont le service commence immédiatement puisqu'il y a soit un, soit deux serveurs libres suivant qu'il est arrivé avant ou après la fin de service du premier client) et ce deuxième client termine lui aussi son service avant $t + \delta t$ ». Cette situation ne correspond ni à l'évènement $E_{1,1}$, ni à l'évènement $E_{2,1}$ puisque le deuxième client n'était pas en service à l'instant $t$. Cet évènement est non seulement inclus dans $E_{1,1}$, mais il a en fait une probabilité d'ordre de grandeur $\mathcal{O}((\delta t)^3)$, donc négligeable devant celle de $E_{1,1}$ (qui est un $\mathcal{O}((\delta t)^2)$), donc on peut ne pas en tenir compte dans le calcul des $p_{1,j}$.
-
-# Remarque
-
-Le développement limité de la probabilité des EPT s'utilise lors de l'étude des files [[File M-M-1|M/M/1]], M/M/n, [[File M-M-infini|M/M/∞]] et [[File M-M-n-K|M/M/n/K]].

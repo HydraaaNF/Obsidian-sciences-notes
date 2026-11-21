@@ -18,7 +18,3 @@ La skewness renseigne sur l'asymétrie de la distribution :
 - queue plus lourde à droite : $\gamma_1 > 0$.
 
 Le kurtosis mesure si la distribution est plutôt « haute et fine » ou « basse et étalée », c'est-à-dire l'importance des queues de distribution ; pour une [[Loi gaussienne|loi normale]], $\gamma_2 = 3$.
-
-# Remarque
-
-L'asymétrie et l'aplatissement font partie des [[Résumés numériques d'une distribution|résumés numériques d'une distribution]], aux côtés des caractéristiques de centre et de dispersion.

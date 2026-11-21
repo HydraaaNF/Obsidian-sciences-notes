@@ -17,7 +17,3 @@ Le [[Clustering hiérarchique|clustering hiérarchique]] présente les avantages
   - on ne peut pas défaire ce qui a été fait précédemment ;
   - des méthodes de relocalisation sont nécessaires ;
 - la coupe du dendrogramme n'est pas aussi facile qu'il n'y paraît.
-
-# Remarque
-
-Voir aussi les [[Avantages et inconvénients du k-means|avantages et inconvénients du k-means]].

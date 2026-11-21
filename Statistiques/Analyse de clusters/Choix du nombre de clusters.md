@@ -18,7 +18,3 @@ où $d$ désigne la [[Mesures de similarité et de distance|distance]] utilisée
 2. pour chaque valeur, calculer cette distance moyenne ;
 3. observer son évolution quand $k$ augmente : elle chute rapidement jusqu'à la bonne valeur de $k$, puis ne varie plus que faiblement ;
 4. retenir cette valeur de $k$, au niveau du coude de la courbe.
-
-# Remarque
-
-Voir aussi la [[Qualité d'un clustering|qualité d'un clustering]].

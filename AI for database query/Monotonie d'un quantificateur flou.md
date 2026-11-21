@@ -22,5 +22,3 @@ series:
 beginAtZero: true
 ```
 
-# Remarque
-L'[[Interprétation de Yager par coupes de niveau α]] suppose un quantificateur **absolu croissant**.

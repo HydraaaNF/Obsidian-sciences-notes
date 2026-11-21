@@ -28,5 +28,3 @@ Elle n'est pas une sous-séquence contiguë de :
 Les conditions portent sur des suppressions d'items un par un, sans jamais réordonner les éléments ni en fusionner deux : la contiguïté est une exigence plus forte que l'[[Inclusion de sous-séquence|inclusion de sous-séquence]] ordinaire, dont la sous-séquence contiguë est un cas particulier.
 
 Le cas où l'écart entre deux itemsets successifs est nul, $gap = 0$, correspond à cette même exigence de contiguïté dans la [[Contrainte d'écart temporel]] ; c'est ce que prend en compte l'[[Algorithme Gap-BIDE]].
-
-La sous-séquence contiguë relève des [[Contraintes temporelles en fouille de motifs séquentiels]].

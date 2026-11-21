@@ -12,8 +12,4 @@ L'[[Modélisation statistique et apprentissage automatique|apprentissage statist
 
 # Remarque
 
-Voir aussi l'[[Espace d'hypothèses]], la [[Fonction de perte]] et, pour la classification, la [[Règle de décision de Bayes]].
-
-L'objectif de généraliser à des situations inconnues, commun à ces trois problèmes, est traité dans [[Apprentissage par l'expérience]].
-
 Les deux premiers problèmes relèvent de l'[[Apprentissage supervisé]], dont la forme la plus simple est la [[Classification binaire|classification à deux classes]] ; le regroupement de données sans étiquette s'ajoute à cette liste et se lit dans [[Régression, classification et clustering]].

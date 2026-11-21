@@ -43,8 +43,6 @@ La forme de la loi mère n'intervient pas dans le résultat : seules son espéra
 
 # Remarque
 
-Il est remarquable que ce résultat soit valable pour tout type de loi, que $X_n$ soit continue, discrète ou autre : c'est en ce sens que la loi normale joue un rôle central en probabilités et en statistiques.
-
 Pour une loi quelconque et un échantillon de grande taille (en pratique $n \geq 100$ suffit dans la majorité des cas), le théorème de la limite centrale permet d'approcher la loi de $\overline{X}$ par une loi normale et de construire un [[Intervalle de confiance de la moyenne d'une loi quelconque|intervalle de confiance de la moyenne]] au niveau $1-\alpha$.
 
 **Cas d'une loi mère gaussienne.** Il ne s'agit plus d'une convergence mais d'une égalité. Pour des variables gaussiennes et pour tout $n$, la moyenne studentisée suit exactement la loi normale centrée réduite :

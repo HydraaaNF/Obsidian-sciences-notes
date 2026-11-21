@@ -70,6 +70,3 @@ Récapitulatif :
 | Gödel | 0,4 | 0,2 |
 | Kleene-Dienes | 0,5 | 0,6 |
 | Łukasiewicz | 0,7 | 0,9 |
-
-# Remarque
-Opérateur relationnel de l'[[Algèbre relationnelle floue]].

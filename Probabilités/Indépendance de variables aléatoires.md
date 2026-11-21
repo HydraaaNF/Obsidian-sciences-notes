@@ -31,7 +31,4 @@ $$f_{Y|X}(y|x) = f_Y(y)$$
 # Remarque
 
 - L'indépendance de deux variables aléatoires prolonge l'[[Indépendance mutuelle d'évènements|indépendance des évènements]].
-- Elle se généralise à un nombre quelconque de variables aléatoires : voir [[Indépendance des coordonnées d'un vecteur aléatoire]].
 - L'indépendance conditionnelle des observations sachant les états est l'hypothèse qui réduit la loi d'un [[Probabilités d'un modèle de Markov caché|modèle de Markov caché]] à un produit de facteurs, un par instant.
-- L'indépendance se transmet aux fonctions des variables : voir le [[Théorème d'indépendance de fonctions de variables indépendantes]].
-- Voir aussi l'[[Espérance d'un produit de variables aléatoires indépendantes]] et les [[Variables aléatoires non corrélées]].

@@ -78,7 +78,3 @@ series:
 ```
 
 Valeurs relevées sur la figure, approximatives.
-
-# Remarque
-
-D'autres règles de décision sont présentées dans [[Règles de décision optimales]] ; en classification, la décision bayésienne est reprise par le [[Classifieur naïf de Bayes]] et par l'[[Analyse discriminante linéaire]].

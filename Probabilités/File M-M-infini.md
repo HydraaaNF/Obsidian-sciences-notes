@@ -68,7 +68,3 @@ $$\overline{R} = \frac{\overline{N}}{\overline{\lambda}} = \frac{\overline{N}}{\
 3. Pour ce modèle sans attente, $\overline{R} = \frac{1}{\mu}$ représente aussi bien le temps moyen passé dans le système en régime stationnaire que la durée moyenne de service d'un client quelconque.
 
 4. La condition de la distribution limite porte sur l'indice $j$ de $\pi_j$ (c'est bien $j \geq 1$ que l'on doit écrire) et non sur $k$, qui n'est que l'indice muet du produit $\prod_{k=1}^{j}$ : la confusion entre les deux indices est fréquente.
-
-# Liens avec d'autres lois
-
-La file $M/M/\infty$ est un cas particulier du [[Processus de naissance et de mort]], de taux de transition $\lambda(k) = \lambda$ et $\mu(k) = k\mu$ ; elle sert également d'approximation à la [[File M-M-n-K|M/M/n/K]] lorsque le nombre de serveurs est grand.

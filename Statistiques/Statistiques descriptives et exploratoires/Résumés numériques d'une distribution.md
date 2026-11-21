@@ -11,5 +11,3 @@ Il est souvent pratique de décrire une distribution par quelques nombres qui la
 # Remarque
 
 Une seule valeur ne suffit pas à décrire une distribution.
-
-Les qualités attendues d'un bon résumé statistique sont précisées par la [[Condition de Yule]].

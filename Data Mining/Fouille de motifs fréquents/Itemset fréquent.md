@@ -48,8 +48,6 @@ Sur une base de trois transactions $\{A, B, C, D\}$, $\{A, B, C\}$ et $\{A, B, C
 
 Tout sous-ensemble $I \subseteq A$ est un itemset (voir [[Items, itemsets et base de transactions]]) ; la fréquence est une propriété supplémentaire, relative au seuil $minsup$ et à la base considérée, que ne possède pas un itemset quelconque.
 
-La fréquence se propage des sur-ensembles vers les sous-ensembles : si un itemset n'est pas fréquent, aucun de ses sur-ensembles n'est fréquent, ce qui est l'objet de la [[Propriété d'anti-monotonie du support]].
-
 Le grand nombre d'itemsets fréquents produits à faible support motive des représentations condensées : les [[Itemsets fréquents fermés]] suppriment la redondance sans perdre les supports, tandis que les [[Itemsets fréquents maximaux]] la suppriment au prix d'une perte d'information, le support exact des itemsets non maximaux n'étant plus connu.
 
 Cette définition est le cas particulier de l'[[Énoncé standard de la fouille de motifs]] obtenu en prenant pour langage de motifs les itemsets et pour ensemble de contraintes la seule contrainte de support minimal.

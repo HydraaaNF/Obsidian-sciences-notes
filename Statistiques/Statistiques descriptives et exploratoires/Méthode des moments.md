@@ -33,7 +33,3 @@ $$\lambda = \frac{\mu_1(\theta)}{\sigma^2(\theta)}$$
 où $\sigma^2(\theta) = \mu_2(\theta) - \mu_1^2(\theta)$.
 
 En remplaçant les moments par leurs estimations empiriques, on obtient les estimateurs de moments.
-
-# Remarque
-
-Le [[Estimateur du maximum de vraisemblance|maximum de vraisemblance]] est une autre méthode d'estimation d'un paramètre.

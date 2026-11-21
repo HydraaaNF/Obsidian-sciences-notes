@@ -20,7 +20,3 @@ Le choix de la forme suit la nature de l'ordre porté par l'attribut :
 
 - un attribut nominal n'a pas d'ordre, une valeur ne peut qu'être atteinte ou non, d'où l'égalité ;
 - un attribut ordinal ou numérique est ordonné, deux valeurs voisines se ressemblent, d'où l'intervalle.
-
-# Remarque
-
-Un motif de sous-groupe combine plusieurs sélecteurs par conjonction, puis vise une propriété sur un attribut cible : voir [[Motif de sous-groupe]].

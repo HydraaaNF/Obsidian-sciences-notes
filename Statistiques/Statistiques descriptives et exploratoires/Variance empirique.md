@@ -30,5 +30,3 @@ où $\sigma^2$ est la variance de la population. L'estimateur est donc [[Biais d
 La version corrigée de la variance empirique, qui divise par $n - 1$ plutôt que par $n$, est un estimateur sans biais de la [[Variance]] :
 
 $$S'^2 = \frac{1}{n-1} \sum_{i=1}^n (X_i - \overline{X})^2 = \frac{1}{n-1}\sum_{i=1}^{n} (x_i - \bar{x})^2.$$
-
-La [[Loi de la variance empirique corrigée]] en décrit la loi ; pour la loi de $\overline{X}$, voir [[Distribution de la moyenne empirique]]. Ne pas confondre la variance empirique avec la [[Moment centré d'ordre k|variance théorique]] $\mathbb{V}(X)$ d'une variable aléatoire.

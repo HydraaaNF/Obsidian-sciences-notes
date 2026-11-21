@@ -24,6 +24,6 @@ est comparé à un seuil $\beta$ : s'il est supérieur à $\beta$, l'hypothèse 
 
 # Remarque
 
-En classification, le maximum de vraisemblance est un cas particulier du maximum a posteriori lorsque la loi a priori des classes est uniforme, $p(c) \sim \mathcal{U}$. Voir la [[Règle de décision de Bayes]] et le [[Classifieur naïf de Bayes]] pour ces règles de classification.
+En classification, le maximum de vraisemblance est un cas particulier du maximum a posteriori lorsque la loi a priori des classes est uniforme, $p(c) \sim \mathcal{U}$.
 
 La forme correcte est « estimation » ; l'écriture « esimtation » est une coquille fréquente.

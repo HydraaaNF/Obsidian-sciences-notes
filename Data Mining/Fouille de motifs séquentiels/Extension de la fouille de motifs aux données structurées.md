@@ -15,5 +15,3 @@ La fouille de motifs doit donc être étendue des données ensemblistes aux donn
 # Remarque
 
 L'extension à ces données soulève des questions propres, traitées séparément : comment repérer une occurrence d'un motif dans une structure, puis compter son support lorsque les occurrences se chevauchent ([[Chevauchement des occurrences et comptage du support]]), et quel coût la fouille y acquiert ([[Complexité de la fouille sur des données structurées]]).
-
-Les applications de ces motifs, en particulier sur des séquences, sont présentées dans [[Domaines d'application des motifs séquentiels]].

@@ -32,6 +32,3 @@ R-implications usuelles :
 | [[Implication de Gödel\|Gödel]] | $1$ si $p \leq q$, sinon $q$ | $\min(u, v)$ |
 | [[Implication de Goguen\|Goguen]] | $1$ si $p \leq q$, sinon $q / p$ | $uv$ |
 | [[Implication de Łukasiewicz\|Łukasiewicz]] | $1$ si $p \leq q$, sinon $1 - p + q$ | $\max(u + v - 1,\; 0)$ |
-
-# Remarque
-Voir [[Comparaison des implications floues]]. Famille duale : [[Implication de type S]].

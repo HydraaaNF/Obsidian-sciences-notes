@@ -39,7 +39,3 @@ series:
     type: line
     data: [45, 70, 85, 95, 100]
 ```
-
-# Remarque
-
-Le [[Diagramme tiges et feuilles]] est une autre représentation d'une distribution empirique. Pour les représentations usuelles d'un caractère qualitatif sans tri par importance, voir [[Représentations graphiques d'un caractère qualitatif]].

@@ -24,8 +24,6 @@ En pratique, on suppose souvent des matrices de covariance diagonales :
 - beaucoup moins de calcul (évite l'inversion matricielle) ;
 - la restriction peut être compensée par un plus grand nombre de composantes.
 
-Pour l'estimation des paramètres, voir l'[[Espérance-maximisation pour un mélange de gaussiennes]].
-
 # Liens avec d'autres lois
 
 - La loi du mélange est la loi d'une variable aléatoire dont la composante est tirée par une [[Variables cachées d'un modèle de mélange|variable cachée]] : si $Z$ suit la loi des poids $(w_1, \dots, w_K)$ sur $\{1, \dots, K\}$ et si la loi de $X$ conditionnellement à $Z = i$ est la gaussienne de densité $f_i$, alors $X$ a pour densité $\sum_{i=1}^{K} w_i f_i(x)$.

@@ -75,7 +75,3 @@ Il s'agit ici de convolution au sens des distributions. On utilise la distributi
 $$f_Y(x) = \frac{1}{2}f_B(x) + \frac{1}{2}f_B(x-1) = \frac{1}{2\sigma\sqrt{2\pi}} \left( e^{-\frac{x^2}{2\sigma^2}} + e^{-\frac{(x-1)^2}{2\sigma^2}} \right)$$
 
 On remarque que $Y$ est une v.a. [[Variable aléatoire continue|continue]] (la pseudo-densité de $Y$ est une vraie densité), dont la densité est la somme d'une gaussienne centrée en 0 et d'une gaussienne centrée en 1. Lorsque $\sigma$ est petit, la fonction $f_Y$ présente des maxima en $x = 0$ et en $x = 1$. Dans ce cas, la probabilité que $Y$ tombe dans un petit intervalle centré sur 0 ou sur 1 est forte, de sorte qu'en pratique le signal bruité $Y$ permet de retrouver la valeur (0 ou 1) de $X$, ce qui est normal puisque dans ce cas le bruit $B$ est petit (localisé autour de 0). Par contre, lorsque $\sigma$ est grand, la fonction $f_Y$ présente un unique maximum en $x = 1/2$, de sorte qu'en pratique les valeurs de $Y$ tombent souvent près de $1/2$ et la valeur de $Y$ ne permet pas de faire une prédiction fiable sur la valeur de $X$ : le bruit est très dispersé et le signal est « perdu dans le bruit ».
-
-# Remarque
-
-Pour l'étude de la fonction caractéristique d'un [[Vecteur gaussien|vecteur gaussien]], voir [[Fonction caractéristique d'un vecteur gaussien]].

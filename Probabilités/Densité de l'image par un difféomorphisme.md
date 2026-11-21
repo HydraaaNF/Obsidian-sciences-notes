@@ -15,4 +15,3 @@ $$f_Y(y) = \frac{f_X(x)}{\exp(x)} = \frac{f_X(\ln(y))}{y}.$$
 # Remarque
 
 - La formule s'applique à toute densité $f_X$, par exemple à celle d'une [[Loi uniforme sur un domaine|loi uniforme sur un domaine]].
-- Pour une fonction d'un vecteur aléatoire, voir [[Loi d'une fonction d'un vecteur aléatoire]].

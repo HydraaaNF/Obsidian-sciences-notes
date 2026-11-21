@@ -22,8 +22,6 @@ Les conséquences des axiomes sont :
 
 $\mathbb{P}[A] = 0$ (resp. $\mathbb{P}[A] = 1$) n'implique pas que $A$ ne se produise jamais (resp. qu'il se produise toujours).
 
-L'écart entre ce cadre théorique et l'usage du modèle probabiliste pour décrire des données observées est traité dans [[Probabilité et statistique]].
-
 # Exemple
 
 Une cellule sans fil dispose de $5$ canaux, chacun dans l'un de deux états : occupé ($0$) ou disponible ($1$). On cherche la probabilité qu'une conférence téléphonique ne soit pas bloquée ($X = 1$), sachant qu'au moins $3$ canaux sont requis.

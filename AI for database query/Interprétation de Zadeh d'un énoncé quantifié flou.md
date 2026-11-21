@@ -12,6 +12,3 @@ $$
 $$
 v = \mu_Q\left(\frac{\sum_{x \in X} \mu_A(x)}{\operatorname{card}(X)}\right)
 $$
-
-# Remarque
-Technique d'interprétation d'un [[Énoncé quantifié flou]]. À comparer avec l'[[Interprétation de Yager par coupes de niveau α]].

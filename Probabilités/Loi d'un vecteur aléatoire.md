@@ -19,5 +19,3 @@ $$f_{X,Y}(x, y) = \frac{\partial^2 F_{X,Y}(x, y)}{\partial x \partial y}$$
 # Remarque
 
 Si $X$ et $Y$ sont [[Indépendance des coordonnées d'un vecteur aléatoire|indépendantes]], la loi jointe se factorise : $F_{X,Y}(x, y) = F_X(x) F_Y(y)$.
-
-Pour les lois de $X$ et de $Y$ prises séparément, voir [[Lois marginales]].

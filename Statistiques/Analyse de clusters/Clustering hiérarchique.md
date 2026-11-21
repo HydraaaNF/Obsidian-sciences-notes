@@ -31,7 +31,3 @@ flowchart BT
 Niveaux de fusion approximatifs, relevés sur le dendrogramme.
 
 La même hiérarchie peut se représenter en régions emboîtées : $\{1, 3\} \subset \{1, 2, 3, 4, 5\} \subset \{1, 2, 3, 4, 5, 6\}$, et $\{2, 5\} \subset \{2, 4, 5\} \subset \{1, 2, 3, 4, 5\}$ ; le point 6 n'apparaît qu'au dernier regroupement.
-
-# Remarque
-
-Les deux constructions de la hiérarchie, par fusions ou divisions successives, sont détaillées dans [[Clustering agglomératif et divisif]] ; la mesure de proximité entre clusters utilisée pour choisir les fusions est décrite dans [[Types de liaison entre clusters]]. Le [[Clustering ascendant pour le partitionnement temporel|partitionnement temporel]] en est une application.

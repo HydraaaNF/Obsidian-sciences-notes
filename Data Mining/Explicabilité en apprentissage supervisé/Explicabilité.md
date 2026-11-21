@@ -36,5 +36,3 @@ Le vocabulaire de l'explicabilité est foisonnant : dix-huit termes voisins circ
 - *Mental fit*
 
 Les appellations *Explainable AI*, *Interpretable AI* et *Explainable Machine Learning* se recouvrent largement, alors que l'explicabilité et l'[[Interprétabilité]] ont chacune leur définition propre. Cette prolifération terminologique est constatée sans que les notions soient départagées.
-
-Les raisons de l'exiger sont documentées par les [[Affaires révélant les risques des modèles opaques]] et par le [[Cadre légal et éthique de l'explicabilité]], et résumées dans les [[Motivations de l'explicabilité]]. Elle se rattache au programme de l'[[Intelligence]] artificielle, dont elle est devenue une exigence, et se met en pratique par les [[Familles d'analyses internes d'un modèle]]. Les [[Questions ouvertes de l'explicabilité]] en recensent les limites actuelles.

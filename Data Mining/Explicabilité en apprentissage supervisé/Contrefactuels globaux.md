@@ -68,6 +68,4 @@ flowchart LR
 
 La mise à l'échelle par instance domine la translation fixe unique : elle atteint 100 % de couverture à coût moyen inférieur, là où la direction $\delta$ retenue n'en couvre que 84 %. Aucune compensation entre couverture et coût ne s'y lit. La tension que la construction arbitre est celle des trois quantités optimisées, couverture, distance d'édition et complexité de la règle de recours ; la mise à l'échelle conserve une direction commune et n'ajuste que l'amplitude du déplacement instance par instance.
 
-Le contrefactuel peut aussi être obtenu par construction, sans recherche a posteriori, avec un réseau entraîné à le produire : voir [[Réseaux de neurones contrefactuels]] et les [[Algorithmes de génération de contrefactuels]].
-
 Une courbe de dépendance partielle décrit, elle aussi, le comportement du modèle sur une population, variable par variable : voir le [[Graphique de dépendance partielle]].

@@ -121,8 +121,4 @@ La seconde étape répète l'opération sur la table ainsi obtenue, avec un nouv
 
 # Remarque
 
-La différence avec l'[[Algorithme KRIMP]] tient à l'origine des candidats. KRIMP reçoit un ensemble $\mathcal{F}$ extrait au préalable et l'examine une fois pour toutes ; SLIM fabrique ses candidats à partir de la table courante, ce qui lui permet de tenir compte des entrées ajoutées en cours de route et de s'arrêter quand le budget de calcul est épuisé.
-
 Le coût de cette souplesse est une exploration moins systématique : rien ne garantit que la table atteinte soit optimale au sens de la [[Recherche de la table de codes optimale]], et le résultat dépend de l'ordre dans lequel les candidats sont examinés.
-
-Le même principe generate-and-select est transposé aux séquences d'événements par l'[[Algorithme de recherche progressive de SQS]].

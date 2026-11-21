@@ -36,9 +36,3 @@ Deux lectures se dégagent de cette expression :
 La croissance exponentielle porte sur le nombre d'items, pas sur la taille de la base : c'est la taille de l'ensemble des itemsets possibles, $2^n$, qui rend l'énumération exhaustive inapplicable dès que le nombre d'items devient grand. Le nombre de candidats effectivement engendrés reste très inférieur à ce pire cas, parce que l'élagage par la [[Propriété d'anti-monotonie du support|propriété d'anti-monotonie du support]] écarte les branches dont un sous-ensemble est déjà non fréquent.
 
 Un troisième facteur intervient sur le coût du comptage : la largeur des transactions, c'est-à-dire la densité de la base. Plus les transactions contiennent d'items, plus chacune contient de candidats de $C_k$, et plus le nombre de parcours de l'[[Arbre de hachage et comptage du support|arbre de hachage]] augmente à nombre de transactions fixé.
-
-# Remarque
-
-La borne $O(m \cdot 2^n)$ décrit le pire cas, celui où aucun élagage n'écarte de candidat ; elle ne doit pas être lue comme le coût systématique de l'algorithme. Sur une base creuse, où les itemsets longs sont rares, le nombre de niveaux parcourus et la taille de chaque $C_k$ restent modérés, alors qu'une base dense fait croître simultanément la longueur des itemsets fréquents et le nombre de candidats par transaction.
-
-C'est précisément ce que l'approche par énumération exhaustive ne sait pas éviter, puisqu'elle construit tous les itemsets avant tout filtrage ; voir [[Limites de l'approche brute force]].

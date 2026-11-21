@@ -41,5 +41,3 @@ La seconde simplification conserve l'$\arg\max$ : la quantité $\sum_{s=1}^{n} g
 $$\hat{y} = \arg\max_{y} \sum_{s=1}^{n} g_s(y_{s-1}, y_s)$$
 
 L'écriture $\hat{y} = \sum_{s=1}^{n} g_s(y_{s-1}, y_s)$ est une erreur fréquente : elle identifie le résultat du décodage (une suite d'étiquettes) au maximum du score (un nombre), alors que les deux objets sont de natures différentes.
-
-Les deux simplifications reposent sur la même propriété : l'$\arg\max$ ne retient que l'ordre des valeurs comparées, ordre que ni la division par la constante $Z(x, \Lambda)$ ni l'exponentielle ne modifient.

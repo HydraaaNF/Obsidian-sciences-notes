@@ -17,7 +17,3 @@ où $n$ est le nombre d'observations.
 # Interprétation
 
 L'idée est de regarder le signe du produit $(X_1 - X_2)(Y_1 - Y_2)$ : le produit est positif lorsque les deux variables varient dans le même sens entre les deux observations comparées ; la paire compte alors pour $1$, sinon pour $-1$.
-
-# Remarque
-
-D'autres coefficients mesurent l'association entre deux caractères, notamment le [[Coefficient de corrélation des rangs de Spearman]].

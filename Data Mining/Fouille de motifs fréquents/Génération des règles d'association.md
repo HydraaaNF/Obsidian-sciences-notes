@@ -49,5 +49,3 @@ La solution naïve consiste, pour chaque itemset fréquent $F$, à énumérer se
 # Remarque
 
 L'élagage se lit directement dans la récursion. Pour un itemset $F$ fixé, la confiance décroît quand le conséquent grandit : si un conséquent $h$ de taille $m$ donne une confiance inférieure à $minconf$, tout conséquent plus grand qui le contient donne une confiance au plus égale, et la branche est abandonnée sans calcul. C'est la seule propriété d'ordre disponible ici, la confiance n'étant [[Monotonie de la confiance|ni monotone ni anti-monotone]] entre règles quelconques.
-
-Cette génération est la seconde étape du [[Calcul des règles d'association en deux étapes|calcul en deux étapes]], la plus rapide des deux : les itemsets fréquents fournis par [[Algorithme Apriori|Apriori]] limitent les numérateurs possibles, et seules les partitions réellement candidates sont testées.

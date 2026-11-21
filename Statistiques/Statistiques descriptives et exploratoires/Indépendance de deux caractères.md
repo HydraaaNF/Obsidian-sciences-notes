@@ -25,5 +25,3 @@ Les profils lignes ne sont pas identiques : la proportion de gauchers vaut $9/52
 # Remarque
 
 L'écart à l'indépendance empirique se mesure par la statistique $\chi^2$ du [[Test du chi-deux d'indépendance|test du chi-deux d'indépendance]].
-
-Pour le passage des effectifs d'un tableau de contingence aux fréquences, voir [[Fréquences conjointes, marginales et conditionnelles]].

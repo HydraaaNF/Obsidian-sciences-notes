@@ -14,7 +14,3 @@ $$F(\mathbf{x}; \mathbf{t}) = F(\mathbf{x}; \mathbf{t} + \tau) \quad \forall \ma
   1. $\mu(t) = \mathbb{E}[X(t)]$ ne dépend pas de $t$ ;
   2. $\mathbb{E}[X(t_1)X(t_2)] = R(t_1, t_2) = R(0, t_2 - t_1) = R(\tau)$ ;
   3. $R(0) < \infty$.
-
-# Remarque
-
-Le [[Processus de Poisson]] est un exemple de processus à accroissements indépendants et stationnaires.

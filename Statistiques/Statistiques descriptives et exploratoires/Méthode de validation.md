@@ -22,6 +22,4 @@ La **méthode de validation** consiste à diviser les données en deux ensembles
 
 Le risque sur l'ensemble de validation est un très mauvais estimateur du risque.
 
-La [[Validation croisée]] généralise ce principe.
-
 Le protocole opérationnel correspondant, avec ses jeux aux rôles disjoints et le jeu de développement sur lequel se comparent les réglages, est décrit dans [[Jeux d'entraînement, de développement et de test]] ; les réglages en question, non appris sur les données, sont les [[Hyper-paramètres]].

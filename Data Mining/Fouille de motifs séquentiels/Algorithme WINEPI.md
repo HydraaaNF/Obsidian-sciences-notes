@@ -55,8 +55,4 @@ Le niveau 3 illustre l'élagage : les six épisodes parallèles de taille 2 éta
 
 # Remarque
 
-L'ensemble $E$ fixe la famille d'épisodes explorée, parallèles ou série : l'algorithme ne considère que les épisodes de $E$, et la génération des candidats ne construit rien en dehors de cet ensemble.
-
-Le tarissement de la boucle s'explique par la condition de génération : après le niveau 3 de l'exemple, seul $ABD$ reste fréquent parmi les épisodes de taille 3, et aucun épisode de taille 4 n'a tous ses sous-épisodes de taille 3 fréquents.
-
 L'approche est celle des méthodes générer et élaguer, avec une passe sur la base par niveau. L'alternative consiste à se passer de fenêtre glissante et à chercher directement les occurrences exactes de chaque épisode : c'est le principe de l'[[Algorithme MINEPI]], fondé sur l'[[Occurrence minimale d'un épisode|occurrence minimale]].

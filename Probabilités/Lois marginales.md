@@ -27,4 +27,4 @@ $Y|X$ désigne l'ensemble des distributions $\{Y|X = x,\ p_X(x) > 0 \text{ ou } 
 
 # Remarque
 
-Lorsque $X$ et $Y$ sont [[Indépendance de variables aléatoires|indépendantes]], les lois conditionnelles coïncident avec les lois marginales. Le rapport de la loi jointe à la loi marginale définit la [[Loi conditionnelle d'une variable aléatoire|loi conditionnelle]]. Pour l'indépendance des coordonnées d'un vecteur aléatoire, voir [[Indépendance des coordonnées d'un vecteur aléatoire]].
+Lorsque $X$ et $Y$ sont [[Indépendance de variables aléatoires|indépendantes]], les lois conditionnelles coïncident avec les lois marginales.

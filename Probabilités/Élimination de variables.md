@@ -105,8 +105,6 @@ $$\mathbb{P}[x_1] \propto m_2(x_1)$$
 
 # Remarque
 
-L'idée est donc d'éliminer les variables de proche en proche, en enchaînant des sommes partielles : le processus itératif décompose la complexité du calcul.
-
 Deux difficultés subsistent.
 
 - Choisir un ordre d'élimination adéquat est loin d'être trivial en général : sur un graphe quelconque, ce choix est un problème NP-difficile.

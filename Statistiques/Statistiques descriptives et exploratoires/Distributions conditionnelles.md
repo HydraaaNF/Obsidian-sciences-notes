@@ -21,5 +21,3 @@ On définit de façon similaire les indicateurs associés aux observations de $Y
 # Remarque
 
 La variance conditionnelle se met aussi sous la forme « moyenne des carrés moins carré de la moyenne » : $V(x)_j = \left( \sum_{i=1}^k f_{i|j} \alpha_i^2 \right) - (\bar{x}_j)^2$ ; l'écriture $\left( \sum_{i=1}^k f_{i|j} \alpha_i \right)^2 - (\bar{x}_j)^2$ est une erreur fréquente : le carré porte sur chaque valeur $\alpha_i$, et non sur la somme, comme $\sum_{i=1}^k f_{i|j} \alpha_i = \bar{x}_j$, cette écriture vaut identiquement $0$ (voir [[Théorème de König-Huygens]]).
-
-Pour les indicateurs calculés sur l'ensemble des observations, voir [[Distributions marginales]] ; pour la décomposition de la moyenne et de la variance marginales en moyenne et variance conditionnelles, voir [[Moyenne et variance conditionnelles]] ; pour les fréquences conjointes et marginales du tableau, voir [[Fréquences conjointes, marginales et conditionnelles]] ; pour la notion d'indépendance des caractères, voir [[Indépendance de deux caractères]].

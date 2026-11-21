@@ -33,5 +33,3 @@ Le gain est d'autant plus net que le seuil $minsup$ est bas : $FI$ devient alors
 La compression opérée par $MFI$ se paie d'une **perte d'information** : les itemsets non maximaux ne sont plus énumérés, et leur [[Support d'un itemset|support]] exact n'est plus connu, seule reste acquise la certitude qu'il atteint au moins $minsup$ puisque l'itemset est fréquent.
 
 Cette perte est le motif de l'introduction des [[Itemsets fréquents fermés]] : ceux-ci conservent le support de chaque itemset en regroupant, dans une même classe d'équivalence, les itemsets qui partagent le même [[Support d'un itemset|tidlist]], tout en restant bien plus compacts que $FI$.
-
-La maximalité en jeu ici est celle d'un motif, sans sur-ensemble fréquent, à distinguer de la maximalité de l'ensemble $P$ des motifs retenus dans l'[[Énoncé standard de la fouille de motifs]]. Le volume que $MFI$ réduit, et la redondance qu'il supprime, sont ceux de l'[[Explosion du nombre de motifs]] ; à l'échelle du volume total de motifs, cette représentation condensée figure parmi les quatre familles recensées dans les [[Familles d'approches pour maîtriser le nombre de motifs]].

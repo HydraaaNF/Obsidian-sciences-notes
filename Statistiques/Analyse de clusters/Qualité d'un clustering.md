@@ -21,6 +21,4 @@ Le cas particulier des segmentations temporelles s'illustre par un [[Clustering 
 
 # Remarque
 
-Voir aussi le [[Choix d'une méthode de clustering|choix d'une méthode de clustering]] et le [[Choix du nombre de clusters|choix du nombre de clusters]].
-
 L'évaluation externe, qui apparie les clusters obtenus avec des classes connues pour en mesurer l'accord, suit une autre voie et est traitée dans [[Évaluation d'un clustering]].

@@ -12,6 +12,3 @@ Soient $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ et $F = \{1/y,\; 0{,}6/z\}
 
 - Avec $\min$ : $E \times F = \{1/(a,y),\; 0{,}6/(a,z),\; 0{,}3/(b,y),\; 0{,}3/(b,z),\; 0{,}7/(c,y),\; 0{,}6/(c,z),\; 0{,}2/(e,y),\; 0{,}2/(e,z)\}$
 - Avec le produit : $E \times F = \{1/(a,y),\; 0{,}6/(a,z),\; 0{,}3/(b,y),\; 0{,}18/(b,z),\; 0{,}7/(c,y),\; 0{,}42/(c,z),\; 0{,}2/(e,y),\; 0{,}12/(e,z)\}$
-
-# Remarque
-Version pour les relations floues : [[Produit cartésien de relations floues]].

@@ -33,7 +33,3 @@ Une distribution peut avoir plusieurs modes (distribution multimodale), ce qui p
 # Propriétés
 
 Pour des distributions parfaitement symétriques, moyenne, médiane et mode coïncident.
-
-# Remarque
-
-Pour la dispersion et la forme de la distribution, voir la [[Variance et écart-type|variance et l'écart-type]], les [[Quartiles et écart interquartile|quartiles]] et l'[[Asymétrie et aplatissement|asymétrie et l'aplatissement]].

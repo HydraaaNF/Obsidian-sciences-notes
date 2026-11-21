@@ -12,8 +12,6 @@ où $f_X(x) = \int_{-\infty}^{+\infty} f_{X,Y}(x,y)\,dy$ est la densité [[Lois 
 # Remarque
 $Y \mid X$ représente la famille des lois conditionnelles $\mathbb{P}(Y \in \cdot \mid X = x)$ : ce n'est pas une loi unique, mais une famille de lois indexée par $x$. Dans le cas discret, elle est indexée par les valeurs $x$ telles que $p_X(x) > 0$ ; dans le cas continu, par presque tout $x$.
 
-Dans le cas discret, $p_{Y|X}(y|x)$ n'est autre que la [[Probabilité conditionnelle|probabilité conditionnelle]] de $\{Y = y\}$ sachant $\{X = x\}$.
-
 # Propriétés
 **Indépendance**
 - Pour tout couple $(x,y)$ tel que $p_X(x) > 0$ : $p_{Y|X}(y|x) = p_Y(y)$

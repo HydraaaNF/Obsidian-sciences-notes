@@ -26,8 +26,4 @@ $$f_1 + \dots + f_k = 1.$$
 
 Ces fréquences sont souvent exprimées sous forme de pourcentage.
 
-Pour la représentation graphique des effectifs et des fréquences, voir [[Représentations graphiques d'un caractère qualitatif]].
-
-Pour un caractère dont les valeurs sont discrètes (ou isolées), voir [[Caractère quantitatif discret]].
-
 En apprentissage automatique, un tel caractère observé sur une population est l'un des attributs d'une [[Donnée et attributs|donnée]].

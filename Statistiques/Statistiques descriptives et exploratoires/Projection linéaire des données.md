@@ -12,4 +12,4 @@ Dans l'espace des observations, les observations sont des points du plan, projet
 
 # Remarque
 
-La projection linéaire des données est le mécanisme de l'[[Analyse en composantes principales]]. Voir aussi [[Projection et clustering]] et les [[Critères d'une bonne projection linéaire]].
+La projection linéaire des données est le mécanisme de l'[[Analyse en composantes principales]].

@@ -39,5 +39,3 @@ La propriété ne dit rien des séquences qui ne sont pas comparables par inclus
 Elle est l'analogue, pour les séquences, de la [[Propriété d'anti-monotonie du support]] des itemsets, qui fonde l'élagage d'Apriori.
 
 Sa validité doit être réexaminée dès qu'une [[Contrainte d'écart temporel|contrainte temporelle]] filtre les occurrences : la propriété n'y est plus garantie, comme le montre le [[Contre-exemple à l'anti-monotonie sous contrainte d'écart maximal]].
-
-La même question se pose pour les épisodes d'une séquence d'événements, traitée dans l'[[Anti-monotonie des épisodes]].

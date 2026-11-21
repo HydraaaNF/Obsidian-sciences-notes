@@ -14,6 +14,3 @@ $$
 Pour l'ensemble flou *jeune* de [[Logique floue]] : $\operatorname{noyau}(\text{jeune}) = [0, 30]$.
 
 Pour $E = \{1/a,\; 0{,}7/c,\; 0{,}2/e,\; 0{,}3/f,\; 0{,}6/h,\; 0{,}7/j,\; 0{,}9/k\}$ : $\operatorname{noyau}(E) = \{a\}$.
-
-# Remarque
-À opposer au [[Support d'un ensemble flou]].

@@ -59,6 +59,4 @@ Le détour apparaît dès que deux fermés distincts sont contenus dans un même
 
 Le treillis et l'arbre portent les mêmes nœuds, mais pas les mêmes parcours : dans le treillis, atteindre un fermé par deux chaînes impose de mémoriser les nœuds déjà visités ; dans l'arbre, la filiation unique rend cette mémoire inutile, au prix de la règle d'ordre. L'[[Algorithme LCM]] est l'instanciation complète de ce dispositif, de la racine jusqu'aux feuilles.
 
-Une filiation mal choisie fait perdre l'un des deux avantages : une règle qui exige un calcul de fermeture ou un parcours de la base pour chaque arête conservée alourdit chaque étape, et une règle qui ne respecte pas la stratégie d'énumération produit un arbre dont le parcours n'énumère plus ce qu'il faut.
-
 Le sens de la règle de filiation est souvent écrit à l'envers. Un fils est produit par extension, donc il contient son père : le plus grand item est celui du fils, et c'est lui qui sert de borne. La forme « tous les items du fils sont inférieurs au plus grand item du père » n'est jamais satisfaite, car ce plus grand item appartient au fils lui-même ; la condition correcte est bien « tous les items du père sont inférieurs au plus grand item du fils ».

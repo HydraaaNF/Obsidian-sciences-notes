@@ -21,7 +21,6 @@ $$\binom{n}{p} = \frac{n!}{p!(n-p)!}$$
 - Les éléments $a_1, \dots, a_p$ d'une combinaison sont **tous distincts**, puisque $\{a_1, \dots, a_p\}$ est un sous-ensemble de $E$.
 - De façon simpliste, on peut dire que pour compter les arrangements, « l'ordre intervient », alors que pour compter les combinaisons, « l'ordre n'intervient pas ».
 - L'ancienne notation pour $\binom{n}{p}$ est $C_n^p$ ; on la rencontre encore fréquemment.
-- Les nombres $\binom{n}{p}$ interviennent dans la [[Formule du binôme de Newton]].
 
 # Exemple
 

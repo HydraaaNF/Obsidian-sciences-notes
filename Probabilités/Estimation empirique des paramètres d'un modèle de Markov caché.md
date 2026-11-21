@@ -27,7 +27,3 @@ $$\hat{a}_{i,j} = \frac{\sum_r \sum_{t=2}^{n_r} \mathbb{I}_{(s_{t-1}^{(r)} = i,\
 $$\hat{b}_{i,k} = \frac{\sum_r \sum_{t=1}^{n_r} \mathbb{I}_{(s_t^{(r)} = i)} \mathbb{I}_{(o_t^{(r)} = k)}}{\sum_r \sum_{t=1}^{n_r} \mathbb{I}_{(s_t^{(r)} = i)}}$$
 
 Pour des densités conditionnelles continues, on remplace $\hat{b}_{i,k}$ par les estimateurs empiriques adéquats, construits à partir des observations associées à l'état $i$.
-
-# Remarque
-
-Ces estimateurs supposent connues les séquences d'états cachés ; ils constituent le point de départ de l'[[Algorithme de Baum-Welch]].

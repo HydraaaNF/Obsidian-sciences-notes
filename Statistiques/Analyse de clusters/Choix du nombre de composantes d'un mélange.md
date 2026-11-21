@@ -18,7 +18,3 @@ Parmi ces critères figurent le critère d'Akaike, le [[Critère d'information b
 $$\operatorname{BIC}(x, \theta) = \ln p(x \mid \theta) - \frac{1}{2}\#\theta \ln n$$
 
 où $\#\theta$ est le nombre de paramètres et $n$ la taille de l'échantillon : la pénalité est d'autant plus forte que le modèle compte de paramètres.
-
-# Remarque
-
-Le choix du nombre de composantes d'un mélange relève de la [[Sélection de modèle et estimation de la performance|sélection de modèle]]. La démarche analogue pour un [[k-means]] est décrite dans [[Choix du nombre de clusters]].

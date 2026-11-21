@@ -3,6 +3,3 @@ Dans l'**approche qualitative** d'une [[Requête à préférences]], les préfé
 
 # Interprétation
 L'ordre obtenu est en général **partiel** : deux n-uplets peuvent être incomparables.
-
-# Remarque
-Représentant principal de cette famille : la [[Requête skyline]]. À opposer à l'[[Approche quantitative des préférences]].

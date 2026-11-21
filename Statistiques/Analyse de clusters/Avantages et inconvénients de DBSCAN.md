@@ -15,7 +15,3 @@ Le [[DBSCAN]] présente les avantages et inconvénients suivants.
 - sensibilité au choix des paramètres : les performances de DBSCAN dépendent de paramètres comme $\varepsilon$ et le nombre minimum de points ;
   - le choix de paramètres appropriés devient délicat lorsque les clusters ont des densités significativement différentes ;
 - nécessité d'une [[Mesures de similarité et de distance|fonction de distance]] pertinente.
-
-# Remarque
-
-Voir aussi les avantages et inconvénients du [[Avantages et inconvénients du k-means|k-means]] et ceux du [[Avantages et inconvénients du clustering spectral|clustering spectral]].

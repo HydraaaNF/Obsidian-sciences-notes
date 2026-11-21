@@ -32,6 +32,4 @@ Sur un jeu de données en deux dimensions formant deux amas recourbés, le déro
 
 # Remarque
 
-La classification des points en core, border et noise et les deux paramètres associés (rayon de voisinage et nombre minimal de points) sont détaillés dans [[Points core, border et noise]]. Les avantages et inconvénients de DBSCAN sont traités dans [[Avantages et inconvénients de DBSCAN]].
-
 DBSCAN est l'algorithme le plus connu de sa famille, mais d'autres méthodes par densité existent, notamment **OPTICS** (variante gérant mieux des densités variables) et **DENCLUE** (approche fondée sur l'[[Lissage d'histogramme|estimation de densité par noyau]]).

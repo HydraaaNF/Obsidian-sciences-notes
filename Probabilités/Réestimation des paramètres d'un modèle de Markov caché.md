@@ -37,4 +37,3 @@ où $\alpha_i(t)$ et $\beta_i(t)$ sont les [[Probabilités forward et backward|p
 # Remarque
 
 - La distribution initiale décrit l'état de départ de chaque échantillon : le numérateur de $\hat{\pi}_i$ est la somme des statistiques d'occupation du premier instant, $\sum_r \gamma_1^{(r)}(i)$. Sommer les statistiques d'occupation de tous les instants, $\sum_r \sum_t \gamma_t^{(r)}(i)$, est une erreur fréquente, cette forme ne respecte pas la contrainte de normalisation $\sum_i \pi_i = 1$.
-- La mise à jour des moyennes pour un [[Mélange gaussien|mélange gaussien]] est détaillée dans l'[[Espérance-maximisation pour un mélange de gaussiennes]].

@@ -20,9 +20,3 @@ La **validation croisée** consiste à diviser les données $D_n$ en $N$ ensembl
   - calculer le risque empirique sur l'**ensemble de validation** $D_i$ ;
 - sélectionner les hyper-paramètres donnant le meilleur risque empirique moyen sur tous les ensembles de validation ;
 - estimer les paramètres du modèle sur l'ensemble complet des données, avec les paramètres optimaux.
-
-# Remarque
-
-La validation croisée généralise la [[Méthode de validation]].
-
-Sa variante opérationnelle, en trois jeux aux rôles disjoints dont un jeu de développement pour comparer les réglages, est décrite dans [[Jeux d'entraînement, de développement et de test]].

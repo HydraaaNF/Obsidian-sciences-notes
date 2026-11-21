@@ -47,6 +47,4 @@ graph LR
   YN -.-> XN["xₙ"]
 ```
 
-Un trait peut également lire toute l'observation $x$ et pas seulement le voisinage de la position $s$ : la restriction à deux étiquettes voisines porte sur les étiquettes, pas sur les mots. Chaque trait est ensuite évalué à chaque position et sommé sur la séquence, comme le décrit la [[Décomposition positionnelle des fonctions de traits]] ; le cadre général de ces traits pour des séquences est présenté dans [[Fonctions de traits pour les séquences]].
-
-Dans les boîtes à outils usuelles, ces traits ne sont pas écrits un par un mais engendrés à partir de gabarits, ce qui les rend systématiques et adaptés à l'annotation BIO ; voir [[Gabarits de traits et annotation BIO]].
+Un trait peut également lire toute l'observation $x$ et pas seulement le voisinage de la position $s$ : la restriction à deux étiquettes voisines porte sur les étiquettes, pas sur les mots.

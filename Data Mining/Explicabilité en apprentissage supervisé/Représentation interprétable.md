@@ -47,7 +47,6 @@ Des graphes de clustering stratégique (Espresso, Zucchini) figurent également 
 # Remarque
 
 - La représentation interprétable n'est pas l'espace d'entrée du modèle : [[LIME]] y projette l'instance, y échantillonne des voisins autour de la cible, puis ajuste une approximation linéaire dans cet espace.
-- Les éléments retenus dépendent de la modalité des données : composants d'image, mots d'un texte, segments d'une série temporelle, comme le détaille la note sur les [[Formes d'explication selon la modalité des données]].
 - La représentation sert une [[Explication locale]] : elle décrit une instance et son voisinage, non le comportement d'ensemble du modèle.
 - Le choix des éléments conditionne l'[[Interprétabilité]] du résultat : pour qu'une explication ait un sens, ses éléments constitutifs doivent être compréhensibles.
 - Une représentation apprise avec le modèle, par concepts ou prototypes, se distingue de celle construite après coup : voir les [[Explications par concepts et prototypes]].

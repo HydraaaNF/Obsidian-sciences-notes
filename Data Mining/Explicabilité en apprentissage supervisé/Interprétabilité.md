@@ -18,8 +18,6 @@ Cette exigence se lit directement sur certaines formes : les coefficients du [[L
 
 Les attributs ne pèsent pas tous autant : le [[Graphique de dépendance partielle]] montre comment le modèle répond à chacun, et la [[Représentation interprétable]] retenue fixe ce qu'un utilisateur peut effectivement lire.
 
-La position disciplinaire de cette exigence est décrite dans la [[Place de l'apprentissage automatique parmi les disciplines]], ses motivations dans les [[Motivations de l'explicabilité]], et les questions qu'elle laisse ouvertes dans les [[Questions ouvertes de l'explicabilité]].
-
 # Interprétation
 
 La complexité de certains modèles en fait des boîtes noires : la réponse est produite sans que le chemin qui y mène soit lisible, ce qui les fait ressembler à de la sorcellerie. Un réseau de neurones profond, par exemple, est une pile de couches dont seule l'entrée et la sortie sont accessibles, d'où l'image d'un classifieur enfermé dans une bulle de boîte noire.

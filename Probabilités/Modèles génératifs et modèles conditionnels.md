@@ -86,8 +86,6 @@ La différence de structure traduit la différence de modélisation : le graphe 
 
 # Remarque
 
-La ligne générative est constituée de [[Réseau bayésien|réseaux bayésiens]] et la ligne conditionnelle de [[Graphe de facteurs|graphes de facteurs]] : la première porte des flèches, la seconde des facteurs.
-
 Le choix entre les deux familles est un compromis :
 
 - le génératif décrit aussi la loi des observations $\mathbb{P}[X]$, ce qui est coûteux lorsque les observations sont de grande dimension, mais permet d'engendrer des données ;

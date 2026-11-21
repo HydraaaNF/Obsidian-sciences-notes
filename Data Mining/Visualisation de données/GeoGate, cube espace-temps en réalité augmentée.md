@@ -21,4 +21,4 @@ Les interactions sont tangibles : le dispositif repose sur une table couverte d'
 
 # Remarque
 
-GeoGate relève de l'[[Analytique immersive]] : l'immersion y sert à corréler deux jeux de données de natures différentes, l'un géographique, l'autre temporel, plutôt qu'à augmenter le réalisme de la scène. Il s'appuie sur des composants de construction décrits dans les [[Outils de construction pour l'analytique immersive|outils de construction pour l'analytique immersive]].
+GeoGate relève de l'[[Analytique immersive]] : l'immersion y sert à corréler deux jeux de données de natures différentes, l'un géographique, l'autre temporel, plutôt qu'à augmenter le réalisme de la scène.

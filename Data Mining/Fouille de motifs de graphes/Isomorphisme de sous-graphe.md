@@ -30,5 +30,3 @@ L'isomorphisme de sous-graphe généralise l'[[Isomorphisme de graphes]] : la bi
 La recherche d'un sous-graphe isomorphe est NP-complète.
 
 En pratique, si les étiquettes sont suffisamment variées, le calcul reste faisable en temps raisonnable : chaque sommet ne peut être apparié qu'aux sommets portant la même étiquette, ce qui réduit fortement le nombre d'appariements à essayer.
-
-Ce test d'occurrence est le cœur de la [[Fouille de motifs de graphes]].

@@ -16,6 +16,4 @@ Un exemple à quatre variables (longueur du bec, profondeur du bec, longueur de 
 
 # Remarque
 
-Chaque case hors diagonale se lit comme un [[Nuage de points]] ; la matrice des nuages de points permet ainsi de balayer d'un seul coup d'œil les relations entre toutes les paires de variables d'un jeu de données. Pour quantifier ces relations, voir le [[Covariance et coefficient de corrélation linéaire|coefficient de corrélation linéaire]].
-
 La matrice des nuages de points se distingue de la [[Matrice de corrélation]], qui rassemble les coefficients de corrélation linéaire entre les variables prises deux à deux.

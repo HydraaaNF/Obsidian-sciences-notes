@@ -4,6 +4,3 @@ Soit $r$ une [[Relation floue]] et $\varphi$ un **prédicat flou**, dont $\mu_\v
 $$
 \sigma_\varphi(r) = \big\{\mu / u \ \big|\ u \in \operatorname{supp}(r),\ \mu = \min\big(\mu_r(u),\ \mu_\varphi(u)\big)\big\}
 $$
-
-# Remarque
-Opérateur relationnel de l'[[Algèbre relationnelle floue]].

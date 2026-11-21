@@ -17,7 +17,3 @@ Le risque empirique, construit sur les seules données observées, est un estima
 $$R(f) = \mathbb{E}_Z[L(z, f)] = \int_Z L(z, f)p(z)dz$$
 
 Minimiser le risque empirique revient donc à rechercher la fonction qui commet la plus faible perte moyenne sur l'échantillon $D_n$ ; la fonction retenue $f^*(D_n)$ dépend de cet échantillon.
-
-# Remarque
-
-L'estimation de la performance du modèle ainsi sélectionné relève de méthodes dédiées : l'[[Estimation non biaisée du risque]] et la [[Sélection de modèle et estimation de la performance]].

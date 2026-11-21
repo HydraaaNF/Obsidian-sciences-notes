@@ -20,5 +20,4 @@ Le second théorème en tire la conséquence pratique : dès qu'une statistique 
 
 # Remarque
 
-- Partant d'un estimateur sans biais $T$ quelconque, le conditionnement par une statistique suffisante fournit donc un estimateur sans biais dont le risque ne dépasse pas celui de $T$ : c'est une méthode générale d'amélioration d'un estimateur.
 - Le [[Théorème de Lehmann-Scheffé]] complète ces résultats : il précise quand $T^* = \mathbb{E}[T \mid U]$ est l'unique estimateur sans biais de variance minimale.

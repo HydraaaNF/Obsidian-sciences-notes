@@ -124,6 +124,5 @@ où $f$ est le modèle expliqué et $Z \sim D$. Les deux quantités se compensen
 - Une règle locale n'est valable que dans sa région. Hors de l'ancre, elle n'énonce rien : deux instances proches peuvent recevoir des règles différentes.
 - Une règle de modèle global, telle qu'un chemin d'arbre ou une règle extraite d'un [[Règles, listes et ensembles de décision|ensemble de décision]], décrit le modèle sur tout son domaine et se lit directement dans le modèle. Une règle locale est au contraire apprise sur un échantillon de voisinage : sa validité dépend de la représentativité de ce voisinage.
 - Le voisinage doit être représentatif : c'est la raison d'être des algorithmes génétiques de LORE, qui peuplent la région de « friends » (même classe) et d'« enemies » (classe opposée) au lieu de tirer des points uniformément.
-- L'élargissement de la condition est le levier de la couverture, la fidélité en est la contrepartie : c'est l'arbitrage à régler pour chaque explication.
 - Les [[Substituts globaux par arbre et par règles|substituts globaux]] généralisent cette démarche en apprenant un modèle interprétable sur l'ensemble des données ; la règle locale en est la version restreinte à une instance.
 - Les attributions obtenues par rétropropagation désignent les variables déterminantes d'une même instance, voir les [[Méthodes d'attribution par gradients]].

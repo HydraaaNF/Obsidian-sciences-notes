@@ -22,15 +22,3 @@ Le total de ligne $n_{i.}$ est la taille du sous-échantillon de modalité $\alp
 La ligne $i$ décrit la répartition du caractère $Y$ à l'intérieur de la modalité $\alpha_i$ du caractère $X$ : comparer ces répartitions d'une ligne à l'autre revient à comparer les distributions conditionnelles, ce que formalise le [[Test du chi-deux d'indépendance|test du chi-deux d'indépendance]]. Le même tableau, lu en colonnes, sert au [[Test du chi-deux d'homogénéité de plusieurs sous-échantillons|test du chi-deux d'homogénéité de plusieurs sous-échantillons]], où les lignes portent des sous-échantillons d'une même variable.
 
 Le tableau ne contient que des effectifs ; les fréquences s'en déduisent en divisant chaque case par l'effectif total, voir [[Fréquences conjointes, marginales et conditionnelles]].
-
-# Remarque
-
-Le point en indice marque l'indice sur lequel on a sommé :
-
-$$n_{i.} = \sum_j n_{i,j}$$
-
-$$n_{.j} = \sum_i n_{i,j}$$
-
-$$n = \sum_i n_{i.} = \sum_j n_{.j}.$$
-
-Pour les fréquences associées au tableau, voir [[Fréquences conjointes, marginales et conditionnelles]] ; pour les distributions marginales, voir [[Distributions marginales]].

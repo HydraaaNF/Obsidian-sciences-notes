@@ -23,4 +23,3 @@ L'itemset le plus célèbre reste `{bière, couches}` : il a été trouvé dans 
 # Remarque
 
 L'analyse du panier est le cadre d'application typique de la [[Règle d'association et confiance]] : elle fixe les objets (transactions, items) sur lesquels se mesurent le support d'un itemset et la confiance d'une règle.
-Le passage des transactions aux motifs se fait par le [[Calcul des règles d'association en deux étapes]], d'abord les itemsets fréquents, puis les règles de confiance suffisante.

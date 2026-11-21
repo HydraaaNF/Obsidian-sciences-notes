@@ -21,7 +21,3 @@ Pour toute variable aléatoire $X$ et tout réel $a$ :
 - $\mathbb{V}[aX] = a^2\, \mathbb{V}[X]$
 
 L'écart-type intervient dans l'[[Inégalité de Bienaymé-Tchebychev]], qui majore la probabilité que $X$ s'écarte de son espérance de plus de $k\sigma$.
-
-# Remarque
-
-Pour la variance d'une somme de variables aléatoires, voir [[Variance d'une somme de variables aléatoires]].

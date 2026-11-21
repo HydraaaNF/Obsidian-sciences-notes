@@ -38,7 +38,3 @@ Le caractère local est une contrainte de validité : le substitut ne décrit le
 Les formes contrefactuelles répondent à la même question par une autre voie : l'[[Explication contrefactuelle]] énonce la modification d'entrée, l'[[Apprentissage de contrefactuels]] l'obtient par construction, les [[Réseaux de neurones contrefactuels]] l'intègrent au modèle et les [[Algorithmes de génération de contrefactuels]] la recherchent après coup.
 
 La forme de l'explication suit la modalité des données, comme le montrent les [[Formes d'explication selon la modalité des données]], et ce que la [[Représentation interprétable]] retient conditionne la lecture du résultat.
-
-Une explication locale s'évalue avec les [[Critères et métriques d'évaluation d'une explication]], et deux méthodes se comparent selon le [[Protocole de comparaison d'explications]].
-
-Les formes globales obtenues par agrégation sont les [[Contrefactuels globaux]], les courbes du [[Graphique de dépendance partielle]] et les [[Substituts globaux par arbre et par règles]].

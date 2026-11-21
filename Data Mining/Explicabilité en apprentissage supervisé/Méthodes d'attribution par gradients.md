@@ -118,5 +118,3 @@ Dans l'attribution d'Integrated Gradients, la dérivée partielle est prise par 
 La somme de complétude porte sur les $d$ caractéristiques, de $i = 1$ à $i = d$ ; les bornes sous le symbole de sommation doivent rester explicites pour que la portée de la somme soit lisible.
 
 Les méthodes d'attribution par gradients se distinguent des autres familles d'[[Explication locale]] : [[LIME]] apprend une approximation linéaire sur des perturbations de l'instance, les [[Règles locales d'explication]] délimitent une région de l'espace des variables, et [[SHAP]] attribue les contributions par la théorie des jeux, avec la [[Valeur de Shapley]] comme fondement. La grille de cartes de saillance montre que ces familles ne localisent pas de la même façon les régions déterminantes : la [[Représentation interprétable]] sur laquelle elles s'appuient, pixels ou cartes de caractéristiques, conditionne la lecture des cartes.
-
-Ces cartes relèvent des analyses internes du modèle, classées avec les [[Familles d'analyses internes d'un modèle]].

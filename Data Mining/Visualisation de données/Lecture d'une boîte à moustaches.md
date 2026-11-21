@@ -28,8 +28,6 @@ Les points isolés attirent l'attention sur des observations atypiques, qu'un si
 
 # Remarque
 
-L'anatomie de la boîte et le calcul de ses bornes sont détaillés dans [[Boîte à moustaches]].
 La boîte à moustaches est une agrégation : elle résume la distribution sans la montrer. Le diagramme en violon donne, pour la même agrégation, le profil de densité de la distribution, ce qui révèle les distributions multimodales qu'une boîte laisse invisibles ; voir [[Réduction des données affichées]].
-Un résumé de distribution peut masquer une structure : voir [[Quartet d'Anscombe]].
 Comparer plusieurs boîtes suppose de les ordonner et de les aligner : voir [[Ordonner et aligner les marques]].
 Le facteur $1{,}5$ fixe la longueur maximale des moustaches : sans lui, une moustache s'arrêterait au quartile et ne dirait plus rien des valeurs extrêmes.

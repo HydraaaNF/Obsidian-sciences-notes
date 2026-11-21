@@ -122,5 +122,3 @@ Deux définitions servent d'exemple de textes à plonger, l'une sur la disciplin
 Un réseau de neurones illustre le modèle « boîte noire » : la complexité de certains modèles en apprentissage automatique en fait des boîtes noires, et un réseau entièrement connecté est représenté enfermé dans une bulle dont la pointe désigne le classifieur, la flèche vers celui-ci venant du chat.
 
 La raison tient à la représentation elle-même : la décision s'appuie sur des vecteurs numériques latents appris, dont les coordonnées ne portent pas de nom, ce qui rend la décision difficile à interpréter directement et motive l'étude de l'[[Interprétabilité]]. Les [[Réseaux de neurones contrefactuels|réseaux de neurones contrefactuels]] sont une réponse à cette opacité : l'explication y est produite par conception, au sein de l'architecture.
-
-Les techniques qui sondent ces représentations latentes sont classées avec les [[Familles d'analyses internes d'un modèle]].

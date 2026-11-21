@@ -29,7 +29,6 @@ $$A_p^n = \frac{p!}{(p-n)!}.$$
 # Remarque
 
 - La notation $A_p^n$ pour le nombre d'applications injectives suit la convention de l'[[Arrangement]] : on choisit $n$ éléments distincts (les images) parmi les $p$ éléments de $F$. L'écriture $A_n^p = \frac{p!}{(p-n)!}$ est une confusion d'indices fréquente : $A_n^p$ désigne le nombre d'arrangements de $p$ éléments pris parmi $n$, qui vaut $\frac{n!}{(n-p)!}$ et suppose $p \leq n$.
-- L'ensemble $\mathcal{A}(E,F)$ des applications de $E$ dans $F$ est aussi noté $F^E$. Avec cette notation, on retient facilement le nombre d'applications : $\operatorname{card}(F^E) = \operatorname{card}(F)^{\operatorname{card}(E)}$.
 - Une application de $E$ dans $F$ est déterminée par le $n$-uplet de ses images : le comptage $p^n$ est celui du [[Cardinal d'un produit cartésien|produit cartésien]] $F^n$.
 - Les applications de $E$ dans un ensemble à deux éléments sont au nombre de $2^{\operatorname{card}(E)}$ : une application $f : E \to \{0,1\}$ détermine la partie $\{x \in E \mid f(x) = 1\}$. C'est le point de vue du [[Nombre de parties d'un ensemble]].
 

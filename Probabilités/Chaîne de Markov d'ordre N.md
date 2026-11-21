@@ -18,4 +18,4 @@ $$\mathbb{P}[X_1, \ldots, X_T] = \mathbb{P}[X_1]\mathbb{P}[X_2 \mid X_1]\mathbb{
 
 # Remarque
 
-Cette définition généralise la [[Propriété de Markov]] : le conditionnement porte non plus sur le seul dernier état, mais sur les $N$ états précédents. Pour $N = 1$, le conditionnement se réduit à l'état précédent et l'on retrouve une [[Chaîne de Markov à temps discret]]. Le [[Modèle de Markov pour les textes]] en est une application.
+Cette définition généralise la [[Propriété de Markov]] : le conditionnement porte non plus sur le seul dernier état, mais sur les $N$ états précédents. Pour $N = 1$, le conditionnement se réduit à l'état précédent et l'on retrouve une [[Chaîne de Markov à temps discret]].

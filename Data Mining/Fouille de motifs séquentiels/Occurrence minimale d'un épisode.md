@@ -27,6 +27,4 @@ L'intervalle $[30, 80]$ n'est pas minimal, pour la même raison.
 
 # Remarque
 
-Une occurrence minimale délimite l'apparition d'un épisode au plus juste : tout intervalle qui la contient strictement n'est pas minimal, même si l'épisode s'y produit.
-
 Cette notion se distingue du comptage par [[Fenêtre glissante de WINEPI|fenêtres glissantes]] qui sous-tend la [[Fréquence d'un épisode|fréquence d'un épisode]] ; elle sert de base à l'[[Algorithme MINEPI]], qui localise ainsi exactement les apparitions d'un épisode.

@@ -54,11 +54,3 @@ graph TD
 ```
 
 Dans la lecture non dirigée, les cliques maximales de ce cycle sont ses quatre arêtes : la loi jointe s'écrit avec un potentiel par arête.
-
-# Remarque
-
-Le cas dirigé est celui des [[Réseau bayésien|réseaux bayésiens]], le cas non dirigé celui des [[Champ aléatoire de Markov|champs aléatoires de Markov]] ; la factorisation non dirigée est la forme utilisée par les [[Distribution de Gibbs|distributions de Gibbs]].
-
-Dans la factorisation non dirigée, les potentiels ne sont pas des probabilités : seule la constante $Z$ normalise le produit. Un potentiel s'écrit indifféremment $\psi_c(x_c)$ ou $\exp\left(-U_c(x_c)\right)$, où $U_c$ est l'énergie de la clique ; c'est la même fonction, vue comme facteur ou comme exponentielle d'une énergie.
-
-Passer d'une factorisation dirigée à une factorisation non dirigée est l'objet de la [[Moralisation d'un graphe orienté]].

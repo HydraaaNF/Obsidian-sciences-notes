@@ -12,5 +12,3 @@ où les bruits $V_k$ et $W_k$ sont des variables aléatoires indépendantes et i
 # Remarque
 
 L'état et l'observation portent le même indice : l'équation s'écrit $Y_k \doteq g(X_k, V_k)$. Écrire $Y_K$ (un indice différent de celui de l'état $X_k$ et du bruit $V_k$ de la même équation) est une erreur fréquente.
-
-Un modèle à espace d'état généralise le [[Modèle de Markov caché]].

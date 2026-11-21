@@ -36,7 +36,3 @@ Deux stratégies prennent en compte les contraintes d'écart.
 # Remarque
 
 La seconde stratégie suppose que l'élagage reste fondé, ce qui pose la question du maintien du principe d'Apriori, c'est-à-dire de l'[[Anti-monotonie du support des motifs séquentiels|anti-monotonie du support]], sous contrainte d'écart : un contre-exemple montre qu'elle tombe sous contrainte d'écart maximal, voir [[Contre-exemple à l'anti-monotonie sous contrainte d'écart maximal]].
-
-Un algorithme dédié à cette famille de contraintes est présenté dans [[Algorithme Gap-BIDE]].
-
-La contrainte fait partie des [[Contraintes temporelles en fouille de motifs séquentiels]], aux côtés de la [[Durée des séquences]] et de la [[Fenêtre de repliement des événements]].

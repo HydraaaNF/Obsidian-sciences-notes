@@ -21,5 +21,3 @@ L'[[Arbre FP]] joue le rôle de représentant compact de la base et des motifs :
 # Remarque
 
 Le gain apporté par la croissance de motifs est un **ordre de grandeur** en temps de calcul face à l'[[Algorithme Apriori]] : l'absence de candidats et la compression de la base suppriment les parcours répétés de la base qu'exige le comptage de chaque candidat.
-
-La [[Limites de l'approche brute force|génération exhaustive]] des itemsets reste l'arrière-plan que l'approche évite, et le détail du parcours récursif de l'arbre est donné par l'[[Algorithme FP-growth]].

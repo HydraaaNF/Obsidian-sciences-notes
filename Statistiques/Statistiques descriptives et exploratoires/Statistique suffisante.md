@@ -46,5 +46,4 @@ Autres exemples de statistiques suffisantes :
 # Remarque
 
 - Le [[Théorème de factorisation de Fisher]] permet de dire si une statistique donnée est suffisante, mais il n'indique pas comment en trouver une.
-- La notion de statistique suffisante est liée à la recherche d'un [[Estimateur sans biais de variance minimale]].
 - Dans la densité jointe de $n$ variables gaussiennes indépendantes, le facteur de normalisation est $(\sigma\sqrt{2\pi})^n$ et l'exposant de l'exponentielle somme les écarts de toutes les observations : c'est cette forme qui assure que l'intégrale de la densité sur $\mathbb{R}^n$ vaut $1$. Un facteur de normalisation de la forme $\sigma^n\sqrt{n2\pi}$, ou une exponentielle qui ne porte que sur une seule observation, est une erreur fréquente.

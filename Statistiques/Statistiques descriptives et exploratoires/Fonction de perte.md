@@ -17,8 +17,4 @@ Exemples de fonctions de perte :
 
 # Remarque
 
-La fonction de perte est utilisée pour définir le [[Risque et risque empirique]] ; le [[Risque généralisé]] étend le risque défini à partir d'une fonction de perte.
-
 Une perte n'est pas nécessairement une métrique d'évaluation : elle doit être différentiable pour être minimisée par descente de gradient, ce que ne demande pas la quantité que l'on mesure, voir [[Métrique et fonction de perte]].
-
-Les pertes de régression les plus employées, et leur emploi comme mesures d'erreur, sont détaillées dans [[Mesures d'erreur en régression]] et [[Perte absolue et perte quadratique]].

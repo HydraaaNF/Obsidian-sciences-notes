@@ -61,5 +61,3 @@ Pour un échantillon gaussien de variance $\sigma^2$, la statistique $\frac{(n-1
 La [[Loi de Student|loi de Student]] est le quotient d'une variable de loi normale centrée réduite par la racine d'une variable du chi-deux divisée par ses degrés de liberté. Le quotient de deux variables du chi-deux indépendantes, chacune divisée par son nombre de degrés de liberté, suit une [[Loi de Fisher|loi de Fisher]] :
 
 $$\frac{U/p}{V/q} \sim \mathcal{F}(p, q) \quad \text{pour } U \sim \chi_p^2 \text{ et } V \sim \chi_q^2 \text{ indépendantes}.$$
-
-La loi intervient encore dans le [[Test d'ajustement du chi-deux|test d'ajustement du chi-deux]], le [[Test du chi-deux d'indépendance|test du chi-deux d'indépendance]] et le [[Test du chi-deux d'homogénéité de plusieurs sous-échantillons|test du chi-deux d'homogénéité de plusieurs sous-échantillons]].

@@ -13,7 +13,3 @@ Le jeu de données tient en une table à une dimension temporelle, un attribut c
 # Remarque
 
 Le graphique de flux est un cas particulier de la [[Séparer les marques sans recouvrement|séparation des marques]] : les bandes ne se recouvrent pas et leur épaisseur remplace la superposition.
-
-Il relève de la visualisation de données temporelles ; les [[Types de jeux de données|types de jeux de données]] correspondants sont les tables à une dimension temporelle et un attribut quantitatif.
-
-Le même outil sert à illustrer l'intégration d'une vue à l'intérieur d'une marque dans [[Réduction des données affichées]].

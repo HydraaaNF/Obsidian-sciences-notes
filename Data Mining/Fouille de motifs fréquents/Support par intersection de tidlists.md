@@ -72,4 +72,3 @@ L'itemset $\{a, c, d\}$ a donc pour support $3$, obtenu sans examiner aucune tra
 
 Le coût mémoire croît avec la base : sur une base volumineuse, les tidlists des nombreux candidats deviennent elles aussi volumineuses et ne tiennent plus en mémoire. La parade consiste à ne traiter qu'une partie du treillis à la fois, en le partitionnant en [[Classes d'équivalence des itemsets|classes d'équivalence]] dont les itemsets partagent un préfixe commun, ce que fait l'[[Algorithme Eclat]].
 
-La structure ainsi obtenue remplace le couple formé par la génération de candidats et leur test sur chaque transaction : le comptage du support devient un calcul d'ensembles sur les tidlists, et non un parcours répété de la base.

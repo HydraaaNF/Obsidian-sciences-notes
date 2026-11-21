@@ -68,5 +68,3 @@ L'explication est un masque d'arêtes : chaque arête du voisinage de la requêt
 La forme de l'explication n'est pas seulement une commodité d'affichage : elle fixe ce que l'utilisateur peut vérifier. Un surlignage se contrôle en relisant les mots désignés, une carte de saillance en regardant la zone désignée, un masque d'arêtes en suivant le chemin retenu dans le graphe.
 
 Ces formes sont celles que construisent les méthodes d'[[Explication locale]] : une méthode comme [[LIME]] fabrique une [[Représentation interprétable|représentation interprétable]] propre à la modalité traitée, mots surlignés pour le texte, zones pour l'image, avant d'ajuster un modèle simple sur cette représentation. La [[Taxonomie des techniques d'explicabilité]] situe ces méthodes parmi les explications produites après coup, par opposition aux modèles interprétables par construction.
-
-Les limites de ces formes, et ce que l'utilisateur en comprend réellement, sont recensées avec les [[Questions ouvertes de l'explicabilité]].

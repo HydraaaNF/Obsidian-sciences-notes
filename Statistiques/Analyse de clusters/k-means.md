@@ -29,9 +29,3 @@ Sur un nuage de points en deux dimensions, chaque cluster est muni de son centre
 # Exemple
 
 Un premier exemple : des données en deux dimensions réparties en trois groupes compacts de points (losanges, cercles et carrés), chacun muni de son centre (croix) ; état de l'exécution à l'itération 6.
-
-# Remarque
-
-Les avantages et inconvénients du k-means sont détaillés dans [[Avantages et inconvénients du k-means]] ; ses propriétés et son algorithme dans [[Propriétés du k-means]] et [[Algorithme des k-moyennes de Lloyd]].
-
-Le centre de cluster joue le rôle du prototype dans les [[Méthodes à base d'exemplaires]].

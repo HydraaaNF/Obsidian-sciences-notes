@@ -16,7 +16,3 @@ Par rapport à [[DBSCAN]], le [[Clustering spectral|clustering spectral]] prése
 - **complexité computationnelle plus élevée** ;
 - **ne gère pas le bruit et les outliers** ;
 - **exige de spécifier le [[Choix du nombre de clusters|nombre de clusters]]**.
-
-# Remarque
-
-Voir aussi les avantages et inconvénients du [[Avantages et inconvénients du k-means|k-means]] et ceux de [[Avantages et inconvénients de DBSCAN|DBSCAN]].

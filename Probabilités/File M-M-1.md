@@ -147,6 +147,3 @@ Donc on a
 
 $$\mathbb{E}(N_q) = \frac{\rho^2}{1 - \rho}$$
 
-# Remarque
-
-La file $M/M/1$ est un cas particulier du [[Processus de naissance et de mort|processus de naissance et de mort]] (PNM). Voir la [[File M-M-infini]] pour le cas d'une infinité de serveurs.

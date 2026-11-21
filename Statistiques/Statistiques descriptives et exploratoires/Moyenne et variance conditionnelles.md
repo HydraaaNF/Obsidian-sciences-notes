@@ -17,7 +17,3 @@ La première relation s'énonce : *moyenne marginale = moyenne des moyennes cond
 La seconde s'énonce : *variance marginale = moyenne des variances conditionnelles + variance des moyennes conditionnelles*. La dispersion globale des observations de $X$ se décompose ainsi en deux contributions :
 - la **moyenne des variances conditionnelles** $\frac{1}{n} \sum_{j=1}^l n_{.j} V(x)_j$, dispersion des observations à l'intérieur de chaque distribution conditionnelle ;
 - la **variance des moyennes conditionnelles** $\frac{1}{n} \sum_{j=1}^l n_{.j} (\bar{x}_j - \bar{x})^2$, dispersion des moyennes conditionnelles autour de la moyenne globale.
-
-# Remarque
-
-La décomposition de la variance marginale suit le même principe que celle de la [[Moyenne et variance d'une population composite|variance d'une population composite]] en sous-populations : la variance totale y est également la somme de la moyenne des variances internes et de la variance des moyennes.

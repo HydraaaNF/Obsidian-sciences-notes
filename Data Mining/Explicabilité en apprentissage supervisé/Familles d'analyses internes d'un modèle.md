@@ -59,5 +59,3 @@ Le parcours va du bas niveau, proche des données, au haut niveau, plus abstrait
 La [[Taxonomie des techniques d'explicabilité]] range l'examen direct des réponses du modèle parmi les techniques d'inspection ; les familles décrites ici précisent ce que cet examen lit.
 
 La famille attributionnelle rejoint les [[Méthodes d'attribution par gradients]], et la famille conceptuelle les [[Explications par concepts et prototypes]]. La famille mécaniste suppose connue l'[[Architectures et représentations des réseaux|architecture en couches]] du réseau analysé.
-
-Une analyse seulement observationnelle ne suffit pas à conclure à une causalité : cette conclusion demande une intervention.

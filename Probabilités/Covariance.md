@@ -17,4 +17,3 @@ En particulier, si $X$ et $Y$ sont [[Indépendance de variables aléatoires|ind�
 # Remarque
 
 - Les variables dont la covariance est nulle sont dites [[Variables aléatoires non corrélées|non corrélées]].
-- Le [[Coefficient de corrélation linéaire]] s'obtient en normalisant la covariance par le produit des [[Variance|écarts-types]] de $X$ et de $Y$.

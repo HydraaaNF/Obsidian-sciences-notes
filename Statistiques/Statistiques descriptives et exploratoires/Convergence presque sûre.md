@@ -21,5 +21,3 @@ Ainsi, la convergence presque sûre est une propriété plus forte que la conver
 # Remarque
 
 La convergence presque sûre est souvent appelée « convergence forte », et la convergence en probabilité « convergence faible », notamment dans les énoncés des [[Loi forte des grands nombres|lois des grands nombres]].
-
-En pratique, vérifier directement la définition de la convergence presque sûre n'est pas aisé : on utilise plutôt la condition suffisante fournie par le [[Critère de Borel-Cantelli]].

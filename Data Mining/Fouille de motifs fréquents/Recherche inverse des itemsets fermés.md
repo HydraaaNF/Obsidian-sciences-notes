@@ -40,7 +40,3 @@ graph TD
 L'arbre n'est pas donné par la base : il résulte d'un **ordre d'exploration** imposé au graphe des fermés, choisi pour suivre la stratégie d'énumération et rester peu coûteux à vérifier. Le détail de cet ordre est traité dans [[Arbre des itemsets fermés et ordre d'exploration]].
 
 Les fils d'un nœud s'obtiennent en ajoutant un item puis en prenant la fermeture de l'itemset obtenu : c'est le mécanisme de [[Fermeture d'un itemset et extension par fermeture]] qui fournit la fonction de transition.
-
-L'[[Algorithme LCM]] est une instanciation complète de ce cadre : il énumère les itemsets fermés fréquents par une visite en profondeur de l'arbre couvrant, en calculant chaque fils par extension et fermeture.
-
-L'alternative aux méthodes à candidats, qui gardent tous les fermés trouvés en mémoire, est décrite dans [[Calcul efficace des itemsets fermés]].

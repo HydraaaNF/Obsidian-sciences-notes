@@ -21,7 +21,3 @@ Les assertions que l'on cherche typiquement à tester sont de nature variée :
 - un processus d'arrivée observé est poissonnien (ou non).
 
 Ces situations relèvent de familles de tests différentes, recensées dans [[Familles de tests statistiques]].
-
-# Remarque
-
-Chaque assertion testée se présente comme une alternative : elle est vraie, ou elle ne l'est pas. Formaliser ce couple de façon à ce qu'une seule des deux réponses soit retenue est l'objet de la note [[Hypothèse nulle et hypothèse alternative]], et la conduite complète du test est décrite dans la [[Méthodologie d'un test d'hypothèse|méthodologie d'un test d'hypothèse]].

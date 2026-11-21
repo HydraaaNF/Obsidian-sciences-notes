@@ -18,5 +18,3 @@ La distinction porte sur la nature des données plus que sur les techniques empl
 # Remarque
 
 Les deux contextes partagent la même définition de la [[Visualisation assistée par ordinateur|visualisation assistée par ordinateur]] et le même vocabulaire de données : les [[Types de jeux de données|types de jeux de données]] se rencontrent dans les deux, les champs continus et les positions dominant la visualisation scientifique, les tables et les réseaux la visualisation d'information.
-
-La [[Représentation visuelle des réseaux|représentation des réseaux]] et les arbres relèvent de la visualisation d'information, comme la recherche de motifs, de groupes, de vides et de valeurs aberrantes issue de la fouille de données.

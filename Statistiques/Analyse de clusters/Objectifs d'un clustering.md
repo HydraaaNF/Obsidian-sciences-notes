@@ -15,4 +15,4 @@ Ces objectifs sont illustrés par des schémas : trois groupes nettement éloign
 
 # Remarque
 
-L'objectif fondé sur la densité est celui que réalisent les méthodes du [[Clustering par densité]]. Voir aussi les [[Types de clustering]].
+L'objectif fondé sur la densité est celui que réalisent les méthodes du [[Clustering par densité]].

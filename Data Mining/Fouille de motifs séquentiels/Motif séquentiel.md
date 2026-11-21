@@ -21,6 +21,4 @@ Chaque composante $X_i$ du motif est un [[Items, itemsets et base de transaction
 
 Le motif n'est pas observé directement : il est comparé aux séquences de la base par inclusion, ce qui conduit à la notion de [[Support d'un motif séquentiel|support]] et à celle de motif fréquent.
 
-Un motif peut être allongé d'un item ou d'un itemset, selon les modalités décrites dans [[Extensions d'une séquence]].
-
 Un motif séquentiel est le cas particulier ordonné de l'[[Épisode|épisode]] : l'épisode autorise un ordre partiel entre ses événements, alors que le motif impose un ordre total entre ses itemsets.

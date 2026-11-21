@@ -45,5 +45,3 @@ L'appel récursif étend ainsi le motif un item à la fois. Chaque niveau de ré
 # Remarque
 
 Le parcours récursif des bases conditionnelles est le mécanisme qui remplace la génération de candidats de l'[[Algorithme Apriori]] : le comptage se fait une fois pour toutes sur les chemins de l'arbre au lieu d'être refait sur la base pour chaque candidat, ce qui vaut à l'approche de la [[Principe de la croissance de motifs FP-growth|croissance de motifs]] son gain d'un ordre de grandeur en temps de calcul. Ce gain se lit sur les courbes des [[Temps d'exécution comparés des algorithmes]].
-
-Le déroulé de l'algorithme sur un arbre concret, avec la base conditionnelle et l'arbre conditionnel de l'item le moins fréquent, puis les extensions successives qui en découlent, est donné dans l'[[Exemple déroulé de FP-growth]].

@@ -44,5 +44,3 @@ Le choix de l'encodage dépend du type de données : les séries temporelles pas
 Le jeu de données est de type spatio-temporel, avec des attributs catégoriels, quantitatifs et des liens origine-destination : voir [[Types de jeux de données]].
 
 Les panneaux sont liés entre eux, ce qui permet de sélectionner une zone sur la carte et de lire ses profils dans les autres vues : voir [[Vues multiples coordonnées]] et [[Exprimer toutes les données dans la vue]].
-
-Le choix des canaux pour chaque encodage suit le classement d'efficacité décrit dans [[Canaux visuels et efficacité d'encodage]].

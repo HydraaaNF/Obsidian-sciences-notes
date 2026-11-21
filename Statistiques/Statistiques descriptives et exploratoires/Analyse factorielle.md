@@ -11,7 +11,3 @@ où $f_1, \dots, f_k$ sont les $k$ variables latentes et les $l_{ij}$ leurs poid
 # Interprétation
 
 L'analyse factorielle est un cadre général englobant plusieurs méthodes de réduction de dimension, dont l'[[Analyse en composantes principales]] est un cas particulier (linéaire).
-
-# Remarque
-
-L'analyse factorielle s'applique lorsque les variables observées sont nombreuses ; pour d'autres approches de telles données, voir l'[[Analyse en composantes principales]] et la [[Projection et clustering|projection et le clustering]].

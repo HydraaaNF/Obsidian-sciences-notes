@@ -26,6 +26,3 @@ $\top_W$ est la **plus petite** [[Norme triangulaire]] et $\bot_W$ la **plus gra
 
 ### Démonstration
 Toute t-norme $\top$ vérifie $\top(x, 1) = x$, $\top(1, y) = y$ et $\top(x, y) \geq 0$. Elle est donc supérieure ou égale à $\top_W$ en tout point.
-
-# Remarque
-Les extrêmes sont donc : [[Norme et conorme de Zadeh]] pour la plus grande t-norme et la plus petite t-conorme, Weber pour la plus petite t-norme et la plus grande t-conorme.

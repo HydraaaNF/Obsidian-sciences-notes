@@ -76,5 +76,3 @@ Dans la table verticale, l'EID d'un item est celui de l'itemset qui le contient 
 Le filtre des 1-séquences et celui des $(k+1)$-séquences reposent sur la même [[Anti-monotonie du support des motifs séquentiels|propriété d'anti-monotonie du support]] que dans l'[[Algorithme GSP]] : une séquence non fréquente interdit toutes ses sur-séquences, ce qui permet d'élaguer une branche sans compter les candidats qu'elle contient.
 
 La décomposition en classes de séquences est ce qui donne son nom à l'algorithme : les séquences sont rangées dans des classes d'équivalence, comme les itemsets le sont dans le [[Classes d'équivalence des itemsets|treillis des itemsets]], et la fouille progresse classe par classe plutôt que sur le treillis entier.
-
-SPADE est ainsi l'équivalent vertical de GSP : même parcours par niveaux de longueur, même élagage par anti-monotonie, mais des listes d'occurrences indexées par (SID, EID) à la place des balayages de séquences. Il hérite par là des limites propres à l'engendrement de candidats, décrites dans [[Limites des approches générer et élaguer]].

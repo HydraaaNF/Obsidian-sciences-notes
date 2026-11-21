@@ -131,6 +131,4 @@ Autour de l'instance à expliquer, les couches de coalitions se lisent ainsi : l
 
 La valeur de Shapley est une moyenne pondérée des contributions marginales, pas leur moyenne arithmétique : sur trois variables, la coalition vide et la coalition des deux autres variables pèsent chacune $1/3$, contre $1/6$ pour les coalitions d'une seule variable. Prendre la moyenne arithmétique des quatre contributions, soit $0{,}5$ ici, donne un nombre différent de $2/3$ : les coalitions de tailles différentes ne comptent pas pour le même nombre d'ordres d'arrivée. Le calcul pondéré est détaillé dans [[Valeur de Shapley]].
 
-Pour une autre méthode d'explication locale, voir [[LIME]] ; pour l'agrégation des contributions en une vue globale, voir [[Importance des variables par agrégation]].
-
 L'approche contrefactuelle atteint le même but par une modification d'entrée plutôt que par une attribution, voir l'[[Explication contrefactuelle]] ; les attributions obtenues par rétropropagation du gradient en sont une autre voie, voir les [[Méthodes d'attribution par gradients]].

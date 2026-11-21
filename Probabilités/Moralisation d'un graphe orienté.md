@@ -67,8 +67,6 @@ L'opération modifie la topologie du graphe : des arêtes absentes du graphe ori
 
 # Remarque
 
-La forme obtenue est celle d'un [[Graphe de facteurs|graphe de facteurs]], avec un facteur par famille du graphe orienté de départ.
-
 Le point de départ est un [[Réseau bayésien|réseau bayésien]] ; le point d'arrivée un graphe non dirigé, dont la factorisation se fait en potentiels de clique.
 
 Comme le graphe en chaîne le montre, le mariage est l'opération réellement nouvelle : sans parents multiples, la moralisation n'est qu'un effacement des orientations.

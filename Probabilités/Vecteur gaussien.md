@@ -12,7 +12,7 @@ où $\mu$ est le [[Vecteur moyen|vecteur moyen]] et $\Sigma$ la [[Matrice de cov
 
 # Interprétation géométrique
 
-Les courbes d'isodensité d'un vecteur gaussien sont des hyper-ellipsoïdes : voir [[Ellipsoïdes d'isodensité]]. Les vecteurs propres de $\Sigma$ définissent les axes principaux (orientation de la densité) et ses valeurs propres la dispersion le long de ces axes. Si $\Sigma$ est diagonale, les composantes sont [[Indépendance des coordonnées d'un vecteur gaussien|indépendantes]].
+Les vecteurs propres de $\Sigma$ définissent les axes principaux (orientation de la densité) et ses valeurs propres la dispersion le long de ces axes. Si $\Sigma$ est diagonale, les composantes sont [[Indépendance des coordonnées d'un vecteur gaussien|indépendantes]].
 
 # Propriétés
 

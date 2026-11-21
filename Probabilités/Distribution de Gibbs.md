@@ -48,12 +48,6 @@ $$\frac{\exp\left(-U(x) - k\right)}{\sum_{x' \in \Omega} \exp\left(-U(x') - k\ri
 
 # Remarque
 
-Le potentiel d'une clique s'écrit de façon équivalente comme l'exponentielle de son énergie :
-
-$$\psi_c(x_c) = \exp\left(-U_c(x_c)\right)$$
-
-où $x_c$ désigne les coordonnées de $x$ sur la clique $c$. L'écriture $\exp\left(-\sum_c U_c(x)\right)$ de la loi, celle en produit de potentiels $\prod_c \psi_c(x_c)$ et celle en facteurs $f_i$ du [[Graphe de facteurs]] désignent le même objet : seule change la notation. Le passage de la somme des énergies au produit des potentiels utilise l'identité $\exp(a+b) = \exp(a)\exp(b)$.
-
 La distribution de Gibbs est la loi associée à un [[Champ aléatoire de Markov]] : les deux descriptions coïncident, toute loi strictement positive vérifiant la propriété de Markov relativement à $V$ étant une distribution de Gibbs dont les potentiels sont indexés par les cliques de $V$, et réciproquement.
 
 La forme obtenue, une exponentielle d'une somme de termes locaux divisée par une constante de normalisation, est celle d'une [[Forme exponentielle d'une distribution de maximum d'entropie|distribution de maximum d'entropie]] et d'un [[Modèle log-linéaire conditionnel]] : ces deux familles de lois sont des cas particuliers de distributions de Gibbs, dont l'énergie est une combinaison linéaire de fonctions de traits.

@@ -17,6 +17,3 @@ Cela revient à intersecter $E$ avec le [[Complément d'un ensemble flou|complé
 Sur le même univers $X = \{a, b, c, d, e\}$, avec les mêmes $E$ et $F$ que dans [[Intersection d'ensembles flous]] :
 - avec $\min$ : $E \setminus F = \{0{,}7/a,\; 0{,}3/b,\; 0{,}2/e\}$ ;
 - avec Łukasiewicz : $E \setminus F = \{0{,}7/a,\; 0{,}3/b\}$.
-
-# Remarque
-Version pour les relations floues : [[Différence de relations floues]].

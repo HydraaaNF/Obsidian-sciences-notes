@@ -21,6 +21,4 @@ Le bilan porte sur trois réalisations concrètes, une par type de données trai
 - les séquences avec SQS, dont la [[Table de codes pour séquences d'événements|table de codes]] ajoute le codage des trous entre positions couvertes ;
 - les graphes avec [[Compression d'un graphe par un ensemble de motifs|GraphMDL]] et sa [[Version progressive de GraphMDL|variante progressive]].
 
-Les trois reposent sur le même arbitrage : un modèle court dont l'encodage des données est également court, mesuré par la [[Taille totale d'un modèle et des données encodées|taille totale]] de la description. Les objets produits ne servent pas qu'à compresser : voir [[Applications des tables de codes]].
-
-La portée du critère se résume par la suite de questions à poser pour concevoir une nouvelle approche : voir [[Trois questions de conception d'une approche par compression]].
+Les trois reposent sur le même arbitrage : un modèle court dont l'encodage des données est également court, mesuré par la [[Taille totale d'un modèle et des données encodées|taille totale]] de la description.

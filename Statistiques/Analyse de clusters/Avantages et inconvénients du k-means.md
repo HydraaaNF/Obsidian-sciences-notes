@@ -29,7 +29,3 @@ Deux jeux de données en deux dimensions, avec les clusters obtenus et leurs cen
 
 - un groupe de points très étalé voisine avec deux groupes compacts : la partition en trois clusters scinde le groupe étalé en deux et réunit les deux groupes compacts en un seul ;
 - une structure en spirale, dont deux bras s'enroulent l'un autour de l'autre : la partition en deux clusters coupe les deux bras au lieu de les séparer.
-
-# Remarque
-
-Voir aussi les avantages et inconvénients du [[Avantages et inconvénients du clustering hiérarchique|clustering hiérarchique]] et ceux de [[Avantages et inconvénients de DBSCAN|DBSCAN]].

@@ -26,5 +26,3 @@ L'[[Interactivité de la visualisation|interactivité]] joue ici le rôle de dim
 # Remarque
 
 Le même graphique est décrit ailleurs comme portant trois attributs qualitatifs, alors que ses axes portent deux variables quantitatives, l'espérance de vie et le revenu par habitant, et que la couleur ne fait que répartir les pays en groupes de teintes : les deux descriptions coexistent.
-
-Il sert aussi d'exemple d'[[Exprimer toutes les données dans la vue|express]] : toutes les valeurs du jeu sont exposées dans la vue, sans agrégation.

@@ -20,7 +20,3 @@ Les données réelles présentent souvent une structure temporelle (des mesures 
 # Remarque
 
 Une relation temporelle est une forme de relation spatiale.
-
-Voir [[Espaces d'états et d'indices d'un processus]] pour l'ensemble d'indices et l'espace d'états, [[Fonctions de répartition d'un processus stochastique]] pour les fonctions de répartition, et [[Processus indépendant et stationnaire]] pour l'indépendance et la stationnarité.
-
-Le bruit qui s'ajoute à un signal se modélise par une famille de variables aléatoires indexées par le temps : voir [[Modélisation du bruit]].

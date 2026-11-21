@@ -43,7 +43,3 @@ flowchart LR
 ```
 
 Chaque neurone de la couche d'entrée est relié à chacun des deux neurones de la couche cachée, et chacun de ces deux neurones à chacun des quatre neurones de la couche de sortie.
-
-# Remarque
-
-Pour une autre approche de réduction de dimension, voir l'[[Analyse factorielle]].

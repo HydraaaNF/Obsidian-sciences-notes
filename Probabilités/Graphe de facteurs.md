@@ -59,10 +59,6 @@ $$\psi_c(x_c) = \exp\big(-U_c(x_c)\big)$$
 
 Les notations $\psi_c$, $\exp(-U_c)$ et $f_i$ désignent donc un seul et même objet, le facteur, dont seule change l'écriture.
 
-Un graphe de facteurs généralise ainsi la factorisation du [[Réseau bayésien]] et celle de la [[Distribution de Gibbs]], qui n'en sont que deux écritures particulières.
-
-La ligne conditionnelle du bestiaire des modèles, celle des champs aléatoires conditionnels, se décrit aussi par des graphes de facteurs ; la comparaison avec les modèles génératifs est l'objet de [[Modèles génératifs et modèles conditionnels]].
-
 Le passage d'un graphe dirigé à un graphe non dirigé ne se réduit pas à effacer les flèches : il faut d'abord marier les parents de chaque nœud, ce qui ajoute des arêtes entre eux. C'est l'objet de la [[Moralisation d'un graphe orienté]].
 
 Sur une chaîne, un tel graphe porte les scores de traits locaux d'un [[Champ aléatoire conditionnel à chaîne linéaire]], et ses facteurs y sont évalués position par position.

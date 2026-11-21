@@ -15,5 +15,3 @@ Un bon clustering présente une similarité intra-classe faible et une similarit
 # Remarque
 
 Le clustering forme, avec la [[Projection et clustering|projection]], l'une des deux approches d'analyse des données en grande dimension. Les [[Stratégies de clustering|stratégies de clustering]] en décrivent la mise en œuvre, les [[Objectifs d'un clustering|objectifs d'un clustering]] précisent la forme des classes recherchées et les [[Applications du clustering|applications du clustering]] en illustrent les usages.
-
-En apprentissage automatique, le clustering est le cas type de l'[[Apprentissage non supervisé]], où les classes sont déduites des seules données, sans étiquette fournie.

@@ -41,5 +41,3 @@ C'est ce qui se passe lorsque aucun calcul n'est nécessaire, le résultat $\ome
 La condition de mesurabilité n'est pas un obstacle en pratique. En effet, comme on ne définit pas explicitement $\Omega$ et $\mathcal{F}$, on doit supposer que $\mathcal{F}$ est assez grosse pour contenir tous les ensembles $[X \in B]$ (quel que soit le borélien $B$), de sorte que l'application $X$ (définie via le résultat d'une expérience aléatoire quelconque) est considérée mesurable.
 
 La tribu $\mathcal{P}(\mathbb{R})$ de toutes les parties de $\mathbb{R}$ est trop grosse pour être munie de mesures de probabilité « intéressantes » : c'est ce qui justifie de choisir la tribu des boréliens $\mathcal{B}(\mathbb{R})$.
-
-La [[Fonction de répartition]] d'une variable aléatoire réelle, définie par $F_X(t) = \mathbb{P}(X \leq t)$, caractérise sa loi.

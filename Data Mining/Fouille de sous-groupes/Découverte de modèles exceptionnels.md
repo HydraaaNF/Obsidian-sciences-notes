@@ -33,5 +33,3 @@ Le modèle exceptionnel est celui de ce dernier bloc : il est jugé sur son éca
 La référence de la comparaison est au choix le complément du sous-groupe ou l'ensemble des données : le caractère exceptionnel s'entend toujours relativement à l'un des deux.
 
 Le modèle comparé ne porte pas sur un attribut cible isolé comme dans la [[Tâche de découverte de sous-groupes]] usuelle, mais sur l'ensemble des [[Attributs de description et attributs cibles|attributs cibles]].
-
-Le choix de ce que l'on appelle un modèle, et la façon de mesurer l'écart qui rend un modèle exceptionnel, sont précisés dans [[Classe de modèle et modèle exceptionnel]].

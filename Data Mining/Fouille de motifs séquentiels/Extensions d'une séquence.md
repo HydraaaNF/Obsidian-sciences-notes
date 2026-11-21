@@ -43,5 +43,3 @@ La table de I-extension ne remplit que le triangle strictement supérieur de la 
 Les deux extensions ajoutent exactement un item, ce qui range les séquences engendrées au niveau de longueur suivant : c'est ce qui organise l'[[Espace de recherche des motifs séquentiels|espace de recherche]] en arbre, chaque séquence ayant pour racine $\{\}$ et pour parent la séquence dont elle est une extension.
 
 Un item peut se répéter dans une séquence : la case $\langle(a)(a)\rangle$ montre une S-extension par un item déjà présent, ce qui distingue radicalement l'espace séquentiel du [[Treillis des itemsets|treillis des itemsets]], où chaque item n'apparaît qu'une fois.
-
-L'[[Algorithme GSP]] construit ses candidats de longueur $k+1$ en étendant par S-extension et I-extension les [[Motif séquentiel|motifs séquentiels]] fréquents de longueur $k$, puis les élague par [[Anti-monotonie du support des motifs séquentiels|anti-monotonie du support]] ; le déroulé de cet engendrement est décrit dans [[Génération et évaluation des candidats de GSP]].

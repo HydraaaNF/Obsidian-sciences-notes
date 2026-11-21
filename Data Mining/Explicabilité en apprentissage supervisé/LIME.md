@@ -65,5 +65,3 @@ La régression localement pondérée ajustée sur ces instances fournit l'explic
 - La [[Représentation interprétable]] conditionne la lecture du résultat : des éléments que l'utilisateur ne comprend pas rendent l'explication inutilisable.
 - D'autres méthodes d'attribution de variables existent, fondées sur les gradients ou sur la théorie des jeux, cette dernière menant à la [[Valeur de Shapley]] et à [[SHAP]].
 - La fidélité du substitut s'évalue avec les [[Critères et métriques d'évaluation d'une explication]].
-- La méthode s'oppose aux attributions obtenues par rétropropagation, voir les [[Méthodes d'attribution par gradients]].
-- Une règle délimitant une région de l'instance est une autre forme locale, voir les [[Règles locales d'explication]].

@@ -9,6 +9,3 @@ La [[Conorme triangulaire]] sous-jacente est $\bot(u, v) = u + v - uv$ (voir [[N
 
 # Propriétés
 Dans l'[[Inclusion graduelle par une implication floue]], $\deg(E \subset F) = 1 \iff \operatorname{supp}(E) \subset \operatorname{noyau}(F)$.
-
-# Remarque
-Cas particulier d'[[Implication de type S]]. Voir aussi [[Comparaison des implications floues]].

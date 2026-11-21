@@ -16,6 +16,3 @@ $$
 - Si $\mu_{\text{jeune}}(\text{Pierre}) = 0{,}8$, alors $\mu_{\text{non jeune}}(\text{Pierre}) = 0{,}2$.
 - Avec $E = \{1/a,\; 0{,}7/c,\; 0{,}2/e,\; 0{,}3/f,\; 0{,}6/h,\; 0{,}7/j,\; 0{,}9/k\}$ sur $X = \{a, b, \ldots, k\}$ : $\bar{E} = \{1/b,\; 0{,}3/c,\; 1/d,\; 0{,}8/e,\; 0{,}7/f,\; 1/g,\; 0{,}4/h,\; 1/i,\; 0{,}3/j,\; 0{,}1/k\}$.
 - Sur l'univers $X = \{a, b, c, d, e\}$, avec $E = \{1/a,\; 0{,}3/b,\; 0{,}7/c,\; 0{,}2/e\}$ : $\bar{E} = \{0{,}7/b,\; 0{,}3/c,\; 1/d,\; 0{,}8/e\}$.
-
-# Remarque
-Le complément intervient dans la [[Dualité entre norme et conorme triangulaires]], dans la [[Différence d'ensembles flous]] et dans l'[[Implication de type S]].

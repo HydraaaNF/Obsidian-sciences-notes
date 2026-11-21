@@ -34,8 +34,6 @@ Lecture de la base :
 
 # Remarque
 
-La base écrite ci-dessus, avec une ligne par transaction et une colonne par item, est dite en **format horizontal** : c'est la forme sous laquelle la base est lue par l'algorithme [[Algorithme Apriori|Apriori]], pour lequel chaque transaction est parcourue afin d'y reconnaître les itemsets candidats. Le [[Format vertical des transactions|format vertical]] réorganise la même information en associant à chaque itemset la liste de ses indices de transaction, ce qui rend l'indice de transaction $tid$ central.
-
 Les itemsets sont les objets de base sur lesquels se définissent le [[Support d'un itemset|support]] et la notion d'[[Itemset fréquent|itemset fréquent]] ; ce sont eux qui servent ensuite de briques aux [[Règle d'association et confiance|règles d'association]], une règle $X \to Y$ portant sur deux itemsets disjoints.
 
 La transaction binaire décrite ici est l'entrée du réseau qui apprend un ensemble de motifs : voir [[Encodage d'une transaction en motifs]].

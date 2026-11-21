@@ -11,7 +11,3 @@ $$\cancel{x_1 \leq x_2} \leq \underbrace{x_3 \leq \cdots \leq x_{20} \leq x_{21}
 # Interprétation
 
 Moins sensible aux valeurs aberrantes que la [[Moyenne empirique]] classique, la moyenne tronquée reste plus proche de la moyenne que la [[Médiane empirique]].
-
-# Remarque
-
-Comme la [[Moyenne, médiane et mode|moyenne, la médiane et le mode]], la moyenne tronquée fait partie des caractéristiques centrales d'une variable.

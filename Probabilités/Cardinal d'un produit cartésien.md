@@ -44,7 +44,6 @@ $$\mathbb{P}(A) = \frac{n^{2p}}{(2n)^{2p}} = \frac{1}{2^{2p}}$$
 
 # Remarque
 
-- Dans l'écriture de la partie $A$, l'indice $i$ parcourt $\{1, \dots, p\}$ pour les termes d'indice impair comme pour les termes d'indice pair : les suites considérées ont $2p$ éléments, de sorte qu'il n'existe pas de terme $x_{2i}$ pour $i > p$. L'écriture $\forall i \in \{1, \dots, n\}$ pour la seconde famille d'indices est une erreur fréquente.
 - Les nombres impairs de $\{1, \dots, 2n\}$ sont $1, 3, \dots, 2n-1$, c'est-à-dire les entiers de la forme $2k-1$ pour $k \in \{1, \dots, n\}$. L'énumération $1, 2, \dots, 2n-1$ désigne au contraire des entiers consécutifs, dont un seul sur deux est impair : la confondre avec la liste des nombres impairs est une erreur fréquente.
 - Le cas particulier $\operatorname{card}(B^n) = m^n$ est le point de départ du comptage du [[Nombre d'applications entre ensembles finis]] : une suite ordonnée $(a_1, \dots, a_n)$ d'éléments de $B$ s'identifie à une application de $\{1, \dots, n\}$ dans $B$.
 - Le dénombrement des suites ordonnées **sans répétition** relève des [[Arrangement|arrangements]] et non du produit cartésien : dans un arrangement, les éléments de la suite sont tous distincts.

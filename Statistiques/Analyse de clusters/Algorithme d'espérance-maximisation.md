@@ -36,5 +36,3 @@ $$\gamma_j^{(n)}(i) = \mathbb{P}[Z_i = j \mid x_i ; \theta_n].$$
 # Remarque
 
 Le principe s'applique à de nombreux problèmes, pas seulement à l'[[Méthode du maximum de vraisemblance|estimation par maximum de vraisemblance]] des paramètres.
-
-Les propriétés de l'algorithme et sa convergence sont détaillées dans [[Propriétés et convergence de l'algorithme d'espérance-maximisation]] ; son application aux [[Mélange gaussien|mélanges gaussiens]] est traitée dans [[Espérance-maximisation pour un mélange de gaussiennes]].

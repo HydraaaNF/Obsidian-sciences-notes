@@ -63,5 +63,3 @@ Le motif qui conjoint le sexe masculin, le statut social célibataire et le reve
 Cet arbre est le pendant du [[Treillis des itemsets]] pour les sous-groupes : le treillis range les itemsets par inclusion et ajoute un item à chaque montée, alors que l'arbre range les conjonctions de sélecteurs par raffinement et ajoute un sélecteur à chaque descente. Le treillis contient chaque itemset une seule fois, tandis que l'arbre atteint un même motif par plusieurs ordres d'ajout, ce qui rend l'élagage des doublons nécessaire.
 
 L'élagage ne se réduit pas à ces doublons : dans le parcours exhaustif, une branche entière est abandonnée dès que l'[[Estimation optimiste d'une fonction de qualité|estimation optimiste]] de la qualité de son nœud passe sous la qualité du plus mauvais motif du top-k courant. L'[[Élagage top-k]] expose ce second mécanisme, que la figure ne montre pas.
-
-Le parcours en profondeur de cet espace et l'emploi de structures de données compactes pour y compter les individus sont décrits dans [[Recherche des sous-groupes]].

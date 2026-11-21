@@ -44,5 +44,4 @@ Les valeurs du tableau sont approchées.
 
 # Remarque
 
-- La fonction de répartition détermine entièrement la [[Loi d'une variable aléatoire|loi]] de la variable : deux variables aléatoires ont même loi si et seulement si elles ont même fonction de répartition. Voir [[Caractérisation de la loi par la fonction de répartition]].
 - L'écriture $f(x) = \lim_{\delta \to 0^+} \mathbb{P}(x < X < x + \delta)$ est une erreur fréquente : elle omet la division par $\delta$. La probabilité $\mathbb{P}(x < X < x + \delta)$ tend vers $0$ avec $\delta$ ; c'est son taux d'accroissement, $\frac{\mathbb{P}(x < X < x + \delta)}{\delta}$, qui converge vers la densité $f(x) = F'(x)$.

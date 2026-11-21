@@ -51,6 +51,6 @@ series:
     data: [0.006, 0.033, 0.083, 0.139, 0.176, 0.175, 0.145, 0.103, 0.064, 0.035, 0.018, 0.007]
 ```
 
-valeurs relevées sur la figure, approximatives. Pour la construction détaillée (tableaux d'effectifs, de fréquences et diagrammes associés), voir [[Représentations graphiques d'un caractère quantitatif discret]].
+valeurs relevées sur la figure, approximatives.
 
 Lorsque les modalités sont nombreuses, les trier par effectif décroissant met en évidence les plus fréquentes : c'est le principe du [[Diagramme de Pareto]].

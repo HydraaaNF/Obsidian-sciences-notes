@@ -55,8 +55,6 @@ $$\text{WRAcc} = 5/16 \times (4/5 - 4/16) = 0.17$$
 
 # Remarque
 
-L'exactitude relative pondérée est une [[Fonction de qualité d'un sous-groupe]] particulière, définie pour une cible binaire.
-
 La [[Fonction de qualité pour cible numérique]] en reprend la structure : les pourcentages de présence de la cible y sont remplacés par la moyenne de la valeur cible.
 
 Le premier sous-groupe de l'exemple illustre le cas défavorable : il ne contient aucune cible ($a = 0$), donc $t_P = 0$ et l'écart $t_P - t_{all}$ est négatif ; sa faible couverture ($2/16$) en atténue l'amplitude, d'où une valeur négative proche de zéro.

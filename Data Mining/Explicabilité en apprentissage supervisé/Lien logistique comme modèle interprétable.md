@@ -64,4 +64,3 @@ La règle de décision est binaire : le passager est prédit mort si $y_i \geq 0
 - La sigmoïde se lit comme un [[Fonction softmax|softmax]] à deux scores dont l'un est fixé à $0$.
 - La dérivée de la sigmoïde revient dans la perte du modèle, voir l'[[Entropie croisée binaire]].
 - Le cas à deux classes s'étend à un score par classe dans la [[Régression logistique multinomiale]].
-- Le modèle complet, ses propriétés et sa dérivation se lisent dans la [[Régression logistique]].

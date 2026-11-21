@@ -24,6 +24,3 @@ $\pi_{\text{nom}}(\text{BienPayé})$ :
 | Durand | 0,6 |
 
 Les deux n-uplets Dupont sont fusionnés, avec le maximum de leurs degrés.
-
-# Remarque
-Opérateur relationnel de l'[[Algèbre relationnelle floue]].

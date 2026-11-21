@@ -75,5 +75,3 @@ Les documents sont mieux représentés dans le sous-espace des concepts obtenu p
 # Remarque
 
 L'ACP ignore l'information de classe des échantillons : l'appartenance d'un échantillon à une classe n'intervient pas dans la recherche des composantes. Deux classes de points se projettent ainsi avec recouvrement sur l'axe de l'ACP, alors que l'axe de l'[[Analyse discriminante linéaire]], qui exploite cette information, les sépare.
-
-L'ACP projette les représentations latentes décrites dans les [[Architectures et représentations des réseaux]].

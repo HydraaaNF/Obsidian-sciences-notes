@@ -29,7 +29,3 @@ D'où le besoin d'une mesure de qualité.
 # Propriétés
 
 Étant donné deux estimateurs non biaisés, le meilleur est celui de variance la plus petite.
-
-# Remarque
-
-Pour la démonstration de cette décomposition et un exemple, voir [[Erreur quadratique moyenne]].

@@ -43,5 +43,3 @@ Le temps d'attente moyen pour joindre l'accueil est donc de 10 secondes.
 # Remarque
 
 Plus généralement, ce procédé de calcul de l'espérance d'une variable aléatoire « mixte » est possible dès lors que la variable aléatoire considérée possède « une partie continue » et « une partie discrète » : on est alors ramené à deux calculs d'espérances conditionnelles, l'un correspondant à une loi discrète (donc se faisant via une somme), l'autre correspondant à une loi continue (se faisant via une intégrale).
-
-Des exemples de calcul d'espérance dans le cas discret sont traités dans [[Espérance d'une variable aléatoire]].

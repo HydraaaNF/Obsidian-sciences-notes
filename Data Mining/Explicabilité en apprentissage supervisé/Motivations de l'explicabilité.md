@@ -32,6 +32,4 @@ L'explication révèle un indice trompeur : le classifieur s'appuie sur la neige
 
 Les lignes directrices pour une IA digne de confiance rattachent l'explication à la production de la confiance.
 
-Les textes invoqués au titre des raisons légales et éthiques, et la mention de l'AI Act européen comme texte à venir, sont portés par [[Cadre légal et éthique de l'explicabilité]].
-
 Les défaillances qui rendent ces motivations concrètes, du classement biaisé à la décision administrative automatisée, sont rassemblées dans [[Affaires révélant les risques des modèles opaques]].

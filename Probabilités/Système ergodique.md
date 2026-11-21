@@ -27,4 +27,3 @@ où $A(t)$ est le nombre d'arrivées de clients dans l'intervalle de temps $]0, 
 # Remarque
 
 - L'ergodicité est l'hypothèse sous laquelle s'applique la [[Formule de Little]].
-- Voir [[Chaîne de Markov à temps continu]] pour l'étude du régime stationnaire des files markoviennes.

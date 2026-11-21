@@ -17,7 +17,3 @@ series:
 ```
 
 Valeurs relevées sur la figure, approximatives. La décroissance est forte entre la première dimension (41,2 %) et la deuxième (18,4 %), puis s'atténue progressivement jusqu'à la dixième dimension (1,2 %).
-
-# Remarque
-
-L'éboulis des valeurs propres s'utilise dans le cadre de l'[[Analyse en composantes principales]] ; les mesures d'évaluation de la qualité de la représentation obtenue sont regroupées dans la [[Qualité d'une analyse en composantes principales]].

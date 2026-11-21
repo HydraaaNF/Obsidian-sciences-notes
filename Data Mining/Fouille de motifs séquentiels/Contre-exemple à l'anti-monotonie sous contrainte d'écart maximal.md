@@ -34,5 +34,3 @@ Le motif court n'est pas fréquent ($40\,\% < 50\,\%$) alors que son sur-motif l
 Le contre-exemple tient à la contrainte d'écart maximal elle-même, et non à la base de séquences : si $maxgap$ est infini, la séquence 40 supporte aussi $\langle(b)(e)\rangle$, dont le support remonte à $60\,\%$ et redevient au moins égal à celui du motif long.
 
 Dès qu'une borne supérieure d'écart est imposée, l'élagage d'un candidat ne peut plus porter que sur ses sous-séquences contiguës de taille immédiatement inférieure : un candidat $k$-séquence est écarté si l'une de ses sous-séquences contiguës de taille $k-1$ n'est pas fréquente. L'infréquence d'un motif court ne garantit donc plus celle de toutes ses extensions : l'inférence ne vaut plus que lorsque ce motif est une sous-séquence contiguë de l'extension. C'est la difficulté que doit traiter un algorithme dédié comme [[Algorithme Gap-BIDE]].
-
-La propriété écartée ici est l'analogue, pour les séquences, de la [[Propriété d'anti-monotonie du support]] des itemsets ; sa remise en cause relève des [[Contraintes temporelles en fouille de motifs séquentiels]].

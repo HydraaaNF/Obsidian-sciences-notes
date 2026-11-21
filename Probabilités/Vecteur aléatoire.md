@@ -41,7 +41,3 @@ Un tel vecteur aléatoire est dit *continu*.
 $$(X, Y)(\Omega) = \mathbb{R}^+ \times \mathbb{R}^+$$
 
 5. Un signal est filtré, émis, transmis sur une ligne, reçu et filtré. À chaque étape de ce processus se rajoute en pratique un *bruit* aléatoire. On peut par exemple être amené à considérer conjointement le couple de v.a.r. constitué du bruit d'émission et du bruit de transmission.
-
-# Remarque
-
-Pour la loi de probabilité d'un vecteur aléatoire, voir [[Loi d'un vecteur aléatoire]] ; pour l'étude des vecteurs aléatoires gaussiens, voir [[Vecteur gaussien]].

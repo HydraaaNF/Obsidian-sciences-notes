@@ -11,5 +11,3 @@ Le bruit qui s'ajoute à un signal, même lorsqu'il est discret, est un réel, d
 # Remarque
 
 Lorsque plusieurs bruits s'ajoutent au signal déterministe (par exemple un bruit d'émission, un bruit de transmission et un bruit de traitement à la réception), il faut savoir déterminer la [[Loi d'une variable aléatoire|loi]] de la somme des variables aléatoires représentant ces bruits. C'est assez facile lorsque les bruits sont [[Indépendance de variables aléatoires|indépendants]], mais peut être très difficile dans le cas contraire. Le sujet est également important pour certaines applications relevant de l'informatique, par exemple les questions de reconnaissance ou de synthèse de la parole.
-
-Dans de nombreuses applications, le bruit additif est modélisé par une [[Loi gaussienne|variable aléatoire gaussienne]]. Voir [[Fonction caractéristique d'un vecteur aléatoire]] pour l'étude de la loi d'une somme de variables aléatoires indépendantes.

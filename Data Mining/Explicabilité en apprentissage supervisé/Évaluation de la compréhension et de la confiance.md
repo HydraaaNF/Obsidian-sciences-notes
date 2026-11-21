@@ -50,5 +50,3 @@ La confiance recouvre trois phénomènes distincts : la confiance, la défiance 
 L'excès de confiance correspond au biais d'automatisation : la tendance à s'appuyer automatiquement sur la sortie d'un système d'intelligence artificielle à haut risque, voire à s'y fier excessivement, en particulier lorsque ce système sert à fournir des informations ou des recommandations pour une décision prise par une personne.
 
 Un score élevé au questionnaire ne suffit donc pas à conclure à une bonne explication : la compréhension se mesure à part, par une tâche proxy.
-
-Ce que ces mesures ne tranchent pas encore est recensé avec les [[Questions ouvertes de l'explicabilité]].

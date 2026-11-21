@@ -65,4 +65,4 @@ Le retrait des items de support inférieur à $s_{\min}$ est sans perte pour la 
 
 L'ordre décroissant des supports n'est qu'un ordre total parmi d'autres : ce qui compte est qu'il soit le même pour le tri des items dans les transactions et pour le tri lexicographique des transactions. Un ordre différent donne un arbre de forme différente, mais qui représente la même base et se lit avec les mêmes comptes.
 
-L'[[Algorithme FP-growth]] travaille ensuite sur cet arbre : la base y est déjà compactée, et les itemsets fréquents se cherchent par croissance de préfixes sur les branches, sans revenir aux transactions d'origine. Les étapes de construction détaillées et le rôle de la table d'en-tête sont décrits dans [[Construction d'un arbre FP]].
+L'[[Algorithme FP-growth]] travaille ensuite sur cet arbre : la base y est déjà compactée, et les itemsets fréquents se cherchent par croissance de préfixes sur les branches, sans revenir aux transactions d'origine.

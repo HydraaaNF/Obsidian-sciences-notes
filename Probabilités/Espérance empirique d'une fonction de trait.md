@@ -37,4 +37,3 @@ On veut alors que $\mathbb{E}[f_i(x, y)]$ soit égal à la proportion empirique 
 - L'espérance empirique est une donnée du problème, calculée une fois sur les couples d'entraînement ; c'est elle qui fournit le membre de droite $F_i$ des contraintes décrites dans [[Contraintes d'espérance sur les fonctions de traits]].
 - Dans le cadre conditionnel d'un [[Modèle log-linéaire conditionnel]], le trait dépend à la fois de $x$ et de $y$, et l'espérance empirique se compare à l'espérance conditionnelle du modèle pour chaque observation.
 - L'écart entre l'espérance empirique et l'espérance théorique est précisément ce qui pilote la mise à jour des paramètres lors de l'estimation par maximum de vraisemblance : voir [[Gradient de la vraisemblance conditionnelle]].
-- Un jeu complet de traits binaires et les contraintes qu'ils induisent sur une distribution sont détaillés dans [[Fonctions de traits d'un exemple de traduction]].

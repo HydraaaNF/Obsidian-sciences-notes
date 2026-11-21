@@ -17,7 +17,3 @@ et les différentes modalités de $Y$
 $$\beta_1, \dots, \beta_l.$$
 
 On peut alors établir un [[Tableau de contingence|tableau à double entrée]] des effectifs, où $n_{i,j}$ désigne le nombre d'individus ayant un caractère $X$ égal à $\alpha_i$ et un caractère $Y$ égal à $\beta_j$.
-
-# Remarque
-
-La représentation graphique d'une série statistique double se fait sous la forme d'un [[Nuage de points]].

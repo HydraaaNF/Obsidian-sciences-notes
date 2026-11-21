@@ -26,6 +26,3 @@ S-implications usuelles :
 | [[Implication de Kleene-Dienes\|Kleene-Dienes]] | $\max(1 - p,\; q)$ | $\max(u, v)$ |
 | [[Implication de Reichenbach\|Reichenbach]] | $1 - p + pq$ | $u + v - uv$ |
 | [[Implication de Łukasiewicz\|Łukasiewicz]] | $\min(1 - p + q,\; 1)$ | $\min(u + v,\; 1)$ |
-
-# Remarque
-Voir [[Comparaison des implications floues]]. Famille duale : [[Implication de type R]].

@@ -44,6 +44,4 @@ $$\begin{aligned}
 
 # Remarque
 
-Le théorème de transfert admet une version pour les vecteurs aléatoires : voir [[Théorème de transfert pour un vecteur aléatoire]].
-
 L'[[Espérance d'une variable aléatoire|espérance]] d'une variable aléatoire réelle correspond au cas particulier $g = \mathrm{Id}$ du théorème de transfert.

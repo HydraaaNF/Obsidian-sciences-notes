@@ -31,5 +31,4 @@ Pour $\mathbb{P}[B] \neq 0$, la probabilité que $A$ et $B$ se produisent simult
 
 # Remarque
 
-- La règle s'emploie avec un [[Système complet d'évènements]] pour obtenir la [[Formule des probabilités totales]].
 - Elle s'applique également le long des branches d'un [[Arbre de probabilité]].

@@ -44,5 +44,3 @@ Un rapport proche de $1$ signifie que $H_0$ explique les données presque aussi 
 Remplacer $L(\mathbf{x}; \theta_0)$ par $\sup_{\theta} L(\mathbf{x}; \theta)$ revient à utiliser l'[[Estimateur du maximum de vraisemblance|estimation du maximum de vraisemblance]] de $\theta$ : le dénominateur est la vraisemblance évaluée en cet estimateur, et le rapport mesure donc l'écart entre la vraisemblance sous $H_0$ et la vraisemblance maximale.
 
 La démarche est fréquentiste : elle compare des vraisemblances sous des hypothèses et fixe le seuil par le [[Risque de première espèce|risque de première espèce]], sans probabilité a priori sur les hypothèses. La [[Règle de décision de Bayes|règle de décision de Bayes]] suit la démarche inverse, en pondérant les vraisemblances par des probabilités a priori pour minimiser un risque moyen.
-
-Le test constitue l'une des grandes [[Familles de tests statistiques|familles de tests statistiques]], aux côtés des tests d'ajustement et des tests de comparaison de deux populations.

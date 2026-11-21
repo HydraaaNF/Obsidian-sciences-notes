@@ -77,5 +77,3 @@ Les deux familles relèvent des explications locales, calculées pour une instan
 # Remarque
 
 Le contrefactuel ne décrit pas le mécanisme interne du modèle : il énonce une modification d'entrée dont l'effet sur la sortie est constaté, sans prétendre que cette modification est la cause de la prédiction d'origine.
-
-La proximité et la plausibilité ne vont pas de pair : la modification la plus proche de l'instance d'origine peut tomber dans une zone où les données sont rares, donc peu crédible pour l'utilisateur, tandis qu'une instance plus éloignée mais typique est plus facile à accepter. Le choix du contrefactuel présenté arbitre ce compromis.

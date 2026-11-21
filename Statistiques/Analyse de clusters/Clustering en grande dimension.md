@@ -13,7 +13,3 @@ Plusieurs contournements permettent de traiter ces difficultés :
 - **transformation de variables** : [[Analyse en composantes principales|analyse en composantes principales]] (ACP) ou décomposition en valeurs singulières (SVD), lorsque les variables sont corrélées ou redondantes ;
 - **sélection de variables** : ne retenir que les variables où de beaux clusters apparaissent ;
 - **clustering par sous-espaces** (*subspace clustering*) : chercher des clusters dans tous les sous-espaces possibles (CLIQUE, Proclus).
-
-# Remarque
-
-La dimensionnalité des données est l'un des éléments à examiner pour le [[Choix d'une méthode de clustering|choix d'une méthode de clustering]].

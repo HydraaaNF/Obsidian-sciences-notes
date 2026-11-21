@@ -58,10 +58,6 @@ $$m_1 - a\,s_1$$
 
 où $m_1$ et $s_1$ sont la moyenne et l'écart-type de la population de haute énergie, et $a$ un coefficient.
 
-# Remarque
-
-La propriété d'additivité de la loi gaussienne ne s'applique que si les variables sont indépendantes.
-
 # Liens avec d'autres lois
 
 - La loi gaussienne est le cas particulier de dimension 1 du [[Vecteur gaussien|vecteur gaussien]].

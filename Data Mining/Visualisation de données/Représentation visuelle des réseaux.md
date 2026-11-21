@@ -27,5 +27,3 @@ Un même réseau de cooccurrences, coloré par groupes de nœuds, se lit indiff�
 # Remarque
 
 Le tracé en arcs radiaux groupés est un faisceau d'arêtes hiérarchique, et non un diagramme de cordes : le nommer diagramme de cordes est une confusion fréquente. Un diagramme de cordes représente des flux entre entités par des cordes dont l'épaisseur code le volume échangé, alors que le faisceau d'arêtes ne fait que relier des entités par leur appartenance à une même branche d'une hiérarchie.
-
-Voir aussi le [[Diagramme en ensembles parallèles]] pour les données de flux entre catégories.

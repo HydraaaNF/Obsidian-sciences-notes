@@ -43,5 +43,3 @@ retourner T
 L'[[Algorithme Apriori]] émonde le [[Treillis des itemsets|treillis des itemsets]] par la [[Propriété d'anti-monotonie du support|anti-monotonie du support]] : un itemset dont le support passe sous $minsup$ n'a aucun sur-ensemble fréquent, et sa descendance n'est jamais construite. L'élagage top-k applique le même principe à la qualité au lieu du support, avec une différence de seuil : Apriori compare à une fréquence minimale fixée à l'avance, l'élagage top-k compare à la qualité du pire motif du top-k courant, qui n'est connue qu'en cours de recherche.
 
 Le seuil $q_k$ dépend de ce qui a déjà été trouvé : tant que moins de $k$ motifs sont retenus, aucune branche ne peut être écartée par ce critère, et le seuil ne peut que croître au fil de la recherche, si bien que l'élagage se resserre à mesure que le top-k se remplit.
-
-Le classement produit est un classement par qualité seule, dont les défauts sont ceux du [[Limites du classement top-k|classement top-k]]. La place de ce principe parmi les stratégies d'exploration est décrite dans la [[Recherche des sous-groupes]].

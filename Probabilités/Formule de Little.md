@@ -12,6 +12,3 @@ $$\bar{N} = \mathbb{E}(N_\infty) = \bar{\lambda} \times \bar{R}$$
 
 La formule de Little est valable dans des conditions très générales puisqu'il suffit que le système soit [[Système ergodique|ergodique]] : le nombre moyen de clients dans le système en régime stationnaire est égal au produit du taux moyen d'arrivées par le temps moyen passé dans le système.
 
-# Remarque
-
-La [[File M-M-1]] en fournit une application : la formule y permet de déterminer le temps moyen passé dans le système en régime stationnaire.

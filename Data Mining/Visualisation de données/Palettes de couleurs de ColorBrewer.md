@@ -22,4 +22,4 @@ S'y ajoutent les réglages de contexte cartographique (routes, villes, frontièr
 
 # Remarque
 
-Une palette ne compense pas un mauvais choix de canal : elle règle la répartition des teintes, pas leur discriminabilité. Les composantes de la couleur et la sensibilité de l'œil à chacune sont décrites dans [[Encodage par la couleur]], et leur classement dans les [[Canaux visuels et efficacité d'encodage|canaux visuels]].
+Une palette ne compense pas un mauvais choix de canal : elle règle la répartition des teintes, pas leur discriminabilité.

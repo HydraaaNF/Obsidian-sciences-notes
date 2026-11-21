@@ -21,4 +21,4 @@ Exemples de fonctions d'erreur :
 
 Pour la perte quadratique $l(a, b) = (a - b)^2$, le risque généralisé coïncide avec l'[[Erreur quadratique moyenne]] : $R(T, \theta) = \mathbb{E}_{\theta}[(T(X) - \theta)^2]$.
 
-Malheureusement, minimiser directement le risque n'est possible que dans quelques cas très particuliers. Pour la comparaison de deux estimateurs, voir [[Comparaison d'estimateurs]].
+Malheureusement, minimiser directement le risque n'est possible que dans quelques cas très particuliers.

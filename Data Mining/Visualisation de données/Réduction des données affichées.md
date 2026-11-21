@@ -24,8 +24,4 @@ Les trois opérations réduisent la quantité affichée par des moyens différen
 
 # Remarque
 
-La boîte à moustaches et le diagramme en violon sont décrits dans [[Lecture d'une boîte à moustaches]] ; ils réalisent une agrégation de la distribution.
-
-Les vues intégrées et les vues coordonnées, qui accompagnent la réduction, sont décrites dans [[Vues multiples coordonnées]] et [[Manipulation d'une visualisation]].
-
 La lentille magique de l'exemple est posée sur le graphique de flux des prénoms décrit dans [[Graphique de flux]].

@@ -48,8 +48,8 @@ Deux ingrédients sont nécessaires pour que la boucle fonctionne :
 - deux types d'[[Extensions d'une séquence|extension]], pour engendrer les candidats à partir des motifs déjà validés ;
 - la [[Anti-monotonie du support des motifs séquentiels|propriété d'anti-monotonie du support]], pour élaguer les candidats : un motif de longueur $k$ non fréquent rend non fréquentes toutes les $(k+1)$-séquences qui le contiennent.
 
-La force principale de GSP est justement cet élagage par anti-monotonie, qui évite d'énumérer tout l'[[Espace de recherche des motifs séquentiels|espace de recherche]]. Le détail de l'engendrement et de l'élagage des candidats est traité dans [[Génération et évaluation des candidats de GSP]].
+La force principale de GSP est justement cet élagage par anti-monotonie, qui évite d'énumérer tout l'[[Espace de recherche des motifs séquentiels|espace de recherche]].
 
 Le diagramme de la boucle place un premier `SCAN`, étiqueté $N=1$, hors de la boucle, puis compte $N$ sur le niveau qui entre dans la génération ; le pseudocode ci-dessus construit au contraire le niveau $N$ à l'intérieur de l'itération $N$, après l'incrément, par génération puis élagage : l'emplacement du premier balayage et le niveau auquel se rapporte $N$ diffèrent, même si les deux décrivent la même construction par niveaux.
 
-Sur le même principe, l'[[Algorithme SPADE]] transpose la fouille au [[Format vertical des transactions|format vertical]], et les limites propres aux approches qui génèrent puis élaguent les candidats sont décrites dans [[Limites des approches générer et élaguer]].
+Sur le même principe, l'[[Algorithme SPADE]] transpose la fouille au [[Format vertical des transactions|format vertical]].

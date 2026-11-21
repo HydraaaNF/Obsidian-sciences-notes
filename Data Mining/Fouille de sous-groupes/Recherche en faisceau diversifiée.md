@@ -47,6 +47,4 @@ Le faisceau illustré retient les raffinements 1 et 3 : le raffinement 2, dont l
 
 La [[Sélection d'un ensemble de sous-groupes|sélection d'ensemble]] intervient ici à l'intérieur de la recherche, sur les candidats d'un niveau, et non après coup sur un ensemble de candidats déjà constitué. La [[Recherche des sous-groupes|recherche des sous-groupes]] en faisceau ordinaire est le cas particulier où le faisceau est un top-$k$ strict.
 
-La notion de diversité que le faisceau exige de ses candidats est précisée par les [[Degrés de diversité d'un ensemble de sous-groupes]].
-
 Le critère de qualité d'un candidat ne change pas : il reste donné par sa [[Fonction de qualité d'un sous-groupe|fonction de qualité]], et seule la règle de choix du faisceau est modifiée. Le nombre de candidats engendrés à un niveau, lui, reste celui des raffinements des motifs retenus au niveau précédent.

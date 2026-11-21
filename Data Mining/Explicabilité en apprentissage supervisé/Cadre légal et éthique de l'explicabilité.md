@@ -39,8 +39,6 @@ Le biais d'automatisation est le point où les deux enjeux se rejoignent : une e
 
 # Remarque
 
-Le règlement européen sur l'intelligence artificielle range d'un côté les usages **interdits**, de l'autre les usages *à haut risque*.
-
 Les usages interdits énumérés sont la notation sociale, l'inférence des émotions au travail ou à l'école, les techniques subliminales visant à altérer la prise de décision, la liste restant ouverte.
 
 Aux systèmes à haut risque s'ajoutent la gouvernance des données, la documentation et la tenue de registres, ainsi que la supervision humaine déjà détaillée.

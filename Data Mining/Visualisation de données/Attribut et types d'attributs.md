@@ -25,7 +25,6 @@ La direction d'ordre commande la variation visuelle : progression monotone pour 
 
 # Remarque
 
-Un jeu de données se décrit par ses attributs et par le type de chacun : voir [[Types de jeux de données]].
 Plusieurs attributs de types différents cohabitent dans une même représentation, par exemple dans un [[Diagramme en barres et diagramme en lignes]].
 La nature des données, abstraites ou spatiales, départage la [[Visualisation scientifique et visualisation d'information]].
 En statistique, ces types recouvrent la distinction entre [[Population statistique et caractère|caractères qualitatifs et quantitatifs]] ; en apprentissage, l'attribut est la variable qui décrit une [[Donnée et attributs|donnée]].

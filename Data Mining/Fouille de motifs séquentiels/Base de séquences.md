@@ -60,6 +60,4 @@ Chaque cellule est un élément de la séquence : $S_1 = \langle (abc)(bde)(abf)
 
 # Remarque
 
-Une base de transactions est une collection d'itemsets **sans ordre** : seule compte l'appartenance des items à une transaction, comme le détaille [[Items, itemsets et base de transactions]]. Une base de séquences ajoute la dimension temporelle, et c'est cette dimension qui rend possible la recherche de répétitions ordonnées décrite dans [[Vocabulaire des motifs séquentiels]].
-
 Selon la manière dont le temps est porté, deux lectures d'une même base coexistent : un horodatage explicite, une date par élément, comme dans l'historique d'achats daté ; un horodatage implicite, la position de l'élément suffisant à ordonner la séquence, comme dans les séquences $\langle a(abc)(ac)d(cf)\rangle$. La [[Support d'un motif séquentiel|fréquence d'un motif]] se compte de la même façon dans les deux cas, un motif étant contenu dans une séquence dès que ses éléments y apparaissent dans le bon ordre.

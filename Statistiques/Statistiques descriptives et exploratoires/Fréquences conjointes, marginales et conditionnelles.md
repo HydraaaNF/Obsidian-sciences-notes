@@ -15,7 +15,3 @@ $$f_{i.} = \frac{n_{i.}}{n},$$
 et la *fréquence marginale* de la modalité $\beta_j$
 
 $$f_{.j} = \frac{n_{.j}}{n}.$$
-
-# Remarque
-
-Pour les indicateurs des distributions marginales de $X$ et de $Y$, voir [[Distributions marginales]] ; pour les fréquences conditionnelles, voir [[Distributions conditionnelles]].

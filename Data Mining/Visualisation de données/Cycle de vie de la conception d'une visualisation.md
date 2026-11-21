@@ -52,6 +52,4 @@ Les quatre attributs de PSA sont numériques, les deux statuts histopathologique
 
 Le cycle reprend les questions du [[Cadre d'analyse de la visualisation|cadre d'analyse de la visualisation]], en bouclant de la validation vers la tâche.
 
-La validation et ses critères sont décrits dans [[Validation d'une visualisation]] ; les principes qui guident les choix pendant le cycle, dans [[Bonnes pratiques de conception d'une visualisation]].
-
 Les notations d'intervalle du tableau mélangent crochets ouvrants et fermants, et la valeur 4,472.0 admet deux lectures décimales : elles sont reproduites telles quelles.

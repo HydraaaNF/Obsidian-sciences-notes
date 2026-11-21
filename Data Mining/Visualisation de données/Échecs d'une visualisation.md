@@ -16,6 +16,4 @@ Un dessin correct en soi peut échouer faute du contexte qui en donne le sens, e
 # Remarque
 
 La question de la réussite clôt le cycle de conception : voir la [[Validation d'une visualisation]] et le [[Cycle de vie de la conception d'une visualisation]].
-L'incompréhension renvoie aux [[Limites de la perception humaine]].
-Les remèdes se lisent dans les [[Bonnes pratiques de conception d'une visualisation]].
 Une galerie de dessins d'un même type de données, tous différents et tous plausibles, montre qu'aucune forme n'est juste en soi : c'est la tâche qui décide.

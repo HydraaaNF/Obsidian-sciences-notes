@@ -14,5 +14,4 @@ Soit $X$ admettant un moment d'ordre 2.
 
 # Remarque
 
-- Le moment centré d'ordre $k$ se construit à partir du [[Moment d'ordre k|moment brut]] ; le moment centré d'ordre 2 est la [[Variance]].
 - Les moments centrés normalisés $\mu_k/\sigma^k$ (où $\sigma$ est l'écart-type) fournissent l'[[Asymétrie et aplatissement|asymétrie et l'aplatissement]].

@@ -92,12 +92,6 @@ $$\mathbb{P}[x_k \mid x_{k-1}]\,\mathbb{P}[y_k \mid x_k] = \underbrace{\mathbb{P
 
 # Remarque
 
-Les paramètres du modèle, loi de l'état initial, probabilités de transition entre états et probabilités conditionnelles des observations, sont décrits dans [[Paramètres d'un modèle de Markov caché]] ; ce sont eux qui fixent les deux mécanismes ci-dessus.
-
-La probabilité jointe d'une séquence d'observations et d'une séquence d'états, et sa factorisation à partir des deux hypothèses, sont du ressort de [[Probabilités d'un modèle de Markov caché]].
-
-- La [[Génération d'un modèle de Markov caché]] en décrit le point de vue génératif.
-- Les applications du modèle (finance, traitement du langage naturel, etc.) sont recensées dans [[Domaines d'application des modèles de Markov cachés]].
 - Un modèle de Markov caché est un cas particulier de [[Modèle à espace d'état]] : l'état y est discret et évolue selon une chaîne de Markov, l'observation y est tirée d'une loi qui ne dépend que de l'état courant.
 - Comme le [[Variables cachées d'un modèle de mélange|modèle de mélange]], il fait intervenir une variable non observée qui gouverne la loi des observations ; ici, cette variable est une suite d'états régie par une chaîne de Markov.
 - La même construction à deux niveaux, un niveau caché et un niveau observé attaché nœud par nœud, décrit aussi les champs sur une grille : c'est le [[Champ de Markov caché]], dont le modèle de Markov caché est la version le long d'un axe de temps.

@@ -25,7 +25,3 @@ Le raisonnement **descendant** suit les flèches. La cause racine du graphe est 
 $$\mathbb{P}[W = 1 \mid C = 1]$$
 
 Aucune inversion n'est nécessaire : la probabilité se propage de $C$ vers $S$ et vers $R$, puis vers $W$, en sommant sur les variables intermédiaires non observées, et chaque facteur conditionnel se lit dans le sens de son arc.
-
-# Remarque
-
-Les deux raisonnements ne s'opposent pas : ils portent sur la même loi jointe et sur les mêmes tables conditionnelles, seule la question posée change. Le sens causal lit les facteurs dans l'ordre des arcs ; le sens diagnostique doit les inverser par la [[Formule de Bayes|formule de Bayes]].

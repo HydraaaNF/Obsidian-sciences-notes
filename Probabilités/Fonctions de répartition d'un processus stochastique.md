@@ -19,4 +19,3 @@ $$F(\mathbf{x}; \mathbf{t}) = \mathbb{P}[X(\mathbf{t}_1) \leq \mathbf{x}_1, \ldo
 # Remarque
 
 - La fonction de répartition du premier ordre $F(x; t)$ est la [[Fonction de répartition]] de la variable $X(t)$ : les fonctions de répartition d'un processus généralisent cette notion aux valeurs prises par le processus en plusieurs instants.
-- La fonction de répartition du deuxième ordre fait intervenir la loi jointe du couple $(X(t), X(t'))$ ; celle d'ordre $n$ décrit la [[Loi d'un vecteur aléatoire|loi du vecteur aléatoire]] $(X(t_1), \ldots, X(t_n))$.

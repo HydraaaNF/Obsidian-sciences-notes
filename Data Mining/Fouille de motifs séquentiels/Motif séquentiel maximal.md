@@ -32,7 +32,7 @@ Les réponses se lisent sur les seules relations d'inclusion entre ces six motif
 
 L'inclusion de la définition est stricte : un motif est toujours contenu dans lui-même, et une inclusion non stricte disqualifierait tout motif de $S$.
 
-Un motif maximal est toujours clos : s'il n'admet aucun sur-motif dans $S$, il n'en admet a fortiori aucun de même support, condition qui définit les [[Motif séquentiel clos|motifs clos]]. La réciproque est fausse, comme le montre l'exemple, où $\langle(b)\rangle$ et $\langle(a)(c)(e)\rangle$ sont clos sans être maximaux. Pour la notion voisine et son calcul, voir [[Motif séquentiel clos]] et [[Algorithme CloSpan]].
+Un motif maximal est toujours clos : s'il n'admet aucun sur-motif dans $S$, il n'en admet a fortiori aucun de même support, condition qui définit les [[Motif séquentiel clos|motifs clos]]. La réciproque est fausse, comme le montre l'exemple, où $\langle(b)\rangle$ et $\langle(a)(c)(e)\rangle$ sont clos sans être maximaux.
 
 Deux motifs maximaux distincts ne sont jamais emboîtés : si $s \subsetneq s'$ avec $s, s' \in S$, c'est $s'$ qui interdit à $s$ d'être maximal. Les motifs maximaux de $S$ sont donc deux à deux incomparables, et un motif maximal cesse de l'être dès qu'un sur-motif lui est ajouté dans $S$.
 

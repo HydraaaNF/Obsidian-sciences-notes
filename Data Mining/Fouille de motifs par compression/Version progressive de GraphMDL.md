@@ -24,7 +24,3 @@ flowchart LR
 ```
 
 La sélection repose sur la même mesure que pour les autres familles de motifs : la [[Taille totale d'un modèle et des données encodées|taille totale]] de description, modèle et données encodées compris.
-
-# Remarque
-
-Le choix de l'approche progressive ne change pas la nature du modèle, ni le critère d'évaluation : seule change la manière dont les candidats sont obtenus et le moment où la construction peut s'arrêter. Un candidat reste jugé sur le gain de compression qu'il apporte, et non sur un seuil fixé par l'utilisateur.

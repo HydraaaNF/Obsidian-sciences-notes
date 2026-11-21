@@ -12,6 +12,4 @@ Total : $n = 112$.
 
 # Remarque
 
-Pour la représentation graphique d'un caractère quantitatif discret, voir [[Représentations graphiques d'un caractère quantitatif discret]].
-
 Pour un caractère dont les valeurs ne sont pas isolées, voir [[Caractère quantitatif continu]].
