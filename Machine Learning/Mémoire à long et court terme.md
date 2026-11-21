@@ -55,7 +55,7 @@ $$c_t = f_t \odot c_{t-1} + i_t \odot \tilde{c}_t$$
 $$h_t = o_t \odot \tanh(c_t)$$
 
 - $f_t$, $i_t$ et $o_t$ passent par une sigmoïde $\sigma$ ;
-- Le contenu $\tilde{c}_t$ est produit par la [[Fonctions d'activation|tangente hyperbolique]], dont la valeur signée permet d'y écrire $+1$ ou $-1$.
+- $\tilde{c}_t$ passe par une tangente hyperbolique ;
 - $c_t$ combine l'ancienne mémoire $c_{t-1}$ et le contenu nouveau $\tilde{c}_t$ par une addition pondérée ;
 - $h_t$ est l'état de cellule filtré par la porte de sortie.
 

@@ -62,7 +62,7 @@ Le lot compte une seule entrée, d'un seul canal, de hauteur $3$ et de largeur $
 
 # Propriétés
 
-Les dimensions de sortie se calculent par la formule de [[Taille de sortie d'une convolution]] ; elles se lisent sur la [[Forme d'un tenseur]], par exemple $(1,1,1,22)$ pour un lot d'une entrée à un canal.
+Les dimensions de sortie se lisent sur la [[Forme d'un tenseur]], par exemple $(1,1,1,22)$ pour un lot d'une entrée à un canal.
 
 # Remarque
 

@@ -40,8 +40,6 @@ pd.get_dummies(df[["animal"]], dtype=float)
 
 # Remarque
 
-Parmi ces encodages, seul l'encodage par expertise injecte un ordre : ses codes numériques classent les valeurs les unes par rapport aux autres. Le one-hot est au contraire le cas sans ordre du codage d'une valeur symbolique : aucune valeur n'y est privilégiée par son code.
-
-Une couche linéaire appliquée à un one-hot ne fait que sélectionner une ligne de sa matrice : le one-hot n'est qu'une sélection, ce qu'exploite la [[Couche de plongement]].
+Parmi ces encodages, seul l'encodage par expertise injecte un ordre : ses codes numériques classent les valeurs les unes par rapport aux autres. Le one-hot est au contraire le cas sans ordre du codage d'une valeur symbolique : aucune valeur n'y est privilégiée par son code, ce dont tire parti la [[Couche de plongement]].
 
 - L'[[Hypothèse distributionnelle]] motive le passage du one-hot, où toutes les valeurs sont équidistantes, à des vecteurs de mots qui rapprochent les contextes semblables.
