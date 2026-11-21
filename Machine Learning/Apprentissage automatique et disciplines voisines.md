@@ -38,7 +38,3 @@ Le big data occupe une position de jonction : il est le seul champ relié à la 
 # Remarque
 
 La [[Modélisation statistique et apprentissage automatique|modélisation statistique]] est un sous-ensemble de l'apprentissage automatique, qui l'englobe : le cadre statistique restreint l'exploration à un type particulier de fonctions et se ramène à l'estimation de densité.
-
-Les procédures d'estimation de ce cadre relèvent de l'[[Inférence statistique]].
-
-L'apprentissage automatique repose sur l'[[Apprentissage par l'expérience|apprentissage par l'expérience]], c'est-à-dire la capacité à généraliser à des situations inconnues à partir de cas déjà rencontrés.

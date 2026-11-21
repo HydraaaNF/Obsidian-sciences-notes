@@ -17,5 +17,3 @@ Elle vaut $0$ pour un modèle mauvais et $1$ pour un modèle parfait.
 # Remarque
 
 - Sur un graphique précision-rappel, deux modèles se comparent mal lorsque l'un privilégie la précision (point A, en haut à gauche) et l'autre le rappel (point B, en bas à droite) : la F-mesure tranche en combinant les deux dimensions.
-- Comme la précision et le rappel, $F_1$ est défini par classe ; l'agrégation des scores sur plusieurs classes est traitée dans [[Moyennes macro et micro]].
-- Le score $F_1$ sert aussi de mesure de qualité des motifs dans un comparatif de méthodes de fouille : voir [[Qualité des motifs selon le nombre de variables]].

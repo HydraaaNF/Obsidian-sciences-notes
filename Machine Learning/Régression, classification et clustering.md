@@ -34,9 +34,7 @@ La forme de la sortie fixe la nature de la tâche, non l'intervalle dans lequel 
 - une sortie elle-même complexe (une image) demande un modèle qui produit un objet structuré ;
 - les deux dernières tâches restent à formaliser, la forme de leur sortie n'étant pas fixée.
 
-# Exemple
-
-Les mêmes mesures, la taille et le niveau de gris d'un oiseau, servent à illustrer les deux tâches.
+**Mêmes mesures, deux tâches.** Les mêmes mesures, la taille et le niveau de gris d'un oiseau, servent à illustrer les deux tâches.
 
 En **régression**, la variable prédite est le niveau de gris de l'oiseau, une grandeur numérique : les points du nuage sont approchés par une courbe.
 
@@ -47,7 +45,3 @@ En **classification**, la variable prédite est l'espèce, une étiquette symbol
 La régression et la classification sont les deux tâches **supervisées** : chaque exemple d'apprentissage est accompagné de la valeur à prédire, voir [[Apprentissage supervisé]].
 
 Le clustering est leur contrepartie **non supervisée** : les groupes sont constitués à partir des seules observations, sans étiquette fournie, voir [[Apprentissage non supervisé]].
-
-La [[Régression linéaire]] est un cas particulier de régression, où la courbe ajustée est une droite.
-
-La régression et la classification comptent parmi les [[Problèmes d'apprentissage statistique]].

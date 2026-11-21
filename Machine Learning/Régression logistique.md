@@ -25,7 +25,25 @@ La sigmoïde est caractérisée par les propriétés suivantes.
 - Elle envoie $\mathbb{R}$ sur $(0, 1)$.
 - $\sigma(0) = 0.5$.
 - Elle est symétrique : $\sigma(-z) = 1 - \sigma(z)$.
-- Sa dérivée s'exprime avec ses propres valeurs : $\sigma'(z) = \sigma(z) \left( 1 - \sigma(z) \right)$.
+- Sa dérivée s'exprime avec ses propres valeurs : $\frac{d\sigma}{dz}(z) = \sigma(z) \left( 1 - \sigma(z) \right)$.
+
+# Algorithme
+
+Entraîner le modèle, c'est chercher les paramètres $(a^*, b^*, c^*)$ qui minimisent l'opposé de la log-vraisemblance sur les données observées :
+
+$$(a^*, b^*, c^*) = \operatorname*{argmin}_{(a,b,c)} \left( -LL(a, b, c) \right)$$
+
+C'est la même [[Descente de gradient]] que pour la [[Régression linéaire]] : seule la perte change.
+
+À chaque pas, le gradient rassemble une dérivée partielle par paramètre,
+
+$$\nabla(-LL)(a_t, b_t, c_t) = \left( \frac{\partial (-LL)}{\partial a}, \frac{\partial (-LL)}{\partial b}, \frac{\partial (-LL)}{\partial c} \right)(a_t, b_t, c_t),$$
+
+et la mise à jour déplace tous les paramètres à la fois :
+
+$$(a_{t+1}, b_{t+1}, c_{t+1}) = (a_t, b_t, c_t) - \alpha \times \nabla(-LL)(a_t, b_t, c_t).$$
+
+Le vecteur complet est calculé par `autograd`, sans dériver chaque composante à la main : voir [[Différenciation automatique]].
 
 # Interprétation
 
@@ -48,17 +66,6 @@ La lecture des coefficients comme effets sur le score, qui fait de ce modèle un
 
 # Remarque
 
-- La [[Régression logistique binaire]] donne la formulation probabiliste du modèle pour un jeu de variables observées $X = (X_1, \dots, X_n)$, avec un coefficient par variable.
-- La régression logistique est le cas à deux classes de la [[Régression logistique multinomiale]], qui associe un score à chaque classe et normalise l'ensemble sur les classes.
-- La dérivée $\sigma'(z)$ revient dans la perte du modèle, voir l'[[Entropie croisée binaire]].
 - Un score linéaire transformé par une sigmoïde est exactement l'unité de calcul d'un [[Neurone artificiel]] : la régression logistique est un neurone à activation sigmoïde.
-
-La sigmoïde se lit aussi comme un [[Fonction softmax|softmax]] à deux scores, dont l'un est fixé à $0$ :
-
-$$\sigma(z) = \frac{1}{1 + e^{-z}} = \frac{e^z}{e^z + 1} = \frac{e^z}{e^z + e^0} .$$
-
-Chaque classe reçoit l'exponentielle de son score, divisée par le total. Fixer le score de l'une des deux classes à $0$ ne coûte rien : seul compte l'écart entre les deux scores, et
-
-$$\ln \frac{\mathbb{P}(\text{chien})}{\mathbb{P}(\text{chat})} = z_{\text{chien}} - z_{\text{chat}}$$
-
-redonne le logit du modèle. Avec deux classes et l'un des deux scores nul, le softmax redonne ainsi la sigmoïde.
+- La [[Composition de couches linéaires]] échoue sur le ou exclusif comme la régression logistique, dont la perte y stagne à $\ln 2 = 0.693$.
+- Le gradient de l'entropie croisée binaire garde la forme prédiction moins vérité du [[Gradient du couple softmax et entropie croisée]], la sigmoïde jouant le rôle du softmax à deux classes.

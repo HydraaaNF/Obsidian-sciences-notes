@@ -29,5 +29,3 @@ La moyenne sur `dim=0` agrège les deux lignes et renvoie une valeur par colonne
 # Remarque
 
 `keepdim=True` conserve l'axe réduit avec une taille de 1 : la moyenne sur `dim=0` d'un tenseur de [[Forme d'un tenseur|forme]] `(2, 3)` donne un résultat de forme `(1, 3)` au lieu de `(3,)`. L'axe conservé permet ensuite de combiner le résultat avec le tenseur d'origine par [[Diffusion entre tenseurs|diffusion]].
-
-L'indexation et les réductions relèvent des [[Opérations sur les tenseurs]] : elles s'appliquent d'un bloc à tout le tenseur.

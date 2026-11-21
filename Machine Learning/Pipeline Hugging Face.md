@@ -14,8 +14,4 @@ Le pipeline réunit trois étapes : l'encodage du texte, le chargement du modèl
 
 # Remarque
 
-L'encodage est l'étape de [[Tokenisation]] : le découpage en mots, en morceaux de mots ou en identifiants est le rôle du tokenizer, et le *padding* aligne les séquences d'un lot sur la plus longue.
-
 Les entrées du modèle sont ses sorties décalées d'un token. En pratique, on ne construit pas ce décalage soi-même : on passe `labels = input_ids`, et le décalage est fait à l'intérieur du modèle. C'est la même convention que le [[Teacher forcing]], où la cible à chaque position est l'élément suivant de la séquence.
-
-Le choix de la classe `AutoModelForXXX` fixe la tâche et la tête du modèle ; le [[Panorama des modèles pré-entraînés]] situe ces modèles et leurs usages.

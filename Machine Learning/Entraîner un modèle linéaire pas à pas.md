@@ -27,7 +27,7 @@ Contrôle sur la courbe à un paramètre. En supprimant $b$, le modèle se simpl
 
 $$\frac{\partial L}{\partial a} = \sum_i 2 e_i x_i = 0 - 8 - 24 = -32$$
 
-où $e_i = f(x_i) - y_i$. La courbe de la perte pour ce modèle est $L(a) = 21a^2 - 74a + 66$, donc $L'(a) = 42a - 74$ et $L'(1) = -32$ : les règles locales appliquées sur le graphe redonnent la dérivée globale de la fonction.
+où $e_i = f(x_i) - y_i$. La courbe de la perte pour ce modèle est $L(a) = 21a^2 - 74a + 66$, donc $\frac{dL}{da}(a) = 42a - 74$ et $\frac{dL}{da}(1) = -32$ : les règles locales appliquées sur le graphe redonnent la dérivée globale de la fonction.
 
 # Algorithme
 
@@ -43,18 +43,14 @@ with torch.no_grad():               # la mise à jour n'est pas enregistrée
 a.grad.zero_()                      # avant la rétropropagation suivante
 
 history.append(loss.item())         # un flottant, pour tracer plus tard
-plt.plot(x, (a * x).detach())       # hors du graphe d'abord
 ```
 
 Trois précautions accompagnent ce code :
 
 - la mise à jour doit rester hors du graphe, d'où le bloc `torch.no_grad()` ; écrire `a.data = a.data - lr * a.grad.data` contourne lui aussi l'enregistrement ;
 - le gradient s'accumule d'un appel à l'autre : il faut le remettre à zéro avec `a.grad.zero_()` avant chaque nouvelle rétropropagation ;
-- pour journaliser ou tracer, `.item()` renvoie un nombre Python et `.detach()` un tenseur sorti du graphe.
+- pour journaliser ou tracer, `.item()` renvoie un nombre Python ; `.detach()` sort un tenseur du graphe, ce qui évite d'y enregistrer une opération de contrôle ou d'affichage.
 
 # Remarque
 
-- Le graphe ne fait que rejouer des règles de dérivation locales, nœud par nœud, et la dérivée globale en sort exactement : l'automatisation répète ce calcul sans se fatiguer, ce qui rend possible l'enchaînement de milliers d'étapes.
-- [[Différenciation automatique]] et [[Descente de gradient]] se complètent : la première fournit les dérivées, la seconde les utilise pour déplacer les paramètres.
-- Les [[Optimiseurs]] généralisent cette règle de mise à jour.
 - La perte est ici une somme : à $(1, 1)$ elle vaut $6$, tandis que la moyenne des pertes quadratiques sur les trois échantillons vaudrait $2$. Le code de l'étape d'entraînement emploie `.mean()` : la division par $n = 3$ ne change ni le signe des dérivées ni la direction de la mise à jour, seulement leur amplitude.

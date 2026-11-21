@@ -94,3 +94,5 @@ Une minute d'audio à $16$ kHz demande près d'un million de passes, ce qui rend
 Le modèle lit ses propres sorties : une erreur commise sur un échantillon entre dans le contexte des suivants et s'y propage, phénomène de biais d'exposition décrit avec le [[Teacher forcing]].
 
 La [[Génération d'une séquence]] décrit le même principe pour des symboles discrets ; ici les échantillons sont des valeurs audio quantifiées, décrites dans [[Audio numérique]], et le tirage se fait dans une distribution sur ces valeurs.
+
+- Le [[Cache de clés et de valeurs]] supprime le recalcul du préfixe à chaque pas, ce qui allège le coût de cette inférence naïve sans changer le résultat.

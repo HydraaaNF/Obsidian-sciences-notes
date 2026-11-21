@@ -28,7 +28,7 @@ Cas particuliers de la formule générale, pour un noyau $3 \times 3$ :
 
 - sans padding ($p=0$), sans stride ($s=1$) et sans dilation ($d=1$) : $n_{\text{out}} = n - 2$ ;
 - avec un padding $p=2$ : l'entrée est entourée de deux couronnes de zéros et $n_{\text{out}} = n + 2$ ;
-- avec un stride $s=2$ : $n_{\text{out}} = \lfloor (n-3)/2 \rfloor + 1$ ;
+- avec un stride $s=2$ : $n_{\text{out}} = \left\lfloor \frac{n-3}{2} \right\rfloor + 1$ ;
 - avec une dilation $d=2$ : le noyau effectif est de taille $5 \times 5$ et $n_{\text{out}} = n - 4$.
 
 En une dimension, sans padding, sans stride et sans dilation, la formule se réduit à la longueur d'entrée moins la taille du noyau plus un :
@@ -40,8 +40,6 @@ $$L_{\text{out}} = L_{\text{in}} - k + 1$$
 Une [[Convolution en une dimension|convolution en une dimension]] sur une entrée de longueur $24$, avec un noyau $k=3$, un canal d'entrée et deux filtres distincts, produit deux cartes de sortie de longueur $22$ chacune : la sortie a pour [[Forme d'un tenseur|forme]] $22 \times 2$.
 
 $$L_{\text{out}} = 24 - 3 + 1 = 22$$
-
-Chaque position de sortie agrège $k = 3$ valeurs d'entrée consécutives, et chaque filtre fournit son propre canal de sortie.
 
 Une convolution dilatée en une dimension, avec $k=2$, les poids $w_1=1$ et $w_2=2$, un biais nul, $p=0$, $s=1$ et $d=2$, appliquée à l'entrée $x = (1,\,4,\,2,\,1,\,1)$, donne une sortie de longueur $3$ :
 
@@ -57,6 +55,8 @@ La sortie est donc $y = (5,\,6,\,4)$.
 
 # Remarque
 
-Pour le noyau $k=2$ et la dilation $d=2$ de l'exemple, l'écriture $\lfloor (5 - 2 - (2-1)\times 1)/1 \rfloor + 1$ soustrait $k=2$ puis $(d-1)(k-1)=1$. Or $k + (d-1)(k-1) = d(k-1)+1$ : cette forme soustrait donc elle aussi la taille effective du noyau, et elle coïncide avec la formule générale pour tout $k$ et tout $d$.
+Pour le noyau $k=2$ et la dilation $d=2$ de l'exemple, l'écriture $\left\lfloor \frac{5 - 2 - (2-1)\times 1}{1} \right\rfloor + 1$ soustrait $k=2$ puis $(d-1)(k-1)=1$. Or $k + (d-1)(k-1) = d(k-1)+1$ : cette forme soustrait donc elle aussi la taille effective du noyau, et elle coïncide avec la formule générale pour tout $k$ et tout $d$.
 
 Les deux écritures ne diffèrent que par le regroupement des termes : la formule générale isole $d(k-1)$ et le $1$, tandis que l'écriture de l'exemple regroupe la taille effective en $k + (d-1)(k-1)$. C'est cette même taille effective qui s'emploie pour la [[Convolution en deux dimensions|convolution en deux dimensions]] comme pour la convolution en une dimension.
+
+- La [[Conservation de la longueur dans une convolution causale]] applique cette formule avec un padding à gauche de $d(k-1)$ pour ramener la sortie à la longueur d'entrée.

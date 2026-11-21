@@ -24,7 +24,7 @@ $$\mathrm{ReLU}(z) = \max(0, z)$$
 
 # Propriétés
 
-- La sigmoïde est plate aux deux extrémités et sa dérivée est majorée : $\sigma'(z) \le 0.25$ pour tout $z$.
+- La sigmoïde est plate aux deux extrémités et sa dérivée est majorée : $\frac{d\sigma}{dz}(z) \le 0.25$ pour tout $z$.
 - La tangente hyperbolique est centrée sur $0$ et présente elle aussi des extrémités plates.
 - ReLU a une pente de $1$ pour $z > 0$ et reste peu coûteuse à calculer.
 
@@ -52,19 +52,10 @@ Le choix de la fonction dépend de la couche et de ce que l'on veut représenter
 
 Un neurone dont l'activation est la sigmoïde calcule exactement une [[Régression logistique]] : toute valeur réelle du score est ramenée dans $(0, 1)$.
 
-# Exemple
-
-Dans une cellule [[Mémoire à long et court terme|LSTM]], les portes utilisent ces deux fonctions.
-
-- $\tilde{c}_t$ (contenu candidat) est calculé par une tangente hyperbolique : une valeur signée et bornée, qui indique ce qui pourrait être écrit.
-- $i_t$ (porte d'entrée), $f_t$ (porte d'oubli) et $o_t$ (porte de sortie) sont calculées par des sigmoïdes, qui servent de cadrans : elles mesurent chacune combien d'un contenu écrire, conserver ou montrer dans $h_t$.
-
-Sur une dimension de la mémoire $c$, le sujet est singulier ($+1$) ou pluriel ($-1$).
-
-- Un nouveau sujet : $f \approx 0$, $i \approx 1$, $\tilde{c} = \pm 1$, on efface puis on écrit la nouvelle valeur.
-- Les mots intermédiaires : $f \approx 1$, $i \approx 0$, on conserve la valeur et le gradient peut circuler.
-- Le verbe : $o \approx 1$, on montre la valeur pour accorder le verbe.
-
 # Remarque
 
 Comme pour la [[Perte absolue et perte quadratique|perte quadratique moyenne]], une zone plate signifie absence de gradient : la fonction ne transmet plus de signal d'apprentissage. Dans un réseau profond, cet effet se cumule couche après couche, ce qui rend le choix de l'activation déterminant. La dérivée de la sigmoïde, bornée par $0.25$, en est un cas typique ; à l'inverse, la pente $1$ de ReLU sur $z > 0$ n'éteint pas le gradient.
+
+- Une [[Couche de convolution]] se termine par une de ces activations, appliquée à chaque carte de caractéristiques.
+- Sans non-linéarité, la couche cachée ne changerait pas l'espace : c'est ce que montre le [[Problème du ou exclusif]].
+- L'[[Unité récurrente à portes]] réduit la cellule à deux portes, calculées avec la sigmoïde, et à un contenu candidat calculé avec la tangente hyperbolique.

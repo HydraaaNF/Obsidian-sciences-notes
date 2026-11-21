@@ -20,5 +20,3 @@ Un nuage de points non étiquetés illustre le principe : les observations forme
 # Remarque
 
 Le [[Clustering|clustering]] est la tâche non supervisée de partitionnement : il regroupe les observations en classes dont le nombre et la nature ne sont pas fixés au départ. On le décrit aussi comme une **classification non supervisée**, par symétrie avec la classification étiquetée. Les [[Types de clustering]] distinguent les familles de méthodes, et l'[[Évaluation d'un clustering]] mesure la qualité des groupes obtenus.
-
-L'apprentissage non supervisé s'oppose à l'[[Apprentissage supervisé]], où chaque exemple est accompagné de la valeur à prédire. Il correspond au cas non étiqueté des [[Régression, classification et clustering|trois familles de tâches]].

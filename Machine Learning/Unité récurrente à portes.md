@@ -52,5 +52,3 @@ L'état $h_{t-1}$ suit deux chemins : la ligne directe vers la sortie $h_t$, pon
 L'unité récurrente à portes est une variante allégée de la [[Mémoire à long et court terme]] : un seul état au lieu de deux, deux portes au lieu de trois, trois couches denses au lieu de quatre, pour une qualité souvent comparable.
 
 En pratique, on part d'une cellule à portes, GRU ou LSTM, plutôt que de la [[Cellule d'Elman]], plus simple mais sans contrôle de ce qui est conservé ou écrit.
-
-L'implémentation de cette cellule est décrite dans [[Couches récurrentes avec PyTorch]].

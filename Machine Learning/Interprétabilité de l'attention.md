@@ -19,11 +19,3 @@ Les traits n'ont pas tous la même épaisseur, et les plus épais ne partent pas
 | traits fins depuis `because_`, `street_`, `the_`, `cross_` | les tokens proches de `it_`, prédécesseur immédiat compris, ne sont pas privilégiés |
 
 Le motif observé ne se réduit donc pas à une mise en correspondance nette entre le token courant et un token précis, et il n'est pas non plus local : les poids forts se portent sur des tokens éloignés, sans décroissance nette avec la distance. C'est ce décalage entre l'intuition et le comportement observé qui rend la lecture des poids d'attention trompeuse.
-
-# Remarque
-
-Deux erreurs de lecture fréquentes portent sur la ligne d'un token dans une carte d'attention.
-
-La première restreint cette ligne aux tokens qui précèdent le token courant : une carte montre les liens vers toutes les positions de la phrase, celles qui suivent comprises, et non le seul contexte antérieur.
-
-La seconde suppose que l'épaisseur des traits décroît avec la distance, l'attention la plus marquée allant aux tokens immédiatement antérieurs. Sur la ligne `it_`, les traits les plus fins viennent au contraire de `because_`, `street_`, `the_` et `cross_`, c'est-à-dire du voisinage proche, tandis que les plus épais viennent du début de la phrase.

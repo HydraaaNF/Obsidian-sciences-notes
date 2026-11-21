@@ -61,4 +61,4 @@ L'alignement de la colonne des sorties sur celle des entrées demande attention.
 
 Le noyau est simplement décalé dans le temps, sans changer le nombre de paramètres : la couche causalise la convolution à coût constant.
 
-Le padding à gauche choisi ici préserve la longueur de la séquence, propriété détaillée dans [[Conservation de la longueur dans une convolution causale]]. La dilatation utilisée dans l'exemple relève de la [[Convolution dilatée]], et les rôles respectifs du padding, du stride et de la dilatation sont décrits dans [[Padding, stride et dilation]].
+- La causalité vient du padding à gauche, non de l'étendue du passé lue : un [[Champ récepteur d'une pile de convolutions]] large peut coexister avec une convolution non causale.

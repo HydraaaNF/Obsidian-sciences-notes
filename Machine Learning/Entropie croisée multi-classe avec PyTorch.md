@@ -30,5 +30,3 @@ Le modèle produit trois scores, un par classe (chat, chien, oiseau), pour un lo
 # Remarque
 
 - En [[Classification multi-étiquette|classification multi-étiquette]], plusieurs classes peuvent être vraies à la fois : la perte devient `BCEWithLogitsLoss`, la cible est un flottant de forme $(B, K)$ et chaque classe se décide par $z > 0$ sur son score.
-- La perte elle-même est définie dans [[Entropie croisée multi-classe]].
-- L'appel de cette perte s'inscrit dans la [[Boucle d'entraînement et validation]].

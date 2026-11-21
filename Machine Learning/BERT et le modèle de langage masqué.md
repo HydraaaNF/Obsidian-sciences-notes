@@ -10,7 +10,6 @@ BERT est un modèle de langage masqué bâti sur la variante encodeur seul du [[
 
 - entrée : les jetons `the`, `little`, `[MASK]`, `sleeps`
 - chaque jeton est projeté par une couche de plongement additionnée d'un [[Encodage positionnel|encodage positionnel]]
-- le `Transformer encoder` applique une attention non masquée : chaque position voit toute la séquence, à gauche comme à droite
 - une tête de sortie `Linear + softmax over the vocabulary` est appliquée à chaque position
 - les sorties sont $o_1, o_2, o_3, o_4$
 - la position masquée produit la prédiction `cat`
@@ -77,7 +76,3 @@ Le pré-entraînement ne vise aucune tâche particulière : le texte brut suffit
 # Remarque
 
 La taille du plus grand BERT est de l'ordre de 340 M de paramètres ; l'ordre de grandeur de 500 M surestime ce modèle.
-
-L'énoncé « non destiné à la génération » vaut pour la génération libre de texte : le modèle produit néanmoins une distribution sur le vocabulaire aux positions masquées, ce qui permet de compléter un trou.
-
-Dans l'exemple, la prédiction `cat` est celle de la position masquée, la troisième, donc celle de la sortie $o_3$ ; détacher la prédiction de cet indice rendrait la correspondance ambiguë.

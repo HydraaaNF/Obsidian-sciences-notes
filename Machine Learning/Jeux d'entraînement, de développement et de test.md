@@ -16,7 +16,6 @@ Si l'objectif est à la fois d'obtenir le meilleur modèle et d'estimer sa perfo
 
 - Découper les données en trois jeux.
 - Ajuster les paramètres du modèle sur le jeu d'entraînement.
-- Prendre sur le jeu de développement toutes les décisions : moment d'arrêt, choix du modèle, valeurs des hyper-paramètres.
 - Sélectionner les hyper-paramètres donnant le meilleur risque empirique sur le jeu de développement, puis, facultativement, réestimer les paramètres du modèle sur l'ensemble complet des données pour ces hyper-paramètres optimaux.
 - Ne toucher le jeu de test qu'une fois, à la fin, pour rapporter la performance.
 - Comparer le résultat à une référence (*baseline*), toujours.
@@ -27,7 +26,7 @@ Si l'objectif est à la fois d'obtenir le meilleur modèle et d'estimer sa perfo
 - Une erreur de développement qui remonte signale le [[Surapprentissage et sous-apprentissage|surapprentissage]] : c'est le détecteur de ce mode de défaillance.
 - Régler sur le jeu de test revient à rapporter un score qu'on ne mérite plus.
 - Le risque mesuré sur l'ensemble de validation est un très mauvais estimateur du risque : cet ensemble sert à sélectionner, pas à estimer la performance.
-- Le découpage en ensembles séparés est le principe de la [[Méthode de validation]] et de l'[[Estimation non biaisée du risque]] ; la [[Validation croisée|validation croisée]] généralise ce découpage.
+- Le taux d'apprentissage de la [[Descente de gradient]] se règle sur le jeu de développement, jamais sur le jeu de test.
 
 # Exemple
 
@@ -49,23 +48,4 @@ Le jeu de test est alors mis de côté et n'est plus regardé avant la toute fin
 
 **Avec PyTorch**
 
-`Dataset` indique comment obtenir un échantillon, `random_split` découpe entraînement, validation et test, `DataLoader` fournit des mini-lots mélangés.
-
-```python
-from torch.utils.data import Dataset, DataLoader
-from torch.utils.data import random_split
-
-class PopulationDataset(Dataset):
-    def __init__(self, x, y):      # tenseurs
-        self.x, self.y = x, y
-    def __len__(self):
-        return len(self.x)
-    def __getitem__(self, i):
-        return self.x[i], self.y[i]
-
-ds = PopulationDataset(x, y)
-train, valid, test = random_split(ds, [0.7, 0.1, 0.2])
-loader = DataLoader(train, batch_size=32, shuffle=True)
-for x_batch, y_batch in loader:
-    ...
-```
+Le chargement PyTorch est décrit dans [[Lots, époques et chargement des données]].

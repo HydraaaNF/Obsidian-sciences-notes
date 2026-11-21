@@ -74,3 +74,5 @@ Les deux décrivent exactement la même application ; seule la forme des tenseur
 Les tailles $n_1, n_2$ des couches cachées et l'activation de chaque couche ne sont pas apprises : ce sont des [[Hyper-paramètres]], au même titre que le nombre de couches. Empiler des couches linéairement n'apporte d'ailleurs aucune puissance tant qu'aucune activation ne s'intercale, voir [[Composition de couches linéaires]].
 
 Un perceptron multicouche apprend des transformations non linéaires des données. Il constitue de ce fait une alternative non linéaire aux méthodes de projection linéaire, l'[[Analyse en composantes principales|ACP]] et l'[[Analyse discriminante linéaire|LDA]], pour la réduction de dimension comme pour la classification.
+
+- La taille fixe de l'entrée d'un réseau feed-forward explique la troncature et le remplissage décrits dans [[Longueur variable des séquences]].

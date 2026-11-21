@@ -55,7 +55,7 @@ $$c_t = f_t \odot c_{t-1} + i_t \odot \tilde{c}_t$$
 $$h_t = o_t \odot \tanh(c_t)$$
 
 - $f_t$, $i_t$ et $o_t$ passent par une sigmoïde $\sigma$ ;
-- $\tilde{c}_t$ passe par une tangente hyperbolique ;
+- Le contenu $\tilde{c}_t$ est produit par la [[Fonctions d'activation|tangente hyperbolique]], dont la valeur signée permet d'y écrire $+1$ ou $-1$.
 - $c_t$ combine l'ancienne mémoire $c_{t-1}$ et le contenu nouveau $\tilde{c}_t$ par une addition pondérée ;
 - $h_t$ est l'état de cellule filtré par la porte de sortie.
 
@@ -64,7 +64,7 @@ Trois portes, oubli, entrée et sortie : chacune est une régression logistique 
 # Interprétation
 
 - La sigmoïde, à valeurs dans $(0, 1)$, est un **cadran** pour les portes $f_t$, $i_t$ et $o_t$.
-- La tangente hyperbolique, à valeurs dans $(-1, 1)$, donne une valeur **signée** et bornée, pour le contenu $\tilde{c}_t$.
+- Le contenu $\tilde{c}_t$ est produit par la [[Fonctions d'activation|tangente hyperbolique]], dont la valeur signée permet d'y écrire $+1$ ou $-1$.
 - $\tilde{c}_t$ indique *ce qui* pourrait être écrit ; $i_t$ *quelle quantité* en écrire ; $f_t$ *quelle part* de l'ancienne mémoire garder ; $o_t$ *quelle part* de la mémoire montrer dans $h_t$.
 
 Une dimension de $c$ peut par exemple porter le nombre du sujet : $+1$ pour un singulier, $-1$ pour un pluriel.
@@ -80,5 +80,3 @@ L'addition qui met à jour $c$ est le même mécanisme que celui des [[Connexion
 La cellule LSTM généralise la [[Cellule d'Elman]] : le contenu nouveau s'y calcule de la même façon, mais des portes dosent ce qui est écrit, conservé et montré, au prix de quatre couches denses au lieu d'une.
 
 C'est cette mémoire additive qui fait tenir l'information sur des centaines de pas, là où le gradient d'une cellule d'Elman tend à [[Disparition et explosion du gradient|disparaître]].
-
-Sa mise en œuvre dans PyTorch est décrite dans [[Couches récurrentes avec PyTorch]] ; l'[[Unité récurrente à portes]] en est une variante allégée, réduite à deux portes.

@@ -41,5 +41,6 @@ model.train()
 - La validation ne met à jour aucun paramètre, donc aucun graphe n'a besoin d'être enregistré : `torch.no_grad()` rend le calcul plus rapide et plus léger en mémoire.
 - Certaines couches se comportent différemment à l'entraînement et à l'évaluation (dropout, batch normalization) : `model.eval()` avant d'évaluer, `model.train()` après.
 - Une perte d'entraînement qui descend pendant que la perte de validation remonte signale un [[Surapprentissage et sous-apprentissage|surapprentissage]].
-- Le jeu de validation est celui du protocole de découpage décrit dans [[Jeux d'entraînement, de développement et de test]] ; il ne se confond ni avec le jeu d'entraînement ni avec le jeu de test.
-- Ce qui a été appris se conserve avec `model.state_dict()`, voir [[Sauvegarde et reprise de l'entraînement]].
+- Sur [[Calcul sur GPU|GPU]], le modèle et chaque lot sont transférés sur l'appareil avant les quatre lignes de la boucle.
+- L'[[Entraînement d'un réseau antagoniste génératif]] applique la même boucle à deux optimiseurs séparés, un par réseau.
+- Les [[Planificateurs de taux d'apprentissage|planificateurs de taux d'apprentissage]] ajustent le taux une fois par époque, par un `scheduler.step()` appelé dans la boucle.

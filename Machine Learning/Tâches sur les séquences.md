@@ -31,4 +31,3 @@ La source donne le même nom, many to many, aux deux dernières colonnes : elles
 # Remarque
 
 - Un réseau feed-forward ne réalise que la première configuration, one to one.
-- Les autres configurations portent sur des [[Données séquentielles]], dont l'ordre des éléments compte et dont la longueur n'est pas fixée à l'avance : voir [[Longueur variable des séquences]].

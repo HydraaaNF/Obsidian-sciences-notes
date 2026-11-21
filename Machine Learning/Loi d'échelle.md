@@ -37,6 +37,4 @@ Ces exposants fournissent le cadre quantitatif que mobilise la [[Loi de Chinchil
 
 # Remarque
 
-Le tableau récapitulatif note $C_c$ la puissance de calcul, alors que les panneaux l'écrivent $C$, sauf celui des images qui écrit $x$ ; le panneau du langage nomme en outre $L$ la perte. La variable $x$ de la loi générale couvre indifféremment les trois lectures possibles de la ressource.
-
 Sur la vidéo, deux relevés diffèrent d'un exposant, $-0.16$ et $-0.14$ ; la note retient $-0.14$, valeur portée par la légende du panneau.

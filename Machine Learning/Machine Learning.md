@@ -73,7 +73,6 @@
 - [[Classification binaire]]
 - [[Régression logistique]]
 - [[Entropie croisée binaire]]
-- [[Apprentissage de la régression logistique]]
 - [[Seuil de décision]]
 - [[Neurone artificiel]]
 
@@ -159,7 +158,6 @@
 - [[Attention dans un réseau convolutif]]
 - [[Attention dans un encodeur-décodeur]]
 - [[Score d'attention de Bahdanau]]
-- [[Attention croisée]]
 
 ### Self-attention et attention multi-têtes
 - [[Self-attention]]
@@ -170,7 +168,6 @@
 ### Architecture et performance du Transformer
 - [[Architecture du Transformer]]
 - [[Masque causal]]
-- [[Sortie du Transformer et fonction de perte]]
 - [[Réseau feed-forward du Transformer]]
 - [[Cache de clés et de valeurs]]
 - [[Variantes du Transformer]]
@@ -182,7 +179,6 @@
 - [[Résumé automatique avec BART]]
 - [[BERT et le modèle de langage masqué]]
 - [[Plongements de phrases avec SBERT]]
-- [[Panorama des modèles pré-entraînés]]
 - [[Pipeline Hugging Face]]
 - [[Loi de Chinchilla]]
 
@@ -238,6 +234,4 @@
 ### Entraîner et servir un grand modèle
 - [[Cycle de vie d'un grand modèle de langage]]
 - [[Taille de stockage des poids]]
-- [[Quantification des poids]]
 - [[Empreinte environnementale de l'intelligence artificielle]]
-- [[Raisonnement des grands modèles de langage]]

@@ -72,5 +72,3 @@ Le modèle restitue aussi bien des scènes photoréalistes que des styles pictur
 # Remarque
 
 Les connexions inter-blocs d'un U-Net ne sont pas des [[Connexions résiduelles]] : elles relient des blocs situés à des profondeurs différentes et leurs sorties sont concaténées, alors qu'une connexion résiduelle ajoute l'entrée d'un bloc à sa sortie.
-
-Le détail des opérations élémentaires du U-Net, en particulier les [[Couche de convolution|couches de convolution]] qui le constituent, est traité dans leurs notes respectives ; ici, l'architecture se caractérise par ses blocs d'attention $Q, K, V$, ses connexions inter-blocs et l'injection du conditionnement par attention croisée.

@@ -33,9 +33,7 @@ $$c_t=\sum_{i=1}^{N}a_ih_i.$$
 # Algorithme
 
 1. L'encodeur calcule les états $\mathbf{h}=[h_1,\dots,h_N]$ de l'entrée.
-2. Les poids sont produits par une fonction apprise, $\mathbf{a}_t=f(d_t,\mathbf{h})$, implémentée par des couches denses dont l'activation finale ramène les valeurs dans $[0,1]$ (sigmoïde ou softmax).
-3. Le vecteur de contexte $c_t$ est la somme pondérée des états de l'encodeur.
-4. Le décodeur prédit la nouvelle sortie à partir de $\hat{y}_t$, de $d_t$ et de $c_t$.
+2. Le décodeur prédit la nouvelle sortie à partir de $\hat{y}_t$, de $d_t$ et du vecteur de contexte $c_t$, dont le calcul est détaillé dans le [[Score d'attention de Bahdanau|score d'attention de Bahdanau]].
 
 La récurrence du décodeur s'écrit donc, en substituant $f(d_t,\mathbf{h})$ par $\mathbf{a}_t$ :
 
@@ -82,8 +80,6 @@ Le score est normalisé par un softmax, si bien que $\sum_i a_i=1$ : les poids f
 
 Dans la présentation du mécanisme, le produit pondéré est noté avec le symbole $\otimes$, réservé au produit tensoriel, alors que le résultat est un vecteur de produits composante par composante : la notation correcte est le produit de Hadamard $\odot$, employée ici, et la somme qui donne $c_t$ complète l'opération.
 
-L'exemple de traduction est donné en français au passé composé (« Comment s'est passée ta journée ») pour correspondre au passé de l'entrée anglaise (« How was your day »).
-
 L'attention décrite ici porte sur une séquence d'entrée produite par un encodeur ; la [[Self-attention|self-attention]] en est le cas où requête, clés et valeurs proviennent d'une même séquence, généralisation exposée dans le [[Mécanisme d'attention]].
 
-La même articulation entre une représentation et un spectre de poids s'applique à une image, où la pondération porte sur les pixels plutôt que sur les états d'une séquence : voir l'[[Attention dans un réseau convolutif]].
+Le [[Mécanisme de copie]] réutilise ces poids d'attention comme distribution sur les mots d'entrée, ce qui permet de recopier un mot rare au lieu de le générer.

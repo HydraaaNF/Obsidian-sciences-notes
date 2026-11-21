@@ -19,6 +19,8 @@ Tout modèle supervisé peut se lire de cette façon :
 
 Nommer $e$ variable latente ouvre la porte à de nombreuses architectures : plusieurs pertes, plusieurs décodeurs, plusieurs entrées.
 
+Le cas où l'entrée est elle-même une séquence est traité dans [[Encodeur-décodeur pour les séquences]], avec le décalage de la cible et le cas du Transformer.
+
 # Propriétés
 
 Un même encodeur peut porter plusieurs pertes. La perte principale mesure la tâche, et une perte secondaire, calculée à partir de $e$, s'y ajoute avec un poids :
@@ -49,16 +51,6 @@ graph LR
     plus --> L["L"]
 ```
 
-# Exemple
-
-Sur des séquences, l'encodeur résume $x$ en $e$ et le décodeur génère $\hat{y}$ à partir de $e$, de façon autorégressive. Deux manières de fournir $e$ au décodeur :
-
-- comme état initial : $h_0 = e$ ;
-- comme entrée supplémentaire à chaque pas : $(\hat{y}_t, h_t) = d(\hat{y}_{t-1}, e, h_{t-1})$.
-
-L'ensemble s'entraîne de bout en bout sur des paires $(x, y)$, avec une seule perte, et les deux réseaux apprennent. Quand $x$ est aussi une séquence, on parle de **sequence-to-sequence** (seq2seq). Voir [[Encodeur-décodeur pour les séquences]].
-
 # Remarque
 
-- Plusieurs décodeurs sur un même encodeur, c'est le cadre de l'[[Apprentissage multi-tâches]].
-- Les auto-encodeurs parcimonieux servent à lire les caractéristiques des grands modèles de langage.
+- Le [[Décodeur génératif|décodeur génératif]] généralise le décodeur $D$ en l'employant seul, sans encodeur, pour générer une séquence.

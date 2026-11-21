@@ -33,7 +33,7 @@ flowchart TD
 De combien faut-il déplacer les paramètres ? Le taux d'apprentissage, ou pas d'apprentissage, $\alpha$, fixe l'amplitude du déplacement :
 
 - trop petit, l'apprentissage prend un temps interminable ;
-- trop grand, le déplacement dépasse l'optimum et peut diverger.
+- trop grand, chaque pas saute par-dessus l'optimum et retombe de l'autre côté de la courbe en U. La pente y est plus raide, donc le pas suivant est encore plus grand : la suite rebondit de paroi en paroi et s'éloigne de l'optimum au lieu de s'en rapprocher, jusqu'à diverger.
 
 C'est l'hyperparamètre le plus pénible à régler. Il se règle sur le jeu de [[Jeux d'entraînement, de développement et de test|développement]], jamais sur le jeu de test.
 
@@ -80,6 +80,6 @@ Les valeurs $-18$ et $-4$ sont les composantes du gradient au point initial.
 
 - La boucle est parfois énoncée sans taux d'apprentissage, avec un arrêt dès qu'il n'y a plus d'amélioration ; la version complète retient un taux $\alpha$ et deux conditions d'arrêt, la stagnation durable ou un nombre fixé de mises à jour.
 - La même descente résout d'autres problèmes d'optimisation : pour la régression logistique, on minimise l'opposé de la log-vraisemblance, toujours par descente de gradient, avec le même algorithme et une perte différente.
-- La méthode s'applique à toute perte dérivable, par exemple la [[Perte absolue et perte quadratique|perte quadratique]] utilisée dans l'exemple.
-- La règle de base est raffinée par les [[Optimiseurs]].
 - La contrainte de binarité des paramètres détourne la descente de son usage ordinaire, la mise à jour devant rester sur les sommets du cube : voir [[Poids binaires et optimisation différentiable]].
+- Le [[Gradient du couple softmax et entropie croisée]] fournit la direction de la mise à jour des scores, sous la forme prédiction moins vérité.
+- Les régimes par lot complet, stochastique et par mini-lot décrits dans [[Lots, époques et chargement des données]] sont des variantes de cette descente, selon la quantité de données lue à chaque mise à jour.

@@ -30,5 +30,4 @@ $$\text{Rec}(C) = \frac{TP}{TP + FN}$$
 # Remarque
 
 - Prise seule, chacune des deux mesures est facile à tromper : annoncer $C$ pour tout échantillon donne un rappel de $1$, et n'annoncer $C$ que pour les cas les plus sûrs peut donner une précision très élevée. Les deux mesures se lisent donc ensemble, voir [[F-mesure F1]].
-- La précision et le rappel sont définis par classe ; leur agrégation sur plusieurs classes est traitée dans [[Moyennes macro et micro]].
 - Le compromis entre précision et rappel se règle par le [[Seuil de décision|seuil de décision]].

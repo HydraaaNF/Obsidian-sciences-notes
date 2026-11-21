@@ -47,7 +47,7 @@ Dans l'analogie du moteur de recherche, une requête $d_t$ est comparée à quat
 
 Deux lectures du score coexistent. La première, celle de l'analogie du moteur de recherche, présente $a_i$ comme une **similarité** : « à quel point $h_i$ correspond à $d_t$ ». La seconde, propre à l'attention de Bahdanau, précise que le score est **appris** par une petite couche dense, $e_i = \mathbf{w} \cdot \tanh(W d_t + U h_i)$, puis normalisé par un softmax.
 
-C'est la seconde lecture qui est retenue ici : il s'agit d'une **compatibilité apprise**, et non d'une similarité véritable au sens d'un produit scalaire. Ce score appris s'oppose au score de l'[[Attention à produit scalaire normalisé|attention à produit scalaire normalisé]], $q_i \cdot k_j / \sqrt{d_k}$, qui mesure une véritable similarité entre une requête et une clé. La [[Self-attention]] en est le cas particulier où les requêtes $Q$, les clés $K$ et les valeurs $V$ proviennent de la même séquence.
+C'est la seconde lecture qui est retenue ici : il s'agit d'une **compatibilité apprise**, et non d'une similarité véritable au sens d'un produit scalaire. Ce score appris s'oppose au score de l'[[Attention à produit scalaire normalisé|attention à produit scalaire normalisé]], $\frac{q_i \cdot k_j}{\sqrt{d_k}}$, qui mesure une véritable similarité entre une requête et une clé.
 
 Le caractère appris de $f$ distingue cette attention du [[Mécanisme d'attention|mécanisme d'attention]] à score fixé : les poids de la couche dense sont entraînés avec le reste du modèle, en même temps que les paramètres de l'encodeur et du décodeur de l'[[Attention dans un encodeur-décodeur|encodeur-décodeur]].
 

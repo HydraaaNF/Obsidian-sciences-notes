@@ -38,19 +38,8 @@ Le produit $A_1^\top A_2^\top$ est une matrice, notée $A^\top$ ; la quantité $
 
 $$\hat{y} = xA^\top + b$$
 
-Les deux couches n'ont fait que définir de nouveaux paramètres $A$ et $b$ : la fonction calculée reste affine.
-
-# Remarque
-
-Un empilement de couches linéaires n'a pas plus de pouvoir qu'une régression linéaire, quel que soit le nombre de couches. C'est l'activation non linéaire placée entre les couches qui fait la différence, en permettant à la représentation intermédiaire de se déformer avant la couche suivante.
+les deux couches n'ont fait que définir de nouveaux paramètres $A$ et $b$ : la fonction calculée reste affine.
 
 # Exemple
 
-La démonstration sur le [[Problème du ou exclusif]] rend l'échec visible. Le jeu de données compte $200$ points bruités autour des quatre coins d'un carré.
-
-- La [[Régression logistique]] ne progresse pas : sa perte stagne à $0.693 = \ln 2$ et le modèle répond $0.5$ partout, soit l'[[Entropie croisée binaire|entropie croisée]] d'un tirage à pile ou face.
-- Deux couches linéaires sans activation donnent exactement le même résultat.
-- Une couche cachée de deux neurones $\tanh$ résout le problème.
-- En regardant à l'intérieur du réseau, une droite sépare alors les classes dans l'espace caché.
-
-L'expérience invite à relancer avec d'autres graines d'initialisation, puis avec huit neurones cachés.
+La démonstration sur le [[Problème du ou exclusif]] rend l'échec visible : deux couches linéaires sans activation donnent exactement le même résultat qu'une seule couche, alors qu'une couche cachée de deux neurones $\tanh$ résout le problème.

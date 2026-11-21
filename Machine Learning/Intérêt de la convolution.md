@@ -31,9 +31,3 @@ poids appris, hors biais, soit plus d'un million de fois moins.
 | Poids appris (hors biais) | $224 \times 224 \times 3 \times 1000 \approx 150$ millions | $5 \times 3 \times 3 \times 3 = 135$ |
 | Portée d'une unité | l'image entière | une fenêtre $3 \times 3$ |
 | Partage des poids | aucun | noyau identique à chaque position |
-
-# Remarque
-
-Le partage des poids est ce qui distingue la [[Couche de convolution]] de la couche dense du [[Perceptron multicouche]] : un même noyau $3 \times 3$ sert à toutes les positions de l'image, ce qui réduit drastiquement le nombre de paramètres et rend la détection insensible à la position du motif.
-
-Le principe se transpose aux signaux unidimensionnels, où le noyau glisse le long de la séquence plutôt que sur une grille : voir [[Convolution en une dimension]].

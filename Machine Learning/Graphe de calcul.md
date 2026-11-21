@@ -60,5 +60,4 @@ La perte totale est $L = \sum_i \ell_i = 6$.
 
 # Remarque
 
-- C'est ce graphe qui rend l'entraînement possible : sans les opérations enregistrées, il n'y a pas de parcours arrière à effectuer.
 - La [[Différenciation automatique]] s'appuie sur ce graphe pour obtenir les dérivées, et la [[Descente de gradient]] utilise ensuite ces dérivées pour déplacer les paramètres.

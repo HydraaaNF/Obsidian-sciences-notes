@@ -25,10 +25,4 @@ Chaque $x_t$ est un vecteur de $n$ attributs, voir [[Donnée et attributs]] : la
 
 # Remarque
 
-La longueur variable soulève la question centrale des modèles de séquences : comment un modèle à nombre de poids fixe peut-il lire une entrée de longueur quelconque ? Voir [[Longueur variable des séquences]].
-
 L'ordre porteur d'information interdit de traiter une séquence comme une simple collection de vecteurs : deux séquences formées des mêmes $x_t$ dans un ordre différent sont deux instances distinctes.
-
-Le traitement de ces entrées est l'objet des modèles récurrents, voir [[Réseau récurrent]], et conditionne les tâches que l'on peut mener dessus, voir [[Tâches sur les séquences]].
-
-Les [[Shapelets]] transforment une série en distances à des segments, features lisibles pour un classifieur.

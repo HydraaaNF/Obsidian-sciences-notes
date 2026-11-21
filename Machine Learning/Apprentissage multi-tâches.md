@@ -54,6 +54,4 @@ L'encodeur $E$ doit servir toutes les tâches : il en résulte une représentati
 
 # Remarque
 
-Les têtes se comportent comme les décodeurs d'un [[Encodeur-décodeur]], l'encodeur étant commun à toutes les tâches.
-
 Chaque tête portant la perte de sa tâche, l'apprentissage reste supervisé : chaque tâche dispose de ses étiquettes. Il se distingue en cela de l'[[Apprentissage semi-supervisé]], où les données non étiquetées complètent les données étiquetées d'une même tâche.

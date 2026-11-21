@@ -53,15 +53,16 @@ Le découpage (slicing) est ainsi la manière dont un jeu de données se sépare
 
 Réunion de deux Series en un DataFrame, les deux colonnes partageant le même index :
 
-| index | apples | oranges |
-| --- | --- | --- |
-| 0 | 3 | 0 |
-| 1 | 2 | 3 |
-| 2 | 0 | 7 |
-| 3 | 1 | 2 |
+```
+   apples  oranges
+0       3        0
+1       2        3
+2       0        7
+3       1        2
+```
+
+Le DataFrame a donc deux colonnes, `apples` et `oranges` ; les nombres 0 à 3 à gauche forment l'index, qui étiquette les lignes et ne compte pas comme une colonne.
 
 # Remarque
 
 `shape` est l'attribut que l'on affiche le plus souvent : la plupart des bugs rencontrés en travaux pratiques sont des incompatibilités de forme entre tableaux.
-
-Pour l'alignement de dimensions de formes différentes, voir [[Diffusion entre tenseurs]] ; pour les tableaux de PyTorch, voir [[Tenseurs PyTorch]].

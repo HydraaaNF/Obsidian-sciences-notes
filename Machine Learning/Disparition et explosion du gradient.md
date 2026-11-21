@@ -29,5 +29,4 @@ La dérivée de la tangente hyperbolique vaut $\tanh'(z) = 1 - \tanh^2(z)$, d'o�
 # Remarque
 
 - Remède à l'explosion : borner la norme du gradient avec `clip_grad_norm_`, entre `backward` et `step`.
-- Conséquence sur l'[[Encodage d'une séquence|encodage d'une séquence]] : quand une séquence est résumée par son dernier état $e = h_T$, le début de la séquence est mal représenté, puisqu'il a traversé $T$ mises à jour.
 - Le même produit de facteurs guette la profondeur d'un réseau à propagation avant ; les [[Connexions résiduelles]] y ajoutent un chemin direct pour le gradient.

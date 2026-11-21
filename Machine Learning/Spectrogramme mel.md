@@ -15,7 +15,7 @@ Le découpage et le calcul des spectres constituent la **transformée de Fourier
 
 Le signal est une suite d'échantillons $x_1, \dots, x_T$ à la fréquence d'échantillonnage $f_s$, d'après sa description dans [[Audio numérique]]. Pour une fenêtre de $N$ échantillons commençant à l'instant $\tau$, le spectre vaut
 
-$$X(k, \tau) = \sum_{n=0}^{N-1} x_{\tau+n}\, w_n\, e^{-2i\pi k n / N}$$
+$$X(k, \tau) = \sum_{n=0}^{N-1} x_{\tau+n}\, w_n\, e^{-2i\pi \frac{k n}{N}}$$
 
 où $w_0, \dots, w_{N-1}$ est la fenêtre de pondération appliquée avant la transformée.
 
@@ -46,7 +46,7 @@ Sur un enregistrement de parole à $16$ kHz, la figure d'origine superpose deux 
 - en haut, la forme d'onde : $16$ kHz, $82\,999$ échantillons ;
 - en bas, le spectrogramme mel correspondant : $411$ trames $\times$ $80$ bandes, une trame tous les $200$ échantillons, axe des bandes gradué de $0$ à $80$, axe des temps de $0$ à $5$ s.
 
-Le nombre de trames se retrouve par le calcul : avec une fenêtre de $50$ ms ($800$ échantillons à $16$ kHz) et un pas de $200$ échantillons, les $82\,999$ échantillons laissent place à $1 + \lfloor (82\,999 - 800)/200 \rfloor = 411$ fenêtres.
+Le nombre de trames se retrouve par le calcul : avec une fenêtre de $50$ ms ($800$ échantillons à $16$ kHz) et un pas de $200$ échantillons, les $82\,999$ échantillons laissent place à $1 + \left\lfloor \frac{82\,999 - 800}{200} \right\rfloor = 411$ fenêtres.
 
 # Remarque
 

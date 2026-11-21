@@ -55,6 +55,6 @@ Parmi les variantes, FlashAttention, xformers et FlashAttention Triton restent p
 
 # Remarque
 
-Les débits sont ceux des étiquettes des barres du graphique ci-dessus, en TFLOP/s. PyTorch n'a pas de barre à 16k : la mesure y échoue par manque de mémoire.
+Les débits sont ceux des étiquettes des barres du graphique ci-dessus, en TFLOP/s.
 
 La mesure réunit passe avant et passe arrière : elle porte sur l'entraînement, alors qu'à l'inférence le [[Cache de clés et de valeurs]] évite de recalculer les clés et les valeurs des tokens déjà traités.

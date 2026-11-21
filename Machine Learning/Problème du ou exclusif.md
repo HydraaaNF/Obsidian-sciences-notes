@@ -25,6 +25,26 @@ $$a x_1 + b x_2 + c = 0,$$
 
 est une droite.
 
+```chart
+type: line
+labels: ["-0.25", "0", "0.25", "0.5", "0.75", "1", "1.25"]
+yMin: -0.25
+yMax: 1.25
+xTitle: "x₁"
+yTitle: "x₂"
+series:
+  - title: "Classe 0 (y = 0)"
+    data: [null, 0, null, null, null, 1, null]
+    showLine: false
+    pointRadius: 6
+    borderWidth: 0
+  - title: "Classe 1 (y = 1)"
+    data: [null, 1, null, null, null, 0, null]
+    showLine: false
+    pointRadius: 6
+    borderWidth: 0
+```
+
 Aucune droite ne sépare les deux classes du ou exclusif : une seule droite ne peut pas laisser les deux points d'une diagonale d'un côté et les deux points de l'autre diagonale de l'autre côté.
 
 Un neurone seul ne suffit donc pas. La solution consiste à empiler les neurones.
@@ -79,10 +99,11 @@ Une couche cachée construit donc une représentation dans laquelle le problème
 
 Une démonstration sur $200$ points bruités autour des quatre coins du carré confirme ce comportement.
 
-- La régression logistique bloque avec une perte de $0.693 = \ln 2$ : elle répond $0.5$ partout, l'entropie croisée d'un tirage à pile ou face.
-- Deux couches linéaires sans activation donnent exactement le même résultat, voir [[Composition de couches linéaires]].
+- La régression logistique bloque avec une perte de $0.693 = \ln 2$ : elle répond $0.5$ partout, l'[[Entropie croisée binaire|entropie croisée]] d'un tirage à pile ou face.
 - Une couche cachée de deux neurones $\tanh$ résout le problème, et dans l'espace caché une droite sépare bien les classes.
 
 Relancer avec d'autres graines, ou avec huit neurones cachés, change la facilité de l'apprentissage mais pas le principe.
 
 Le ou exclusif est l'exemple minimal qui rend la non-linéarité obligatoire : sans elle, la couche cachée ne composerait que des applications linéaires, voir [[Fonctions d'activation]]. Il est aussi la raison d'être de l'empilement des neurones décrit dans le [[Perceptron multicouche]].
+
+La dépendance du résultat à la graine d'initialisation illustre le statut d'hyper-paramètre du nombre de neurones cachés : voir [[Hyper-paramètres]].

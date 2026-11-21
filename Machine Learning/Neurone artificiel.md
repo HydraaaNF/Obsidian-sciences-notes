@@ -30,3 +30,7 @@ Le neurone est l'unité de calcul élémentaire : les empiler en couches conduit
 La [[Régression logistique]] est exactement un neurone à activation sigmoïde : la somme pondérée fournit le score $z$, que la sigmoïde transforme en probabilité.
 
 Le même calcul sert de brique dans d'autres modèles : les portes d'oubli, d'entrée et de sortie d'une cellule [[Mémoire à long et court terme|LSTM]] sont chacune une régression logistique par composante, donc un neurone à activation sigmoïde.
+
+# Liens avec d'autres lois
+
+Le [[Problème du ou exclusif]] montre la limite d'un neurone seul : sa frontière de décision est une droite, qui ne peut pas séparer les deux classes du ou exclusif ; il faut empiler les neurones pour y parvenir.

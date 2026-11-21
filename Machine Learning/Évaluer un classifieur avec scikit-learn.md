@@ -30,12 +30,3 @@ Pour un problème à $K$ classes, les mêmes mesures s'appliquent :
 - pour résumer le classifieur en un seul nombre, on prend la [[Moyennes macro et micro|moyenne macro ou micro]].
 
 `classification_report` traite les $K$ classes, moyennes comprises.
-
-# Remarque
-
-En classification multi-étiquette, chaque classe est son propre problème binaire (voir [[Classification multi-étiquette]]) : on calcule la précision, le rappel et le F1 par classe, puis une moyenne macro ou micro.
-
-L'exactitude y trompe dans les deux sens :
-
-- exigée sur toutes les étiquettes à la fois, elle est trop sévère : une seule étiquette manquée sur dix et la photo est comptée fausse ;
-- comptée étiquette par étiquette, elle est trop facile : la plupart des étiquettes sont absentes.

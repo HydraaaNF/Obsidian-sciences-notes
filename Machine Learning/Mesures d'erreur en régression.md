@@ -4,7 +4,7 @@
 
 L'erreur d'un modèle de régression sur un [[Jeux d'entraînement, de développement et de test|jeu de test]] est la perte moyenne que le modèle commet sur les échantillons de ce jeu :
 
-$$E(\text{modèle}, \text{test}) = \frac{1}{|\text{test}|} \sum_{(x_i, y_i) \in \text{test}} \mathcal{L}\left(y_i, \text{prédiction}(x_i, \text{modèle})\right)$$
+$$\mathbb{E}(\text{modèle}, \text{test}) = \frac{1}{|\text{test}|} \sum_{(x_i, y_i) \in \text{test}} \mathcal{L}\left(y_i, \text{prédiction}(x_i, \text{modèle})\right)$$
 
 où $x_i$ et $y_i$ sont la description et l'étiquette d'un échantillon, et $\mathcal{L}$ la [[Fonction de perte|fonction de perte]].
 
@@ -31,8 +31,4 @@ $$\text{RMSE} = \sqrt{\text{MSE}}$$
 
 # Remarque
 
-- L'erreur moyenne sur un jeu de test est le [[Risque et risque empirique|risque empirique]] restreint à ce jeu : la moyenne des pertes $\mathcal{L}$ sur ses échantillons.
-- La MAE moyenne les [[Écart absolu moyen|écarts absolus]] entre étiquette et prédiction, et la MSE moyenne leurs carrés.
 - La MSE de prédiction ne doit pas être confondue avec l'[[Erreur quadratique moyenne]] d'un estimateur, qui mesure l'écart quadratique moyen entre un estimateur et le paramètre qu'il estime.
-- Le [[Coefficient de détermination]] complète ces mesures pour un modèle de régression.
-- Le choix de la perte $\mathcal{L}$ fixe la mesure d'erreur : MAE, MSE et RMSE en sont les choix usuels en régression.

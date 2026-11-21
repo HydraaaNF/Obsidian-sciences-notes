@@ -26,13 +26,13 @@ Pour trois classes $A$, $B$ et $C$ :
 | $B$ | 4 | 6 | 1 |
 | $C$ | 7 | 0 | 9 |
 
-La diagonale totalise $4 + 6 + 9 = 19$ échantillons sur $34$, d'où $T = 19/34 = 56\,\%$ et $E = 44\,\%$.
+La diagonale totalise $4 + 6 + 9 = 19$ échantillons sur $34$, d'où $T = \frac{19}{34} = 56\,\%$ et $E = 44\,\%$.
 
 # Interprétation
 
-Le taux ne dit que la quantité d'erreurs ; la matrice dit **où** le modèle se trompe. Dans la table ci-dessus, $7$ échantillons de classe $C$ sont prédits $A$ : cette information disparaît complètement du seul taux d'exactitude.
+L'exactitude résume les erreurs en un seul nombre, sans dire **où** elles se produisent. Dans la matrice de l'exemple, $7$ échantillons de classe $C$ sont prédits dans la classe $A$ : le taux d'exactitude ne retient pas cette information, alors qu'elle désigne la confusion à corriger.
 
-La lecture classe par classe, avec les faux positifs et les faux négatifs de chacune, mène à la [[Précision et rappel]] ; ces comptes par classe se lisent directement dans un [[Évaluer un classifieur avec scikit-learn|rapport de classification]].
+Détailler chaque classe par ses faux positifs et ses faux négatifs conduit à la [[Précision et rappel]] ; ces décomptes se lisent directement dans un [[Évaluer un classifieur avec scikit-learn|rapport de classification]].
 
 # Remarque
 

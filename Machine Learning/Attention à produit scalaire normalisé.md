@@ -89,8 +89,5 @@ La transposition de $K$ fournit la forme $[128,4]$ attendue par le produit, le s
 
 # Remarque
 
-Deux précisions se déduisent de la chaîne de calcul sans en changer le résultat.
-
-La division par $\sqrt{d_k}$ relève de l'étape `Scale` et ne modifie aucune forme : l'écrire ou non laisse $Z$, $A$ et $V'$ de mêmes dimensions.
-
-Quand les formes intermédiaires sont laissées à compléter, elles se résolvent par la seule règle du produit matriciel, qui donne $K^{\top}$ en $[128,4]$, $Z$ et $A$ en $[4,4]$, puis $V'$ en $[4,128]$.
+- [[FlashAttention]] est une implémentation efficace de ce calcul d'attention, qui évite de matérialiser la matrice de scores en mémoire.
+- Le [[Score d'attention de Bahdanau]] est un score appris, à comparer au score par produit scalaire employé ici.

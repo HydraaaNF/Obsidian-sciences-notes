@@ -23,5 +23,3 @@ Chaque variante déplace un élément précis du dispositif adversarial, sans en
 # Remarque
 
 Le conditionnement de Conditional GAN ne modifie pas l'objectif adversarial : il ajoute seulement une entrée aux deux réseaux, si bien que le générateur peut produire un échantillon de la classe demandée plutôt qu'un échantillon quelconque.
-
-HiFi-GAN montre qu'un vocodeur de type [[Architecture WaveNet|WaveNet]] n'a pas besoin d'être autorégressif pour être utilisable dans une chaîne de synthèse vocale : la version non autorégressive rend la génération beaucoup plus rapide.

@@ -104,12 +104,10 @@ La dilatation est le levier qui permet cette croissance à coût constant : à n
 
 Dans une pile causale comme [[Architecture WaveNet]], cette portée se lit directement sur la fenêtre d'entrée utilisée pour prédire un échantillon, et fixe donc la fenêtre d'échantillons passés utilisée pour calculer la perte, détaillée dans [[Entraînement de WaveNet]].
 
+Ce champ récepteur borne aussi la fenêtre de contexte lue à chaque pas d'[[Inférence autorégressive]].
+
 # Remarque
 
 Une première évaluation du champ récepteur omet souvent la convolution causale d'entrée : avec deux couches de trois unités et un noyau $k = 2$, la formule $R = \text{somme des dilatations} \times \text{nombre de couches} \times (k-1) + 1$ donne $(1+2+4) \times 2 \times (2-1) + 1 = 15$. Cette valeur omet la couche d'entrée ; en la comptant, $R = (7 \times 2 + 1)(2-1) + 1 = 16$. Le même oubli donne $94$ au lieu de $95$ pour trois couches de cinq unités. Il faut compter toutes les convolutions entre l'entrée et la sortie.
 
-Le champ récepteur ne rend pas le réseau causal : il décrit seulement l'étendue du passé consultée. La causalité vient du padding appliqué à gauche dans chaque convolution, qui décale le noyau vers le passé et empêche tout échantillon futur d'entrer dans le calcul, comme expliqué dans [[Convolution causale]]. Un champ récepteur large peut donc coexister avec une convolution non causale.
-
 Le nombre de couches et le nombre d'unités par couche sont deux grandeurs distinctes : on note ici $C$ le nombre de couches résiduelles et $U$ le nombre d'unités d'une couche.
-
-Les dilatations d'une couche suivent la progression $1, 2, 4, 8, \dots$, décrite dans [[Dilatation des convolutions de WaveNet]] ; la somme $2^{U} - 1$ utilisée plus haut en découle. Les connexions résiduelles qui stabilisent l'empilement sont décrites dans [[Connexions résiduelles]].

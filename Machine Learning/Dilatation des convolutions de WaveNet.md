@@ -39,7 +39,7 @@ $$\text{champ récepteur} = \left(\text{somme des dilatations} \times \text{nomb
 
 La progression repart à $1$ au début de chaque couche, si bien que les couches successives relisent le signal à des échelles emboîtées : une unité de dilatation $1$ lit des échantillons voisins, une unité de dilatation $8$ relie des échantillons séparés par huit positions.
 
-La causalité vient du padding causal à gauche de la [[Convolution causale]] : le noyau est décalé vers le passé, si bien qu'aucun échantillon futur n'entre dans le calcul. Le champ récepteur ne fait que mesurer l'étendue du passé consultée par chaque sortie.
+Le champ récepteur ne fait que mesurer l'étendue du passé consultée par la sortie d'une [[Convolution causale]].
 
 # Exemple
 
@@ -59,7 +59,5 @@ L'écriture $2^{U} - 1$ donne la suite $1, 3, 7, \dots$ pour $U = 1, 2, 3$ ; ell
 L'égalité $2^3 - 1 = 4$ est une erreur de calcul : $2^3 = 8$, donc $2^3 - 1 = 7$. Les valeurs $1, 2, 4$ sont celles de $2^{U-1}$ pour $U = 1, 2, 3$, et non celles de $2^{U} - 1$.
 
 Pour $U = 1$, la dilatation vaut $1$ : la première unité de chaque couche se réduit à une convolution non dilatée.
-
-La causalité d'une pile dilatée est parfois attribuée au champ récepteur ; elle vient en réalité du padding causal à gauche, qui seul écarte les échantillons futurs du calcul. Le champ récepteur mesure l'étendue du passé consultée ; il ne garantit pas la causalité.
 
 Le même symbole $N$ sert souvent à la fois pour le nombre de couches et pour le nombre d'unités ; on note ici $N_L$ le nombre de Residual Layers et $N_U$ le nombre de Residual Units par couche.

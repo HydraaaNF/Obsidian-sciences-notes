@@ -4,19 +4,6 @@
 
 Déplié sur $T$ pas, un [[Réseau récurrent]] est un réseau à propagation avant de $T$ couches, dont toutes les couches partagent les mêmes poids $\theta = (\theta_u, \theta_o)$. L'entraînement se fait par [[Rétropropagation]] sur ce réseau déplié : c'est la **rétropropagation dans le temps** (*backpropagation through time*, BPTT).
 
-```mermaid
-flowchart LR
-    x1["x₁"] --> f1["fθ"]
-    x2["x₂"] --> f2["fθ"]
-    x3["x₃"] --> f3["fθ"]
-    h0["h₀"] --> f1
-    f1 -->|"h₁"| f2
-    f2 -->|"h₂"| f3
-    f1 --> y1["ŷ₁"]
-    f2 --> y2["ŷ₂"]
-    f3 --> y3["ŷ₃"]
-```
-
 Le dépliage transforme la récurrence en une chaîne de couches identiques : la passe avant enchaîne les $T$ pas, la passe arrière remonte la chaîne.
 
 # Propriétés
@@ -76,4 +63,4 @@ flowchart TD
 
 Le gradient d'un poids traverse tous les pas qui l'ont utilisé : plus la séquence est longue, plus la chaîne de multiplications est profonde, ce qui est le mécanisme de la [[Disparition et explosion du gradient]]. La BPTT tronquée coupe cette chaîne en abandonnant le gradient porté par $h$, au prix d'un gradient biaisé.
 
-Chaque pas est une [[Cellule d'Elman]] : un pas isolé est un [[Perceptron multicouche]] à une couche cachée, dont la couche cachée est aussi transmise au pas suivant. Déplié, le modèle complet est donc un perceptron multicouche de $T$ couches qui partagent leurs poids.
+Chaque pas isolé est décrit dans [[Cellule d'Elman]] ; la récurrence ajoute le passage de l'état au pas suivant.

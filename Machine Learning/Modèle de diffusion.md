@@ -39,9 +39,9 @@ sortie : x_0, l'état reconstruit
 
 # Exemple
 
-Sur un nuage de points 2D en spirale, les trois trajectoires se lisent aux temps $t=0$, $t=T/2$ et $t=T$ :
+Sur un nuage de points 2D en spirale, les trois trajectoires se lisent aux temps $t=0$, $t=\frac{T}{2}$ et $t=T$ :
 
-| Grandeur | $t=0$ | $t=T/2$ | $t=T$ |
+| Grandeur | $t=0$ | $t=\frac{T}{2}$ | $t=T$ |
 |---|---|---|---|
 | Trajectoire directe $q(\mathbf{x}_{0:T})$ | spirale nette | anneau bruité | bruit pur |
 | Trajectoire inverse $p_\theta(\mathbf{x}_{0:T})$ | spirale reconstruite | anneau encore bruité | bruit pur |

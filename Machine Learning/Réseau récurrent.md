@@ -41,14 +41,10 @@ Sur la question « What time is it ? », chaque $h_t$ intègre le mot lu au pas 
 
 # Propriétés
 
-Déplié sur $T$ pas, un réseau récurrent est un réseau à propagation avant de $T$ couches, dont toutes les couches partagent les mêmes poids $\theta = (\theta_u, \theta_o)$.
-
 - L'entraînement se fait par rétropropagation sur le réseau déplié, appelée **rétropropagation dans le temps** (BPTT), voir [[Rétropropagation dans le temps]].
-- Un poids utilisé à chaque pas reçoit la **somme** de ses gradients sur tous les pas.
-- Le coût vient du séquencement : les $T$ pas s'exécutent l'un après l'autre, en avant puis en arrière, et chaque $h_t$ doit être conservé pour la passe arrière.
 
 # Remarque
 
-La [[Cellule d'Elman]] en est le cas le plus simple : une seule couche cachée récurrente. Déplié, le réseau n'est autre qu'un [[Perceptron multicouche]] de $T$ couches qui partagent leurs poids.
-
-La [[Réseau de neurones récurrent|forme probabiliste]] du modèle en est la variante conditionnelle : elle résume tout l'historique dans un état caché $h_{i-1}$ pour conditionner la loi de l'état $X_i$ au pas suivant.
+- L'[[Encodeur bidirectionnel et causalité|encodeur bidirectionnel]] est la variante du modèle récurrent qui lit la séquence dans les deux sens.
+- La [[Longueur variable des séquences]] impose le remplissage pour réunir dans un même lot des séquences de longueurs différentes traitées par le réseau.
+- La [[Self-attention]] compare requêtes, clés et valeurs pour pondérer le contexte, là où le réseau récurrent transporte ce contexte dans un état caché.

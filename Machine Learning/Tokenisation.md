@@ -54,6 +54,4 @@ Chaque entier est un identifiant du vocabulaire du tokenizer ; la sortie est un 
 
 # Remarque
 
-Le choix du côté du remplissage change l'alignement des séquences dans le tenseur : la forme du tenseur est la même dans les deux cas, mais avec `padding_side='left'` le remplissage s'ajoute en tête de ligne, si bien que le dernier jeton de chaque séquence occupe le même indice de colonne, quelle que soit la longueur de la phrase.
-
 Deux textes passés au même tokenizer donnent des identifiants comparables ; un vocabulaire différent rend les identifiants incomparables, puisque la correspondance entre un jeton et son entier est propre au vocabulaire construit.

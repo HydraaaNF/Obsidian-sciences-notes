@@ -18,7 +18,7 @@ Les entrées qui doivent produire la même sortie doivent recevoir des représen
 
 $$z_c = h \cdot a_c + b_c$$
 
-avec un vecteur $a_c$ par classe (voir [[Un vecteur par classe]]). Un produit scalaire est grand lorsque les deux vecteurs pointent dans le **même sens** : pour obtenir un score élevé sur « chat », la représentation $h$ d'une photo de chat doit pointer vers $a_{\text{chat}}$. L'entraînement tire alors chaque photo de chat vers $a_{\text{chat}}$ et l'éloigne des autres classes, si bien que les photos de chat finissent proches les unes des autres.
+avec un vecteur $a_c$ par classe (voir [[Un vecteur par classe]]) : le score est grand lorsque $h$ et $a_c$ pointent dans le même sens.
 
 Les vecteurs $a_c$ sont eux aussi des plongements : un vecteur par classe. La proximité des représentations se lit avec les [[Mesures de similarité et de distance]].
 
@@ -32,6 +32,5 @@ L'état caché $h_t$ d'un [[Réseau récurrent]] est un plongement du préfixe :
 
 La notion se retrouve à l'entrée avec la [[Couche de plongement]], qui apprend un vecteur par symbole, et sans étiquette avec l'[[Auto-encodeur]], qui apprend une représentation compacte en imposant un goulot d'étranglement.
 
-L'apprentissage de plongements de mots par prédiction du contexte est traité dans [[word2vec]].
-
-Le plongement est la représentation latente produite par les [[Architectures et représentations des réseaux]].
+- Dans l'[[Encodage d'une séquence]], le vecteur $e$ qui résume la phrase est un plongement de la séquence entière.
+- Un [[Réseaux siamois|réseau siamois]] compare deux plongements produits par un même encodeur pour juger de leur proximité.

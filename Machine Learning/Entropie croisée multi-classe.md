@@ -29,10 +29,3 @@ $$\ell = -\ln 0.24 = 1.42$$
 Si le modèle donnait plutôt $\mathbb{P}(\text{chat}) = 0.9$, la perte tomberait à
 
 $$\ell = -\ln 0.9 = 0.11$$
-
-# Remarque
-
-- Pour $K = 2$, la perte redonne l'[[Entropie croisée binaire|entropie croisée binaire]].
-- En [[Classification binaire|classification binaire]], la probabilité de la bonne réponse s'écrit $\hat{y}_i^{y_i} (1 - \hat{y}_i)^{1 - y_i}$ : une seule expression couvre les deux classes, sans test conditionnel.
-- Le gradient de la perte par rapport aux scores est traité dans [[Gradient du couple softmax et entropie croisée]].
-- L'implémentation de cette perte est traitée dans [[Entropie croisée multi-classe avec PyTorch]].

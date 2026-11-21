@@ -101,8 +101,4 @@ Passer de la cellule simple à la mémoire à long et court terme se limite donc
 
 # Remarque
 
-Le choix de la cellule ne change pas la forme des sorties : elles restent en $H$, alors que l'entrée est en $n$.
-
-Le coût en paramètres suit le nombre de couches denses : quatre pour la mémoire à long et court terme, trois pour l'unité récurrente à portes, contre une pour `nn.RNN`.
-
 Un lot n'accepte qu'un tenseur, donc des séquences de même longueur : le [[Longueur variable des séquences|remplissage]] des séquences courtes précède tout appel à ces modules.

@@ -41,10 +41,10 @@ Garder l'erreur quadratique $\ell = (\hat{y} - y)^2$ avec $\hat{y} = \sigma(z)$,
 
 $$\frac{\partial \ell}{\partial z} = 2(\hat{y} - y)\,\sigma(z)\bigl(1 - \sigma(z)\bigr)$$
 
-Le facteur $\sigma(z)(1 - \sigma(z))$ tend vers $0$ quand le modèle est confiant : confiant et faux, le gradient s'annule et le modèle reste bloqué exactement là où il est le plus mauvais. L'[[Entropie croisée binaire]] évite ce piège, le terme $\sigma'(z)$ se compense et il reste $\hat{y} - y$. La perte n'est pas choisie pour sa beauté, mais pour son gradient.
+Avec l'[[Entropie croisée binaire]], le facteur $\sigma(z)(1-\sigma(z))$ se compense et il reste $\hat{y} - y$ : la perte n'est pas choisie pour sa beauté, mais pour son gradient.
 
 Vérification de santé, par un modèle non entraîné :
 
-- il répond environ $1/K$ pour chaque classe ;
+- il répond environ $\frac{1}{K}$ pour chaque classe ;
 - la perte vaut alors $\approx \ln K$, soit $\ln 3 = 1.10$ pour trois classes ;
 - le cas $K = 2$ donne $\ln 2 = 0.693$.

@@ -90,14 +90,6 @@ Le token retenu est « Tower ». La boucle se poursuit de la même façon, chaqu
 
 Quand les éléments sont des classes (lettres, mots), $\hat{y}_t$ se choisit dans la distribution du softmax : soit la classe la plus probable, soit un tirage aléatoire, dont le degré d'aléa se règle par la [[Température d'un softmax|température]] du softmax. Retenir la classe la plus probable rend la génération déterministe.
 
-Le décodeur qui produit la séquence s'entraîne par [[Teacher forcing]].
-
-La génération est l'étape de sortie d'un [[Encodeur-décodeur pour les séquences]], dont l'architecture complète est décrite dans [[Architecture du Transformer]].
-
-L'auto-attention du décodeur est masquée pour qu'une position ne voie que les tokens déjà produits, voir [[Masque causal]].
-
-L'auto-attention multi-têtes du décodeur est croisée avec la sortie de l'encodeur, voir [[Attention croisée]].
-
-Au fil des pas, les clés et les valeurs des tokens déjà produits ne changent pas : elles sont gardées en mémoire et relues au [[Cache de clés et de valeurs]], seule la requête du nouveau token étant calculée.
-
 Les sorties du décodeur étant décalées à droite, chaque position y prédit le token qui suit celui qu'elle porte.
+
+- Le [[Mécanisme de copie]] s'applique à la génération : la décision de copier un token de l'entrée est recalculée à chaque pas.

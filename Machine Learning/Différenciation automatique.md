@@ -44,12 +44,12 @@ flowchart LR
 
 # Interprétation
 
-Deux routes mènent aux mêmes deux nombres, avec des exigences très différentes :
+Deux méthodes de calcul donnent les mêmes deux dérivées partielles, $\frac{\partial L}{\partial a}$ et $\frac{\partial L}{\partial b}$, mais à des coûts très différents :
 
 - analytique : il faut $L$ sous la forme d'une formule unique, une dérivation par paramètre, et toute modification du modèle oblige à refaire l'algèbre ;
 - backward (autograd) : il suffit de la dérivée locale de chaque opération, une seule passe donne tous les paramètres, et un changement de modèle n'impose rien à refaire.
 
-Ici, les deux routes aboutissent aux mêmes valeurs, $-18$ et $-4$.
+Ici, le calcul analytique et le parcours arrière du graphe aboutissent aux mêmes valeurs, $-18$ et $-4$.
 
 Le graphe est un **enregistrement, pas une équation**. Chaque tenseur construit par une opération porte un `grad_fn` ; la passe avant, nœud par nœud, donne exactement les boîtes du dessin, dans l'ordre :
 
@@ -69,13 +69,11 @@ for _ in range(n):
     y = y * w
 ```
 
-- $n = 3$ : $y = w^3 x$ et $\partial y/\partial w = 3w^2 x$ ;
-- $n = 5$ : $y = w^5 x$ et $\partial y/\partial w = 5w^4 x$.
+- $n = 3$ : $y = w^3 x$ et $\frac{\partial y}{\partial w} = 3w^2 x$ ;
+- $n = 5$ : $y = w^5 x$ et $\frac{\partial y}{\partial w} = 5w^4 x$.
 
 Il n'y a donc aucune formule à dériver à l'avance, seulement un graphe à enregistrer.
 
 # Remarque
 
 - `L.backward()` parcourt cette chaîne à l'envers, puis **libère** le graphe ; un second appel lève l'erreur *« Trying to backward through the graph a second time »*.
-- Le parcours arrière, opération par opération, est détaillé dans [[Rétropropagation]].
-- Sans les opérations enregistrées dans le [[Graphe de calcul]], `backward()` n'a rien à parcourir et la différenciation automatique ne peut pas fonctionner.

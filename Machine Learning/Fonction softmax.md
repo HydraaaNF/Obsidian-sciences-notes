@@ -24,7 +24,7 @@ $$z_c - z_k = \ln \frac{\mathbb{P}(c \mid x)}{\mathbb{P}(k \mid x)}$$
 
 # Exemple
 
-La couche de sortie compte trois neurones et produit un score par classe :
+Avec trois classes :
 
 $$z = (z_{\text{chat}}, z_{\text{chien}}, z_{\text{oiseau}}) = xA^\top + b$$
 
@@ -51,7 +51,7 @@ Pour deux classes, le softmax se réduit à la sigmoïde de la [[Régression log
 
 $$\mathbb{P}(\text{chien}) = \frac{1}{1 + e^{-z}} = \frac{e^z}{e^z + 1} = \frac{e^z}{e^z + e^0}$$
 
-Chaque classe reçoit l'exponentielle de son score divisée par le total :
+Les deux probabilités s'écrivent :
 
 $$\mathbb{P}(\text{chien}) = \frac{e^{z_{\text{chien}}}}{e^{z_{\text{chat}}} + e^{z_{\text{chien}}}}$$
 
@@ -62,9 +62,3 @@ Fixer $z_{\text{chat}} = 0$ ne coûte rien, puisque seul l'écart entre les deux
 $$\ln \frac{\mathbb{P}(\text{chien})}{\mathbb{P}(\text{chat})} = z_{\text{chien}} - z_{\text{chat}}$$
 
 ce qui redonne le logit de la régression logistique.
-
-La [[Régression logistique multinomiale]] est le modèle complet dont cette transformation fournit les probabilités a posteriori : un score linéaire par classe, normalisé sur l'ensemble des classes.
-
-Le softmax est la transformation de sortie d'un classifieur multi-classe ; voir l'[[Entropie croisée multi-classe]] pour la perte associée et la [[Température d'un softmax]] pour l'effet d'un facteur d'échelle sur les scores.
-
-Le [[Lien logistique comme modèle interprétable|modèle logistique]] est le cas à deux scores du softmax, l'un fixé à zéro.

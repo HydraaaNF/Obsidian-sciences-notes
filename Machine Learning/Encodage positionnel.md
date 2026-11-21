@@ -10,7 +10,7 @@ $$p_t^{(2k)} = \sin(w_k t)$$
 
 $$p_t^{(2k+1)} = \cos(w_k t)$$
 
-$$w_k = \frac{1}{10000^{2k/d}}$$
+$$w_k = \frac{1}{10000^{\frac{2k}{d}}}$$
 
 où $k$ indexe les paires de dimensions, $d$ est la dimension d'encodage, et les positions se répartissent ainsi sur des cycles sinusoïdaux de fréquences variées, dans l'esprit d'une analyse spectrale.
 
@@ -47,3 +47,8 @@ La carte de chaleur Position × Depth de l'encodage, lue sur la figure, s'interp
 | hautes dimensions | 50 à 120 | bleu foncé uniforme, fines colonnes claires | direction dominante commune à toutes les positions |
 
 La carte porte en ordonnée la position, de 0 à 50, et en abscisse la profondeur, de 0 à 120, sur une échelle de couleur allant de $-1{,}00$ (rouge foncé) à $+1{,}00$ (bleu foncé). Les dimensions basses portent la position, les hautes la sémantique, ce qui confirme la répartition décrite plus haut.
+
+# Liens avec d'autres lois
+
+- Dans l'[[Attention multi-têtes]], l'entrée $T$ est la somme des plongements des tokens et de leurs encodages positionnels.
+- L'entrée de [[BERT et le modèle de langage masqué|BERT]] additionne de même le plongement de chaque token et son encodage positionnel.

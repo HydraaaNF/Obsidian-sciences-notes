@@ -44,6 +44,7 @@ Une alternative est de moyenner tous les états au lieu de garder le dernier (**
 
 $$e = \frac{1}{T} \sum_{t=1}^{T} h_t$$
 
-Chaque état y compte pour $1/T$.
+Chaque état y compte pour $\frac{1}{T}$.
 
-Cet encodeur lit la séquence dans un seul sens. Pour la lire dans les deux directions, voir [[Encodeur bidirectionnel et causalité]] ; pour enchaîner un encodeur et un décodeur, voir [[Encodeur-décodeur pour les séquences]].
+- L'[[Attention dans un encodeur-décodeur]] lève le goulot d'étranglement de cet encodage : le décodeur n'a plus à se contenter du seul vecteur final.
+- Toute lecture d'un lot de séquences de longueurs différentes suppose le remplissage et le masque décrits dans [[Longueur variable des séquences]].

@@ -6,7 +6,7 @@ Trois régimes de [[Descente de gradient|descente de gradient]] se distinguent p
 
 - **lot complet** (batch) : la perte est calculée sur la totalité du jeu d'entraînement, puis les paramètres sont mis à jour une seule fois ; une mise à jour par passe sur les données ;
 - **stochastique** : un échantillon par mise à jour, donc $N$ mises à jour par époque ; le gradient est très bruité ;
-- **mini-lot** : $B$ échantillons par mise à jour, donc $N/B$ mises à jour par époque ; le gradient est estimé.
+- **mini-lot** : $B$ échantillons par mise à jour, donc $\frac{N}{B}$ mises à jour par époque ; le gradient est estimé.
 
 Une **époque** est une passe complète sur le jeu d'entraînement ; une **itération** est une mise à jour des paramètres.
 
@@ -48,5 +48,3 @@ Chaque tour de boucle reçoit un lot `x_batch`, `y_batch`, sur lequel s'applique
 La taille de lot $B$, comme le nombre d'époques, est un [[Hyper-paramètres|hyper-paramètre]] : ces valeurs se comparent sur le jeu de validation.
 
 Un lot réunit les échantillons sur un axe supplémentaire de taille $B$ : les opérations s'appliquent alors au lot entier par [[Diffusion entre tenseurs|diffusion]].
-
-Des mini-lots de séquences de longueurs différentes ne peuvent pas être empilés tels quels : voir [[Longueur variable des séquences]].

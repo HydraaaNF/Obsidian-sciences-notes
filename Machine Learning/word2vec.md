@@ -61,9 +61,3 @@ Sur une projection en deux dimensions d'un vocabulaire mélangeant plusieurs dom
 - un groupe de termes d'affaires : *customers*, *investors*, *marketing*, *advertising*.
 
 Les deux groupes occupent des régions distinctes du plan.
-
-# Remarque
-
-La couche d'entrée est une [[Couche de plongement]] : une couche linéaire appliquée à un encodage one-hot, dont la matrice de poids est précisément $E$.
-
-Les directions de l'espace des plongements portent aussi du sens : voir [[Analogies dans l'espace des plongements]].

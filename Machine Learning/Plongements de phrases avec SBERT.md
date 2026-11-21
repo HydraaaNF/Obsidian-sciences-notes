@@ -43,4 +43,3 @@ La question « How tall is the Eiffel Tower? » et la réponse « The Eiffel Tow
 - Le modèle s'utilise **sans fine-tuning** : les vecteurs produits servent directement.
 - Usages : recherche sémantique, RAG, clustering.
 - SBERT est l'application d'un [[Réseaux siamois|réseau siamois]] à un encodeur [[BERT et le modèle de langage masqué|BERT]] : les deux branches partagent les poids.
-- Le vecteur de phrase obtenu est un [[Plongement]].

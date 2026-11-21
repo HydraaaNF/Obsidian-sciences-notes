@@ -38,4 +38,4 @@ La frontière en pointillés sépare la phase de pré-entraînement multi-tâche
 
 Le pré-entraînement couvre plusieurs tâches à la fois, alors que l'adaptation supervisée ne porte que sur la tâche cible : les mêmes paramètres sont réutilisés d'une phase à l'autre.
 
-Un modèle ainsi pré-entraîné puis adapté s'emploie comme n'importe quel modèle pré-entraîné, par exemple dans un [[Pipeline Hugging Face]].
+- T5 est une instance encodeur-décodeur qui emploie les trois attentions, dont l'[[Architecture du Transformer|attention croisée]] entre encodeur et décodeur.

@@ -65,6 +65,4 @@ La dernière couche, la perte et la décision se déduisent du type de classific
 
 # Remarque
 
-- La [[Classification binaire]] est le cas à deux classes des deux autres types : une seule sigmoïde à la place de $K$ sigmoïdes, ou un [[Fonction softmax|softmax]] sur deux scores.
-- La [[Classification multi-étiquette]] est $K$ classifications binaires côte à côte.
 - Deux questions pour situer un problème : étiqueter une photo avec tous les animaux qu'elle montre, à quelle ligne du tableau correspond-elle ? Prédire la lettre suivante d'un nom, à quelle ligne, et que vaut $K$ ?

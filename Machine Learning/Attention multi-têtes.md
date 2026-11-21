@@ -30,7 +30,7 @@ Comme $Q$, $K$ et $V$ proviennent tous de la même matrice $T$, la couche est un
 
 ## Découpage en têtes
 
-Avec $d=1024$ features et $n_h=8$ têtes, chaque tête reçoit $d_k=1024/8=128$ features. Les colonnes de $Q$ sont découpées en huit blocs contigus :
+Avec $d=1024$ features et $n_h=8$ têtes, chaque tête reçoit $d_k=\frac{1024}{8}=128$ features. Les colonnes de $Q$ sont découpées en huit blocs contigus :
 
 | Tête | Colonnes | Forme |
 |---|---|---|

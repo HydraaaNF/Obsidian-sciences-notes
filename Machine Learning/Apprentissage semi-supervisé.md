@@ -21,6 +21,4 @@ La quantité de données reste déterminante pour la précision du modèle : dav
 
 L'apprentissage semi-supervisé donne les meilleurs résultats, mais il demande de la prudence : les données non étiquetées ne portent pas la réponse attendue.
 
-Il se situe entre l'[[Apprentissage supervisé]], où toutes les données sont étiquetées, et l'[[Apprentissage non supervisé]], où aucune ne l'est.
-
 Les [[Auto-encodeur|auto-encodeurs]] offrent un cadre d'apprentissage sur des données non étiquetées, exploitable en amont d'un modèle semi-supervisé.

@@ -47,12 +47,6 @@ Trois usages de l'auto-encodeur :
 
 # Remarque
 
-Le pré-entraînement rattache l'auto-encodeur à l'[[Apprentissage semi-supervisé]] : les données non étiquetées servent à apprendre la représentation, les données étiquetées à entraîner le classifieur final.
-
-L'auto-encodeur est le cas non supervisé de l'[[Encodeur-décodeur]].
-
-Une variante à entrée et sortie binaires, dont l'unique couche cachée porte les motifs, est décrite dans [[Auto-encodeur de motifs]].
-
-L'encodeur et l'espace latent servent aussi de support aux [[Réseaux de neurones contrefactuels]] et à l'[[Apprentissage de contrefactuels]].
-
 Le décodeur d'un auto-encodeur devient un [[Décodeur génératif]] dès que sa variable latente est tirée au hasard au lieu d'être calculée par l'encodeur : un auto-encodeur reconstruit son entrée, un décodeur génératif engendre des sorties nouvelles, et l'[[Auto-encodeur variationnel]] combine les deux en imposant une loi à $\mathbf{z}$.
+
+- La [[Diffusion latente]] prend appui sur l'espace latent d'un auto-encodeur pour y faire opérer le processus de diffusion.

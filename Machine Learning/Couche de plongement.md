@@ -72,3 +72,9 @@ La même notion apparaît des deux côtés d'un réseau :
 [[word2vec]] apprend les deux : un vecteur d'entrée et un vecteur de sortie pour chaque mot. Les Transformers emploient souvent la **même** matrice des deux côtés.
 
 Un même modèle peut réunir les deux rôles : une couche de plongement pour les lettres en entrée, une classe par lettre en sortie.
+
+# Liens avec d'autres lois
+
+- La couche forme la première étape des deux piles de l'[[Architecture du Transformer]], où chaque jeton devient un vecteur avant l'ajout de l'encodage positionnel.
+- L'[[Hypothèse distributionnelle]] trouve sa mise en œuvre dans la couche : le vecteur d'un mot est une ligne de matrice apprise.
+- La table apprise par la couche est le [[Plongement|plongement]] dont l'[[Émergence de structure dans les plongements|émergence de structure]] s'observe dans le plan des deux premières composantes principales.

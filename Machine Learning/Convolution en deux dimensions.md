@@ -12,8 +12,9 @@ Une convolution en deux dimensions prend une entrée décrite par deux axes spat
 - $\mathbf{w}$ et $b$ sont des paramètres apprenables ;
 - $y_{i,j}$ : élément de la carte d'activation produite.
 
-$$y_{i,j} = \sum_{c=1}^{C} \sum_{u=1}^{k_1} \sum_{v=1}^{k_2} w_{c,u,v}\, x_{c,\, i+u-1,\, j+v-1} + b,
-\qquad i = 1, \dots, H - k_1 + 1,\quad j = 1, \dots, W - k_2 + 1$$
+$$y_{i,j} = \sum_{c=1}^{C} \sum_{u=1}^{k_1} \sum_{v=1}^{k_2} w_{c,u,v}\, x_{c,\, i+u-1,\, j+v-1} + b$$
+
+pour $i$ allant de $1$ à $H - k_1 + 1$ et $j$ allant de $1$ à $W - k_2 + 1$.
 
 Une entrée peut compter plusieurs canaux. Le noyau possède alors la même profondeur que l'entrée, la traverse sur toute son épaisseur (la somme porte sur les $C$ canaux) et produit une carte d'activation, c'est-à-dire un unique canal de sortie. Un noyau distinct est employé par canal de sortie.
 
@@ -39,8 +40,6 @@ Avec $k_1 = k_2 = 3$, un canal d'entrée (`in_channels`) et un canal de sortie (
 
 $$y_{i,j} = \sum_{u=1}^{3} \sum_{v=1}^{3} w_{1,u,v}\, x_{1,\, i+u-1,\, j+v-1} + b$$
 
-La longueur d'entrée est **différente** de la longueur de sortie : $24$ colonnes en entrée donnent $22$ colonnes par canal, et non $24$.
-
 ```mermaid
 flowchart LR
     E["Entrée : 3 x 24, 1 canal"] --> K["Noyau : 3 x 3, 1 filtre"]
@@ -63,14 +62,8 @@ Le lot compte une seule entrée, d'un seul canal, de hauteur $3$ et de largeur $
 
 # Propriétés
 
-Sur chaque axe, sans padding, sans stride et sans dilation, la taille de sortie vaut la taille d'entrée moins la taille du noyau plus un :
-
-$$H_{\text{out}} = H - k_1 + 1, \qquad W_{\text{out}} = W - k_2 + 1$$
-
-Ces deux dimensions se lisent sur la [[Forme d'un tenseur]] de sortie, par exemple $(1, 1, 1, 22)$ pour un lot d'une entrée à un canal.
+Les dimensions de sortie se calculent par la formule de [[Taille de sortie d'une convolution]] ; elles se lisent sur la [[Forme d'un tenseur]], par exemple $(1,1,1,22)$ pour un lot d'une entrée à un canal.
 
 # Remarque
 
 Le noyau glisse indépendamment selon chaque axe : un noyau $3 \times 3$ sur une entrée de hauteur $3$ ne laisse qu'une seule position verticale, alors que la largeur $24$ laisse $22$ positions horizontales. Une entrée de hauteur inférieure à $k_1$, ou de largeur inférieure à $k_2$, ne fournit aucune position de sortie.
-
-La [[Convolution en une dimension]] est le cas particulier de cette opération sur un signal à un seul axe spatial. Les images sont le domaine usuel de la convolution en deux dimensions, avec un noyau qui traverse les canaux de couleur de l'entrée.

@@ -61,5 +61,4 @@ Minimiser $L$ revient donc à rendre $e_A$ porteur de $y_A$ et vide de $y_B$, et
 # Remarque
 
 - Le désenchevêtrement prolonge la perte secondaire de l'[[Encodeur-décodeur]] : la contrainte ne porte plus sur une seule représentation intermédiaire, mais sur la répartition de l'information entre plusieurs représentations.
-- Le nombre de représentations n'est pas limité à deux : on peut en produire $N$ à partir de la même entrée.
 - Le dispositif à plusieurs représentations et plusieurs classifieurs se lit comme un cas d'[[Apprentissage multi-tâches]] : chaque représentation et le classifieur qui lui est associé servent une tâche distincte.

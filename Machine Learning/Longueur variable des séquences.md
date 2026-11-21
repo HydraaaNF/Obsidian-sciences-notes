@@ -85,9 +85,3 @@ Dans un réseau récurrent, `pack_padded_sequence` arrête chaque séquence à s
 La troncature jette de l'information ; le remplissage n'en jette pas, mais introduit des valeurs qui n'en sont pas.
 
 Le remplissage peut se faire à gauche plutôt qu'à droite : pour générer des noms de longueur variable, on complète à gauche afin que les premières lettres disposent elles aussi de quatre lettres de contexte.
-
-Le remplissage revient avec les [[Réseau récurrent|réseaux récurrents]], pour réunir dans un même lot des séquences de longueurs différentes.
-
-Dans les deux options de longueur fixe, les poids sont propres à chaque position : un motif appris en position 2 n'est pas réutilisé en position 5.
-
-Le remplissage et le masque précèdent toute lecture d'un lot de séquences de longueurs différentes, quelle que soit la sortie visée, voir [[Encodage d'une séquence]].

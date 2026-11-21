@@ -72,3 +72,5 @@ y_pred = model(x)                     # calls forward
 Le réseau du XOR tient en trois lignes : deux entrées, deux neurones cachés avec une tangente hyperbolique, une sortie. Sans activation entre les couches linéaires, l'empilement se réduit à une seule transformation affine, voir [[Composition de couches linéaires]].
 
 Le nombre d'entrées $n$ de la première couche, le nombre $h$ d'unités cachées et le nombre $m$ de sorties sont fixés à la construction : ce sont des [[Hyper-paramètres]], pas des poids appris.
+
+- Le [[Réseau convolutif avec PyTorch]] est un cas particulier de cet assemblage : une chaîne `nn.Sequential` où les modules convolutifs remplacent les couches denses.

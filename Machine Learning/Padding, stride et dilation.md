@@ -12,13 +12,9 @@ La **dilation** $d$ est l'espacement entre les cellules du noyau. Une dilation $
 
 # Propriétés
 
-La taille de sortie se déduit de ces trois paramètres par la formule de [[Taille de sortie d'une convolution|taille de sortie d'une convolution]] : pour une entrée $n \times n$, un noyau $k \times k$, un padding $p$, un stride $s$ et une dilation $d$,
+La taille de sortie se déduit de ces trois paramètres par la formule de [[Taille de sortie d'une convolution]] ; chacun la modifie à sa manière :
 
-$$n_{\text{out}} = \left\lfloor \frac{n + 2p - d\,(k-1) - 1}{s} \right\rfloor + 1$$
-
-Chaque paramètre agit sur un terme distinct :
-
-- le padding ajoute $2p$ cellules au numérateur, donc agrandit la sortie, exactement de $2p$ positions quand $s=1$ ;
+- le padding ajoute $2p$ cellules, donc agrandit la sortie de $2p$ positions quand $s=1$ ;
 - le stride divise le nombre de positions disponibles, donc réduit la sortie d'un facteur proche de $s$ ;
 - la dilation remplace la taille $k$ du noyau par la taille effective $d(k-1)+1$, sans changer le nombre de poids.
 
@@ -54,6 +50,4 @@ Sur une entrée $7 \times 7$, la même configuration donne $7 - 4 = 3$, soit une
 
 Un padding de $p$ cellules se dessine avec $p$ couronnes de zéros de chaque côté. Pour $p=2$ sur une entrée $5 \times 5$, la grille effective compte donc $9 \times 9$ cellules et la sortie $7 \times 7$ ; une représentation à une seule couronne, avec une sortie $5 \times 5$, correspond à $p=1$. Confondre le nombre de couronnes avec le nombre de cellules ajoutées de chaque côté est une erreur fréquente de lecture du paramètre.
 
-La dilation ne modifie pas le nombre de poids du noyau : elle ne fait qu'espacer leurs positions. Le noyau effectif $d(k-1)+1$ croît avec $d$, ce qui élargit le champ récepteur d'une [[Convolution dilatée|convolution dilatée]] sans coût de paramètres supplémentaire.
-
-Le padding conserve la taille de sortie quand $s=1$ et $p=(k-1)/2$ : c'est le réglage usuel d'une [[Couche de convolution|couche de convolution]] qui doit renvoyer une carte de même dimension que son entrée.
+Le padding conserve la taille de sortie quand $s=1$ et $p=\frac{k-1}{2}$ : c'est le réglage usuel d'une [[Couche de convolution|couche de convolution]] qui doit renvoyer une carte de même dimension que son entrée.

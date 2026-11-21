@@ -27,4 +27,3 @@ Sur la représentation de ce cadre, la petite famille $H$ est incluse dans une f
 # Remarque
 
 - Les trois erreurs se cumulent : l'écart entre $h$ et $f$ se décompose en erreur d'approximation, erreur d'estimation et erreur intrinsèque. Seule l'erreur intrinsèque est irréductible, puisqu'elle vient des données elles-mêmes et non du choix du modèle.
-- Le compromis entre petite et grande famille recoupe celui entre [[Surapprentissage et sous-apprentissage|sous-apprentissage et surapprentissage]] : une famille trop étroite ne peut pas s'approcher de $f$, une famille trop riche rend la recherche du $h$ optimal difficile.

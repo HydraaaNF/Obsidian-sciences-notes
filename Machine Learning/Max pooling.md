@@ -49,5 +49,3 @@ Les quatre fenêtres recouvrent la totalité de l'entrée : seize valeurs sont r
 # Remarque
 
 En PyTorch, l'opération s'écrit `torch.nn.MaxPool2d(2)` pour une fenêtre $2 \times 2$ ; le module agit sur un tenseur de [[Tenseurs PyTorch]] dont les deux dernières dimensions sont spatiales, et le pas vaut par défaut la taille de fenêtre, ce qui rend les fenêtres disjointes.
-
-Le max pooling s'intercale entre les couches de convolution d'un [[Réseau de neurones convolutif]] : il réduit la résolution des cartes à chaque étage sans coût de paramètres, tandis que la [[Couche de convolution]] qui le précède porte, elle, les poids appris.

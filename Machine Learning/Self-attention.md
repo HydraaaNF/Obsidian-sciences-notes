@@ -37,7 +37,7 @@ La self-attention se lit comme un moteur de recherche en miniature : une requêt
 | $k_3$ | $v_3$ |
 | $k_4$ | $v_4$ |
 
-La requête $q_i$ est comparée à chaque clé $k_j$ par le score $q_i \cdot k_j / \sqrt{d_k}$. Ce produit scalaire est une véritable similarité : il est grand lorsque $q_i$ et $k_j$ sont alignés. Un softmax sur les scores donne les poids $a_{ij}$, et le résultat est la moyenne pondérée des valeurs :
+La requête $q_i$ est comparée à chaque clé $k_j$ par le score $\frac{q_i \cdot k_j}{\sqrt{d_k}}$. Ce produit scalaire est une véritable similarité : il est grand lorsque $q_i$ et $k_j$ sont alignés. Un softmax sur les scores donne les poids $a_{ij}$, et le résultat est la moyenne pondérée des valeurs :
 
 $$v'_i = \sum_j a_{ij} v_j$$
 
@@ -46,3 +46,7 @@ Le parcours complet s'écrit donc : $q_i$ interroge les couples $(k_1, v_1), \do
 # Remarque
 
 Dans l'[[Réseau récurrent]], la clé et la valeur ne font qu'un : $k_j = v_j = h_j$, et le décodeur fournit les requêtes $Q = d_i$ tandis que l'encodeur fournit $K = V = h_i$. En self-attention, la clé comparée et la valeur récupérée peuvent différer, car ce sont deux projections $W_K$ et $W_V$ du même token, et $q$, $k$, $v$ sont issus de la même séquence.
+
+- L'[[Architecture du Transformer|attention croisée]] en est la généralisation : les requêtes viennent d'une séquence et les clés et valeurs d'une autre, alors qu'ici les trois sortent de la même séquence.
+- Le [[Cache de clés et de valeurs]] réutilise les projections de clés et de valeurs calculées ici : dans un décodeur masqué, celles d'un token passé ne changent plus.
+- L'[[Interprétabilité de l'attention]] met en garde contre la lecture directe des poids produits ici : une ligne d'attention n'isole pas un antécédent unique.

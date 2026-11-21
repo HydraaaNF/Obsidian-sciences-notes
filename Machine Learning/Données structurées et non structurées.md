@@ -22,12 +22,6 @@ Données non structurées, où permuter les valeurs ne change rien :
 
 # Remarque
 
-Dans une donnée structurée, la position d'une valeur dans la structure est porteuse d'information ; dans une donnée non structurée, remettre les valeurs dans un autre ordre ne modifie pas la donnée.
-
 Un **sac** autorise les répétitions, contrairement à un ensemble.
 
-Les valeurs elles-mêmes, leur type et leur domaine se décrivent avec les notions de [[Donnée et attributs]].
-
 Cette structure conditionne la façon de conserver les données, voir [[Stockage des données]].
-
-Les données numériques manipulées par les modèles d'apprentissage sont rangées dans des [[Tenseur|tenseurs]], tableaux à $n$ dimensions.

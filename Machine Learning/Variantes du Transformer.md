@@ -6,7 +6,7 @@ Le Transformer ne désigne pas une architecture unique : l'[[Architecture du Tra
 
 - **encodeur seul** : la seule pile d'encodage, sans décodeur, que l'on regroupe sous le nom de BERT
 - **décodeur seul** : la seule pile de décodage, sans encodeur, que l'on regroupe sous le nom de GPT
-- **encodeur-décodeur** : les deux piles enchaînées, dont T5 est l'exemple usuel
+- **encodeur-décodeur** : les deux piles enchaînées, dont T5 et BART sont les exemples usuels
 
 Les trois partagent la même tête de sortie : une couche linéaire, un softmax, puis une distribution de probabilités sur le vocabulaire. Ce qui change est la façon dont l'attention circule dans la séquence, et donc ce que le modèle peut voir du futur.
 
@@ -21,7 +21,7 @@ Les trois partagent la même tête de sortie : une couche linéaire, un softmax,
 - $N$ blocs de décodeur : `Masked Multi-Head Attention`, `Add & Norm`, `Multi-Head Attention` croisée, `Add & Norm`, `Feed Forward`, `Add & Norm`
 - `Linear`, `Softmax`, `Output Probabilities`
 
-Chaque sous-couche est entourée d'une connexion résiduelle suivie d'une normalisation, voir [[Connexions résiduelles]]. L'attention croisée du décodeur reçoit la sortie de l'encodeur comme clés et valeurs, détail repris dans [[Attention croisée]]. Le masquage de la première attention du décodeur empêche d'accéder aux positions futures, voir [[Masque causal]].
+Chaque sous-couche est entourée d'une connexion résiduelle suivie d'une normalisation, voir [[Connexions résiduelles]]. L'attention croisée du décodeur reçoit la sortie de l'encodeur comme clés et valeurs, détail repris dans [[Architecture du Transformer]]. Le masquage de la première attention du décodeur empêche d'accéder aux positions futures, voir [[Masque causal]].
 
 ## Encodeur seul
 
@@ -76,7 +76,7 @@ Un modèle est causal lorsque sa sortie à une position ne dépend que des posit
 |---|---|---|---|
 | encodeur seul (BERT) | non | non | chaque jeton voit toute la séquence, à gauche comme à droite |
 | décodeur seul (GPT) | oui | oui | chaque jeton ne voit que les précédents |
-| encodeur-décodeur (T5) | décodeur seulement | décodeur seulement | l'encodeur lit toute l'entrée, le décodeur progresse vers la droite |
+| encodeur-décodeur (T5, BART) | décodeur seulement | décodeur seulement | l'encodeur lit toute l'entrée, le décodeur progresse vers la droite |
 
 ## Le masque d'attention
 
@@ -109,7 +109,5 @@ Parler d'encodeur-décodeur suppose donc l'existence des deux autres variantes :
 Les grands modèles de langage actuels relèvent tous du décodeur seul. Le masque y joue un rôle central : il rend le modèle causal tout en lui permettant de prédire une séquence entière en une seule passe, au lieu d'une boucle explicite sur les positions.
 
 # Remarque
-
-La propriété « causal et autorégressif » ne vaut que pour le décodeur. Dans un modèle encodeur-décodeur, l'encodeur reste bidirectionnel et lit toute l'entrée d'un coup, comme le rappelle la comparaison entre causalité et bidirectionnalité de [[Encodeur bidirectionnel et causalité]].
 
 Le schéma de l'encodeur-décodeur ajoute un encodage positionnel absolu aux plongements d'entrée et de sortie ; T5, cité comme exemple de cette architecture, recourt pour sa part à des encodages positionnels relatifs.

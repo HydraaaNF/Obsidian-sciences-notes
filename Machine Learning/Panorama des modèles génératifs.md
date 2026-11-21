@@ -23,9 +23,3 @@ La génération est séquentielle : tirer $x_t$, l'ajouter à l'entrée, recomme
 # Exemple
 
 Sur de l'audio, WaveNet illustre le coût du schéma autorégressif : un pas par échantillon, soit $16\,000$ pas pour une seconde d'audio, là où un VAE ou un GAN ne demande qu'un passage à partir de $\mathbf{z}$.
-
-# Remarque
-
-Le contraste entre les familles porte donc sur le nombre d'étapes de génération : un pas par échantillon pour l'autorégressif, un passage unique pour les modèles à vecteur aléatoire, une suite d'étapes de débruitage pour la diffusion. Un modèle autorégressif comme [[Architecture WaveNet|WaveNet]] paie ce découpage par un nombre d'étapes proportionnel à la longueur de la séquence produite.
-
-La génération autorégressive s'applique aussi au texte, où elle relève de la [[Génération d'une séquence]].

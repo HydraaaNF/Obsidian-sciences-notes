@@ -100,11 +100,7 @@ La fenêtre de $y_3$ combine $x_3 = 4$ et $x_5 = 1$, distants de deux rangs ; le
 
 # Remarque
 
-Pour $d = 1$, la taille effective $d(k-1)+1$ vaut $k$ et l'on retrouve exactement la [[Convolution en une dimension]] : la convolution dilatée en est la généralisation, avec $d$ comme paramètre supplémentaire au même titre que le padding et le stride.
-
-Le nombre de sorties se calcule par la formule donnée plus haut, à partir de $n$, $p$, $k$, $d$ et $s$ : il vaut $n_{\text{out}} = 3$ dans l'exemple sans biais et $n_{\text{out}} = 5$ dans l'exemple avec padding. Chaque indice $i = 1, \dots, n_{\text{out}}$ fournit une sortie, obtenue par la même somme pondérée.
-
-Le nombre de sorties ne doit pas non plus être estimé sans tenir compte de la dilatation : pour $k = 2$ et $d = 2$, la fenêtre couvre $3$ cellules, non $2$. Une lecture qui ignore la dilatation conduit à des valeurs trop grandes, par exemple $9$ et $4$ au lieu de $5$ et $4$ pour l'exemple à stride $2$.
+Le nombre de sorties ne doit pas être estimé sans tenir compte de la dilatation : pour $k = 2$ et $d = 2$, la fenêtre couvre $3$ cellules, non $2$. Une lecture qui ignore la dilatation conduit à des valeurs trop grandes, par exemple $9$ et $4$ au lieu de $5$ et $4$ pour l'exemple à stride $2$.
 
 Une erreur fréquente dans le calcul de la première sortie avec padding consiste à décaler la fenêtre d'un rang : l'écriture $1 \times 1 + 2 \times 0 = 1$ omet la dilatation. Les cellules lues, aux rangs $1$ et $3$, valent $0$ et $4$, d'où $0 \times 1 + 4 \times 2 = 8$.
 

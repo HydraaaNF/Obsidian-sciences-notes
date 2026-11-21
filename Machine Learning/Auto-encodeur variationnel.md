@@ -70,5 +70,3 @@ Pour la génération, on oublie l'encodeur : on tire $\mathbf{z} \sim \mathcal{N
 # Remarque
 
 La forme close $\tfrac{1}{2} \sum_i (\mu_i^2 + \sigma_i^2 - \log \sigma_i^2 - 1)$ ne décrit que le terme de divergence : elle ne remplace pas la perte complète, à laquelle s'ajoute toujours le terme de reconstruction. Écrire $\mathcal{L}$ égal à cette seule somme est une erreur fréquente.
-
-La différence avec l'[[Auto-encodeur]] tient à cette loi latente : le modèle déterministe encode une entrée en un point, le modèle variationnel en une distribution, dont le tirage explique le caractère génératif.

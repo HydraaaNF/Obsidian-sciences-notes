@@ -13,3 +13,5 @@ Un graphique compare les scores MMLU (5-shot) des modèles à poids fermés et d
 Les libellés du graphique sont peu lisibles : seule la tendance d'ensemble est retenue ici, sans reproduction des points.
 
 Une réserve accompagne ce constat : la capacité de construire un tel modèle n'est pas considérée comme acquise en France.
+
+- La croissance de la taille des modèles pèse sur l'[[Empreinte environnementale de l'intelligence artificielle]], dont l'évolution suit celle des moyens de calcul engagés.

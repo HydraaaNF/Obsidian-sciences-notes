@@ -39,5 +39,3 @@ Dans un problème d'apprentissage, les attributs se répartissent entre entrée 
 # Remarque
 
 Les attributs d'une donnée sont les [[Population statistique et caractère|caractères]] d'un individu au sens statistique : le genre et le mot sont des [[Caractère qualitatif|caractères qualitatifs]], la taille et le niveau de gris des [[Caractère quantitatif continu|caractères quantitatifs continus]].
-
-Une image en couleur est une matrice et un texte un vecteur : ces données se représentent par des [[Tenseur|tenseurs]].

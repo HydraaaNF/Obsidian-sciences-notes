@@ -35,7 +35,3 @@ Le décodeur génératif est un cas particulier d'[[Encodeur-décodeur]] : la va
 L'[[Auto-encodeur variationnel]] suit ce principe : son décodeur est un décodeur génératif, alimenté par des variables latentes échantillonnées. La différence avec l'[[Auto-encodeur]] tient à l'entraînement : dans un auto-encodeur, $D$ reconstruit $\mathbf{x}$ à partir de $E(\mathbf{x})$ et les deux réseaux apprennent ensemble ; dans un décodeur génératif, $D$ doit produire une sortie plausible pour tout $\mathbf{z}$ de la loi latente.
 
 La loi de $\mathbf{z}$ fait partie de la définition et non d'un simple détail d'implémentation : elle fixe la répartition des sorties engendrées. Le choix $\mathcal{N}(0,I)$ est le plus courant, mais toute densité sur $\mathbb{R}^{n}$ convient.
-
-Un décodeur génératif est la brique de génération des [[Modèle génératif|modèles génératifs]] à variable latente.
-
-Le processus inverse d'un [[Modèle de diffusion]] se lit comme un décodeur génératif appliqué de façon répétée : chaque étape transforme un état bruité en un état un peu moins bruité, jusqu'à l'échantillon.

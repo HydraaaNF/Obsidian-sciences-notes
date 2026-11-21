@@ -11,7 +11,9 @@ Une convolution en une dimension prend une suite de $N$ éléments de même type
 - $\mathbf{w}$ et $b$ sont des paramètres apprenables ;
 - $\mathbf{y} = \mathbf{x} * \mathbf{w}$ : convolution de $\mathbf{x}$ par $\mathbf{w}$.
 
-$$y_i = \sum_{j=1}^{k} w_j\, x_{i+j-1} + b, \qquad i = 1, \dots, N - k + 1$$
+$$y_i = \sum_{j=1}^{k} w_j\, x_{i+j-1} + b$$
+
+pour $i$ allant de $1$ à $N - k + 1$.
 
 # Interprétation
 
@@ -60,9 +62,3 @@ $$L_{out} = L_{in} - k + 1$$
 Avec un seul canal d'entrée et $C$ filtres distincts, la sortie compte $C$ canaux, chacun de longueur $L_{in} - k + 1$ : la forme de sortie est $(L_{in} - k + 1) \times C$.
 
 Les poids du noyau sont partagés entre toutes les positions : c'est la même fenêtre pondérée qui est appliquée d'un bout à l'autre de la suite.
-
-# Remarque
-
-La longueur de sortie est en général **différente** de la longueur d'entrée : $24$ valeurs en entrée donnent $22$ valeurs par canal, et non $24$.
-
-La convolution en une dimension est le cas particulier, sur un signal à une seule dimension, de la [[Convolution en deux dimensions]].

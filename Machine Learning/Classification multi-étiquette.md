@@ -20,8 +20,3 @@ Trois classes, chat, chien et oiseau : les probabilités de sortie valent $\math
 Aucune contrainte de somme à $1$ ne s'applique : ces trois valeurs sont acceptables telles quelles.
 
 Avec un seuil par sortie, la décision retient ici $\{\text{chat}, \text{chien}\}$ : l'oiseau, à $0.05$, reste sous son seuil.
-
-# Remarque
-
-- Rien de nouveau par rapport au cas binaire : une classification multi-étiquette est $K$ régressions logistiques qui partagent les mêmes couches cachées.
-- Le softmax est absent précisément parce que les classes ne se concurrencent pas ; il n'a de sens que lorsque les probabilités doivent sommer à $1$.

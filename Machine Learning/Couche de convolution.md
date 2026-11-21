@@ -35,8 +35,4 @@ avec :
 
 La couche de convolution est la variante à poids partagés de la couche du [[Perceptron multicouche]] : un même noyau sert à toutes les positions qu'il balaie, au lieu d'avoir un poids propre par connexion.
 
-L'étape de convolution se termine par une activation, qui rend la couche non linéaire : voir les [[Fonctions d'activation]].
-
-Le calcul effectif du noyau sur une séquence est détaillé dans [[Convolution en une dimension]], sur une image dans [[Convolution en deux dimensions]].
-
-La mise à jour des poids est une [[Descente de gradient]] appliquée aux paramètres du noyau, le gradient étant obtenu par [[Rétropropagation]] à travers la couche.
+Le [[Max pooling]] est le complément sans paramètre de la couche de convolution : il réduit la résolution des cartes d'activation produites.

@@ -38,3 +38,5 @@ Le bloc alterne donc un brassage horizontal, entre jetons, et une transformation
 # Remarque
 
 La formule ci-dessus retient GELU, l'activation employée par les GPT ; ReLU occupe le même emplacement. Seule la non-linéarité change, pas sa place dans le bloc.
+
+- Le [[Mélange d'experts]] généralise cette couche : le réseau feed-forward y est remplacé par plusieurs experts dont les sorties sont combinées.

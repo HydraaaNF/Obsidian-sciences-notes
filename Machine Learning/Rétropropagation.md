@@ -6,14 +6,14 @@ La rétropropagation calcule les dérivées partielles de la perte par rapport �
 
 Chaque opération embarque sa propre dérivée locale :
 
-- la multiplication connaît $\partial(uv)/\partial u = v$ ;
-- l'élévation au carré connaît $\partial(e^2)/\partial e = 2e$.
+- la multiplication connaît $\frac{\partial(uv)}{\partial u} = v$ ;
+- l'élévation au carré connaît $\frac{\partial(e^2)}{\partial e} = 2e$.
 
 Le gradient se propage en parcourant le graphe vers l'arrière et en multipliant, à chaque boîte, le gradient reçu par le facteur local.
 
 # Exemple
 
-Passe avant sur un échantillon isolé $(x, y) = (4, 7)$ :
+Passe avant sur un échantillon isolé $(x, y) = (4, 7)$, avec les paramètres courants $a = 1$ et $b = 1$ :
 
 - $z = ax$ ;
 - $\hat{y} = z + b$ ;
@@ -22,27 +22,27 @@ Passe avant sur un échantillon isolé $(x, y) = (4, 7)$ :
 
 Dérivées locales de ces boîtes :
 
-- $\partial z/\partial a = x = 4$ ;
-- $\partial \hat{y}/\partial z = 1$ ;
-- $\partial e/\partial \hat{y} = 1$ ;
-- $\partial \ell/\partial e = 2e = -4$.
+- $\frac{\partial z}{\partial a} = x = 4$ ;
+- $\frac{\partial \hat{y}}{\partial z} = 1$ ;
+- $\frac{\partial e}{\partial \hat{y}} = 1$ ;
+- $\frac{\partial \ell}{\partial e} = 2e = -4$.
 
 Parcours arrière, en partant de la perte :
 
-- $\partial \ell/\partial \ell = 1$ ;
-- $\partial \ell/\partial e = 1 \times 2e = -4$ ;
-- $\partial \ell/\partial \hat{y} = -4 \times 1 = -4$ ;
-- $\partial \ell/\partial z = -4 \times 1 = -4$ ;
-- $\partial \ell/\partial a = -4 \times x = -16$ ;
-- $\partial \ell/\partial b = -4 \times 1 = -4$.
+- $\frac{\partial \ell}{\partial \ell} = 1$ ;
+- $\frac{\partial \ell}{\partial e} = 1 \times 2e = -4$ ;
+- $\frac{\partial \ell}{\partial \hat{y}} = -4 \times 1 = -4$ ;
+- $\frac{\partial \ell}{\partial z} = -4 \times 1 = -4$ ;
+- $\frac{\partial \ell}{\partial a} = -4 \times x = -16$ ;
+- $\frac{\partial \ell}{\partial b} = -4 \times 1 = -4$.
 
 # Propriétés
 
-Le parcours démarre à $1$ parce que $\partial \ell/\partial \ell = 1$ : c'est la graine du calcul, pas une convention.
+Le parcours démarre à $1$ parce que $\frac{\partial \ell}{\partial \ell} = 1$ : c'est la graine du calcul, pas une convention.
 
 L'addition laisse passer le gradient, la multiplication le multiplie par l'autre entrée.
 
-Aucune boîte du graphe ne connaît $L$ ni le jeu de données, et pourtant $\partial \ell/\partial a$ sort du parcours.
+Aucune boîte du graphe ne connaît $L$ ni le jeu de données, et pourtant $\frac{\partial \ell}{\partial a}$ sort du parcours.
 
 Les paramètres sont partagés par tous les échantillons, donc on lance le parcours arrière une fois par échantillon et les gradients des paramètres s'additionnent. Avec les trois échantillons $x = 1, 2, 4$ et les erreurs $e = 1, -1, -2$ correspondantes :
 
@@ -76,4 +76,4 @@ Un logiciel de [[Différenciation automatique]] comme PyTorch accumule les gradi
 
 Le gradient ainsi accumulé est la quantité que consomment les [[Optimiseurs]] pour mettre à jour les paramètres.
 
-La passe arrière de la boucle d'apprentissage de l'auto-encodeur de motifs est une rétropropagation appliquée à ce graphe de calcul : voir [[Boucle d'apprentissage de l'auto-encodeur de motifs]].
+L'[[Astuce de reparamétrisation]] réécrit un tirage aléatoire de façon à laisser un chemin de gradient continu à travers lui.

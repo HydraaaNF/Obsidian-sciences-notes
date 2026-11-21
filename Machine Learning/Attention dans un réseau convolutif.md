@@ -46,5 +46,3 @@ La **Fusion attention spectrum** alimente la première couche entièrement conne
 # Remarque
 
 Il s'agit d'une variante visuelle du [[Mécanisme d'attention]] : le [[Réseau de neurones convolutif]] fournit les caractéristiques extraites par ses [[Couche de convolution|couches de convolution]], et le spectre d'attention les recombine avant la classification. La même articulation entre une représentation et un spectre de poids se retrouve dans l'[[Attention dans un encodeur-décodeur]], où la pondération porte sur les états d'une séquence plutôt que sur les pixels.
-
-Le produit terme à terme, aussi appelé produit de Hadamard, s'écrit $\odot$ ; la notation $\otimes$ désigne le produit tensoriel et son emploi pour un produit terme à terme est une confusion fréquente.

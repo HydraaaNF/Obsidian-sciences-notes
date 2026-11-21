@@ -56,6 +56,4 @@ Sur des photographies variées, la planche produite par un générateur couvre d
 
 # Remarque
 
-L'objectif minimax n'est qu'une écriture théorique : la version réellement optimisée remplace la minimisation de $\log(1 - D(G(\mathbf{z})))$ par la maximisation de $\log D(G(\mathbf{z}))$, plus stable en début d'entraînement. L'[[Entraînement d'un réseau antagoniste génératif|entraînement]] détaille l'alternance des deux optimisations, et les [[Variantes de réseaux antagonistes génératifs|variantes]] en déclinent l'architecture.
-
 Le [[Modèle de diffusion]] est l'alternative non adversariale à ce jeu : il engendre un échantillon par une longue suite d'étapes de débruitage, sans générateur ni discriminateur.

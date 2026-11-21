@@ -49,3 +49,5 @@ Le résultat est un [[Encodage d'une séquence|encodage de la séquence]] où ch
 # Remarque
 
 La distinction causal / non causal ne se limite pas à la récurrence : elle se pose de la même façon pour les modèles bâtis sur l'attention, où BERT n'est pas causal alors que GPT l'est, voir [[Mécanisme d'attention]].
+
+Dans un Transformer, le [[Masque causal]] impose la même restriction aux positions antérieures, appliquée à l'attention plutôt qu'à la récurrence. La causalité se généralise ainsi au-delà de la récurrence dans les [[Variantes du Transformer]] : la variante encodeur seul reste bidirectionnelle, la variante décodeur seul est causale.

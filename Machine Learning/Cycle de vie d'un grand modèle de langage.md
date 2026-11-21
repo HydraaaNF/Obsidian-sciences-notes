@@ -34,7 +34,7 @@ Les contraintes de conception et le paysage des modèles disponibles sont détai
 Quatre voies mènent à un modèle diffusé, en plus de la chaîne principale:
 
 - adaptation du modèle pré-entraîné par affinage (*FT*), par affinage efficace en paramètres (*PEFT*) ou par apprentissage continu (*CL*);
-- élagage, compression ou distillation, avec [[Quantification des poids]] et optimisation;
+- élagage, compression ou distillation, avec [[Taille de stockage des poids|quantification des poids]] et optimisation;
 - fusion de modèles (*merged*);
 - service de modèle de langage (*LLMaaS*), avec des outils comme *llama.cpp*, *ollama*, les *llamafiles* ou *vllama*.
 
@@ -52,7 +52,3 @@ Les deux débouchés d'un modèle diffusé se distinguent par leur finalité:
 L'usage local regroupe les modes d'exploitation directe du modèle: ZSL et ICL (apprentissage sans exemple et apprentissage en contexte), *prompting*, génération de données, RAG et agents.
 
 L'évaluation mesure la qualité du modèle par sa perplexité et par des benchmarks, contrôle la contamination des jeux de test, recourt à un juge automatique et comptabilise le coût carbone, dont l'ordre de grandeur est traité dans [[Empreinte environnementale de l'intelligence artificielle]].
-
-# Remarque
-
-Le modèle diffusé n'est pas une étape terminale unique: adaptation, compression, fusion et service sont des voies parallèles qui produisent chacune un modèle diffusable, et l'évaluation comme l'usage local en sont les deux consommateurs.

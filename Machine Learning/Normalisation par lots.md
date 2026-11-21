@@ -25,7 +25,7 @@ La couche recalcule donc ses statistiques sur chaque [[Lots, époques et chargem
 # Remarque
 
 - La couche se comporte différemment à l'entraînement et au test : c'est la raison d'être de `model.train()` et `model.eval()` dans une [[Boucle d'entraînement et validation|boucle d'entraînement]].
-- À l'entraînement, les statistiques sont recalculées sur le mini-lot courant ; au test, les moyennes courantes sont figées, aucune statistique n'est recalculée.
+- Le [[Dropout]] est une régularisation complémentaire, qui partage la même bascule entre entraînement et évaluation.
 
 # Exemple
 

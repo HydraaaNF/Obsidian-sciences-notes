@@ -68,4 +68,3 @@ Dimensions d'un lot de 64 images à chaque étape :
 - Les commentaires de forme oublient la dimension de lot : la sortie de la seconde convolution s'écrit 32 x 16 x 16, soit 32 canaux de 16 x 16, et non 32 x 32 x 16, où la hauteur reste à 32 alors que le pooling l'a ramenée à 16. Le tenseur complet reste $(64, 32, 16, 16)$, voir [[Forme d'un tenseur]] et [[Tenseurs PyTorch]].
 - `model.train()` active le dropout, `model.eval()` le désactive ; oublier le second mode fausse l'évaluation.
 - L'ordre des dimensions est celui de PyTorch, lot puis canaux puis hauteur puis largeur, ce qui explique `torch.randn(64, 3, 32, 32)` pour un lot d'images en trois couleurs.
-- L'entraînement de ce modèle, perte, optimiseur et époques, suit la [[Boucle d'entraînement et validation]] habituelle.

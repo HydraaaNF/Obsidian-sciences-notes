@@ -24,7 +24,7 @@ L'architecture complète comporte trois attentions distinctes :
 
 ## Décodeur, répété $N$ fois
 
-- `Outputs (shifted right)` : la séquence cible décalée d'un pas vers la droite
+- `Outputs (shifted right)` : la séquence cible décalée d'un pas vers la droite, voir [[Teacher forcing]]
 - `Output Embedding`, puis somme avec le `Positional Encoding`
 - `Masked Multi-Head Attention`, puis `Add & Norm`, voir [[Masque causal]]
 - `Multi-Head Attention` croisée avec la sortie de l'encodeur, puis `Add & Norm`
@@ -32,7 +32,7 @@ L'architecture complète comporte trois attentions distinctes :
 
 ## Tête de sortie
 
-`Linear`, puis `Softmax`, puis `Output Probabilities` : le modèle renvoie la probabilité de chaque jeton possible du vocabulaire, ce qui en fait une tâche de classification dont la perte est l'[[Entropie croisée multi-classe|entropie croisée]].
+`Linear`, puis `Softmax`, puis `Output Probabilities` : le modèle renvoie la probabilité de chaque jeton possible du vocabulaire, ce qui en fait une tâche de classification dont la perte est l'[[Entropie croisée multi-classe|entropie croisée]]. Chaque jeton du vocabulaire tient ainsi le rôle d'une classe.
 
 La couche `Linear` projette la représentation de dimension $d$ sur la taille du vocabulaire, et le [[Fonction softmax|softmax]] normalise ces scores en une distribution.
 
@@ -74,7 +74,7 @@ Le trajet d'un lot de jetons se lit ainsi :
 - l'encodage positionnel est ajouté à $T$, il ne remplace pas l'information sémantique
 - les projections linéaires forment $Q$, $K$, $V$ à partir du même $T$ pour la self-attention
 - pour l'attention croisée, $Q$ provient du décodeur tandis que $K$ et $V$ proviennent de la sortie du dernier bloc encodeur
-- la dimension $d$ est découpée en $n_h$ têtes de dimension $d_k = d / n_h$ ; avec $d = 1024$ et $n_h = 8$, chaque tête travaille sur $128$ features, et la concaténation des têtes retrouve la dimension $d$ avant une dernière projection linéaire
+- la dimension $d$ est découpée en $n_h$ têtes de dimension $d_k = \frac{d}{n_h}$ ; avec $d = 1024$ et $n_h = 8$, chaque tête travaille sur $128$ features, et la concaténation des têtes retrouve la dimension $d$ avant une dernière projection linéaire
 - la sortie du dernier bloc décodeur passe par la tête linéaire et le softmax pour donner les probabilités du jeton suivant
 
 Chaque jeton de sortie est ainsi produit à partir de la source encodée et des jetons déjà générés : la flèche issue des jetons source pointe vers le premier jeton prédit.
@@ -92,6 +92,8 @@ Chaque jeton de sortie est ainsi produit à partir de la source encodée et des 
 # Interprétation
 
 L'encodeur construit une représentation de la phrase source que le décodeur interroge à chaque pas : la self-attention de l'encodeur met en relation les mots de l'entrée entre eux, l'attention croisée fait correspondre chaque position de sortie aux positions utiles de l'entrée, et l'attention masquée du décodeur organise le préfixe déjà produit.
+
+L'attention croisée reprend l'attention de l'[[Attention dans un encodeur-décodeur|encodeur-décodeur récurrent]] : la requête est l'état courant du décodeur $d_i$, les clés et les valeurs sont les états $h_i$ de l'encodeur, soit $Q = d_i$ et $K = V = h_i$.
 
 Dans le bloc encodeur, les deux sous-couches ont des rôles complémentaires : l'attention mélange l'information entre les positions, le réseau feed-forward transforme chaque position séparément.
 

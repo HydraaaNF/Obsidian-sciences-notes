@@ -21,7 +21,7 @@ Le modèle de génération est un décodeur récurrent : à chaque pas de temps 
 
 La probabilité attribuée au mot $w$ par ce modèle est
 
-$$P_{\text{vocab}}(w) = \operatorname{softmax}\left(V[d_t;c_t] + b\right)_w$$
+$$\mathbb{P}_{\text{vocab}}(w) = \operatorname{softmax}\left(V[d_t;c_t] + b\right)_w$$
 
 où $V$ est la matrice de sortie et $b$ le biais, l'indice $w$ sélectionnant la composante associée au mot $w$.
 
@@ -29,7 +29,7 @@ où $V$ est la matrice de sortie et $b$ le biais, l'indice $w$ sélectionnant la
 
 Le modèle de copie réutilise les poids d'attention $a_i$ portés sur les mots d'entrée $x_i$. Pour un mot $w$ présent plusieurs fois dans l'entrée, les poids des positions correspondantes s'additionnent :
 
-$$P_{\text{copy}}(w) = \sum_{i\,:\,x_i=w} a_i$$
+$$\mathbb{P}_{\text{copy}}(w) = \sum_{i\,:\,x_i=w} a_i$$
 
 Tout mot absent de l'entrée reçoit ainsi une probabilité de copie nulle.
 
@@ -45,7 +45,7 @@ où $\hat{y}_t$ est la sortie du décodeur au pas précédent, et où les vecteu
 
 Les deux distributions sont moyennées avec le poids donné par la décision, comme pour une [[Combinaison de modèles]] à deux modèles :
 
-$$P(w) = p_{\text{gen}}\,P_{\text{vocab}}(w) + (1 - p_{\text{gen}})\sum_{i\,:\,x_i=w} a_i$$
+$$\mathbb{P}(w) = p_{\text{gen}}\,\mathbb{P}_{\text{vocab}}(w) + (1 - p_{\text{gen}})\sum_{i\,:\,x_i=w} a_i$$
 
 ```mermaid
 flowchart LR
@@ -62,12 +62,10 @@ flowchart LR
 
 Lorsque $p_{\text{gen}}$ est faible, le modèle privilégie la copie et reproduit fidèlement un mot de l'entrée.
 
-Un nom rare de l'entrée peut donc être copié même si $P_{\text{vocab}}(w) = 0$, c'est-à-dire même si le mot est absent du vocabulaire de génération : la copie contourne la limitation du vocabulaire.
+Un nom rare de l'entrée peut donc être copié même si $\mathbb{P}_{\text{vocab}}(w) = 0$, c'est-à-dire même si le mot est absent du vocabulaire de génération : la copie contourne la limitation du vocabulaire.
 
 La décision $p_{\text{gen}}$ est recalculée à chaque pas de temps, ce qui permet d'alterner génération et copie au fil de la séquence produite par [[Génération d'une séquence]].
 
 # Remarque
 
-La distribution de copie ne porte que sur les mots effectivement présents dans l'entrée : un mot absent de l'entrée ne peut être obtenu que par le modèle de génération.
-
-Les deux modèles partagent la même notation : l'état $d_t$ et le contexte $c_t$ servent à la fois au calcul de $P_{\text{vocab}}$ et à la décision $p_{\text{gen}}$, et les poids d'attention $a_i$ servent à la fois de contexte et de distribution de copie.
+Les deux modèles partagent la même notation : l'état $d_t$ et le contexte $c_t$ servent à la fois au calcul de $\mathbb{P}_{\text{vocab}}$ et à la décision $p_{\text{gen}}$, et les poids d'attention $a_i$ servent à la fois de contexte et de distribution de copie.

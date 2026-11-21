@@ -21,5 +21,3 @@ Le coefficient de détermination est la seule lecture solide de la précision po
 # Remarque
 
 Une valeur d'erreur isolée, par exemple $\text{RMSE} = 4.2$, n'est pas interprétable sans point de comparaison ; c'est la comparaison à la baseline qui donne son sens à la mesure, comme le fait $R^2$ pour les [[Mesures d'erreur en régression|mesures d'erreur en régression]].
-
-Dans le cas d'un ajustement par la [[Droite de régression de y en x|droite de régression]], le coefficient de détermination coïncide avec le carré du [[Coefficient de corrélation linéaire|coefficient de corrélation linéaire]].

@@ -15,5 +15,3 @@ Sans étiquettes, trois voies restent disponibles :
 # Remarque
 
 Un cluster et une classe n'ont aucune raison de porter le même nom : le cluster 3 et la classe « chien » désignent deux découpages distincts, et rien ne garantit qu'ils se correspondent terme à terme.
-
-L'appariement des clusters aux classes est donc indispensable avant de calculer la moindre métrique de classification.

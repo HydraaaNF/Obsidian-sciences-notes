@@ -32,8 +32,6 @@ series:
     data: [317, 326, 339, 354, 369, 390, 414]
 ```
 
-Cette courbe est superposée à des bandes colorées qui codent le changement de température : bleues sur les premières décennies, elles virent au rouge sombre à mesure qu'on approche des années 2020, ce qui fait apparaître la coévolution de la concentration de CO₂ et de la température.
-
 Les anomalies de température de surface en 2024 vont de −3 à +3 °C : elles sont positives et marquées sur les terres de l'hémisphère nord, proches de zéro sur une large partie des océans tempérés, et négatives autour de l'océan Austral.
 
 Le déclin des insectes volants au Royaume-Uni atteint 63 % en trois années (2021-2024).

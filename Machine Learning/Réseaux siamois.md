@@ -42,5 +42,3 @@ Il s'entraîne sur des paires étiquetées, mêmes ($y = 1$) ou différentes ($y
 - Aucune liste de classes : le réseau fonctionne pour des personnes jamais vues à l'entraînement.
 - Un classifieur, lui, aurait besoin d'une sortie par personne, et d'un réentraînement à chaque nouvel arrivant.
 - Applications : vérification de visage ou de signature, détection de paraphrase.
-
-La [[Vérification d'identité de locuteur ou de visage]] est l'application directe du principe : la décision porte sur l'identité d'une personne, pas sur une classe apprise parmi un ensemble fixé.

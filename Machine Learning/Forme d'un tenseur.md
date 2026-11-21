@@ -45,4 +45,5 @@ La concaténation s'arrête sur l'axe choisi : avec deux colonnes `(4, 1)`, `dim
 
 Changer la forme ne change ni les valeurs ni leur ordre de lecture : `(4,)`, `(1, 4)` et `(4, 1)` contiennent les mêmes quatre nombres. La distinction compte pour la suite du calcul, car les opérations entre tenseurs et la [[Diffusion entre tenseurs|diffusion]] raisonnent sur les axes, pas sur les valeurs.
 
-Les tenseurs manipulés ici sont ceux de [[Tenseurs PyTorch]] ; leur forme est celle du [[Tenseur]] correspondant, et elle doit être vérifiée avant de passer les données à un modèle tel que le [[Perceptron multicouche]].
+- La [[Cellule d'Elman]] concatène l'entrée et l'état avec `torch.cat`, qui exige des formes identiques sur tous les axes sauf celui de la concaténation.
+- Les [[Couches récurrentes avec PyTorch|formes des couches récurrentes]] `(T, B, n)`, `(layers, B, H)` et `(B, T, ·)` se lisent selon cet ordre des axes.

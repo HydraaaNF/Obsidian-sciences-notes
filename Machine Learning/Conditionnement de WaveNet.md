@@ -79,5 +79,3 @@ Le suréchantillonnage est nécessaire parce qu'une trame de $\mathbf{h}$ couvre
 # Remarque
 
 Dans le cas local, la convolution $1 \times 1$ $V * \mathbf{h}$ traite chaque position temporelle indépendamment : elle ne mélange que les canaux de $\mathbf{h}$ à un instant donné, sans franchir les pas de temps. L'alignement temporel entre $\mathbf{h}$ et $\mathbf{x}$ doit donc être établi en amont par le suréchantillonnage.
-
-Dans le cas global, $V^{\top}\mathbf{h}$ est un vecteur constant ajouté de la même façon à chaque pas de temps : le conditionnement ne peut pas moduler le signal en fonction du temps, il fixe seulement un régime global pour toute la séquence.

@@ -30,9 +30,3 @@ for epoch in range(n_epochs):
         ...                       # the four lines
     scheduler.step()              # once per epoch, after them
 ```
-
-# Remarque
-
-`scheduler.step()` s'appelle une fois par époque, après les quatre lignes de la boucle d'entraînement (voir [[Boucle d'entraînement et validation]]).
-
-Le taux d'apprentissage ainsi planifié est celui que reçoit l'[[Optimiseurs|optimiseur]] à chaque mise à jour.

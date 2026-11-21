@@ -82,5 +82,4 @@ La ligne $i$ sert à prédire le token $i+1$, et les quatre prédictions sont ca
 
 - L'ordre des étapes est parfois donné comme `MatMul` → `SoftMax` → `Mask` → `Scale` → `MatMul` ; la version retenue ici est `MatMul` → `Scale` → `Mask` → `SoftMax` → `MatMul`, cohérente avec un masque additif posé sur les scores avant normalisation.
 - Sur la matrice illustrée, seules les $-\infty$ de la première ligne étaient représentées, les lignes suivantes montrant des produits calculés pour des jetons futurs ; le masque est ici complété sur toutes les lignes, et toutes les positions $j > i$ y valent $-\infty$.
-- Les flèches de l'exemple partent aussi des jetons de la source : elles illustrent une [[Attention croisée]], c'est-à-dire l'apport de l'entrée, et non le seul masque causal qui régit la self-attention du décodeur.
-- Le masque causal s'oppose à la lecture bidirectionnelle d'un encodeur, voir [[Encodeur bidirectionnel et causalité]], et sa place varie selon les architectures, voir [[Variantes du Transformer]].
+- Les flèches de l'exemple partent aussi des jetons de la source : elles illustrent une [[Architecture du Transformer|attention croisée]], c'est-à-dire l'apport de l'entrée, et non le seul masque causal qui régit la self-attention du décodeur.

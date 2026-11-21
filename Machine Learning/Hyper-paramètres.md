@@ -29,3 +29,5 @@ L'entraînement lui-même peut échouer, indépendamment du choix de la perte :
 - sur la démonstration du [[Problème du ou exclusif|XOR]], avec 2 neurones cachés environ une graine sur deux donne un réseau qui fonctionne, alors qu'avec 8 neurones les 20 graines essayées fonctionnent.
 
 Un réseau plus large est donc souvent plus facile à entraîner.
+
+Les dimensions d'entrée et de sortie fixent celles des [[Première et dernière couches|couches extrêmes]] ; tout ce qui est intermédiaire relève des hyper-paramètres, au même titre que le nombre de couches.

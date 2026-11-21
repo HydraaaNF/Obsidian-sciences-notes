@@ -8,7 +8,7 @@ Un modèle de $10^{12}$ poids, soit 1000 milliards de paramètres, peut représe
 
 La taille se calcule à partir du nombre de poids et du nombre de bits retenu pour chacun :
 
-$$\text{taille} = \text{poids} \times \text{bits} / 8 \text{ (octets)}$$
+$$\text{taille} = \frac{\text{poids} \times \text{bits}}{8} \text{ (octets)}$$
 
 Le résultat croît linéairement avec le nombre de poids et avec la précision de leur format. Chaque élément d'un [[Tenseur|tenseur]] de poids coûte le nombre de bits de son format, et la division par 8 convertit les bits en octets.
 
@@ -28,6 +28,6 @@ Pour $10^{12}$ poids, la taille de stockage varie d'un facteur 16 selon la préc
 
 # Remarque
 
-La [[Quantification des poids]] consiste à stocker les poids sur moins de bits (8, 4, voire moins) : passer de 16 à 4 bits réduit la taille d'un facteur 4, pour une faible perte de qualité, et permet l'exécution sur un seul GPU, ou sur un ordinateur portable pour les petits modèles.
+La **quantification des poids** consiste à stocker les poids sur moins de bits (8, 4, voire moins) : passer de 16 à 4 bits réduit la taille d'un facteur 4, pour une faible perte de qualité, et permet l'exécution sur un seul GPU, ou sur un ordinateur portable pour les petits modèles.
 
 La taille obtenue fixe l'ordre de grandeur du matériel d'hébergement du modèle, question traitée dans le [[Cycle de vie d'un grand modèle de langage]].

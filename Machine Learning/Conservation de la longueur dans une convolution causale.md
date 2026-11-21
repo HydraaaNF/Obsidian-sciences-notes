@@ -14,8 +14,6 @@ La condition se déduit de la formule de la [[Taille de sortie d'une convolution
 
 $$L_{\text{out}} = L_{\text{in}} + p - d\,(k-1)$$
 
-L'égalité $L_{\text{out}} = L_{\text{in}}$ impose donc $p = d(k-1)$, soit un padding à gauche égal à la taille effective du noyau moins un.
-
 Les cas extrêmes se lisent sur la même formule :
 
 - sans padding ($p=0$), la sortie perd $d(k-1)$ cellules ;
@@ -31,8 +29,6 @@ L'alternative consiste à rogner l'entrée : on conserve ses $T-d(k-1)$ derniers
 # Remarque
 
 Dans les piles de convolutions de type [[Architecture WaveNet|WaveNet]], chaque unité additionne le raccourci d'entrée $\mathbf{x}$ et la sortie $\mathbf{z}'$ de la convolution dilatée. Sans padding, $\mathbf{x}$ est de forme $[B, C, T]$ et $\mathbf{z}'$ de forme $[B, C, T-d]$ : l'addition serait impossible en l'état.
-
-Le padding à gauche de $d(k-1)$ cellules, soit $d$ pour le noyau $k=2$ employé par WaveNet, rend chaque couche conservatrice de longueur. Les additions résiduelles restent valides à toutes les profondeurs, et l'empilement de nombreuses couches ne raccourcit pas la séquence.
 
 Une convolution $1 \times 1$ placée en sortie ramène le nombre de canaux à celui de $\mathbf{x}$. L'axe des canaux $C$ est ainsi rétabli par cette convolution, l'axe temporel $T$ l'ayant été par le padding de $d(k-1)$ cellules : la forme complète $[B, C, T]$, condition de la somme $\mathbf{x} + \mathbf{z}'$, résulte des deux.
 

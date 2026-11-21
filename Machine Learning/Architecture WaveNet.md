@@ -49,4 +49,8 @@ Le calcul du champ récepteur doit inclure la convolution causale d'entrée, pla
 
 Le schéma de l'architecture se lit comme une unité répétée $k$ fois dans un bloc résiduel ; une couche résiduelle est elle-même un empilement d'unités aux dilatations croissantes, et non une couche unique.
 
-La causalité d'un réseau à convolutions causales tient au padding appliqué à gauche dans chaque convolution, qui exclut tout échantillon futur du calcul ; le champ récepteur mesure seulement l'étendue du passé consultée et ne suffit pas à rendre le réseau causal.
+La [[Conservation de la longueur dans une convolution causale|conservation de la longueur]] fixe la contrainte de forme que doivent respecter les unités résiduelles du bloc, pour que l'addition résiduelle ait un sens.
+
+WaveNet est un modèle autorégressif fondé sur la [[Décomposition autorégressive d'une densité|décomposition autorégressive d'une densité]], qui écrit la probabilité de la séquence comme un produit de conditionnelles.
+
+L'[[Entraînement de WaveNet|entraînement de WaveNet]] apprend ces conditionnelles sur les codes audio, en parallèle sur toutes les positions grâce à la causalité.

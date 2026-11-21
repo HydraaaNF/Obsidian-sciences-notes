@@ -56,8 +56,8 @@ Une amplitude de $1\,\%$ de la pleine échelle occupe déjà le code $157$, à $
 
 La forme de la loi est parfois écrite avec un $+1$, une division par $2$ et un facteur $\mu$ supplémentaire :
 
-$$y = \left(\operatorname{sgn}(x)\,\frac{\ln(1+\mu|x|)}{\ln(1+\mu)} + 1\right)/2 \times \mu$$
+$$y = \frac{1}{2}\left(\operatorname{sgn}(x)\,\frac{\ln(1+\mu|x|)}{\ln(1+\mu)} + 1\right) \times \mu$$
 
-Cette écriture n'est plus impaire : elle étale la sortie sur $[0, \mu]$ au lieu de la garder normalisée dans $[-1, 1]$. Avec $\mu = 255$, elle vaut $(\operatorname{sgn}(x)\ln(1+\mu|x|)/\ln(1+\mu) + 1) \times 255/2$, c'est-à-dire exactement la valeur du code avant arrondi : la conversion en codes qu'elle opère est donc juste. Son défaut est de lier le facteur d'échelle au paramètre $\mu$ plutôt qu'au nombre de codes ; la notation de la source porte d'ailleurs une coquille sur ce facteur, $\mu^{150}$. La forme correcte de la loi est celle de la définition ; le passage aux codes entiers de $0$ à $255$ est une étape d'arrondi distincte, qui s'écrit $c = \operatorname{round}\left((y+1) \times 255/2\right)$.
+Cette écriture n'est plus impaire : elle étale la sortie sur $[0, \mu]$ au lieu de la garder normalisée dans $[-1, 1]$. Avec $\mu = 255$, elle vaut $\left(\frac{\operatorname{sgn}(x)\ln(1+\mu|x|)}{\ln(1+\mu)} + 1\right) \times \frac{255}{2}$, c'est-à-dire exactement la valeur du code avant arrondi : la conversion en codes qu'elle opère est donc juste. Son défaut est de lier le facteur d'échelle au paramètre $\mu$ plutôt qu'au nombre de codes ; la notation de la source porte d'ailleurs une coquille sur ce facteur, $\mu^{150}$. La forme correcte de la loi est celle de la définition ; le passage aux codes entiers de $0$ à $255$ est une étape d'arrondi distincte, qui s'écrit $c = \operatorname{round}\left((y+1) \times \frac{255}{2}\right)$.
 
 Avec $\mu = 255$, la grille compte $256$ niveaux : sur le graphique, la dernière graduation de l'axe des ordonnées porte $250$ alors que la courbe atteint $255$ en $x = 1$. Le code maximal reste visible, mais il n'est pas gradué.

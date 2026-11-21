@@ -2,13 +2,11 @@
 
 # Définition
 
-Un **encodeur-décodeur pour les séquences** est un [[Encodeur-décodeur]] appliqué à des séquences : l'encodeur résume l'entrée $x$ en un vecteur $e$, et le décodeur génère la sortie $\hat{y}$ à partir de $e$, de façon autorégressive.
+Un **encodeur-décodeur pour les séquences** est un [[Encodeur-décodeur]] appliqué à des séquences : l'encodeur résume l'entrée $x$ en un vecteur $e$ (voir [[Encodage d'une séquence]]), et le décodeur génère la sortie $\hat{y}$ à partir de $e$, de façon autorégressive (voir [[Génération d'une séquence]]).
 
 Quand $x$ est une séquence, la tâche va d'une séquence à une autre : on parle de **sequence-to-sequence**, ou **seq2seq**.
 
 # Modèle
-
-L'encodeur résume l'entrée (voir [[Encodage d'une séquence]]), puis le décodeur génère la sortie de façon autorégressive (voir [[Génération d'une séquence]]).
 
 Deux manières de fournir $e$ au décodeur $d$ :
 
@@ -93,8 +91,4 @@ Les encodeurs-décodeurs servent dans des tâches variées, qui ne vont pas tout
 
 # Remarque
 
-La cible complète de la traduction est « The little cat ». Sur l'étape de génération illustrée, seuls « The little » ont déjà été produits : c'est ce préfixe qui sert d'entrée au décodeur au moment de prédire « cat ».
-
 Un seul vecteur $e$ pour toute une phrase est un **goulot d'étranglement** : l'information de la phrase entière doit tenir dans une taille fixe, et les phrases longues étaient mal traduites.
-
-Le remède est l'**attention**, qui arrive avec le Transformer : voir [[Mécanisme d'attention]].

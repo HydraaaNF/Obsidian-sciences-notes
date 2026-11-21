@@ -34,6 +34,4 @@ torch.save({"model": model.state_dict(),
             "epoch": epoch}, "checkpoint.pt")
 ```
 
-Le checkpoint rassemble les trois dans un même dictionnaire : le modèle, l'[[Optimiseurs|optimiseur]] et l'époque atteinte. L'époque enregistrée permet de repartir au bon endroit dans la boucle d'entraînement décrite dans [[Boucle d'entraînement et validation]].
-
-Les poids seuls suffisent pour prédire, mais pas pour continuer l'entraînement : l'état de l'optimiseur est nécessaire en plus. Inversement, un dictionnaire de poids ne contient pas le code du modèle, d'où la reconstruction préalable avant le chargement.
+L'époque enregistrée permet de repartir au bon endroit dans la boucle d'entraînement décrite dans [[Boucle d'entraînement et validation]].

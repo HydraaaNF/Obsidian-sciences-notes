@@ -49,16 +49,4 @@ On retrouve la même forme qu'en [[Régression linéaire]] : le gradient vaut la
 
 - Un produit de nombreux nombres inférieurs à 1 sous-déborde rapidement vers 0 ; le logarithme transforme ce produit en somme et évite ce sous-débordement.
 - La fonction $\ln$ est croissante : la vraisemblance et la log-vraisemblance atteignent leur maximum aux mêmes valeurs des paramètres.
-- Maximiser $LL$ revient à minimiser $-LL$, quantité que l'on sait minimiser.
-- L'exactitude est ce que l'on veut obtenir, l'entropie croisée ce que l'on minimise (voir [[Métrique et fonction de perte]]).
 - En pratique, `torch.nn.BCELoss` calcule cette perte, et `torch.nn.BCEWithLogitsLoss` y intègre la sigmoïde, ce qui est numériquement plus sûr.
-
-Pour $K$ classes, l'[[Entropie croisée multi-classe|entropie croisée multi-classe]] généralise cette perte :
-
-$$CE = -\sum_i \ln \hat{y}_{i,c_i} = -\sum_i \sum_{c=1}^K y_{i,c} \ln \hat{y}_{i,c}$$
-
-où $c_i$ est la vraie classe de l'échantillon $i$ et $y_i$ un vecteur one-hot qui ne conserve que la classe vraie ; pour $K = 2$, cette perte redonne l'entropie croisée binaire.
-
-En [[Classification multi-étiquette|multi-étiquette]], les classes ne sont pas en compétition : une sigmoïde par sortie, chaque sortie étant sa propre [[Régression logistique|régression logistique]], la cible vaut 0 ou 1 pour chaque classe, et la perte est l'entropie croisée binaire de chaque sortie, moyennée.
-
-La dérivée de la sigmoïde du [[Lien logistique comme modèle interprétable|modèle logistique]] réapparaît dans cette perte.

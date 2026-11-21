@@ -26,4 +26,6 @@ Le symbole de début $\langle s \rangle$ occupe la première entrée, et le symb
 
 Les Transformers s'entraînent de la même façon, avec des sorties décalées vers la droite, mais sans récurrence : tous les pas sont calculés en parallèle, et non l'un après l'autre.
 
-Le teacher forcing entraîne le décodeur d'un [[Encodeur-décodeur pour les séquences]] sur des paires entrée-cible.
+- La [[Décomposition autorégressive d'une densité]] justifie l'entraînement position par position : chaque facteur conditionnel apporte sa perte dans la même passe.
+- L'[[Inférence autorégressive]] contraste avec cet entraînement parallèle : la génération y est séquentielle, un échantillon à la fois.
+- Le [[Pipeline Hugging Face]] applique ce décalage d'un token en passant `labels = input_ids`, le modèle réalisant le décalage en interne.
