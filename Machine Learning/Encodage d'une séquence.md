@@ -18,17 +18,25 @@ $$e = (h_T, c_T)$$
 flowchart LR
     x1["x₁"] --> E1["E"]
     x2["x₂"] --> E2["E"]
-    xT["x_T"] --> ET["E"]
+    xT["x<sub>T</sub>"] --> ET["E"]
     E1 -- "h₁" --> E2
     E2 -- "h₂" --> dots["..."]
     dots -- "hₜ₋₁" --> ET
-    ET -- "h_T" --> e["e"]
+    ET -- "h<sub>T</sub>" --> e["e"]
     E1 -.-> y1["ŷ₁"]
     E2 -.-> y2["ŷ₂"]
-    ET -.-> yT["ŷ_T"]
+    ET -.-> yT["ŷ<sub>T</sub>"]
+    classDef entree fill:#f8d7da,stroke:#b02a37,color:#000
+    classDef memoire fill:#d8f5d8,stroke:#1e7b34,color:#000
+    classDef cellule fill:#fff3cd,stroke:#997404,color:#000
+    classDef ignore fill:#e9ecef,stroke:#495057,color:#000
+    class x1,x2,xT entree
+    class e memoire
+    class E1,E2,ET cellule
+    class y1,y2,yT,dots ignore
 ```
 
-À chaque pas, le réseau produit aussi une sortie $\hat{y}_t$. Ces sorties, en pointillés sur le schéma, sont calculées puis ignorées : seul l'état final devient $e$.
+À chaque pas, le réseau produit aussi une sortie $\hat{y}_t$. Ces sorties, en pointillés sur le schéma, sont calculées puis ignorées : seul l'état final devient $e$. Les entrées y sont en rouge, les cellules en ambre, l'état transmis en vert et les sorties ignorées en gris.
 
 # Interprétation
 

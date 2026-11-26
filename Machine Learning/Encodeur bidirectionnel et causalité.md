@@ -18,21 +18,19 @@ Sous PyTorch, `nn.RNN(n, H, bidirectional=True)` produit des sorties de taille $
 
 ```mermaid
 flowchart LR
-    x1["x₁"] --> f1["E →"]
-    x2["x₂"] --> f2["E →"]
-    x3["x₃"] --> f3["E →"]
-    x1 --> b1["E ←"]
-    x2 --> b2["E ←"]
-    x3 --> b3["E ←"]
-    f1 --> f2 --> f3
-    b3 --> b2 --> b1
-    f1 --> c1["[h→₁ ; h←₁]"]
-    b1 --> c1
-    f2 --> c2["[h→₂ ; h←₂]"]
-    b2 --> c2
-    f3 --> c3["[h→₃ ; h←₃]"]
-    b3 --> c3
+    x["séquence<br/>x₁ … x<sub>T</sub>"] --> fwd["RNN direct<br/>h→₁ … h→<sub>T</sub>"]
+    x --> bwd["RNN inverse<br/>h←<sub>T</sub> … h←₁"]
+    fwd --> e["e<sub>t</sub> = [h→<sub>t</sub> ; h←<sub>t</sub>]<br/>2H par position"]
+    bwd --> e
+    classDef entree fill:#f8d7da,stroke:#b02a37,color:#000
+    classDef cellule fill:#fff3cd,stroke:#997404,color:#000
+    classDef memoire fill:#d8f5d8,stroke:#1e7b34,color:#000
+    class x entree
+    class fwd,bwd cellule
+    class e memoire
 ```
+
+La séquence est en rouge, les deux réseaux en ambre et les représentations concaténées en vert.
 
 # Interprétation
 

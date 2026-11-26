@@ -65,24 +65,34 @@ all_g.shape    # (5, 3, 20): g_1, ..., g_T, top layer
 h_T.shape      # (2, 3, 20): h_T and g_T
 ```
 
-Le schéma des deux couches enchaîne les cellules couche par couche : chaque sortie de la couche du bas est l'entrée correspondante de la couche du haut.
+Le schéma des deux couches enchaîne les cellules couche par couche : chaque sortie de la couche du bas est l'entrée correspondante de la couche du haut. Les entrées sont en rouge, les états de la première couche en vert, ceux de la seconde en bleu, et les cellules en ambre. Les arêtes pointillées portent le passage d'une couche à l'autre.
+
+Chaque $g_i$ se calcule à partir de $h_i$ et de $g_{i-1}$ : la seconde couche ne reçoit de la première que la séquence des $h_t$, et $h_i$ ne dépend jamais de $g$.
 
 ```mermaid
 flowchart LR
-    x1["x₁"] --> a1["cellule"]
-    x2["x₂"] --> a2["cellule"]
-    x3["x₃"] --> a3["cellule"]
+    x1["x₁"] --> a1["cellule<br/>couche 1"]
+    x2["x₂"] --> a2["cellule<br/>couche 1"]
+    x3["x₃"] --> a3["cellule<br/>couche 1"]
     h0["h₀"] --> a1
     a1 -->|"h₁"| a2
     a2 -->|"h₂"| a3
     a3 --> h3["h₃"]
-    a1 -->|"h₁"| b1["cellule"]
-    a2 -->|"h₂"| b2["cellule"]
-    a3 -->|"h₃"| b3["cellule"]
+    a1 -.->|"h₁"| b1["cellule<br/>couche 2"]
+    a2 -.->|"h₂"| b2["cellule<br/>couche 2"]
+    a3 -.->|"h₃"| b3["cellule<br/>couche 2"]
     g0["g₀"] --> b1
     b1 -->|"g₁"| b2
     b2 -->|"g₂"| b3
     b3 --> g3["g₃"]
+    classDef entree fill:#f8d7da,stroke:#b02a37,color:#000
+    classDef memoire fill:#d8f5d8,stroke:#1e7b34,color:#000
+    classDef sortie fill:#dbe5ff,stroke:#2b4c9b,color:#000
+    classDef cellule fill:#fff3cd,stroke:#997404,color:#000
+    class x1,x2,x3 entree
+    class h0,h3 memoire
+    class g0,g3 sortie
+    class a1,a2,a3,b1,b2,b3 cellule
 ```
 
 La mémoire à long et court terme et l'unité récurrente à portes gardent la même interface que `nn.RNN` : la seconde transporte seulement un état de plus, que l'on passe sous forme de couple.

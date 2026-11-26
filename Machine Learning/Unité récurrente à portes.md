@@ -28,21 +28,32 @@ Le candidat $\tilde{h}_t$ est le contenu que la cellule pourrait écrire au pas 
 
 # Exemple
 
-Le schéma de la cellule fait passer l'état par le candidat, filtré par les deux portes.
+Le schéma de la cellule fait passer l'état par le candidat, filtré par les deux portes ; l'entrée est en rouge, l'état en vert, les portes en ambre, le candidat en violet et la combinaison en gris.
 
 ```mermaid
 flowchart LR
-    x["xₜ"] --> r["rₜ"]
-    hp["hₜ₋₁"] --> r
-    r --> cand["h̃ₜ"]
-    x --> cand
-    hp --> cand
-    x --> z["zₜ"]
-    hp --> z
-    cand --> mix["hₜ = zₜ ⊙ hₜ₋₁ + (1 - zₜ) ⊙ h̃ₜ"]
-    z --> mix
+    x["xₜ"] --> gz["σ : porte de mise à jour<br/>zₜ"]
+    hp["hₜ₋₁"] --> gz
+    x --> gr["σ : porte de<br/>réinitialisation rₜ"]
+    hp --> gr
+    gr --> rmul["rₜ ⊙ hₜ₋₁"]
+    hp --> rmul
+    x --> cand["tanh : candidat h̃ₜ"]
+    rmul --> cand
+    cand --> mix["hₜ = zₜ ⊙ hₜ₋₁<br/>+ (1 − zₜ) ⊙ h̃ₜ"]
+    gz --> mix
     hp --> mix
     mix --> h["hₜ"]
+    classDef entree fill:#f8d7da,stroke:#b02a37,color:#000
+    classDef memoire fill:#d8f5d8,stroke:#1e7b34,color:#000
+    classDef porte fill:#fff3cd,stroke:#997404,color:#000
+    classDef contenu fill:#e7e0f5,stroke:#6f42c1,color:#000
+    classDef op fill:#e9ecef,stroke:#495057,color:#000
+    class x entree
+    class hp,h memoire
+    class gz,gr porte
+    class cand contenu
+    class rmul,mix op
 ```
 
 L'état $h_{t-1}$ suit deux chemins : la ligne directe vers la sortie $h_t$, pondérée par $z_t$, et le passage par le candidat $\tilde{h}_t$, pondéré par $1 - z_t$.

@@ -40,7 +40,7 @@ où $y_{<t}$ désigne les tokens déjà générés et $x$ l'entrée fournie à l
 
 # Exemple
 
-Génération de la suite de mots « the little cat » : le décodeur part de $\langle s \rangle$, produit « the », qui devient son entrée au pas suivant, et ainsi de suite jusqu'au symbole de fin.
+Génération de la suite de mots « the little cat » : le décodeur part de $\langle s \rangle$, produit « the », qui devient son entrée au pas suivant, et ainsi de suite jusqu'au symbole de fin. Sur le schéma, le symbole de début est en rouge, l'état en vert, les cellules du décodeur en ambre et les tokens produits en bleu.
 
 ```mermaid
 flowchart LR
@@ -56,6 +56,14 @@ flowchart LR
     D3 --> D4["d"]
     Y3 --> D4
     D4 --> Y4["⟨/s⟩"]
+    classDef entree fill:#f8d7da,stroke:#b02a37,color:#000
+    classDef memoire fill:#d8f5d8,stroke:#1e7b34,color:#000
+    classDef cellule fill:#fff3cd,stroke:#997404,color:#000
+    classDef sortie fill:#dbe5ff,stroke:#2b4c9b,color:#000
+    class S entree
+    class H0 memoire
+    class D1,D2,D3,D4 cellule
+    class Y1,Y2,Y3,Y4 sortie
 ```
 
 Réponse à la question « What is the height of the Eiffel Tower? » par un Transformer. L'encodeur traite la question, puis le décodeur part du seul symbole de début.

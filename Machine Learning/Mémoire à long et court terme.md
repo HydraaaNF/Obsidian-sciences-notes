@@ -17,28 +17,34 @@ Quand $f_t$ est proche de 1 et $i_t$ proche de 0, $c$ est conservé tel quel, et
 
 # Propriétés
 
-Le schéma de la cellule enchaîne le calcul des portes, l'écriture dans la mémoire, puis la lecture de la sortie.
+Le schéma de la cellule enchaîne le calcul des portes, l'écriture dans la mémoire, puis la lecture de la sortie ; l'entrée est en rouge, la mémoire en vert, les portes en ambre, le contenu en violet et l'état court en bleu.
 
 ```mermaid
 flowchart LR
-    hp["hₜ₋₁"] --> g["couches denses puis activation"]
-    x["xₜ"] --> g
-    g --> f["fₜ"]
-    g --> i["iₜ"]
-    g --> o["oₜ"]
-    g --> cc["c̃ₜ"]
-    ct["cₜ₋₁"] --> mo["⊙ fₜ"]
-    f --> mo
-    mo --> add["+"]
-    i --> mi["⊙ c̃ₜ"]
-    cc --> mi
-    mi --> add
-    add --> c1["cₜ"]
-    add --> th["tanh"]
-    th --> ou["⊙ oₜ"]
-    o --> ou
-    ou --> h["hₜ"]
+    cp["cₜ₋₁"] --> ct["cₜ = fₜ ⊙ cₜ₋₁ + iₜ ⊙ c̃ₜ"]
+    inp["[xₜ ; hₜ₋₁]"] --> gf["σ : porte d'oubli fₜ"]
+    inp --> gi["σ : porte d'entrée iₜ"]
+    inp --> gc["tanh : contenu c̃ₜ"]
+    inp --> go["σ : porte de sortie oₜ"]
+    gf --> ct
+    gi --> ct
+    gc --> ct
+    ct --> th["tanh(cₜ)"]
+    th --> h["hₜ = oₜ ⊙ tanh(cₜ)"]
+    go --> h
+    classDef entree fill:#f8d7da,stroke:#b02a37,color:#000
+    classDef memoire fill:#d8f5d8,stroke:#1e7b34,color:#000
+    classDef sortie fill:#dbe5ff,stroke:#2b4c9b,color:#000
+    classDef porte fill:#fff3cd,stroke:#997404,color:#000
+    classDef contenu fill:#e7e0f5,stroke:#6f42c1,color:#000
+    class inp entree
+    class cp,ct,th memoire
+    class h sortie
+    class gf,gi,go porte
+    class gc contenu
 ```
+
+Au pas suivant, $h_t$ devient $h_{t-1}$ et $c_t$ devient $c_{t-1}$ : les deux états sont ceux que la cellule retrouve en entrée.
 
 Chaque porte et le contenu sont calculés par une couche dense appliquée à la concaténation de l'entrée et de l'état précédent, suivie d'une activation :
 
@@ -58,6 +64,14 @@ $$h_t = o_t \odot \tanh(c_t)$$
 - $\tilde{c}_t$ passe par une tangente hyperbolique ;
 - $c_t$ combine l'ancienne mémoire $c_{t-1}$ et le contenu nouveau $\tilde{c}_t$ par une addition pondérée ;
 - $h_t$ est l'état de cellule filtré par la porte de sortie.
+
+La cellule transmet ses deux états au pas suivant, mais n'en expose qu'un : $h_t$ part vers la couche de sortie, tandis que $c_t$ reste interne et ne sert qu'à la récurrence, si bien que rien de la mémoire longue ne va directement à la prédiction.
+
+La porte de sortie $o_t$ n'est pas la couche de sortie : elle dose la part de $\tanh(c_t)$ montrée dans $h_t$, à l'intérieur de la cellule. La prédiction vient d'une couche distincte, à l'extérieur, appliquée à $h_t$ :
+
+$$\hat{y}_t = g(W_y h_t + b_y)$$
+
+$g$ est l'activation choisie selon la tâche, voir [[Première et dernière couches]] ; les mêmes $W_y$ servent à tous les pas. On conserve un $\hat{y}_t$ par pas pour l'étiquetage, ou seulement celui du dernier $h_T$ pour une classification, voir [[Tâches sur les séquences]].
 
 Trois portes, oubli, entrée et sortie : chacune est une régression logistique par composante, c'est-à-dire un [[Neurone artificiel|neurone]]. Quatre couches denses sur $[x_t ; h_{t-1}]$ : quatre fois les poids d'une cellule d'Elman.
 

@@ -30,18 +30,27 @@ La tangente hyperbolique borne l'état dans $(-1, 1)$, ce qui est la [[Fonctions
 
 # Exemple
 
-Le schéma de la cellule sépare la mise à jour $u$ du formatage de sortie $o$.
+Le schéma de la cellule sépare la mise à jour $u$ du formatage de sortie $o$ ; les entrées sont en rouge, l'état en vert, la sortie en bleu.
 
 ```mermaid
 flowchart LR
-    x["xₜ"] --> c["dense n+H → H"]
-    hp["hₜ₋₁"] --> c
-    c --> th["tanh"]
-    th --> h["hₜ"]
-    h --> d["dense H → m"]
-    d --> a["activation de sortie"]
-    a --> y["ŷₜ"]
-    h -.->|"devient hₜ₋₁ au pas suivant"| hp
+    c["xₜ ; hₜ₋₁<br/>concaténés<br/>n + H entrées"] --> d1["u · dense<br/>n+H → H"]
+    d1 --> th["u · tanh"]
+    th --> h["hₜ<br/>H unités"]
+    h --> d2["o · dense<br/>H → m"]
+    d2 --> act["o · activation<br/>sigmoïde, softmax<br/>ou rien"]
+    act --> y["ŷₜ<br/>m sorties"]
+    h -.->|"devient hₜ₋₁ au pas suivant"| c
+    classDef entree fill:#f8d7da,stroke:#b02a37,color:#000
+    classDef memoire fill:#d8f5d8,stroke:#1e7b34,color:#000
+    classDef sortie fill:#dbe5ff,stroke:#2b4c9b,color:#000
+    classDef maj fill:#e9ecef,stroke:#495057,color:#000
+    classDef out fill:#fff3cd,stroke:#997404,color:#000
+    class c entree
+    class h memoire
+    class y sortie
+    class d1,th maj
+    class d2,act out
 ```
 
 Un pas sur un lot de $B$ séquences, avec $n$ entrées et $H$ unités cachées :
