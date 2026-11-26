@@ -30,14 +30,22 @@ $$\mathrm{ReLU}(z) = \max(0, z)$$
 
 ```chart
 type: line
-labels: ["-3", "-2", "-1", "0", "1", "2", "3"]
+labels: ["-3.0", "-2.5", "-2.0", "-1.5", "-1.0", "-0.5", "0.0", "0.5", "1.0", "1.5", "2.0", "2.5", "3.0"]
 series:
   - title: Sigmoïde
-    data: [0.05, 0.12, 0.27, 0.5, 0.73, 0.88, 0.95]
+    data: [0.047, 0.076, 0.119, 0.182, 0.269, 0.378, 0.5, 0.622, 0.731, 0.818, 0.881, 0.924, 0.953]
+    pointRadius: 0
+    borderWidth: 2
   - title: Tanh
-    data: [-0.995, -0.964, -0.762, 0.0, 0.762, 0.964, 0.995]
+    data: [-0.995, -0.987, -0.964, -0.905, -0.762, -0.462, 0.0, 0.462, 0.762, 0.905, 0.964, 0.987, 0.995]
+    pointRadius: 0
+    borderWidth: 2
   - title: ReLU
-    data: [0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0]
+    data: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0]
+    pointRadius: 0
+    borderWidth: 2
+yMin: -1
+yMax: 3
 ```
 
 Les deux fonctions de type sigmoïde s'aplatissent loin de zéro, tandis que ReLU reste une droite de pente $1$ sur tout le demi-axe positif.

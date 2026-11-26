@@ -68,6 +68,12 @@ Avec un `DataLoader`, on passe un `collate_fn` qui appelle `pad_sequence`.
 
 Comme $0$ peut être une valeur réelle, le remplissage ne doit pas compter dans la perte, une [[Entropie croisée multi-classe|entropie croisée multi-classe]] : on conserve un **masque**, égal à 1 pour un pas réel et à 0 pour un pas de remplissage, et l'on moyenne la perte sur les seuls pas réels.
 
+Trois tenseurs entrent dans ce calcul :
+
+- `logits`, de forme $(B, T, K)$ : la sortie brute de la couche finale, un vecteur de $K$ scores par pas de temps, où $K$ est le nombre de classes possibles pour le symbole prédit et non le nombre d'échantillons.
+- `targets`, de forme $(B, T)$ : la classe attendue à chaque pas, sous forme d'indice entier, alignée ligne à ligne avec les logits et sans signification aux positions de remplissage.
+- `lengths`, de forme $(B,)$ : le nombre de pas réels de chaque séquence du lot, remplissage exclu.
+
 ```python
 # logits: (B, T, K), targets: (B, T), lengths: (B,)
 mask = (torch.arange(T) < lengths[:, None]).float()

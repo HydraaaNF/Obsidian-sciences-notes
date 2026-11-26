@@ -95,6 +95,12 @@
 - [[Entropie croisée multi-classe avec PyTorch]]
 - [[Un vecteur par classe]]
 
+## Vocabulaire de la convolution
+- [[Canal d'un tenseur]]
+- [[Noyau de convolution]]
+- [[Filtre de convolution]]
+- [[Carte d'activation]]
+
 ## Convolution et réseaux convolutifs
 
 ### Convolution en une et deux dimensions

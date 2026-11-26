@@ -14,6 +14,28 @@ $$\nabla_z \ell = \hat{y} - y$$
 
 Le gradient est donc **la prédiction moins la vérité**, de la même forme qu'en [[Régression linéaire|régression linéaire]] et qu'en [[Régression logistique|régression logistique]] : le couple softmax et entropie croisée ne fait pas exception à la règle.
 
+### Démonstration
+
+L'entropie croisée s'écrit
+
+$$\ell = -\sum_k y_k \ln \hat{y}_k$$
+
+avec $\hat{y} = \operatorname{softmax}(z)$, et le logarithme d'une composante du softmax se développe :
+
+$$\ln \hat{y}_k = \ln \frac{e^{z_k}}{\sum_j e^{z_j}} = z_k - \ln \sum_j e^{z_j}$$
+
+En dérivant par rapport à un score $z_c$, le premier terme donne $\mathbf{1}[k = c]$ et le second, identique pour toutes les classes, donne $\hat{y}_c$ :
+
+$$\frac{\partial \ln \hat{y}_k}{\partial z_c} = \mathbf{1}[k = c] - \hat{y}_c$$
+
+Reporté dans la perte, ce résultat donne
+
+$$\frac{\partial \ell}{\partial z_c} = -\sum_k y_k\left(\mathbf{1}[k = c] - \hat{y}_c\right) = -y_c + \hat{y}_c \sum_k y_k$$
+
+et la somme vaut $1$ puisque la cible est une distribution de probabilité : il reste $\hat{y}_c - y_c$. Le softmax et le logarithme de l'entropie croisée se compensent, et la somme des exponentielles disparaît du gradient.
+
+Pour une cible one-hot de classe correcte $c^{*}$, la même dérivation se lit directement sur $\ell = -\ln \hat{y}_{c^{*}}$, qui redonne $\hat{y}_c - \mathbf{1}[c = c^{*}]$.
+
 # Interprétation
 
 La composante $\hat{y}_c - y_c$ est l'erreur commise sur la classe $c$ :

@@ -2,26 +2,26 @@
 
 # Définition
 
-Une couche de convolution applique des **noyaux** sur son entrée pour produire des **cartes d'activation** : chaque noyau balaie l'entrée et génère un canal de sortie. Les canaux obtenus sont empilés, puis transmis aux couches suivantes jusqu'à la fonction de coût.
+Une couche de convolution applique des [[Filtre de convolution|filtres]] sur son entrée pour produire des [[Carte d'activation|cartes d'activation]] : chaque filtre balaie l'entrée et génère un [[Canal d'un tenseur|canal]] de sortie. Les canaux obtenus sont empilés, puis transmis aux couches suivantes jusqu'à la fonction de coût.
 
-Un noyau est défini par ses poids et un biais $b$, qui sont les paramètres apprenables de la couche. Sur une entrée à $N$ canaux, un noyau de taille $3 \times 3$ possède lui aussi $N$ canaux : il traverse l'épaisseur de l'entrée et produit un unique canal de sortie.
+Un filtre est défini par ses [[Noyau de convolution|noyaux]] et un biais $b$, qui sont les paramètres apprenables de la couche. Sur une entrée à $N$ canaux, un filtre de taille $3 \times 3$ possède lui aussi $N$ canaux : il traverse l'épaisseur de l'entrée et produit un unique canal de sortie.
 
 # Algorithme
 
-Le calcul d'une couche de convolution s'enchaîne en six étapes :
+Le calcul avant d'une couche de convolution s'enchaîne en quatre étapes :
 
 | Étape | Élément | Rôle |
 | --- | --- | --- |
 | 1 | Entrée $3 \times 3 \times N$ | image, à $N$ canaux d'entrée |
-| 2 | Noyaux $3 \times 3 \times N$ | un noyau par canal de sortie |
-| 3 | Convolution et activation | produit un canal de sortie par noyau |
+| 2 | Filtres $3 \times 3 \times N$ | un filtre par canal de sortie |
+| 3 | Convolution et activation | produit un canal de sortie par filtre |
 | 4 | Empilement des canaux | assemble les canaux en une sortie multi-canaux |
-| 5 | Perte | évalue la sortie par la fonction de coût $L$ |
-| 6 | Rétropropagation | met à jour les poids |
+
+La perte n'appartient pas à la couche : elle est calculée une seule fois pour le réseau, sur la sortie de la dernière couche comparée à la cible. Sa rétropropagation traverse ensuite toutes les couches et fournit à chacune le gradient de ses propres poids.
 
 # Propriétés
 
-À la dernière étape, chaque poids $\omega_{i,j}$ du noyau est corrigé dans le sens opposé à la dérivée de la perte :
+À chaque mise à jour des paramètres, chaque poids $\omega_{i,j}$ d'un noyau est corrigé dans le sens opposé à la dérivée de la perte :
 
 $$\omega_{i,j} \leftarrow \omega_{i,j} - \lambda \, \frac{\partial L}{\partial \omega_{i,j}}$$
 

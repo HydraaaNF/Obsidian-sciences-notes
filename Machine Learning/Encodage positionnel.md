@@ -4,6 +4,19 @@
 
 L'**encodage positionnel** est un vecteur ajouté au plongement de chaque token pour y inscrire la position $t$ de ce token dans la séquence. Il fournit l'information d'ordre que la [[Self-attention]] ne voit pas.
 
+L'opération a lieu à la sortie de la [[Couche de plongement]], avant le premier bloc de l'[[Architecture du Transformer]]. Pour un token de plongement $E_t$ à la position $t$, l'entrée du bloc vaut
+
+$$x_t = E_t + p_t$$
+
+la somme se faisant terme à terme, dans un espace de dimension $d$ : l'encodage n'est pas concaténé au plongement, ce qui doublerait la dimension.
+
+Les notations :
+
+- $t \in \{0, 1, \dots, T-1\}$ : la position du token dans la séquence, de longueur $T$ ;
+- $d$ : la dimension du plongement des tokens, donc celle de $p_t$, un nombre pair ;
+- $k \in \{0, \dots, d/2 - 1\}$ : l'indice de la paire de dimensions $(2k, 2k+1)$ ;
+- $w_k$ : la fréquence de cette paire.
+
 L'encodage sinusoïdal de dimension $d$ attribue à la position $t$ un vecteur dont les composantes alternent sinus et cosinus :
 
 $$p_t^{(2k)} = \sin(w_k t)$$
@@ -12,7 +25,7 @@ $$p_t^{(2k+1)} = \cos(w_k t)$$
 
 $$w_k = \frac{1}{10000^{\frac{2k}{d}}}$$
 
-où $k$ indexe les paires de dimensions, $d$ est la dimension d'encodage, et les positions se répartissent ainsi sur des cycles sinusoïdaux de fréquences variées, dans l'esprit d'une analyse spectrale.
+Chaque paire de dimensions parcourt donc un cercle à sa propre vitesse : les basses dimensions, où $k$ est petit et $w_k$ proche de $1$, tournent vite, les hautes dimensions très lentement.
 
 # Interprétation
 
@@ -20,7 +33,7 @@ L'attention compare des **contenus** : le score $q_i \cdot k_j$ de deux tokens n
 
 Sans information de position, le Transformer voit la séquence comme un **sac de tokens**. Un réseau récurrent, lui, lisait la séquence dans l'ordre, ce qui rendait l'ordre implicite.
 
-La solution consiste à ajouter à chaque plongement un vecteur qui encode sa position $t$. L'encodage se combine donc à la [[Couche de plongement]] avant d'entrer dans les blocs de l'[[Architecture du Transformer]], et il est ajouté aux plongements de mots, pas concaténé.
+La solution consiste à ajouter à chaque plongement un vecteur qui encode sa position $t$ : l'encodage se combine à la [[Couche de plongement]], à sa sortie et avant le premier bloc de l'[[Architecture du Transformer]].
 
 # Exemple
 

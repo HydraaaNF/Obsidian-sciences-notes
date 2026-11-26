@@ -32,12 +32,10 @@ flowchart LR
 
 # Interprétation
 
-Chaque $h_t$ mêle l'élément nouveau, par exemple un mot, à tout ce qui le précède, et les éléments les plus anciens s'estompent. La sortie $\hat{y}_t$ peut donc s'appuyer sur tout ce qui a été lu jusque-là, ce qui autorise deux usages :
+Sur la question « What time is it ? », qui compte cinq tokens, chaque $h_t$ mêle le mot lu au pas $t$ à tout ce qui le précède, et les éléments les plus anciens s'estompent. La sortie $\hat{y}_t$ peut donc s'appuyer sur tout ce qui a été lu jusque-là, ce qui autorise deux usages :
 
 - l'**étiquetage** : on conserve chaque $\hat{y}_t$, une étiquette par mot ;
-- la **classification d'une question** : on ne conserve que $\hat{y}_5$.
-
-Sur la question « What time is it ? », chaque $h_t$ intègre le mot lu au pas $t$ aux mots précédents, et seule la sortie du dernier pas sert à classer la question.
+- la **classification de la question** : on ne conserve que $\hat{y}_5$, la sortie du dernier pas, qui résume la question entière.
 
 # Propriétés
 

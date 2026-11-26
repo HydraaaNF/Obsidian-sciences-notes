@@ -45,13 +45,14 @@ Chaque sortie combine une cellule de la fenêtre avec $w_1$ et la cellule situé
 
 La sortie est donc $y = (5,\,6,\,4)$.
 
-La position de chaque poids dans la fenêtre se lit sur ce tableau : une colonne par cellule d'entrée, une ligne par sortie, et l'écart de deux colonnes entre $w_1$ et $w_2$ matérialise la dilatation.
+La position de chaque poids dans la fenêtre se lit sur ce tableau : une colonne par cellule d'entrée, une ligne par sortie, l'écart de deux colonnes entre $w_1$ et $w_2$ matérialise la dilatation, et la colonne « début » donne l'indice où commence la fenêtre.
 
-| Poids appliqué | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| en $y_1$ | $w_1$ | | $w_2$ | | |
-| en $y_2$ | | $w_1$ | | $w_2$ | |
-| en $y_3$ | | | $w_1$ | | $w_2$ |
+| Sortie | Début | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $b$ | $y$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| valeurs | | 1 | 4 | 2 | 1 | 1 | | |
+| $y_1$ | 1 | $w_1$ | | $w_2$ | | | 0 | 5 |
+| $y_2$ | 2 | | $w_1$ | | $w_2$ | | 0 | 6 |
+| $y_3$ | 3 | | | $w_1$ | | $w_2$ | 0 | 4 |
 
 ### Convolution dilatée avec stride
 
@@ -66,7 +67,13 @@ $$n_{\text{out}} = \left\lfloor \frac{5 - 2\,(2-1) - 1}{2} \right\rfloor + 1 = 2
 
 La sortie est donc $y = (5,\,4)$.
 
-La dilation fixe l'écart entre les cellules lues par le noyau, le stride fixe le déplacement de la fenêtre d'une sortie à la suivante : les deux pas se composent sans se confondre.
+La dilation fixe l'écart entre les cellules lues par le noyau, le stride fixe le déplacement de la fenêtre d'une sortie à la suivante : les deux pas se composent sans se confondre. Le tableau montre les deux effets côte à côte : écart de deux colonnes à l'intérieur d'une ligne, saut de deux lignes de départ d'une sortie à l'autre.
+
+| Sortie | Début | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $b$ | $y$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| valeurs | | 1 | 4 | 2 | 1 | 1 | | |
+| $y_1$ | 1 | $w_1$ | | $w_2$ | | | 0 | 5 |
+| $y_2$ | 3 | | | $w_1$ | | $w_2$ | 0 | 4 |
 
 ### Convolution dilatée avec biais
 
@@ -79,6 +86,15 @@ Le biais s'ajoute à chaque position, après la somme pondérée :
 - $y_3 = x_3 w_1 + x_5 w_2 + b = 2 \times 1 + 1 \times 2 + 1 = 5$.
 
 La sortie est donc $y = (6,\,7,\,5)$.
+
+Le biais étant constant, il occupe une colonne à part, ajoutée à chaque ligne après la somme pondérée.
+
+| Sortie | Début | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $b$ | $y$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| valeurs | | 1 | 4 | 2 | 1 | 1 | | |
+| $y_1$ | 1 | $w_1$ | | $w_2$ | | | 1 | 6 |
+| $y_2$ | 2 | | $w_1$ | | $w_2$ | | 1 | 7 |
+| $y_3$ | 3 | | | $w_1$ | | $w_2$ | 1 | 5 |
 
 ### Convolution dilatée avec padding
 
@@ -97,6 +113,17 @@ $$n_{\text{out}} = \left\lfloor \frac{7 - 2\,(2-1) - 1}{1} \right\rfloor + 1 = 5
 La sortie est donc $y = (8,\,5,\,6,\,4,\,1)$.
 
 La fenêtre de $y_3$ combine $x_3 = 4$ et $x_5 = 1$, distants de deux rangs ; les deux zéros de padding n'entrent que dans $y_1$, à gauche, et dans $y_5$, à droite.
+
+L'entrée complétée ajoute deux colonnes au tableau ; les cellules de padding y figurent avec la valeur $0$.
+
+| Sortie | Début | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $x_7$ | $b$ | $y$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| valeurs | | 0 | 1 | 4 | 2 | 1 | 1 | 0 | | |
+| $y_1$ | 1 | $w_1$ | | $w_2$ | | | | | 0 | 8 |
+| $y_2$ | 2 | | $w_1$ | | $w_2$ | | | | 0 | 5 |
+| $y_3$ | 3 | | | $w_1$ | | $w_2$ | | | 0 | 6 |
+| $y_4$ | 4 | | | | $w_1$ | | $w_2$ | | 0 | 4 |
+| $y_5$ | 5 | | | | | $w_1$ | | $w_2$ | 0 | 1 |
 
 # Remarque
 

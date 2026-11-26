@@ -2,12 +2,12 @@
 
 # Définition
 
-Une convolution en deux dimensions prend une entrée décrite par deux axes spatiaux et des canaux, et lui applique un noyau rectangulaire qui la traverse sur toute son épaisseur :
+Une convolution en deux dimensions prend une entrée décrite par deux axes spatiaux et des canaux, et lui applique un [[Filtre de convolution|filtre]] rectangulaire qui la traverse sur toute son épaisseur :
 
 - $H \times W$ : hauteur et largeur de l'entrée ;
 - $C$ : nombre de canaux de l'entrée ;
 - $\mathbf{k} = (k_1, k_2)$ : taille du noyau, par exemple $\mathbf{k} = (3,3)$ ;
-- $\mathbf{w} = (w_{c,u,v})$ : poids du noyau, pour $1 \le c \le C$, $1 \le u \le k_1$ et $1 \le v \le k_2$ ;
+- $\mathbf{w} = (w_{c,u,v})$ : poids du filtre, pour $1 \le c \le C$, $1 \le u \le k_1$ et $1 \le v \le k_2$ ;
 - $b$ : biais ;
 - $\mathbf{w}$ et $b$ sont des paramètres apprenables ;
 - $y_{i,j}$ : élément de la carte d'activation produite.
@@ -16,15 +16,15 @@ $$y_{i,j} = \sum_{c=1}^{C} \sum_{u=1}^{k_1} \sum_{v=1}^{k_2} w_{c,u,v}\, x_{c,\,
 
 pour $i$ allant de $1$ à $H - k_1 + 1$ et $j$ allant de $1$ à $W - k_2 + 1$.
 
-Une entrée peut compter plusieurs canaux. Le noyau possède alors la même profondeur que l'entrée, la traverse sur toute son épaisseur (la somme porte sur les $C$ canaux) et produit une carte d'activation, c'est-à-dire un unique canal de sortie. Un noyau distinct est employé par canal de sortie.
+Une entrée peut compter plusieurs canaux. Le filtre possède alors la même profondeur que l'entrée, la traverse sur toute son épaisseur (la somme porte sur les $C$ canaux) et produit une carte d'activation, c'est-à-dire un unique canal de sortie. Un filtre distinct est employé par canal de sortie.
 
 # Interprétation
 
-Le noyau est une fenêtre rectangulaire qui glisse simultanément selon les deux axes de l'entrée, toujours avec les **mêmes** poids : les paramètres sont partagés entre toutes les positions. Chaque élément $y_{i,j}$ agrège ainsi une région locale $k_1 \times k_2$ de l'entrée.
+Un filtre est un empilement de [[Noyau de convolution|noyaux]] rectangulaires qui glissent simultanément selon les deux axes de l'entrée, toujours avec les **mêmes** poids : les paramètres sont partagés entre toutes les positions. Chaque élément $y_{i,j}$ agrège ainsi une région locale $k_1 \times k_2$ de chaque canal d'entrée.
 
 La convolution en deux dimensions est la généralisation de la [[Convolution en une dimension]] : le noyau y couvre une surface au lieu d'un segment, donc la sortie diminue en hauteur **et** en largeur. Sur l'entrée $3 \times 24$ et le noyau $3 \times 3$, il ne reste qu'une position verticale ($3 - 3 + 1 = 1$) et $22$ positions horizontales ($24 - 3 + 1 = 22$). Le calcul de ces dimensions est détaillé dans [[Taille de sortie d'une convolution]].
 
-Les noyaux sont les paramètres appris par une [[Couche de convolution]] ; le padding, le stride et la dilation modifient la taille de la sortie (voir [[Padding, stride et dilation]]).
+Les filtres sont les paramètres appris par une [[Couche de convolution]] ; le padding, le stride et la dilation modifient la taille de la sortie (voir [[Padding, stride et dilation]]).
 
 # Exemple
 
@@ -42,7 +42,7 @@ $$y_{i,j} = \sum_{u=1}^{3} \sum_{v=1}^{3} w_{1,u,v}\, x_{1,\, i+u-1,\, j+v-1} + 
 
 ```mermaid
 flowchart LR
-    E["Entrée : 3 x 24, 1 canal"] --> K["Noyau : 3 x 3, 1 filtre"]
+    E["Entrée : 3 x 24, 1 canal"] --> K["Filtre : 3 x 3, 1 noyau"]
     K --> S["Sortie : 1 x 22, 1 canal"]
 ```
 

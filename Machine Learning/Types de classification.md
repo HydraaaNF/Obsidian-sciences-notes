@@ -58,7 +58,7 @@ La dernière couche, la perte et la décision se déduisent du type de classific
 | --- | --- | --- | --- | --- |
 | Binaire | $1$ | sigmoïde | BCE | $\hat{y} \geq 0.5$ |
 | Multi-étiquette | $K$ | $K$ sigmoïdes | BCE moyennée | chaque $\hat{y}_c \geq 0.5$ |
-| Multi-classe | $K$ | [[Fonction softmax|softmax]] | CE | $\arg\max_c \hat{y}_c$ |
+| Multi-classe | $K$ | [[Fonction softmax\|softmax]] | CE | $\arg\max_c \hat{y}_c$ |
 
 - BCE désigne l'entropie croisée binaire ([[Entropie croisée binaire]]) ; CE l'entropie croisée ([[Entropie croisée multi-classe]]).
 - Le domaine de $y$ fixe la dernière activation : c'est la règle de la première et de la dernière couche.
