@@ -19,7 +19,7 @@ L'ensemble s'entraîne de bout en bout sur des paires $(x, y)$ : une seule perte
 
 Dans l'[[Architecture du Transformer]], l'encodeur et le décodeur sont chacun un empilement de $N$ blocs identiques :
 
-| Bloc | Couches, de haut en bas |
+| Bloc | Couches, dans l'ordre de traversée |
 |---|---|
 | Encodeur (× $N$) | Attention multi-têtes, Add & Norm, Feed Forward, Add & Norm |
 | Décodeur (× $N$) | Attention multi-têtes masquée, Add & Norm, Attention multi-têtes sur la sortie de l'encodeur, Add & Norm, Feed Forward, Add & Norm |
@@ -31,7 +31,7 @@ L'attention du décodeur est masquée : la prédiction d'un token ne consulte qu
 
 # Exemple
 
-Traduction de « le petit chat » en « the little cat » : l'encodeur lit les trois mots et transmet son état final $e$ au décodeur, qui produit les mots un à un.
+Traduction de « le petit chat » en « the little cat » : l'encodeur lit les trois mots et transmet son état final $e$ au décodeur, qui produit les mots un à un. Les entrées sont en rouge, les cellules en ambre et les tokens produits en bleu.
 
 ```mermaid
 flowchart LR
@@ -64,6 +64,12 @@ flowchart LR
         D2 --> D3
         D3 --> D4
     end
+    classDef entree fill:#f8d7da,stroke:#b02a37,color:#000
+    classDef cellule fill:#fff3cd,stroke:#997404,color:#000
+    classDef sortie fill:#dbe5ff,stroke:#2b4c9b,color:#000
+    class x1,x2,x3,y0 entree
+    class E1,E2,E3,D1,D2,D3,D4 cellule
+    class y1,y2,y3,y4,y1_in,y2_in,y3_in sortie
 ```
 
 À l'entraînement, le décodeur reçoit le mot précédent de la traduction attendue plutôt que sa propre sortie : c'est le [[Teacher forcing]]. À la génération, il réinjecte ce qu'il vient de produire.

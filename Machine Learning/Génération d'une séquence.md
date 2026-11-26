@@ -23,12 +23,9 @@ $$
 
 ## Boucle d'inférence d'un Transformer
 
-1. Faire passer l'entrée dans l'encodeur empilé $N$ fois : plongement des tokens, ajout de l'[[Encodage positionnel|encodage positionnel]], puis auto-attention multi-têtes, Feed Forward et Add & Norm après chaque sous-couche.
-2. Initialiser les sorties décalées à droite avec le seul symbole de début.
-3. À chaque pas, faire traverser au décodeur empilé $N$ fois ses sorties décalées : auto-attention multi-têtes masquée, auto-attention multi-têtes croisée avec la sortie de l'encodeur, Feed Forward et Add & Norm après chaque sous-couche.
-4. Projeter la sortie par une couche linéaire puis un [[Fonction softmax|softmax]] pour obtenir les probabilités de sortie.
-5. Retenir le token de probabilité maximale et le réinjecter en entrée du pas suivant.
-6. Répéter jusqu'au token de fin de séquence.
+1. Faire passer l'entrée dans l'encodeur **une seule passe** et conserver l'état de **chaque position**, soit un vecteur par token ; les couches sont décrites dans [[Encodeur-décodeur pour les séquences]] et [[Architecture du Transformer]].
+2. Initialiser la sortie avec le seul symbole de début, puis, à chaque pas, traiter les sorties décalées à droite : attention masquée, attention croisée vers les états de l'encodeur, projection sur le vocabulaire, choix d'un token.
+3. Ajouter le token à la sortie et recommencer jusqu'au token de fin ; seules les clés et valeurs du nouveau token sont calculées, les précédentes étant relues au [[Cache de clés et de valeurs|cache]].
 
 La sélection du token est l'argmax du softmax :
 

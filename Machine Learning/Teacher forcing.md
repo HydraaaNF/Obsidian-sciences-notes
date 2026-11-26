@@ -17,7 +17,7 @@ Le symbole de début $\langle s \rangle$ occupe la première entrée, et le symb
 
 # Propriétés
 
-- Chaque pas reçoit sa perte dans la même passe, comme dans le cas plusieurs-à-plusieurs.
+- Chaque pas reçoit sa perte dans la même passe, comme dans le cas many-to-many.
 - Une erreur commise tôt ne s'amplifie pas au fil des pas : les entrées suivantes restent les vrais éléments de la séquence.
 
 # Remarque
