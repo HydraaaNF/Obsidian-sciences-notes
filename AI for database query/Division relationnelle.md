@@ -42,4 +42,4 @@ $$
 Résultat : $\{c3\}$.
 
 # Remarque
-Version pour les relations floues : [[Division de relations floues]].
+Version pour les relations floues : [[Division de relations floues]]. Expressions en SQL : [[Division en SQL]].

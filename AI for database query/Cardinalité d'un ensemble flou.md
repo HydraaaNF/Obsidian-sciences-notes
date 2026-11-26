@@ -11,7 +11,7 @@ Contrairement au cas classique, la cardinalité d'un ensemble flou n'est génér
 L'univers $X$ est supposé fini (voir [[Ensemble flou]]).
 
 # Interprétation
-La cardinalité est utilisée dans l'[[Inclusion graduelle par la cardinalité]] et dans l'[[Interprétation de Zadeh d'un énoncé quantifié flou]].
+La cardinalité est utilisée dans l'[[Inclusion graduelle par la cardinalité]] et dans l'[[Interprétation de Zadeh d'un énoncé quantifié flou]]. Elle sert aussi à évaluer de façon quantitative la non-vacuité d'un ensemble flou ([[EXISTS flou]]).
 
 # Exemple
 Avec $E = \{1/a,\; 0{,}7/c,\; 0{,}2/e,\; 0{,}3/f,\; 0{,}6/h,\; 0{,}7/j,\; 0{,}9/k\}$ :

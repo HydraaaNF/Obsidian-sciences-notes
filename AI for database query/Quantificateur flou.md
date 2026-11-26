@@ -5,4 +5,4 @@ Un **quantificateur flou** (ou **linguistique**) a été introduit par Zadeh pou
 Deux catégories, selon ce à quoi le quantificateur s'applique : voir [[Quantificateurs flous absolus et relatifs]]. Une seconde distinction porte sur le sens de variation : voir [[Monotonie d'un quantificateur flou]].
 
 # Remarque
-Les quantificateurs flous servent à interpréter un [[Énoncé quantifié flou]].
+Les quantificateurs flous servent à interpréter un [[Énoncé quantifié flou]]. Ils peuvent aussi remplacer `ALL` et `ANY` dans les requêtes imbriquées : [[Imbrication avec ALL ou ANY]].

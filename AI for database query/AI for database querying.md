@@ -101,3 +101,24 @@ Les relations floues et l'algèbre relationnelle floue, de la sélection à la d
 - [[Jointure floue]]
 - [[Division relationnelle]]
 - [[Division de relations floues]]
+
+## 9. SQLf
+L'extension floue de SQL : requêtes à un bloc, requêtes imbriquées et division.
+
+### 9.1 Requêtes à un bloc
+- [[SQLf]]
+- [[Bloc multirelation de SQLf]]
+- [[Partitionnement d'une relation dans SQLf]]
+
+### 9.2 Requêtes imbriquées
+- [[IN avec sous-requête floue]]
+- [[IN flou]]
+- [[EXISTS flou]]
+- [[Imbrication avec ALL ou ANY]]
+- [[ANY flou]]
+- [[ALL flou]]
+
+### 9.3 Division
+- [[Division en SQL]]
+- [[Opérateur CONTAINS]]
+- [[Division en SQLf]]

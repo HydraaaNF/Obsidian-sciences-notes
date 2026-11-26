@@ -1,5 +1,5 @@
 # Définition
-L'**algèbre relationnelle floue** généralise l'algèbre relationnelle aux [[Relation floue|relations floues]]. Elle sert de base à SQLf, l'extension floue de SQL.
+L'**algèbre relationnelle floue** généralise l'algèbre relationnelle aux [[Relation floue|relations floues]]. Elle sert de base à [[SQLf]], l'extension floue de SQL.
 
 # Propriétés
 Deux familles d'opérateurs :

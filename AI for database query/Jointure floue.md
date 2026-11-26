@@ -7,3 +7,6 @@ $$
 
 # Propriétés
 L'équivalence entre $r \bowtie_{A\,\theta\,B} s$ et $\sigma_{A\,\theta\,B}(r \times s)$ est conservée (voir [[Sélection floue]] et [[Produit cartésien de relations floues]]).
+
+# Remarque
+L'égalité approchée est un exemple d'opérateur de comparaison flou : voir [[IN flou]].
